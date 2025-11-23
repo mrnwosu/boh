@@ -1,0 +1,1007 @@
+{
+  "gameTitle": "Kappa Kappa Psi Founding Fathers Trivia Challenge",
+  "description": "A comprehensive trivia game about the 10 Founding Fathers of Kappa Kappa Psi",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "questionVersions": [
+        "How many charter members founded Kappa Kappa Psi?",
+        "What was the total number of founding fathers of Kappa Kappa Psi?",
+        "How many men were selected as charter members?",
+        "What is the number of founding fathers of the fraternity?",
+        "How many founding fathers did Kappa Kappa Psi have?"
+      ],
+      "correctAnswer": "10",
+      "wrongAnswers": [
+        "8",
+        "12",
+        "5",
+        "7",
+        "9",
+        "15"
+      ],
+      "tags": ["history", "founding", "charter-members"]
+    },
+    {
+      "id": 2,
+      "questionVersions": [
+        "Who is credited as the founder of Kappa Kappa Psi?",
+        "Which founding father is known as the primary founder?",
+        "Who conceived the idea of founding Kappa Kappa Psi?",
+        "What is the name of the man who founded the fraternity?",
+        "Which founding father is officially recognized as the founder?"
+      ],
+      "correctAnswer": "William Alexander Scroggs",
+      "wrongAnswers": [
+        "A. Frank Martin",
+        "Raymond D. Shannon",
+        "Clayton E. Soule",
+        "Dick Hurst",
+        "Carl A. Stevens",
+        "Clyde Haston"
+      ],
+      "tags": ["founding", "scroggs", "history"]
+    },
+    {
+      "id": 3,
+      "questionVersions": [
+        "What nickname is William Alexander Scroggs known by?",
+        "What is William Scroggs officially called within Kappa Kappa Psi?",
+        "What is the title given to William Alexander Scroggs?",
+        "How is William Scroggs referred to in fraternity history?",
+        "What is William Alexander Scroggs' designation?"
+      ],
+      "correctAnswer": "Founder",
+      "wrongAnswers": [
+        "Grand President",
+        "First President",
+        "Mr. Kappa Kappa Psi",
+        "Visionary Leader",
+        "Charter Member",
+        "The First Brother"
+      ],
+      "tags": ["scroggs", "founding", "titles"]
+    },
+    {
+      "id": 4,
+      "questionVersions": [
+        "What was William Alexander Scroggs' class year?",
+        "When did William Scroggs graduate from Oklahoma A&M?",
+        "What is William Scroggs' graduation year?",
+        "In what year did William Alexander Scroggs graduate?",
+        "William Scroggs was a member of the class of?"
+      ],
+      "correctAnswer": "1922",
+      "wrongAnswers": [
+        "1920",
+        "1921",
+        "1919",
+        "1923",
+        "1924",
+        "1918"
+      ],
+      "tags": ["scroggs", "personal", "graduation"]
+    },
+    {
+      "id": 5,
+      "questionVersions": [
+        "What was William Alexander Scroggs' hometown?",
+        "Where was William Scroggs from?",
+        "What city was William Alexander Scroggs' hometown?",
+        "William Scroggs hailed from which Oklahoma city?",
+        "What is the hometown of William Alexander Scroggs?"
+      ],
+      "correctAnswer": "Stillwater, Oklahoma",
+      "wrongAnswers": [
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Perkins, Oklahoma",
+        "Enid, Oklahoma",
+        "Tahlequah, Oklahoma"
+      ],
+      "tags": ["scroggs", "personal", "hometown"]
+    },
+    {
+      "id": 6,
+      "questionVersions": [
+        "What was William Alexander Scroggs' major?",
+        "What field of study did William Scroggs pursue?",
+        "William Scroggs' major at Oklahoma A&M was?",
+        "What did William Alexander Scroggs major in?",
+        "Which major did William Scroggs choose?"
+      ],
+      "correctAnswer": "Commerce and Marketing",
+      "wrongAnswers": [
+        "Business Administration",
+        "Education",
+        "Engineering",
+        "Music",
+        "Agriculture",
+        "Chemistry"
+      ],
+      "tags": ["scroggs", "education", "major"]
+    },
+    {
+      "id": 7,
+      "questionVersions": [
+        "What instrument did William Alexander Scroggs play?",
+        "What was William Scroggs' primary instrument?",
+        "William Scroggs played which instrument in band?",
+        "What instrument did William Alexander Scroggs perform on?",
+        "Which instrument was William Scroggs' specialty?"
+      ],
+      "correctAnswer": "Cornet",
+      "wrongAnswers": [
+        "Trumpet",
+        "Trombone",
+        "French Horn",
+        "Baritone",
+        "Clarinet",
+        "Saxophone"
+      ],
+      "tags": ["scroggs", "music", "instrument"]
+    },
+    {
+      "id": 8,
+      "questionVersions": [
+        "What unique fact is mentioned about William Scroggs' birthday?",
+        "What is special about William Scroggs' birthday?",
+        "When was William Scroggs' birthday in relation to Kappa Kappa Psi?",
+        "What notable coincidence involves William Scroggs' birthday?",
+        "What interesting fact relates to William Scroggs' birthday date?"
+      ],
+      "correctAnswer": "His birthday is November 27 (same as KKPsi charter date)",
+      "wrongAnswers": [
+        "His birthday was the same as Bohumil Makovsky's",
+        "His birthday was the same as A. Frank Martin's",
+        "His birthday is December 1",
+        "His birthday is January 2",
+        "His birthday is the same as the convention date",
+        "His birthday was unrecorded"
+      ],
+      "tags": ["scroggs", "personal", "facts"]
+    },
+    {
+      "id": 9,
+      "questionVersions": [
+        "When did William Alexander Scroggs die?",
+        "In what year did William Scroggs pass away?",
+        "What was the year of William Scroggs' death?",
+        "When did William Alexander Scroggs pass away?",
+        "William Scroggs died in which year?"
+      ],
+      "correctAnswer": "1984",
+      "wrongAnswers": [
+        "1980",
+        "1982",
+        "1985",
+        "1983",
+        "1975",
+        "1990"
+      ],
+      "tags": ["scroggs", "death", "personal"]
+    },
+    {
+      "id": 10,
+      "questionVersions": [
+        "Where is William Alexander Scroggs buried?",
+        "What city is William Scroggs' burial location?",
+        "In which city was William Scroggs buried?",
+        "Where was William Alexander Scroggs laid to rest?",
+        "William Scroggs is buried in which California city?"
+      ],
+      "correctAnswer": "San Diego, California",
+      "wrongAnswers": [
+        "Los Angeles, California",
+        "San Francisco, California",
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Santa Barbara, California"
+      ],
+      "tags": ["scroggs", "death", "burial"]
+    },
+    {
+      "id": 11,
+      "questionVersions": [
+        "What was A. Frank Martin's nickname within Kappa Kappa Psi?",
+        "How is A. Frank Martin known in the fraternity?",
+        "What title is A. Frank Martin given?",
+        "What is A. Frank Martin officially called?",
+        "What nickname does A. Frank Martin have?"
+      ],
+      "correctAnswer": "Mr. Kappa Kappa Psi",
+      "wrongAnswers": [
+        "The Founder",
+        "The Visionary",
+        "The First President",
+        "The Builder",
+        "The Ritual Master",
+        "The Great One"
+      ],
+      "tags": ["martin", "titles", "founding"]
+    },
+    {
+      "id": 12,
+      "questionVersions": [
+        "What was A. Frank Martin's class year?",
+        "When did A. Frank Martin graduate from Oklahoma A&M?",
+        "What is A. Frank Martin's graduation year?",
+        "In what class year was A. Frank Martin?",
+        "A. Frank Martin graduated in which year?"
+      ],
+      "correctAnswer": "1920",
+      "wrongAnswers": [
+        "1921",
+        "1922",
+        "1919",
+        "1918",
+        "1923",
+        "1924"
+      ],
+      "tags": ["martin", "personal", "graduation"]
+    },
+    {
+      "id": 13,
+      "questionVersions": [
+        "What was A. Frank Martin's hometown?",
+        "Where was A. Frank Martin from?",
+        "What is A. Frank Martin's hometown?",
+        "Which Oklahoma city was A. Frank Martin's home?",
+        "A. Frank Martin hailed from which city?"
+      ],
+      "correctAnswer": "Sallisaw, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Tahlequah, Oklahoma",
+        "Muskogee, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Oklahoma City, Oklahoma"
+      ],
+      "tags": ["martin", "personal", "hometown"]
+    },
+    {
+      "id": 14,
+      "questionVersions": [
+        "What was A. Frank Martin's major?",
+        "What field of study did A. Frank Martin pursue?",
+        "A. Frank Martin majored in?",
+        "What was A. Frank Martin's area of study?",
+        "Which major did A. Frank Martin choose?"
+      ],
+      "correctAnswer": "Education",
+      "wrongAnswers": [
+        "Commerce and Marketing",
+        "Engineering",
+        "Music",
+        "Agriculture",
+        "Chemistry",
+        "Business"
+      ],
+      "tags": ["martin", "education", "major"]
+    },
+    {
+      "id": 15,
+      "questionVersions": [
+        "What instrument did A. Frank Martin play?",
+        "What was A. Frank Martin's primary instrument?",
+        "A. Frank Martin played which instrument?",
+        "Which instrument was A. Frank Martin's specialty?",
+        "What instrument did A. Frank Martin perform on?"
+      ],
+      "correctAnswer": "Saxophone",
+      "wrongAnswers": [
+        "Cornet",
+        "Baritone",
+        "Trombone",
+        "Clarinet",
+        "French Horn",
+        "Trumpet"
+      ],
+      "tags": ["martin", "music", "instrument"]
+    },
+    {
+      "id": 16,
+      "questionVersions": [
+        "What was A. Frank Martin's first role in Kappa Kappa Psi?",
+        "What was A. Frank Martin's first position in the fraternity?",
+        "What office did A. Frank Martin hold initially?",
+        "What was A. Frank Martin's first title in KKPsi?",
+        "What was A. Frank Martin's initial role?"
+      ],
+      "correctAnswer": "Vice President",
+      "wrongAnswers": [
+        "Secretary",
+        "Treasurer",
+        "Grand President",
+        "President",
+        "Sergeant of Arms",
+        "Editor"
+      ],
+      "tags": ["martin", "leadership", "roles"]
+    },
+    {
+      "id": 17,
+      "questionVersions": [
+        "What was A. Frank Martin's most significant achievement?",
+        "What is A. Frank Martin credited with creating?",
+        "What did A. Frank Martin author?",
+        "What major contribution did A. Frank Martin make?",
+        "What work is A. Frank Martin famous for?"
+      ],
+      "correctAnswer": "Author of the Ritual",
+      "wrongAnswers": [
+        "Designer of the Badge",
+        "Creator of the Constitution",
+        "Founder of the Fraternity",
+        "Designer of the Coat of Arms",
+        "Author of the Creed",
+        "Creator of the Purposes"
+      ],
+      "tags": ["martin", "accomplishments", "ritual"]
+    },
+    {
+      "id": 18,
+      "questionVersions": [
+        "When was A. Frank Martin elected Grand President?",
+        "What year did A. Frank Martin become Grand President?",
+        "In what year did A. Frank Martin serve as Grand President?",
+        "When did A. Frank Martin become the first Grand President?",
+        "What was the year A. Frank Martin was Grand President?"
+      ],
+      "correctAnswer": "1919",
+      "wrongAnswers": [
+        "1920",
+        "1922",
+        "1921",
+        "1918",
+        "1923",
+        "1925"
+      ],
+      "tags": ["martin", "leadership", "positions"]
+    },
+    {
+      "id": 19,
+      "questionVersions": [
+        "How long did A. Frank Martin serve as Grand President?",
+        "What was the length of A. Frank Martin's term as Grand President?",
+        "How many years did A. Frank Martin serve as Grand President?",
+        "For how long was A. Frank Martin Grand President?",
+        "What was the duration of A. Frank Martin's Grand Presidency?"
+      ],
+      "correctAnswer": "3 years (1919-1922)",
+      "wrongAnswers": [
+        "2 years",
+        "4 years",
+        "1 year",
+        "5 years",
+        "6 years",
+        "7 years"
+      ],
+      "tags": ["martin", "leadership", "timeline"]
+    },
+    {
+      "id": 20,
+      "questionVersions": [
+        "When did A. Frank Martin die?",
+        "In what year did A. Frank Martin pass away?",
+        "What was the year of A. Frank Martin's death?",
+        "When did A. Frank Martin die?",
+        "A. Frank Martin passed away in which year?"
+      ],
+      "correctAnswer": "1982",
+      "wrongAnswers": [
+        "1980",
+        "1981",
+        "1983",
+        "1984",
+        "1975",
+        "1985"
+      ],
+      "tags": ["martin", "death", "personal"]
+    },
+    {
+      "id": 21,
+      "questionVersions": [
+        "How old was A. Frank Martin when he died?",
+        "What was A. Frank Martin's age at death?",
+        "At what age did A. Frank Martin pass away?",
+        "How old was A. Frank Martin when he died?",
+        "What age was A. Frank Martin at his death?"
+      ],
+      "correctAnswer": "87",
+      "wrongAnswers": [
+        "85",
+        "88",
+        "89",
+        "86",
+        "84",
+        "90"
+      ],
+      "tags": ["martin", "death", "age"]
+    },
+    {
+      "id": 22,
+      "questionVersions": [
+        "Where is A. Frank Martin buried?",
+        "What city is A. Frank Martin's burial location?",
+        "In which city was A. Frank Martin buried?",
+        "Where was A. Frank Martin laid to rest?",
+        "A. Frank Martin is buried in which Oklahoma city?"
+      ],
+      "correctAnswer": "Stillwater, Oklahoma",
+      "wrongAnswers": [
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Sallisaw, Oklahoma",
+        "Muskogee, Oklahoma",
+        "Long Island, New York"
+      ],
+      "tags": ["martin", "death", "burial"]
+    },
+    {
+      "id": 23,
+      "questionVersions": [
+        "What was Raymond D. Shannon's class year?",
+        "When did Raymond Shannon graduate from Oklahoma A&M?",
+        "What is Raymond D. Shannon's graduation year?",
+        "In what class year was Raymond D. Shannon?",
+        "Raymond Shannon was a member of the class of?"
+      ],
+      "correctAnswer": "1921",
+      "wrongAnswers": [
+        "1920",
+        "1922",
+        "1919",
+        "1923",
+        "1918",
+        "1924"
+      ],
+      "tags": ["shannon", "personal", "graduation"]
+    },
+    {
+      "id": 24,
+      "questionVersions": [
+        "What was Raymond D. Shannon's hometown?",
+        "Where was Raymond Shannon from?",
+        "What is Raymond D. Shannon's hometown?",
+        "Which Oklahoma city was Raymond Shannon's home?",
+        "Raymond Shannon hailed from which city?"
+      ],
+      "correctAnswer": "Perkins, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Enid, Oklahoma",
+        "Mustang, Oklahoma"
+      ],
+      "tags": ["shannon", "personal", "hometown"]
+    },
+    {
+      "id": 25,
+      "questionVersions": [
+        "What was Raymond D. Shannon's major?",
+        "What field of study did Raymond Shannon pursue?",
+        "Raymond Shannon majored in?",
+        "What was Raymond D. Shannon's area of study?",
+        "Which major did Raymond D. Shannon choose?"
+      ],
+      "correctAnswer": "Commerce and Marketing",
+      "wrongAnswers": [
+        "Education",
+        "Engineering",
+        "Music",
+        "Agriculture",
+        "Chemistry",
+        "Business"
+      ],
+      "tags": ["shannon", "education", "major"]
+    },
+    {
+      "id": 26,
+      "questionVersions": [
+        "What instruments did Raymond D. Shannon play?",
+        "What were Raymond Shannon's primary instruments?",
+        "Which instruments did Raymond Shannon perform on?",
+        "What instruments was Raymond D. Shannon skilled in?",
+        "What instruments did Raymond Shannon play?"
+      ],
+      "correctAnswer": "Cornet/Baritone",
+      "wrongAnswers": [
+        "Cornet/Clarinet",
+        "Baritone/Trombone",
+        "Trumpet/Baritone",
+        "Cornet/Trumpet",
+        "Clarinet/Baritone",
+        "Saxophone/Cornet"
+      ],
+      "tags": ["shannon", "music", "instrument"]
+    },
+    {
+      "id": 27,
+      "questionVersions": [
+        "What role did Raymond D. Shannon hold in the first national officers?",
+        "What was Raymond Shannon's position among national officers?",
+        "What office was Raymond D. Shannon given?",
+        "What was Raymond Shannon's title in national leadership?",
+        "What position did Raymond D. Shannon hold nationally?"
+      ],
+      "correctAnswer": "First Vice President",
+      "wrongAnswers": [
+        "Grand President",
+        "Secretary",
+        "Treasurer",
+        "Editor",
+        "Second Vice President",
+        "Sergeant of Arms"
+      ],
+      "tags": ["shannon", "leadership", "roles"]
+    },
+    {
+      "id": 28,
+      "questionVersions": [
+        "What was Clayton E. Soule's class year?",
+        "When did Clayton Soule graduate from Oklahoma A&M?",
+        "What is Clayton E. Soule's graduation year?",
+        "In what class year was Clayton E. Soule?",
+        "Clayton E. Soule was a member of the class of?"
+      ],
+      "correctAnswer": "1921",
+      "wrongAnswers": [
+        "1920",
+        "1922",
+        "1919",
+        "1923",
+        "1918",
+        "1924"
+      ],
+      "tags": ["soule", "personal", "graduation"]
+    },
+    {
+      "id": 29,
+      "questionVersions": [
+        "What was Clayton E. Soule's hometown?",
+        "Where was Clayton Soule from?",
+        "What is Clayton E. Soule's hometown?",
+        "Which Oklahoma city was Clayton Soule's home?",
+        "Clayton Soule hailed from which city?"
+      ],
+      "correctAnswer": "Nowata, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Tahlequah, Oklahoma",
+        "Muskogee, Oklahoma"
+      ],
+      "tags": ["soule", "personal", "hometown"]
+    },
+    {
+      "id": 30,
+      "questionVersions": [
+        "What was Clayton E. Soule's major?",
+        "What field of study did Clayton Soule pursue?",
+        "Clayton Soule majored in?",
+        "What was Clayton E. Soule's area of study?",
+        "Which major did Clayton E. Soule choose?"
+      ],
+      "correctAnswer": "Engineering",
+      "wrongAnswers": [
+        "Education",
+        "Commerce and Marketing",
+        "Music",
+        "Agriculture",
+        "Chemistry",
+        "Business"
+      ],
+      "tags": ["soule", "education", "major"]
+    },
+    {
+      "id": 31,
+      "questionVersions": [
+        "What instrument did Clayton E. Soule play?",
+        "What was Clayton Soule's primary instrument?",
+        "Clayton Soule played which instrument?",
+        "Which instrument was Clayton E. Soule's specialty?",
+        "What instrument did Clayton E. Soule perform on?"
+      ],
+      "correctAnswer": "Tuba",
+      "wrongAnswers": [
+        "Cornet",
+        "Baritone",
+        "Trombone",
+        "Clarinet",
+        "French Horn",
+        "Saxophone"
+      ],
+      "tags": ["soule", "music", "instrument"]
+    },
+    {
+      "id": 32,
+      "questionVersions": [
+        "What was Clayton E. Soule's first role in the fraternity?",
+        "What position did Clayton Soule initially hold?",
+        "What was Clayton Soule's first title in Kappa Kappa Psi?",
+        "What office did Clayton E. Soule hold at the start?",
+        "What was Clayton Soule's initial role?"
+      ],
+      "correctAnswer": "Secretary",
+      "wrongAnswers": [
+        "Treasurer",
+        "Vice President",
+        "President",
+        "Sergeant of Arms",
+        "Editor",
+        "Grand President"
+      ],
+      "tags": ["soule", "leadership", "roles"]
+    },
+    {
+      "id": 33,
+      "questionVersions": [
+        "What was Clyde Haston's class year?",
+        "When did Clyde Haston graduate from Oklahoma A&M?",
+        "What is Clyde Haston's graduation year?",
+        "In what class year was Clyde Haston?",
+        "Clyde Haston was a member of the class of?"
+      ],
+      "correctAnswer": "1920",
+      "wrongAnswers": [
+        "1921",
+        "1922",
+        "1919",
+        "1923",
+        "1918",
+        "1924"
+      ],
+      "tags": ["haston", "personal", "graduation"]
+    },
+    {
+      "id": 34,
+      "questionVersions": [
+        "What was Clyde Haston's hometown?",
+        "Where was Clyde Haston from?",
+        "What is Clyde Haston's hometown?",
+        "Which Oklahoma city was Clyde Haston's home?",
+        "Clyde Haston hailed from which city?"
+      ],
+      "correctAnswer": "Tribbey, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Tahlequah, Oklahoma",
+        "Yukon, Oklahoma"
+      ],
+      "tags": ["haston", "personal", "hometown"]
+    },
+    {
+      "id": 35,
+      "questionVersions": [
+        "What was Clyde Haston's major?",
+        "What field of study did Clyde Haston pursue?",
+        "Clyde Haston majored in?",
+        "What was Clyde Haston's area of study?",
+        "Which major did Clyde Haston choose?"
+      ],
+      "correctAnswer": "Agriculture",
+      "wrongAnswers": [
+        "Education",
+        "Engineering",
+        "Music",
+        "Commerce and Marketing",
+        "Chemistry",
+        "Business"
+      ],
+      "tags": ["haston", "education", "major"]
+    },
+    {
+      "id": 36,
+      "questionVersions": [
+        "What instrument did Clyde Haston play?",
+        "What was Clyde Haston's primary instrument?",
+        "Clyde Haston played which instrument?",
+        "Which instrument was Clyde Haston's specialty?",
+        "What instrument did Clyde Haston perform on?"
+      ],
+      "correctAnswer": "Cornet",
+      "wrongAnswers": [
+        "Baritone",
+        "Trombone",
+        "Clarinet",
+        "French Horn",
+        "Saxophone",
+        "Tuba"
+      ],
+      "tags": ["haston", "music", "instrument"]
+    },
+    {
+      "id": 37,
+      "questionVersions": [
+        "What is Clyde Haston known for designing?",
+        "What did Clyde Haston create for the fraternity?",
+        "What did Clyde Haston help design?",
+        "What is Clyde Haston credited with?",
+        "What item did Clyde Haston design?"
+      ],
+      "correctAnswer": "Kappa Kappa Psi Badge (with Coppedge)",
+      "wrongAnswers": [
+        "The Ritual",
+        "The Constitution",
+        "The Coat of Arms",
+        "The Badge alone",
+        "The Creed",
+        "The Purposes"
+      ],
+      "tags": ["haston", "accomplishments", "design"]
+    },
+    {
+      "id": 38,
+      "questionVersions": [
+        "When did Clyde Haston die?",
+        "In what year did Clyde Haston pass away?",
+        "What was the year of Clyde Haston's death?",
+        "When did Clyde Haston die?",
+        "Clyde Haston passed away in which year?"
+      ],
+      "correctAnswer": "1964",
+      "wrongAnswers": [
+        "1960",
+        "1965",
+        "1963",
+        "1962",
+        "1975",
+        "1950"
+      ],
+      "tags": ["haston", "death", "personal"]
+    },
+    {
+      "id": 39,
+      "questionVersions": [
+        "Where is Clyde Haston buried?",
+        "What city is Clyde Haston's burial location?",
+        "In which city was Clyde Haston buried?",
+        "Where was Clyde Haston laid to rest?",
+        "Clyde Haston is buried in which Oklahoma city?"
+      ],
+      "correctAnswer": "Stillwater, Oklahoma",
+      "wrongAnswers": [
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Tribbey, Oklahoma",
+        "Muskogee, Oklahoma",
+        "Tahlequah, Oklahoma"
+      ],
+      "tags": ["haston", "death", "burial"]
+    },
+    {
+      "id": 40,
+      "questionVersions": [
+        "What was William H. Coppedge's class year?",
+        "When did William Coppedge graduate from Oklahoma A&M?",
+        "What is William H. Coppedge's graduation year?",
+        "In what class year was William H. Coppedge?",
+        "William H. Coppedge was a member of the class of?"
+      ],
+      "correctAnswer": "1920",
+      "wrongAnswers": [
+        "1921",
+        "1922",
+        "1919",
+        "1923",
+        "1918",
+        "1924"
+      ],
+      "tags": ["coppedge", "personal", "graduation"]
+    },
+    {
+      "id": 41,
+      "questionVersions": [
+        "What was William H. Coppedge's hometown?",
+        "Where was William Coppedge from?",
+        "What is William H. Coppedge's hometown?",
+        "Which Oklahoma city was William Coppedge's home?",
+        "William Coppedge hailed from which city?"
+      ],
+      "correctAnswer": "Grove, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Enid, Oklahoma",
+        "Tahlequah, Oklahoma"
+      ],
+      "tags": ["coppedge", "personal", "hometown"]
+    },
+    {
+      "id": 42,
+      "questionVersions": [
+        "What instrument did William H. Coppedge play?",
+        "What was William Coppedge's primary instrument?",
+        "William Coppedge played which instrument?",
+        "Which instrument was William H. Coppedge's specialty?",
+        "What instrument did William H. Coppedge perform on?"
+      ],
+      "correctAnswer": "French Horn",
+      "wrongAnswers": [
+        "Cornet",
+        "Baritone",
+        "Trombone",
+        "Clarinet",
+        "Saxophone",
+        "Tuba"
+      ],
+      "tags": ["coppedge", "music", "instrument"]
+    },
+    {
+      "id": 43,
+      "questionVersions": [
+        "What is William H. Coppedge known for designing?",
+        "What did William Coppedge create for the fraternity?",
+        "What did William Coppedge help design?",
+        "What is William Coppedge credited with?",
+        "What item did William Coppedge design?"
+      ],
+      "correctAnswer": "Kappa Kappa Psi Badge (with Haston)",
+      "wrongAnswers": [
+        "The Ritual",
+        "The Constitution",
+        "The Coat of Arms",
+        "The Badge alone",
+        "The Creed",
+        "The Purposes"
+      ],
+      "tags": ["coppedge", "accomplishments", "design"]
+    },
+    {
+      "id": 44,
+      "questionVersions": [
+        "What was William H. Coppedge's first role in the fraternity?",
+        "What position did William Coppedge initially hold?",
+        "What was William Coppedge's first title in Kappa Kappa Psi?",
+        "What office did William H. Coppedge hold at the start?",
+        "What was William Coppedge's initial role?"
+      ],
+      "correctAnswer": "Sergeant of Arms",
+      "wrongAnswers": [
+        "Secretary",
+        "Treasurer",
+        "Vice President",
+        "President",
+        "Editor",
+        "Grand President"
+      ],
+      "tags": ["coppedge", "leadership", "roles"]
+    },
+    {
+      "id": 45,
+      "questionVersions": [
+        "When did William H. Coppedge die?",
+        "In what year did William Coppedge pass away?",
+        "What was the year of William Coppedge's death?",
+        "When did William Coppedge die?",
+        "William Coppedge passed away in which year?"
+      ],
+      "correctAnswer": "1975",
+      "wrongAnswers": [
+        "1970",
+        "1976",
+        "1974",
+        "1973",
+        "1965",
+        "1980"
+      ],
+      "tags": ["coppedge", "death", "personal"]
+    },
+    {
+      "id": 46,
+      "questionVersions": [
+        "Where is William H. Coppedge buried?",
+        "What city is William Coppedge's burial location?",
+        "In which city was William Coppedge buried?",
+        "Where was William Coppedge laid to rest?",
+        "William Coppedge is buried in which Alabama city?"
+      ],
+      "correctAnswer": "Auburn, Alabama",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Grove, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Mobile, Alabama",
+        "Birmingham, Alabama"
+      ],
+      "tags": ["coppedge", "death", "burial"]
+    },
+    {
+      "id": 47,
+      "questionVersions": [
+        "What was Dick Hurst's class year?",
+        "When did Dick Hurst graduate from Oklahoma A&M?",
+        "What is Dick Hurst's graduation year?",
+        "In what class year was Dick Hurst?",
+        "Dick Hurst was a member of the class of?"
+      ],
+      "correctAnswer": "1922",
+      "wrongAnswers": [
+        "1920",
+        "1921",
+        "1919",
+        "1923",
+        "1918",
+        "1924"
+      ],
+      "tags": ["hurst", "personal", "graduation"]
+    },
+    {
+      "id": 48,
+      "questionVersions": [
+        "What was Dick Hurst's hometown?",
+        "Where was Dick Hurst from?",
+        "What is Dick Hurst's hometown?",
+        "Which Oklahoma city was Dick Hurst's home?",
+        "Dick Hurst hailed from which city?"
+      ],
+      "correctAnswer": "Oklahoma City, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Enid, Oklahoma",
+        "Tahlequah, Oklahoma",
+        "Muskogee, Oklahoma"
+      ],
+      "tags": ["hurst", "personal", "hometown"]
+    },
+    {
+      "id": 49,
+      "questionVersions": [
+        "What instrument did Dick Hurst play?",
+        "What was Dick Hurst's primary instrument?",
+        "Dick Hurst played which instrument?",
+        "Which instrument was Dick Hurst's specialty?",
+        "What instrument did Dick Hurst perform on?"
+      ],
+      "correctAnswer": "Cornet",
+      "wrongAnswers": [
+        "Baritone",
+        "Trombone",
+        "Clarinet",
+        "French Horn",
+        "Saxophone",
+        "Tuba"
+      ],
+      "tags": ["hurst", "music", "instrument"]
+    },
+    {
+      "id": 50,
+      "questionVersions": [
+        "What was George Asher Hendrickson's class year?",
+        "When did George Hendrickson graduate from Oklahoma A&M?",
+        "What is George Asher Hendrickson's graduation year?",
+        "In what class year was George Asher Hendrickson?",
+        "George Asher Hendrickson was a member of the class of?"
+      ],
+      "correctAnswer": "1922",
+      "wrongAnswers": [
+        "1920",
+        "1921",
+        "1919",
+        "1923",
+        "1918",
+        "1924"
+      ],
+      "tags": ["hendrickson", "personal", "graduation"]
+    }
+  ]
+}

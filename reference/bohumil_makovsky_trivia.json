@@ -1,0 +1,1007 @@
+{
+  "gameTitle": "Bohumil Makovsky Trivia Challenge",
+  "description": "A comprehensive trivia game about Dr. Bohumil Makovsky, the Guiding Spirit of Kappa Kappa Psi",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "questionVersions": [
+        "In what year was Dr. Bohumil Makovsky born?",
+        "What is the birth year of Bohumil Makovsky?",
+        "Dr. Bohumil Makovsky was born in which year?",
+        "When was the Guiding Spirit of Kappa Kappa Psi born?",
+        "Bohumil Makovsky's birth year was?"
+      ],
+      "correctAnswer": "1878",
+      "wrongAnswers": [
+        "1880",
+        "1875",
+        "1885",
+        "1870",
+        "1890",
+        "1868"
+      ],
+      "tags": ["biography", "personal-facts", "birth"]
+    },
+    {
+      "id": 2,
+      "questionVersions": [
+        "Where was Bohumil Makovsky born?",
+        "What was Bohumil Makovsky's birthplace?",
+        "Dr. Makovsky was born in which city?",
+        "Frantisky is located in which country, the birthplace of Boh?",
+        "From which location did Bohumil Makovsky originate?"
+      ],
+      "correctAnswer": "Frantisky, Bohemia",
+      "wrongAnswers": [
+        "Prague, Czechoslovakia",
+        "Vienna, Austria",
+        "Budapest, Hungary",
+        "Warsaw, Poland",
+        "Berlin, Germany",
+        "Munich, Bavaria"
+      ],
+      "tags": ["biography", "birthplace", "bohemia"]
+    },
+    {
+      "id": 3,
+      "questionVersions": [
+        "In what year did Bohumil Makovsky die?",
+        "When did Dr. Bohumil Makovsky pass away?",
+        "What was the year of Boh's death?",
+        "Bohumil Makovsky died in which year?",
+        "The Guiding Spirit of Kappa Kappa Psi died in?"
+      ],
+      "correctAnswer": "1950",
+      "wrongAnswers": [
+        "1945",
+        "1948",
+        "1952",
+        "1955",
+        "1940",
+        "1960"
+      ],
+      "tags": ["biography", "death", "personal-facts"]
+    },
+    {
+      "id": 4,
+      "questionVersions": [
+        "At what age did Bohumil Makovsky lose his mother?",
+        "How old was Boh when his mother died?",
+        "Bohumil Makovsky's mother passed away when he was how old?",
+        "Dr. Makovsky was which age at his mother's death?",
+        "Young Bohumil lost his mother at what age?"
+      ],
+      "correctAnswer": "12",
+      "wrongAnswers": [
+        "10",
+        "8",
+        "14",
+        "15",
+        "9",
+        "11"
+      ],
+      "tags": ["biography", "family", "early-life"]
+    },
+    {
+      "id": 5,
+      "questionVersions": [
+        "At what age did Bohumil Makovsky immigrate to the United States?",
+        "How old was Boh when he came to America?",
+        "Bohumil Makovsky immigrated to the U.S. at what age?",
+        "When Bohumil Makovsky arrived in America, he was how old?",
+        "What was Dr. Makovsky's age upon immigration to the United States?"
+      ],
+      "correctAnswer": "17",
+      "wrongAnswers": [
+        "15",
+        "19",
+        "20",
+        "16",
+        "21",
+        "18"
+      ],
+      "tags": ["biography", "immigration", "early-life"]
+    },
+    {
+      "id": 6,
+      "questionVersions": [
+        "In what year did Bohumil Makovsky immigrate to the United States?",
+        "When did Dr. Makovsky come to America?",
+        "Bohumil Makovsky arrived in the U.S. in which year?",
+        "What was the year of Boh's immigration?",
+        "Bohumil Makovsky came to the United States in?"
+      ],
+      "correctAnswer": "1895",
+      "wrongAnswers": [
+        "1890",
+        "1900",
+        "1898",
+        "1892",
+        "1905",
+        "1888"
+      ],
+      "tags": ["biography", "immigration", "early-life"]
+    },
+    {
+      "id": 7,
+      "questionVersions": [
+        "Where did Bohumil Makovsky first settle in America?",
+        "What was Bohumil Makovsky's first destination in the United States?",
+        "Upon arrival in America, where did Boh settle?",
+        "Dr. Makovsky first arrived in which Nebraska town?",
+        "Bohumil Makovsky's initial U.S. settlement was in which location?"
+      ],
+      "correctAnswer": "Clarkson, Nebraska",
+      "wrongAnswers": [
+        "Omaha, Nebraska",
+        "Lincoln, Nebraska",
+        "Grand Island, Nebraska",
+        "Hastings, Nebraska",
+        "Kearney, Nebraska",
+        "Lexington, Nebraska"
+      ],
+      "tags": ["biography", "immigration", "settlement"]
+    },
+    {
+      "id": 8,
+      "questionVersions": [
+        "Who was Bohumil Makovsky's first teacher of clarinet and violin?",
+        "Bohumil Makovsky received musical training from whom?",
+        "Who instructed Boh in clarinet and violin?",
+        "Dr. Makovsky's uncle, who was a former royal music instructor, was named?",
+        "What was the name of Bohumil Makovsky's musical mentor?"
+      ],
+      "correctAnswer": "Tomas Makovsky",
+      "wrongAnswers": [
+        "Josef Makovsky",
+        "František Makovsky",
+        "Václav Makovsky",
+        "Ludwig Makovsky",
+        "Anton Makovsky",
+        "Karel Makovsky"
+      ],
+      "tags": ["biography", "music-education", "family"]
+    },
+    {
+      "id": 9,
+      "questionVersions": [
+        "What was the name of Bohumil Makovsky's wife?",
+        "Who did Dr. Bohumil Makovsky marry?",
+        "Bohumil Makovsky was married to?",
+        "What was Mrs. Boh's name?",
+        "Dr. Makovsky's spouse was named?"
+      ],
+      "correctAnswer": "Georgia Shestack",
+      "wrongAnswers": [
+        "Maria Shestack",
+        "Anna Shestack",
+        "Elena Shestack",
+        "Catherine Shestack",
+        "Sophie Shestack",
+        "Margaret Shestack"
+      ],
+      "tags": ["biography", "family", "marriage"]
+    },
+    {
+      "id": 10,
+      "questionVersions": [
+        "In what year did Bohumil Makovsky marry Georgia Shestack?",
+        "When did Boh marry his wife Georgia?",
+        "What was the year of Bohumil Makovsky's marriage?",
+        "Bohumil Makovsky and Georgia were married in which year?",
+        "Dr. Makovsky's marriage took place in?"
+      ],
+      "correctAnswer": "1911",
+      "wrongAnswers": [
+        "1910",
+        "1912",
+        "1909",
+        "1913",
+        "1908",
+        "1914"
+      ],
+      "tags": ["biography", "marriage", "personal-facts"]
+    },
+    {
+      "id": 11,
+      "questionVersions": [
+        "At which institution did Bohumil Makovsky serve as Director of Bands?",
+        "Where did Dr. Makovsky serve as Director of Bands?",
+        "Bohumil Makovsky was Director of Bands at which college?",
+        "What was the name of the institution where Boh directed the band?",
+        "Dr. Makovsky's primary position was at which Oklahoma school?"
+      ],
+      "correctAnswer": "Oklahoma Agricultural and Mechanical College",
+      "wrongAnswers": [
+        "University of Oklahoma",
+        "Oklahoma State College",
+        "Tulsa University",
+        "Oklahoma City University",
+        "Cameron University",
+        "Southwestern Oklahoma State University"
+      ],
+      "tags": ["career", "education", "oklahoma-amc"]
+    },
+    {
+      "id": 12,
+      "questionVersions": [
+        "From what year to what year did Bohumil Makovsky serve at Oklahoma A&M?",
+        "What was the duration of Bohumil Makovsky's tenure at OAMC?",
+        "Bohumil Makovsky served at Oklahoma A&M from 1915 to which year?",
+        "Dr. Makovsky's career at Oklahoma A&M College lasted how long?",
+        "When did Bohumil Makovsky's service at OAMC end?"
+      ],
+      "correctAnswer": "1915-1945",
+      "wrongAnswers": [
+        "1915-1950",
+        "1910-1945",
+        "1915-1940",
+        "1920-1945",
+        "1915-1943",
+        "1918-1945"
+      ],
+      "tags": ["career", "oklahoma-amc", "timeline"]
+    },
+    {
+      "id": 13,
+      "questionVersions": [
+        "What nickname was Bohumil Makovsky affectionately known by?",
+        "What did people call Bohumil Makovsky?",
+        "Bohumil Makovsky was often referred to as?",
+        "What was Boh Makovsky's common nickname?",
+        "Dr. Makovsky was affectionately known as?"
+      ],
+      "correctAnswer": "Boh",
+      "wrongAnswers": [
+        "Bo",
+        "Bob",
+        "Bom",
+        "Bak",
+        "Humi",
+        "Bumil"
+      ],
+      "tags": ["biography", "nickname", "personal"]
+    },
+    {
+      "id": 14,
+      "questionVersions": [
+        "In what year did Bohumil Makovsky form the Makovsky Concert Band?",
+        "When did Boh establish the Makovsky Concert Band?",
+        "The Makovsky Concert Band was formed in which year?",
+        "What was the year of the Makovsky Concert Band's founding?",
+        "Bohumil Makovsky created his own concert band in?"
+      ],
+      "correctAnswer": "1912",
+      "wrongAnswers": [
+        "1910",
+        "1915",
+        "1908",
+        "1920",
+        "1905",
+        "1918"
+      ],
+      "tags": ["career", "music", "concert-band"]
+    },
+    {
+      "id": 15,
+      "questionVersions": [
+        "What is Bohumil Makovsky's official title within Kappa Kappa Psi?",
+        "By what title is Bohumil Makovsky known in Kappa Kappa Psi?",
+        "Bohumil Makovsky is referred to as the what of Kappa Kappa Psi?",
+        "What is Boh's official designation in KKPsi?",
+        "How is Dr. Makovsky officially recognized within Kappa Kappa Psi?"
+      ],
+      "correctAnswer": "Guiding Spirit",
+      "wrongAnswers": [
+        "Founder",
+        "Grand President",
+        "Honorary President",
+        "Chief Advisor",
+        "Patron Saint",
+        "Spiritual Guide"
+      ],
+      "tags": ["kappa-kappa-psi", "honors", "titles"]
+    },
+    {
+      "id": 16,
+      "questionVersions": [
+        "When did Bohumil Makovsky become a U.S. citizen?",
+        "In what year did Dr. Makovsky become naturalized?",
+        "Bohumil Makovsky was naturalized as a U.S. citizen in which year?",
+        "What year did Boh gain U.S. citizenship?",
+        "Dr. Makovsky received his U.S. citizenship in?"
+      ],
+      "correctAnswer": "1921",
+      "wrongAnswers": [
+        "1920",
+        "1922",
+        "1919",
+        "1923",
+        "1918",
+        "1924"
+      ],
+      "tags": ["biography", "citizenship", "personal-facts"]
+    },
+    {
+      "id": 17,
+      "questionVersions": [
+        "In which city was Bohumil Makovsky naturalized as a U.S. citizen?",
+        "Where did Boh become a U.S. citizen?",
+        "Bohumil Makovsky received his citizenship in which Oklahoma town?",
+        "Dr. Makovsky was naturalized in which city?",
+        "What was the location of Bohumil Makovsky's naturalization?"
+      ],
+      "correctAnswer": "Stillwater, Oklahoma",
+      "wrongAnswers": [
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Norman, Oklahoma",
+        "Enid, Oklahoma",
+        "Lawton, Oklahoma",
+        "Tahlequah, Oklahoma"
+      ],
+      "tags": ["biography", "citizenship", "oklahoma"]
+    },
+    {
+      "id": 18,
+      "questionVersions": [
+        "What military rank was Bohumil Makovsky given in 1922?",
+        "What honorary military commission did Boh receive?",
+        "In 1922, Bohumil Makovsky was commissioned as an honorary what?",
+        "What was the military honor bestowed on Dr. Makovsky in 1922?",
+        "Bohumil Makovsky became an honorary what in the OAMC ROTC?"
+      ],
+      "correctAnswer": "Major",
+      "wrongAnswers": [
+        "Colonel",
+        "Captain",
+        "Lieutenant",
+        "General",
+        "Sergeant",
+        "Commander"
+      ],
+      "tags": ["honors", "military", "1922"]
+    },
+    {
+      "id": 19,
+      "questionVersions": [
+        "When was Bohumil Makovsky elected Grand President of Kappa Kappa Psi?",
+        "In what year did Boh become Grand President of KKPsi?",
+        "Bohumil Makovsky served as Grand President of Kappa Kappa Psi in which year?",
+        "What year did Dr. Makovsky hold the office of Grand President?",
+        "Bohumil Makovsky was elected Grand President in?"
+      ],
+      "correctAnswer": "1926",
+      "wrongAnswers": [
+        "1925",
+        "1927",
+        "1924",
+        "1928",
+        "1923",
+        "1929"
+      ],
+      "tags": ["kappa-kappa-psi", "leadership", "honors"]
+    },
+    {
+      "id": 20,
+      "questionVersions": [
+        "Was Bohumil Makovsky elected to the Oklahoma Hall of Fame?",
+        "In what year was Bohumil Makovsky inducted into the Oklahoma Hall of Fame?",
+        "When was Boh honored with election to the Oklahoma Hall of Fame?",
+        "What was the year of Dr. Makovsky's Oklahoma Hall of Fame election?",
+        "Bohumil Makovsky was elected to the Oklahoma Hall of Fame in?"
+      ],
+      "correctAnswer": "1939",
+      "wrongAnswers": [
+        "1935",
+        "1940",
+        "1938",
+        "1941",
+        "1937",
+        "1942"
+      ],
+      "tags": ["honors", "oklahoma-hall-of-fame", "recognition"]
+    },
+    {
+      "id": 21,
+      "questionVersions": [
+        "Which university awarded Bohumil Makovsky an honorary Doctor of Music degree?",
+        "From which institution did Boh receive an honorary doctorate in music?",
+        "Bohumil Makovsky received an honorary Doctor of Music degree from which university?",
+        "What school gave Dr. Makovsky the honorary music degree?",
+        "An honorary Doctor of Music was awarded to Bohumil Makovsky by?"
+      ],
+      "correctAnswer": "University of Tulsa",
+      "wrongAnswers": [
+        "University of Oklahoma",
+        "Oklahoma State University",
+        "University of Kansas",
+        "Oklahoma City University",
+        "Southern Methodist University",
+        "Baylor University"
+      ],
+      "tags": ["honors", "education", "doctorate"]
+    },
+    {
+      "id": 22,
+      "questionVersions": [
+        "In what year did Bohumil Makovsky receive an honorary doctorate?",
+        "When was the honorary doctorate awarded to Boh?",
+        "Bohumil Makovsky's honorary doctorate was awarded in which year?",
+        "What year did Dr. Makovsky receive his honorary Doctor of Music degree?",
+        "The honorary doctorate was given to Bohumil Makovsky in?"
+      ],
+      "correctAnswer": "1940",
+      "wrongAnswers": [
+        "1939",
+        "1941",
+        "1938",
+        "1942",
+        "1937",
+        "1943"
+      ],
+      "tags": ["honors", "education", "1940"]
+    },
+    {
+      "id": 23,
+      "questionVersions": [
+        "What publication was Bohumil Makovsky featured in during 1918?",
+        "Which publication included Bohumil Makovsky in its listings?",
+        "Bohumil Makovsky appeared in the International Who's Who in which year?",
+        "When was Boh listed in the International Who's Who?",
+        "Dr. Makovsky's name appeared in what publication from 1918?"
+      ],
+      "correctAnswer": "International Who's Who",
+      "wrongAnswers": [
+        "American Who's Who",
+        "European Directory",
+        "Musical Biography",
+        "American Music Guide",
+        "World Musicians Directory",
+        "International Music Registry"
+      ],
+      "tags": ["recognition", "publications", "1918"]
+    },
+    {
+      "id": 24,
+      "questionVersions": [
+        "In which year was the OAMC Redskin yearbook dedicated to Bohumil Makovsky?",
+        "What year was the Redskin yearbook dedicated to Boh?",
+        "When was the Oklahoma A&M yearbook dedicated to Bohumil Makovsky?",
+        "The Redskin yearbook honored Dr. Makovsky in which year?",
+        "Bohumil Makovsky received the yearbook dedication in?"
+      ],
+      "correctAnswer": "1922",
+      "wrongAnswers": [
+        "1920",
+        "1925",
+        "1921",
+        "1923",
+        "1924",
+        "1926"
+      ],
+      "tags": ["recognition", "oamc", "1922"]
+    },
+    {
+      "id": 25,
+      "questionVersions": [
+        "What was William A. Scroggs's relationship to the founding of Kappa Kappa Psi?",
+        "Who founded Kappa Kappa Psi?",
+        "William A. Scroggs was the what of Kappa Kappa Psi?",
+        "What role did William Scroggs play in KKPsi?",
+        "Bohumil Makovsky mentored which founder of Kappa Kappa Psi?"
+      ],
+      "correctAnswer": "Founder",
+      "wrongAnswers": [
+        "First President",
+        "First Grand President",
+        "Co-founder",
+        "Charter Member",
+        "Honorary Member",
+        "First Secretary"
+      ],
+      "tags": ["kappa-kappa-psi", "history", "founding"]
+    },
+    {
+      "id": 26,
+      "questionVersions": [
+        "In what year was Kappa Kappa Psi founded?",
+        "When was Kappa Kappa Psi established?",
+        "Kappa Kappa Psi received its charter in which year?",
+        "What was the founding year of Kappa Kappa Psi?",
+        "Bohumil Makovsky's fraternity was founded in?"
+      ],
+      "correctAnswer": "1919",
+      "wrongAnswers": [
+        "1920",
+        "1918",
+        "1921",
+        "1922",
+        "1917",
+        "1923"
+      ],
+      "tags": ["kappa-kappa-psi", "founding", "history"]
+    },
+    {
+      "id": 27,
+      "questionVersions": [
+        "What was the specific date when Kappa Kappa Psi received its charter?",
+        "When exactly was the Kappa Kappa Psi charter granted?",
+        "Kappa Kappa Psi's charter date was November 27th of which year?",
+        "On what date was KKPsi formally chartered?",
+        "The official charter date of Kappa Kappa Psi was?"
+      ],
+      "correctAnswer": "November 27, 1919",
+      "wrongAnswers": [
+        "November 27, 1920",
+        "December 27, 1919",
+        "November 20, 1919",
+        "October 27, 1919",
+        "November 27, 1918",
+        "November 15, 1919"
+      ],
+      "tags": ["kappa-kappa-psi", "founding", "dates"]
+    },
+    {
+      "id": 28,
+      "questionVersions": [
+        "At which college was Kappa Kappa Psi founded?",
+        "Where was the first chapter of Kappa Kappa Psi established?",
+        "Kappa Kappa Psi's Alpha Chapter was founded at which institution?",
+        "What Oklahoma school was the birthplace of Kappa Kappa Psi?",
+        "Bohumil Makovsky helped establish Kappa Kappa Psi at which college?"
+      ],
+      "correctAnswer": "Oklahoma Agricultural and Mechanical College",
+      "wrongAnswers": [
+        "University of Oklahoma",
+        "Oklahoma State College",
+        "Tulsa University",
+        "University of Kansas",
+        "Oklahoma City University",
+        "Cameron University"
+      ],
+      "tags": ["kappa-kappa-psi", "founding", "history"]
+    },
+    {
+      "id": 29,
+      "questionVersions": [
+        "What was Bohumil Makovsky's known conducting technique characterized by?",
+        "How was Bohumil Makovsky's rehearsal style described?",
+        "What type of conducting technique was Boh known for?",
+        "Dr. Makovsky's conducting was known for being what?",
+        "What word best describes Bohumil Makovsky's rehearsal approach?"
+      ],
+      "correctAnswer": "Immaculate",
+      "wrongAnswers": [
+        "Relaxed",
+        "Experimental",
+        "Casual",
+        "Flexible",
+        "Creative",
+        "Improvised"
+      ],
+      "tags": ["music-education", "conducting", "style"]
+    },
+    {
+      "id": 30,
+      "questionVersions": [
+        "What musical elements did Bohumil Makovsky emphasize in his bands?",
+        "What did Boh prioritize in his ensemble's musical performance?",
+        "Bohumil Makovsky stressed which musical qualities?",
+        "Which musical principles did Dr. Makovsky emphasize?",
+        "What sound did Bohumil Makovsky strive for in his bands?"
+      ],
+      "correctAnswer": "Tone and balance",
+      "wrongAnswers": [
+        "Volume and rhythm",
+        "Speed and clarity",
+        "Dynamics and intonation",
+        "Precision and tempo",
+        "Expression and articulation",
+        "Balance and rhythm"
+      ],
+      "tags": ["music-education", "conducting", "philosophy"]
+    },
+    {
+      "id": 31,
+      "questionVersions": [
+        "What kind of sound did Bohumil Makovsky aim to achieve in his orchestras?",
+        "What type of sound was Boh's goal for his bands?",
+        "Bohumil Makovsky strove for what kind of orchestral sound?",
+        "What symphonic quality did Dr. Makovsky emphasize?",
+        "Bohumil Makovsky wanted to achieve what type of musical sound?"
+      ],
+      "correctAnswer": "Symphonic sound",
+      "wrongAnswers": [
+        "Jazz sound",
+        "Modern sound",
+        "Operatic sound",
+        "Folk sound",
+        "Baroque sound",
+        "Romantic sound"
+      ],
+      "tags": ["music-education", "conducting", "philosophy"]
+    },
+    {
+      "id": 32,
+      "questionVersions": [
+        "What did Bohumil Makovsky emphasize for the second and third parts of the ensemble?",
+        "How did Boh enhance the ensemble's depth?",
+        "Bohumil Makovsky stressed the second and third parts for what?",
+        "What technique did Dr. Makovsky use for ensemble balance?",
+        "Bohumil Makovsky highlighted the lower parts for what purpose?"
+      ],
+      "correctAnswer": "Dark coloring",
+      "wrongAnswers": [
+        "Bright harmony",
+        "High contrast",
+        "Melodic clarity",
+        "Rhythmic emphasis",
+        "Harmonic complexity",
+        "Tonal brightness"
+      ],
+      "tags": ["music-education", "conducting", "technique"]
+    },
+    {
+      "id": 33,
+      "questionVersions": [
+        "What was a key requirement for members in Bohumil Makovsky's bands?",
+        "What did Bohumil Makovsky strictly require of his musicians?",
+        "What was expected of band members under Boh's direction?",
+        "What discipline did Dr. Makovsky impose on his musicians?",
+        "What was mandatory for participation in Bohumil Makovsky's ensembles?"
+      ],
+      "correctAnswer": "Attendance and punctuality",
+      "wrongAnswers": [
+        "Musical ability only",
+        "Academic excellence",
+        "Prior experience",
+        "Perfect sight-reading",
+        "Solo performance skills",
+        "Instrument proficiency"
+      ],
+      "tags": ["music-education", "discipline", "leadership"]
+    },
+    {
+      "id": 34,
+      "questionVersions": [
+        "What personality trait was characteristic of Bohumil Makovsky's leadership?",
+        "How would Bohumil Makovsky's personality be described?",
+        "What type of personality did Boh have as a leader?",
+        "How is Dr. Makovsky's personal character generally characterized?",
+        "Bohumil Makovsky's leadership was marked by what quality?"
+      ],
+      "correctAnswer": "Dynamic",
+      "wrongAnswers": [
+        "Passive",
+        "Indifferent",
+        "Wavering",
+        "Uncertain",
+        "Timid",
+        "Reluctant"
+      ],
+      "tags": ["biography", "leadership", "personality"]
+    },
+    {
+      "id": 35,
+      "questionVersions": [
+        "What role did Bohumil Makovsky play in the inspiration of the founding fathers?",
+        "How did Boh influence the charter members of Kappa Kappa Psi?",
+        "Bohumil Makovsky was what to the founding fathers?",
+        "What was Bohumil Makovsky's impact on William Scroggs?",
+        "How did Dr. Makovsky serve the founding members of KKPsi?"
+      ],
+      "correctAnswer": "Inspiration and support",
+      "wrongAnswers": [
+        "Reluctant participant",
+        "Financial advisor",
+        "Secretary",
+        "Editor",
+        "Treasurer",
+        "Distant observer"
+      ],
+      "tags": ["kappa-kappa-psi", "history", "leadership"]
+    },
+    {
+      "id": 36,
+      "questionVersions": [
+        "What was Bohumil Makovsky's position at the first National Convention of Kappa Kappa Psi?",
+        "What honor did Boh receive at KKPsi's first national gathering?",
+        "Bohumil Makovsky became what at the first National Convention?",
+        "What was Dr. Makovsky's designation at the 1922 convention?",
+        "Bohumil Makovsky was named the first what of Kappa Kappa Psi?"
+      ],
+      "correctAnswer": "National Honorary Member",
+      "wrongAnswers": [
+        "Grand President",
+        "National Advisor",
+        "Charter Member",
+        "Honorary President",
+        "Founding Father",
+        "National Treasurer"
+      ],
+      "tags": ["kappa-kappa-psi", "honors", "history"]
+    },
+    {
+      "id": 37,
+      "questionVersions": [
+        "In what year was the Bohumil Makovsky Memorial Award established?",
+        "When was an award named after Bohumil Makovsky created?",
+        "The Bohumil Makovsky Memorial Award honors members in which capacity?",
+        "What award within Kappa Kappa Psi recognizes Bohumil Makovsky's legacy?",
+        "Bohumil Makovsky has what honor named after him within KKPsi?"
+      ],
+      "correctAnswer": "Bohumil Makovsky Memorial Award",
+      "wrongAnswers": [
+        "Makovsky Excellence Award",
+        "Boh's Leadership Award",
+        "Scroggs-Makovsky Award",
+        "Makovsky Service Medal",
+        "Guiding Spirit Trophy",
+        "Makovsky Honor Award"
+      ],
+      "tags": ["kappa-kappa-psi", "awards", "honors"]
+    },
+    {
+      "id": 38,
+      "questionVersions": [
+        "What were the names of Bohumil Makovsky's parents?",
+        "Who were Bohumil Makovsky's mother and father?",
+        "What was Boh's father's name?",
+        "Bohumil Makovsky's mother was named what?",
+        "What were the names of Dr. Makovsky's parents?"
+      ],
+      "correctAnswer": "Vaclav and Anna Hladik Makovsky",
+      "wrongAnswers": [
+        "Josef and Anna Makovsky",
+        "František and Maria Makovsky",
+        "Václav and Anna Shestack",
+        "Jan and Anna Makovsky",
+        "Bohumil and Anna Makovsky",
+        "Anton and Anna Makovsky"
+      ],
+      "tags": ["biography", "family", "parents"]
+    },
+    {
+      "id": 39,
+      "questionVersions": [
+        "What profession did Bohumil Makovsky take on in Nebraska?",
+        "What did Bohumil Makovsky do when he first arrived in Nebraska?",
+        "How did Boh make a living when he arrived in America?",
+        "What initial work did Dr. Makovsky pursue in the United States?",
+        "What jobs did Bohumil Makovsky take upon his arrival in America?"
+      ],
+      "correctAnswer": "Farm work and musical performance",
+      "wrongAnswers": [
+        "Teaching only",
+        "Construction work",
+        "Factory work",
+        "Merchant business",
+        "Clerical work",
+        "Manual labor only"
+      ],
+      "tags": ["biography", "early-life", "immigration"]
+    },
+    {
+      "id": 40,
+      "questionVersions": [
+        "Where did Bohumil Makovsky relocate after his initial period in Oklahoma City in the 1900s?",
+        "What city did Bohumil Makovsky move to around 1907?",
+        "Bohumil Makovsky accepted a position in which Oklahoma town?",
+        "After Woodward, where did Dr. Makovsky move in his career?",
+        "Bohumil Makovsky returned to which city in 1908?"
+      ],
+      "correctAnswer": "Oklahoma City",
+      "wrongAnswers": [
+        "Tulsa",
+        "Norman",
+        "Enid",
+        "Muskogee",
+        "Stillwater",
+        "Lawton"
+      ],
+      "tags": ["biography", "career", "relocation"]
+    },
+    {
+      "id": 41,
+      "questionVersions": [
+        "What bands did Bohumil Makovsky organize in Bohemian settlements?",
+        "Which Oklahoma towns had bands organized by Bohumil Makovsky?",
+        "Where did Boh establish bands in Bohemian communities?",
+        "Bohumil Makovsky organized and directed bands in which locations?",
+        "What Bohemian settlement bands did Dr. Makovsky establish?"
+      ],
+      "correctAnswer": "Mustang, Yukon, Prague, and Shawnee",
+      "wrongAnswers": [
+        "Midwest City, Edmond, Bethany, and Jones",
+        "Tulsa, Broken Arrow, Bixby, and Jenks",
+        "Norman, Moore, Pauls Valley, and Yale",
+        "Guthrie, Kingfisher, Watonga, and Cordell",
+        "Stillwater, Perkins, Glencoe, and Cushing",
+        "Oklahoma City, Yukon, Mustang, and Norman"
+      ],
+      "tags": ["career", "oklahoma", "bands"]
+    },
+    {
+      "id": 42,
+      "questionVersions": [
+        "When did Bohumil Makovsky begin his association with the Oklahoma State Fair?",
+        "In what year did Boh start performing at the Oklahoma State Fair?",
+        "Bohumil Makovsky's connection to the Oklahoma State Fair began in which year?",
+        "What was the starting year of Dr. Makovsky's fair performances?",
+        "Bohumil Makovsky began conducting at the State Fair in?"
+      ],
+      "correctAnswer": "1910",
+      "wrongAnswers": [
+        "1908",
+        "1912",
+        "1909",
+        "1915",
+        "1905",
+        "1911"
+      ],
+      "tags": ["career", "oklahoma", "state-fair"]
+    },
+    {
+      "id": 43,
+      "questionVersions": [
+        "How long did Bohumil Makovsky's Oklahoma State Fair association last?",
+        "For how many years did Boh perform at the Oklahoma State Fair?",
+        "Bohumil Makovsky conducted at the State Fair for approximately how many years?",
+        "What was the duration of Dr. Makovsky's state fair performances?",
+        "Bohumil Makovsky performed at the fair for about how many years?"
+      ],
+      "correctAnswer": "12 years",
+      "wrongAnswers": [
+        "10 years",
+        "15 years",
+        "8 years",
+        "20 years",
+        "5 years",
+        "7 years"
+      ],
+      "tags": ["career", "oklahoma", "state-fair"]
+    },
+    {
+      "id": 44,
+      "questionVersions": [
+        "What band did Bohumil Makovsky direct at the Oklahoma State Fair?",
+        "Which orchestra did Boh conduct for the State Fair performances?",
+        "What was the name of the band Bohumil Makovsky led at the fair?",
+        "What ensemble did Dr. Makovsky conduct at the State Fair?",
+        "Bohumil Makovsky's State Fair band was named the what?"
+      ],
+      "correctAnswer": "Oklahoma City Metropolitan Band",
+      "wrongAnswers": [
+        "Oklahoma City Municipal Band",
+        "Metropolitan Symphony Orchestra",
+        "Oklahoma State Band",
+        "City of Oklahoma Concert Band",
+        "Oklahoma Metropolitan Orchestra",
+        "State Capital Band"
+      ],
+      "tags": ["career", "oklahoma", "bands"]
+    },
+    {
+      "id": 45,
+      "questionVersions": [
+        "When did Georgia Shestack, Bohumil Makovsky's wife, pass away?",
+        "In what year did Mrs. Boh die?",
+        "Georgia Makovsky died in which year?",
+        "What was the year of Georgia Shestack Makovsky's death?",
+        "Bohumil Makovsky's wife passed away in?"
+      ],
+      "correctAnswer": "1940",
+      "wrongAnswers": [
+        "1939",
+        "1941",
+        "1938",
+        "1942",
+        "1943",
+        "1937"
+      ],
+      "tags": ["biography", "family", "death"]
+    },
+    {
+      "id": 46,
+      "questionVersions": [
+        "What was Bohumil Makovsky's position when he retired?",
+        "What title was Bohumil Makovsky given upon his retirement?",
+        "When Boh retired, what position was he granted?",
+        "Upon retirement, Dr. Makovsky received what honor?",
+        "Bohumil Makovsky was given what emeritus title?"
+      ],
+      "correctAnswer": "Head Emeritus of the Department of Music",
+      "wrongAnswers": [
+        "Professor Emeritus of Music",
+        "Director Emeritus of Bands",
+        "Music Department Consultant",
+        "Honorary Music Director",
+        "Emeritus Music Supervisor",
+        "Music Professor Emeritus"
+      ],
+      "tags": ["career", "retirement", "honors"]
+    },
+    {
+      "id": 47,
+      "questionVersions": [
+        "In what publication did Bohumil Makovsky appear in 1931?",
+        "Which music directory listed Bohumil Makovsky in 1931?",
+        "Bohumil Makovsky was featured in what publication from 1931?",
+        "What music reference included Boh in 1931?",
+        "Dr. Makovsky appeared in Pierre Key's what in 1931?"
+      ],
+      "correctAnswer": "Musical Who's Who",
+      "wrongAnswers": [
+        "American Musicians Directory",
+        "International Music Guide",
+        "European Music Registry",
+        "World Musicians Handbook",
+        "Music Educators Directory",
+        "Band Directors' Who's Who"
+      ],
+      "tags": ["recognition", "publications", "1931"]
+    },
+    {
+      "id": 48,
+      "questionVersions": [
+        "In what publication did Bohumil Makovsky appear in 1935?",
+        "What directory listed Bohumil Makovsky in 1935?",
+        "Bohumil Makovsky was included in what publication from 1935?",
+        "What directory featured Boh in 1935?",
+        "Dr. Makovsky appeared in what publication in 1935?"
+      ],
+      "correctAnswer": "Who Is Who in Oklahoma",
+      "wrongAnswers": [
+        "Who Is Who in America",
+        "Who Is Who in the South",
+        "Notable Oklahomans",
+        "Oklahoma Biographies",
+        "Directory of Oklahoma Leaders",
+        "American Who's Who"
+      ],
+      "tags": ["recognition", "publications", "oklahoma"]
+    },
+    {
+      "id": 49,
+      "questionVersions": [
+        "What are the five purposes of Kappa Kappa Psi?",
+        "What does Kappa Kappa Psi strive to accomplish with its five purposes?",
+        "How many purposes guide Kappa Kappa Psi's operations?",
+        "What foundational principles are outlined in Kappa Kappa Psi's purposes?",
+        "How many core purposes does Kappa Kappa Psi have?"
+      ],
+      "correctAnswer": "Five",
+      "wrongAnswers": [
+        "Three",
+        "Four",
+        "Six",
+        "Seven",
+        "Eight",
+        "Two"
+      ],
+      "tags": ["kappa-kappa-psi", "founding", "purposes"]
+    },
+    {
+      "id": 50,
+      "questionVersions": [
+        "What character qualities defined Bohumil Makovsky according to the Fraternal Code of Conduct?",
+        "Which virtues are attributed to Bohumil Makovsky in KKPsi?",
+        "What values did Bohumil Makovsky exemplify?",
+        "According to the Code of Conduct, Boh embodied what qualities?",
+        "Which character traits did Bohumil Makovsky demonstrate?"
+      ],
+      "correctAnswer": "Honor, Integrity, Respect, and Loyalty",
+      "wrongAnswers": [
+        "Strength, Courage, Wisdom, and Justice",
+        "Excellence, Innovation, Service, and Unity",
+        "Leadership, Vision, Dedication, and Excellence",
+        "Honesty, Courage, Compassion, and Humility",
+        "Discipline, Knowledge, Character, and Achievement",
+        "Commitment, Reliability, Honesty, and Growth"
+      ],
+      "tags": ["kappa-kappa-psi", "values", "code-of-conduct"]
+    }
+  ]
+}
