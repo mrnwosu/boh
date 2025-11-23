@@ -113,6 +113,7 @@
 | Makovsky Concert Band formed | 1912 | 34 | - |
 | Director of Bands at OAMC | 1915 | 37 | Fall 1915 |
 | International Who's Who listing | 1918 | 40 | - |
+| Kappa Kappa Psi Founding | 1919 | 41 | November 27, 1919 |
 | U.S. Citizenship | 1921 | 43 | May 1921 |
 | First KKPsi National Honorary Member | 1922 | 44 | January 2, 1922 |
 | Honorary Major, OAMC ROTC | 1922 | 44 | - |
