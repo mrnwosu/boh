@@ -104,28 +104,28 @@
 
 ## Key Titles & Achievements Summary
 
-| Title/Achievement | Year |
-|---|---|
-| Born | 1878 |
-| Mother's death | 1890 |
-| Immigration to U.S. | 1895 |
-| Marriage | 1911 |
-| Makovsky Concert Band formed | 1912 |
-| Director of Bands at OAMC | 1915 |
-| International Who's Who listing | 1918 |
-| U.S. Citizenship | 1921 |
-| First KKPsi National Honorary Member | 1922 |
-| Honorary Major, OAMC ROTC | 1922 |
-| Redskin Yearbook dedicated to him | 1922 |
-| Grand President, KKPsi | 1926-1927 |
-| Musical Who's Who listing | 1931 |
-| Who Is Who in Oklahoma | 1935 |
-| Oklahoma Hall of Fame | 1939 |
-| Honorary Doctor of Music | 1940 |
-| Wife Georgia's death | 1940 |
-| Retirement from OAMC | 1945 |
-| Death | 1950 |
-| KKPsi Memorial Award established | 1979 |
+| Title/Achievement | Year | Actual Date |
+|---|---|---|
+| Born | 1878 | September 23, 1878 |
+| Mother's death | 1890 | - |
+| Immigration to U.S. | 1895 | - |
+| Marriage | 1911 | August 2, 1911 |
+| Makovsky Concert Band formed | 1912 | - |
+| Director of Bands at OAMC | 1915 | Fall 1915 |
+| International Who's Who listing | 1918 | - |
+| U.S. Citizenship | 1921 | May 1921 |
+| First KKPsi National Honorary Member | 1922 | January 2, 1922 |
+| Honorary Major, OAMC ROTC | 1922 | - |
+| Redskin Yearbook dedicated to him | 1922 | - |
+| Grand President, KKPsi | 1926-1927 | December 1926 |
+| Musical Who's Who listing | 1931 | - |
+| Who Is Who in Oklahoma | 1935 | - |
+| Oklahoma Hall of Fame | 1939 | - |
+| Honorary Doctor of Music | 1940 | - |
+| Wife Georgia's death | 1940 | April 9, 1940 |
+| Retirement from OAMC | 1945 | - |
+| Death | 1950 | June 12, 1950 |
+| KKPsi Memorial Award established | 1979 | - |
 
 ---
 
