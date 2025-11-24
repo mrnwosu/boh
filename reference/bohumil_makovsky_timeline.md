@@ -15,17 +15,26 @@
 
 ## Settlement & Early Career in America (1895-1910)
 
+### 1895
+**First Job in America** - Settles in Clarkson, Nebraska with his sister Anna and finds employment rolling cigars in a shop owned by a local cigar maker.
+
 ### Mid-1890s (c. 1895-1896)
-**Joins Edward Reno's Traveling Wagon Show** - Shortly after settling in Clarkson, Nebraska with his sister Anna, Boh finds work rolling cigars in a local shop. When magician Edward Reno's traveling wagon show comes through town, Reno hires Boh as a clarinet player at $6 per week, marking the beginning of his career as a professional musician in the United States.
+**First Professional Music Job: Edward Reno's Traveling Wagon Show** - When magician Edward Reno's traveling wagon show comes through Clarkson, Reno hires Boh as a clarinet player at $6 per week, marking the beginning of his career as a professional musician in the United States.
 
 ### 1895-1900
 **Early Years in Nebraska and Oklahoma** - Takes on various jobs including farm work and musical performances. Supplements income through manual labor while establishing himself as a musician.
 
+### c. 1900
+**First Band Formed** - Forms his own band at the turn of the century after several years as a sideman in various organizations. Contracts to bring the group to Oklahoma in 1902, but the venture fails when a carnival in Davis, Oklahoma refuses to pay. Feeling obligated to the band members, Boh pays them out of his own pocket before disbanding, leaving him broke.
+
 ### Early 1900s
-**Oklahoma City Years Begin** - Returns to Oklahoma City, teaching private music lessons and performing with local theater orchestras. Begins working with town bands in Bohemian settlements.
+**Oklahoma City Years Begin** - After the failed band venture, makes his way to Oklahoma City. Fills his days teaching private music lessons in the morning, playing in a theater in the afternoons, and directing his own concert band and orchestra at the newly opened Delmar Gardens at night.
 
 ### 1907-1908
 **Band Director for Multiple Communities** - Organizes and directs bands in Mustang, Yukon, Prague, and Shawnee, Oklahoma before turning them over to local directors.
+
+### July 18, 1908
+**First Composition Premiered: "King of Oklahoma March"** - Boh's first march is premiered with the Commercial Club Band, a group he founded earlier that year on an eight-month contract with local businessmen.
 
 ### August 2, 1911
 **Marriage** to Georgia Shestack (also of Bohemian descent), whom he met while visiting his family in Nebraska. Georgia becomes an important source of encouragement throughout his life.
