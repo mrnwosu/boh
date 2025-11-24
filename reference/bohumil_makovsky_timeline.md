@@ -52,6 +52,9 @@
 ### Fall 1915
 **Joins Oklahoma Agricultural and Mechanical College (OAMC)** - Appointed Director of Bands and Head of the Music Department following the sudden illness and death of Joseph Watson. Works under new college president J. W. Cantwell, who advocates a new attitude toward music education.
 
+### 1915-1945 (Throughout OAMC tenure)
+**Rehearsal Discipline and Standards** - Establishes strict expectations for band members including mandatory attendance and punctuality. Known for his "immaculate" rehearsal technique, often working difficult passages repeatedly until achieving maximum perfection. Emphasizes tone and balance throughout the ensemble, stressing the second and third parts for dark coloring to achieve a truly symphonic sound. Employs exotic instruments (his "animals") including heckelphones, E♭ soprano clarinets, and bass saxophones to add richness to the music. Members are expected to arrive prepared with parts studied, show respect by not talking during rehearsals, and maintain a business-like attitude.
+
 ### 1918
 **International Recognition** - Listed in the International Who's Who, marking his rising prominence as an educator and musician.
 
