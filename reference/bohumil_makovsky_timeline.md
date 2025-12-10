@@ -15,6 +15,9 @@
 
 ## Settlement & Early Career in America (1895-1910)
 
+### Mid-1890s (c. 1895-1896)
+**Joins Edward Reno's Traveling Wagon Show** - Shortly after settling in Clarkson, Nebraska with his sister Anna, Boh finds work rolling cigars in a local shop. When magician Edward Reno's traveling wagon show comes through town, Reno hires Boh as a clarinet player at $6 per week, marking the beginning of his career as a professional musician in the United States.
+
 ### 1895-1900
 **Early Years in Nebraska and Oklahoma** - Takes on various jobs including farm work and musical performances. Supplements income through manual labor while establishing himself as a musician.
 
