@@ -1,7 +1,7 @@
 {
   "gameTitle": "Kappa Kappa Psi Founding Fathers Trivia Challenge",
   "description": "A comprehensive trivia game about the 10 Founding Fathers of Kappa Kappa Psi",
-  "totalQuestions": 50,
+  "totalQuestions": 75,
   "questions": [
     {
       "id": 1,
@@ -1002,6 +1002,506 @@
         "1924"
       ],
       "tags": ["hendrickson", "personal", "graduation"]
+    },
+    {
+      "id": 51,
+      "questionVersions": [
+        "When was the first National Convention of Kappa Kappa Psi held?",
+        "What date was the first National Convention?",
+        "When did KKPsi hold its first National Convention?",
+        "What was the date of the first convention?",
+        "When was the inaugural National Convention?"
+      ],
+      "correctAnswer": "January 2, 1922",
+      "wrongAnswers": [
+        "November 27, 1919",
+        "January 2, 1920",
+        "December 1, 1921",
+        "November 27, 1921",
+        "January 15, 1922",
+        "February 2, 1922"
+      ],
+      "tags": ["history", "convention", "timeline"]
+    },
+    {
+      "id": 52,
+      "questionVersions": [
+        "Where was the first National Convention held?",
+        "What location hosted the first National Convention?",
+        "Where did the first National Convention take place?",
+        "What city held the inaugural convention?",
+        "Where was the first KKPsi convention?"
+      ],
+      "correctAnswer": "Oklahoma A&M College in Stillwater",
+      "wrongAnswers": [
+        "University of Oklahoma in Norman",
+        "Oklahoma City",
+        "Tulsa University",
+        "Kansas State University",
+        "University of Kansas",
+        "Texas A&M"
+      ],
+      "tags": ["history", "convention", "location"]
+    },
+    {
+      "id": 53,
+      "questionVersions": [
+        "What honor did A. Frank Martin receive in 1931?",
+        "In what publication was A. Frank Martin listed in 1931?",
+        "What recognition did Martin receive in 1931?",
+        "A. Frank Martin appeared in what directory in 1931?",
+        "What publication featured A. Frank Martin in 1931?"
+      ],
+      "correctAnswer": "Pierre Key's Musical Who's Who",
+      "wrongAnswers": [
+        "International Who's Who",
+        "American Who's Who",
+        "Who's Who in America",
+        "Who's Who in Oklahoma",
+        "American Musicians Directory",
+        "Music Educators' Directory"
+      ],
+      "tags": ["martin", "honors", "recognition"]
+    },
+    {
+      "id": 54,
+      "questionVersions": [
+        "What university awarded A. Frank Martin an honorary doctorate?",
+        "Where did A. Frank Martin receive his honorary degree?",
+        "Which institution gave Martin an honorary Doctor of Music?",
+        "A. Frank Martin's honorary doctorate was from which university?",
+        "What school honored Martin with a doctorate?"
+      ],
+      "correctAnswer": "University of Tulsa",
+      "wrongAnswers": [
+        "University of Oklahoma",
+        "Oklahoma State University",
+        "University of Kansas",
+        "Oklahoma City University",
+        "Tulsa State University",
+        "Southern Methodist University"
+      ],
+      "tags": ["martin", "honors", "education"]
+    },
+    {
+      "id": 55,
+      "questionVersions": [
+        "What was A. Frank Martin's first national position?",
+        "What was Martin's first Grand President term?",
+        "When did A. Frank Martin first serve as Grand President?",
+        "What years was Martin's first term?",
+        "When did Martin begin as Grand President?"
+      ],
+      "correctAnswer": "First Grand President (1919-1922)",
+      "wrongAnswers": [
+        "Second Grand President (1922-1925)",
+        "Third Grand President (1925-1927)",
+        "National Secretary (1919-1922)",
+        "National Treasurer (1919-1922)",
+        "Vice President (1919-1920)",
+        "National Editor (1919-1922)"
+      ],
+      "tags": ["martin", "leadership", "positions"]
+    },
+    {
+      "id": 56,
+      "questionVersions": [
+        "When did A. Frank Martin become National Executive Secretary?",
+        "What year did Martin start as National Executive Secretary?",
+        "A. Frank Martin was Third Executive Secretary starting when?",
+        "When did Martin begin his Executive Secretary role?",
+        "What year saw Martin elected as Executive Secretary?"
+      ],
+      "correctAnswer": "1939",
+      "wrongAnswers": [
+        "1935",
+        "1940",
+        "1945",
+        "1930",
+        "1922",
+        "1950"
+      ],
+      "tags": ["martin", "leadership", "positions"]
+    },
+    {
+      "id": 57,
+      "questionVersions": [
+        "When did A. Frank Martin retire from Oklahoma State University?",
+        "What year did Martin retire from OSU?",
+        "When did A. Frank Martin become full-time National Executive Secretary?",
+        "What year did Martin leave Oklahoma State?",
+        "When did Martin retire from the university?"
+      ],
+      "correctAnswer": "1955",
+      "wrongAnswers": [
+        "1950",
+        "1960",
+        "1964",
+        "1945",
+        "1952",
+        "1958"
+      ],
+      "tags": ["martin", "career", "timeline"]
+    },
+    {
+      "id": 58,
+      "questionVersions": [
+        "How long did A. Frank Martin serve as National Executive Secretary?",
+        "What was the length of Martin's Executive Secretary term?",
+        "How many years was Martin the Executive Secretary?",
+        "What was the duration of Martin's Executive Secretary service?",
+        "How long did Martin hold the Executive Secretary position?"
+      ],
+      "correctAnswer": "25 years (1939-1964)",
+      "wrongAnswers": [
+        "20 years",
+        "30 years",
+        "15 years",
+        "35 years",
+        "10 years",
+        "40 years"
+      ],
+      "tags": ["martin", "leadership", "timeline"]
+    },
+    {
+      "id": 59,
+      "questionVersions": [
+        "What positions did William Coppedge hold in college?",
+        "What roles did Coppedge have at Oklahoma A&M?",
+        "What activities was William Coppedge involved in?",
+        "What positions did Coppedge hold besides fraternity roles?",
+        "What was William Coppedge's involvement at school?"
+      ],
+      "correctAnswer": "Class Treasurer, Band Treasurer, yearbook staff, baseball player",
+      "wrongAnswers": [
+        "Student body president and football player",
+        "Newspaper editor and track athlete",
+        "Debate team and choir member",
+        "Orchestra conductor and tennis player",
+        "Drama club and swimming team",
+        "Math club and basketball player"
+      ],
+      "tags": ["coppedge", "activities", "college"]
+    },
+    {
+      "id": 60,
+      "questionVersions": [
+        "What military service did William Coppedge have?",
+        "Which branch did Coppedge serve in during WWI?",
+        "What was William Coppedge's WWI service?",
+        "Where did Coppedge serve in World War I?",
+        "What military experience did Coppedge have?"
+      ],
+      "correctAnswer": "Navy band in New Orleans",
+      "wrongAnswers": [
+        "Army band in France",
+        "Marines band in Washington",
+        "Coast Guard in California",
+        "Air Force in Texas",
+        "Army in Germany",
+        "Navy in San Diego"
+      ],
+      "tags": ["coppedge", "military", "wwi"]
+    },
+    {
+      "id": 61,
+      "questionVersions": [
+        "Who else from KKPsi served in the same Navy band as Coppedge?",
+        "Which founding father served with Coppedge in New Orleans?",
+        "Who was Coppedge's bandmate in the Navy?",
+        "What other founder was in the Navy band with Coppedge?",
+        "Who served alongside Coppedge in WWI?"
+      ],
+      "correctAnswer": "A. Frank Martin",
+      "wrongAnswers": [
+        "William Scroggs",
+        "Raymond Shannon",
+        "Clayton Soule",
+        "Clyde Haston",
+        "Dick Hurst",
+        "George Hendrickson"
+      ],
+      "tags": ["coppedge", "martin", "military"]
+    },
+    {
+      "id": 62,
+      "questionVersions": [
+        "What did William Coppedge say about the Fraternity?",
+        "What quote is attributed to William Coppedge?",
+        "What was Coppedge's famous saying about KKPsi?",
+        "How did Coppedge describe the Fraternity?",
+        "What was Coppedge known to have said?"
+      ],
+      "correctAnswer": "The Fraternity was the 'Heart of the Band'",
+      "wrongAnswers": [
+        "The Fraternity was the 'Soul of Music'",
+        "The Fraternity was the 'Spirit of Brotherhood'",
+        "The Fraternity was the 'Foundation of Excellence'",
+        "The Fraternity was the 'Pride of Musicians'",
+        "The Fraternity was the 'Future of Bands'",
+        "The Fraternity was the 'Core of Service'"
+      ],
+      "tags": ["coppedge", "quotes", "philosophy"]
+    },
+    {
+      "id": 63,
+      "questionVersions": [
+        "Where did William Coppedge work after college?",
+        "What institution did Coppedge work for in retirement?",
+        "Where was William Coppedge employed later in life?",
+        "What university staff was Coppedge a member of?",
+        "Where did Coppedge relocate to work?"
+      ],
+      "correctAnswer": "Auburn University",
+      "wrongAnswers": [
+        "University of Alabama",
+        "Oklahoma State University",
+        "University of Oklahoma",
+        "Alabama State University",
+        "University of Mississippi",
+        "Louisiana State University"
+      ],
+      "tags": ["coppedge", "career", "relocation"]
+    },
+    {
+      "id": 64,
+      "questionVersions": [
+        "What committee was George Asher Hendrickson on?",
+        "Which committee did Hendrickson serve on with Coppedge and Martin?",
+        "What was George Hendrickson's committee assignment?",
+        "Which founding committee included Hendrickson?",
+        "What committee work did Hendrickson do?"
+      ],
+      "correctAnswer": "Degree Oaths committee",
+      "wrongAnswers": [
+        "Badge Design committee",
+        "Constitution committee",
+        "Ritual committee",
+        "Bylaws committee",
+        "Finance committee",
+        "Membership committee"
+      ],
+      "tags": ["hendrickson", "committees", "founding"]
+    },
+    {
+      "id": 65,
+      "questionVersions": [
+        "What 1960 event did George Hendrickson attend?",
+        "What special event was Hendrickson present at in 1960?",
+        "Where was George Hendrickson on March 26, 1960?",
+        "What dedication did Hendrickson attend?",
+        "What ceremony was Hendrickson present for?"
+      ],
+      "correctAnswer": "National Shrine dedication",
+      "wrongAnswers": [
+        "50th Anniversary Convention",
+        "Bohumil Makovsky Memorial unveiling",
+        "Alpha Chapter rededication",
+        "National Headquarters opening",
+        "Museum dedication",
+        "Founder's Hall opening"
+      ],
+      "tags": ["hendrickson", "events", "shrine"]
+    },
+    {
+      "id": 66,
+      "questionVersions": [
+        "What was George Asher Hendrickson's major?",
+        "What did George Hendrickson study?",
+        "What field did Hendrickson pursue?",
+        "What was Hendrickson's area of study?",
+        "What degree program was Hendrickson in?"
+      ],
+      "correctAnswer": "Electrical Engineering",
+      "wrongAnswers": [
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Agricultural Engineering",
+        "Industrial Engineering",
+        "Music Education"
+      ],
+      "tags": ["hendrickson", "education", "major"]
+    },
+    {
+      "id": 67,
+      "questionVersions": [
+        "What was George Asher Hendrickson's hometown?",
+        "Where was George Hendrickson from?",
+        "What was Hendrickson's home city?",
+        "Which Oklahoma town was Hendrickson from?",
+        "What was George Hendrickson's birthplace?"
+      ],
+      "correctAnswer": "Boyton, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Muskogee, Oklahoma",
+        "Tahlequah, Oklahoma"
+      ],
+      "tags": ["hendrickson", "personal", "hometown"]
+    },
+    {
+      "id": 68,
+      "questionVersions": [
+        "What instrument did George Asher Hendrickson play?",
+        "What was Hendrickson's instrument?",
+        "Which instrument did George Hendrickson perform on?",
+        "What was Hendrickson's musical specialty?",
+        "What did George Hendrickson play in band?"
+      ],
+      "correctAnswer": "Clarinet",
+      "wrongAnswers": [
+        "Cornet",
+        "Saxophone",
+        "Flute",
+        "Oboe",
+        "Bassoon",
+        "French Horn"
+      ],
+      "tags": ["hendrickson", "music", "instrument"]
+    },
+    {
+      "id": 69,
+      "questionVersions": [
+        "How many founding fathers played cornet?",
+        "How many charter members were cornet players?",
+        "What number of founders played cornet?",
+        "How many cornet players were among the founding fathers?",
+        "What was the count of cornet players in the founding group?"
+      ],
+      "correctAnswer": "4 (Scroggs, Shannon, Haston, Hurst)",
+      "wrongAnswers": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "1",
+        "7"
+      ],
+      "tags": ["music", "instruments", "statistics"]
+    },
+    {
+      "id": 70,
+      "questionVersions": [
+        "What role did Clyde Haston serve as nationally?",
+        "What was Clyde Haston's first national officer position?",
+        "What national office did Haston hold?",
+        "What was Haston's position in national officers?",
+        "What role did Haston have nationally?"
+      ],
+      "correctAnswer": "Second Vice President",
+      "wrongAnswers": [
+        "First Vice President",
+        "Grand President",
+        "Secretary",
+        "Treasurer",
+        "National Editor",
+        "Sergeant of Arms"
+      ],
+      "tags": ["haston", "leadership", "positions"]
+    },
+    {
+      "id": 71,
+      "questionVersions": [
+        "Who was the National Treasurer in the first national officers?",
+        "Which founding father served as first National Treasurer?",
+        "What was Carl A. Stevens' national position?",
+        "Who held the Treasurer position nationally?",
+        "Which founder was the first National Treasurer?"
+      ],
+      "correctAnswer": "Carl A. Stevens",
+      "wrongAnswers": [
+        "Clayton E. Soule",
+        "William H. Coppedge",
+        "A. Frank Martin",
+        "William Scroggs",
+        "Raymond Shannon",
+        "Clyde Haston"
+      ],
+      "tags": ["stevens", "leadership", "positions"]
+    },
+    {
+      "id": 72,
+      "questionVersions": [
+        "What significant date coincides with William Scroggs' birthday?",
+        "When is William Scroggs' birthday?",
+        "What date is both Scroggs' birthday and charter day?",
+        "When was William Scroggs born?",
+        "What date is doubly significant for Scroggs?"
+      ],
+      "correctAnswer": "November 27 (same as KKPsi charter date)",
+      "wrongAnswers": [
+        "January 2",
+        "December 1",
+        "November 20",
+        "October 27",
+        "November 15",
+        "December 25"
+      ],
+      "tags": ["scroggs", "birthday", "charter"]
+    },
+    {
+      "id": 73,
+      "questionVersions": [
+        "What event happened in Fall 1919 before the charter?",
+        "What was the secret conference in Fall 1919?",
+        "Who selected the ten charter members?",
+        "What meeting selected the founding fathers?",
+        "Who was involved in selecting charter members?"
+      ],
+      "correctAnswer": "Scroggs, Martin, and Makovsky held secret conference",
+      "wrongAnswers": [
+        "Public announcement of the fraternity",
+        "First band performance",
+        "Oklahoma A&M approved the fraternity",
+        "Badge design was finalized",
+        "Constitution was written",
+        "First initiation ceremony"
+      ],
+      "tags": ["founding", "history", "timeline"]
+    },
+    {
+      "id": 74,
+      "questionVersions": [
+        "What did the 1922 OAMC Redskin Yearbook do for Makovsky?",
+        "How did the yearbook honor Bohumil Makovsky?",
+        "What recognition did the 1922 yearbook give?",
+        "What honor did the Redskin yearbook bestow?",
+        "How was Makovsky recognized in 1922?"
+      ],
+      "correctAnswer": "Dedicated to Bohumil Makovsky",
+      "wrongAnswers": [
+        "Named him Man of the Year",
+        "Featured him on the cover",
+        "Gave him a special award",
+        "Made him honorary editor",
+        "Created a scholarship in his name",
+        "Named a building after him"
+      ],
+      "tags": ["makovsky", "honors", "recognition"]
+    },
+    {
+      "id": 75,
+      "questionVersions": [
+        "What A. Frank Martin award was established in 1984?",
+        "What award honors A. Frank Martin's legacy?",
+        "What is the A. Frank Martin Award?",
+        "When was the Martin Award established?",
+        "What award commemorates A. Frank Martin?"
+      ],
+      "correctAnswer": "A. Frank Martin Award (January 1984)",
+      "wrongAnswers": [
+        "Martin Excellence Award",
+        "Grand President's Award",
+        "Martin Scholarship",
+        "Ritual Author Award",
+        "Martin Leadership Trophy",
+        "First President Award"
+      ],
+      "tags": ["martin", "awards", "legacy"]
     }
   ]
 }

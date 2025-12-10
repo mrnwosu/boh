@@ -1,7 +1,7 @@
 {
   "gameTitle": "Bohumil Makovsky Trivia Challenge",
   "description": "A comprehensive trivia game about Dr. Bohumil Makovsky, the Guiding Spirit of Kappa Kappa Psi",
-  "totalQuestions": 50,
+  "totalQuestions": 75,
   "questions": [
     {
       "id": 1,
@@ -1002,6 +1002,506 @@
         "Commitment, Reliability, Honesty, and Growth"
       ],
       "tags": ["kappa-kappa-psi", "values", "code-of-conduct"]
+    },
+    {
+      "id": 51,
+      "questionVersions": [
+        "Who helped Bohumil Makovsky immigrate to America?",
+        "Which family member assisted Boh's immigration?",
+        "Who had settled in Nebraska before Bohumil arrived?",
+        "What sister helped Bohumil Makovsky come to America?",
+        "Who was Anna Brdicka to Bohumil Makovsky?"
+      ],
+      "correctAnswer": "His older sister Anna Brdicka",
+      "wrongAnswers": [
+        "His younger sister Maria",
+        "His aunt Anna",
+        "His cousin Anna",
+        "His brother Josef",
+        "His uncle Tomas",
+        "His mother Anna"
+      ],
+      "tags": ["biography", "family", "immigration"]
+    },
+    {
+      "id": 52,
+      "questionVersions": [
+        "What town in Nebraska did Bohumil's sister settle in?",
+        "Where in Nebraska did Anna Brdicka live?",
+        "What Nebraska town was Bohumil's first destination?",
+        "Where did Bohumil first arrive in America?",
+        "What Nebraska community did he initially settle in?"
+      ],
+      "correctAnswer": "Clarkson, Nebraska",
+      "wrongAnswers": [
+        "Lincoln, Nebraska",
+        "Omaha, Nebraska",
+        "Grand Island, Nebraska",
+        "Hastings, Nebraska",
+        "Kearney, Nebraska",
+        "Norfolk, Nebraska"
+      ],
+      "tags": ["biography", "immigration", "nebraska"]
+    },
+    {
+      "id": 53,
+      "questionVersions": [
+        "How long was Bohumil's voyage to America?",
+        "How many days did the immigration voyage take?",
+        "What was the duration of Boh's journey to the U.S.?",
+        "How long was the ship voyage from Bohemia?",
+        "What was the length of Makovsky's ocean crossing?"
+      ],
+      "correctAnswer": "Four days",
+      "wrongAnswers": [
+        "Three days",
+        "Five days",
+        "One week",
+        "Two weeks",
+        "Six days",
+        "Ten days"
+      ],
+      "tags": ["biography", "immigration", "travel"]
+    },
+    {
+      "id": 54,
+      "questionVersions": [
+        "What class did Bohumil travel in on his voyage?",
+        "How did Bohumil travel to America?",
+        "What accommodations did Boh have on the ship?",
+        "In what section of the ship did Makovsky travel?",
+        "What type of passage did Bohumil have?"
+      ],
+      "correctAnswer": "Steerage (lowest class)",
+      "wrongAnswers": [
+        "First class",
+        "Second class",
+        "Third class",
+        "Cabin class",
+        "Tourist class",
+        "Premium class"
+      ],
+      "tags": ["biography", "immigration", "hardship"]
+    },
+    {
+      "id": 55,
+      "questionVersions": [
+        "Who was Bohumil's first music teacher?",
+        "Which uncle taught Bohumil music?",
+        "Who taught Boh clarinet and violin?",
+        "What relative was a royal music instructor?",
+        "Who was Tomas Makovsky to Bohumil?"
+      ],
+      "correctAnswer": "Uncle Tomas Makovsky (former royal music instructor)",
+      "wrongAnswers": [
+        "Uncle Josef Makovsky",
+        "Father Vaclav Makovsky",
+        "Uncle František Makovsky",
+        "Brother Anton Makovsky",
+        "Cousin Karel Makovsky",
+        "Uncle Ludwig Makovsky"
+      ],
+      "tags": ["biography", "music-education", "family"]
+    },
+    {
+      "id": 56,
+      "questionVersions": [
+        "What Oklahoma towns did Bohumil organize bands in?",
+        "Which Bohemian settlements had Makovsky bands?",
+        "Where did Boh establish town bands?",
+        "What communities did Makovsky organize bands for?",
+        "Which Oklahoma towns had bands directed by Makovsky?"
+      ],
+      "correctAnswer": "Mustang, Yukon, Prague, and Shawnee",
+      "wrongAnswers": [
+        "Norman, Moore, and Edmond",
+        "Tulsa, Broken Arrow, and Bixby",
+        "Stillwater, Perkins, and Cushing",
+        "Oklahoma City, Midwest City, and Del City",
+        "Enid, Woodward, and Alva",
+        "Lawton, Duncan, and Ardmore"
+      ],
+      "tags": ["career", "oklahoma", "bands"]
+    },
+    {
+      "id": 57,
+      "questionVersions": [
+        "How many years did Bohumil conduct at the Oklahoma State Fair?",
+        "What was the duration of Makovsky's State Fair tenure?",
+        "How long did Boh's State Fair association last?",
+        "For how many years did Makovsky perform at the fair?",
+        "What was the length of his State Fair career?"
+      ],
+      "correctAnswer": "12 years",
+      "wrongAnswers": [
+        "10 years",
+        "15 years",
+        "8 years",
+        "20 years",
+        "5 years",
+        "7 years"
+      ],
+      "tags": ["career", "oklahoma", "state-fair"]
+    },
+    {
+      "id": 58,
+      "questionVersions": [
+        "What band did Bohumil conduct at the State Fair?",
+        "Which ensemble did Makovsky lead at the fair?",
+        "What was the name of Boh's State Fair band?",
+        "Which band performed at the Oklahoma State Fair?",
+        "What ensemble did Makovsky direct for the fair?"
+      ],
+      "correctAnswer": "Oklahoma City Metropolitan Band",
+      "wrongAnswers": [
+        "Oklahoma State Band",
+        "Oklahoma City Municipal Band",
+        "Stillwater Concert Band",
+        "State Fair Orchestra",
+        "Oklahoma Symphony Band",
+        "Metropolitan Symphony"
+      ],
+      "tags": ["career", "oklahoma", "bands"]
+    },
+    {
+      "id": 59,
+      "questionVersions": [
+        "When did Bohumil's State Fair tenure begin?",
+        "What year did Makovsky start at the Oklahoma State Fair?",
+        "When did Boh begin conducting at the fair?",
+        "What was the starting year of his State Fair work?",
+        "When did his fair association begin?"
+      ],
+      "correctAnswer": "1910",
+      "wrongAnswers": [
+        "1908",
+        "1912",
+        "1915",
+        "1905",
+        "1907",
+        "1913"
+      ],
+      "tags": ["career", "oklahoma", "timeline"]
+    },
+    {
+      "id": 60,
+      "questionVersions": [
+        "What unusual fact is mentioned about State Fair concerts?",
+        "How many concerts did Makovsky perform during the fair?",
+        "What was special about the State Fair performances?",
+        "How often did programs repeat at the State Fair?",
+        "What was notable about the State Fair repertoire?"
+      ],
+      "correctAnswer": "Approximately 10 concerts with rarely repeated programs",
+      "wrongAnswers": [
+        "5 concerts with repeated programs",
+        "15 concerts all different",
+        "20 concerts with same program",
+        "3 concerts repeated weekly",
+        "Daily concerts for 30 days",
+        "One concert per week"
+      ],
+      "tags": ["career", "oklahoma", "performance"]
+    },
+    {
+      "id": 61,
+      "questionVersions": [
+        "Who was the OAMC president when Makovsky was hired?",
+        "Which college president hired Bohumil Makovsky?",
+        "Who advocated for music at OAMC in 1915?",
+        "What president supported Makovsky's appointment?",
+        "Who was president at Oklahoma A&M in 1915?"
+      ],
+      "correctAnswer": "J. W. Cantwell",
+      "wrongAnswers": [
+        "Robert Williams",
+        "James Smith",
+        "William Bennett",
+        "Henry Iba",
+        "George Wilson",
+        "John Thompson"
+      ],
+      "tags": ["career", "oamc", "administration"]
+    },
+    {
+      "id": 62,
+      "questionVersions": [
+        "Who did Bohumil Makovsky replace at OAMC?",
+        "What happened to the previous band director?",
+        "Who was the director before Makovsky?",
+        "Why was there an opening at OAMC?",
+        "What director's illness created the position?"
+      ],
+      "correctAnswer": "Joseph Watson (sudden illness and death)",
+      "wrongAnswers": [
+        "William Johnson (retirement)",
+        "Robert Smith (transferred)",
+        "James Brown (resigned)",
+        "Thomas Anderson (dismissed)",
+        "Charles Miller (promotion)",
+        "Henry Davis (moved)"
+      ],
+      "tags": ["career", "oamc", "history"]
+    },
+    {
+      "id": 63,
+      "questionVersions": [
+        "What happened to Bohumil's father?",
+        "When did Bohumil's father die?",
+        "What was unusual about Boh's father?",
+        "What family tragedy occurred before Boh's birth?",
+        "What happened to Vaclav Makovsky?"
+      ],
+      "correctAnswer": "Died before Bohumil was born",
+      "wrongAnswers": [
+        "Died when Bohumil was 5",
+        "Died when Bohumil was 10",
+        "Died when Bohumil was in America",
+        "Died in World War I",
+        "Lived to see Bohumil's success",
+        "Died when Bohumil was 12"
+      ],
+      "tags": ["biography", "family", "tragedy"]
+    },
+    {
+      "id": 64,
+      "questionVersions": [
+        "What happened to the family estate after Boh's mother died?",
+        "Who inherited the family property?",
+        "What became of the Makovsky estate?",
+        "Who took over after Anna Makovsky died?",
+        "What happened to the family home?"
+      ],
+      "correctAnswer": "Inherited by Bohumil's older brother",
+      "wrongAnswers": [
+        "Sold to pay debts",
+        "Given to the church",
+        "Inherited by Anna Brdicka",
+        "Taken by the government",
+        "Left to Uncle Tomas",
+        "Divided among all siblings"
+      ],
+      "tags": ["biography", "family", "estate"]
+    },
+    {
+      "id": 65,
+      "questionVersions": [
+        "Where did Bohumil work as superintendent of schools?",
+        "What Oklahoma town had Makovsky as school superintendent?",
+        "Where was Boh a school administrator?",
+        "What town had Makovsky as superintendent?",
+        "Where did Bohumil serve in education administration?"
+      ],
+      "correctAnswer": "Yale, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Prague, Oklahoma",
+        "Shawnee, Oklahoma"
+      ],
+      "tags": ["career", "education", "administration"]
+    },
+    {
+      "id": 66,
+      "questionVersions": [
+        "Where did Bohumil serve as superintendent of a training school?",
+        "What Boys Training School had Makovsky as superintendent?",
+        "Where was Boh superintendent of a boys' school?",
+        "What Oklahoma town had a training school led by Makovsky?",
+        "Where did Makovsky work with boys?"
+      ],
+      "correctAnswer": "Pauls Valley, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Yale, Oklahoma",
+        "Shawnee, Oklahoma"
+      ],
+      "tags": ["career", "education", "administration"]
+    },
+    {
+      "id": 67,
+      "questionVersions": [
+        "When did Bohumil return to Stillwater to work for the university?",
+        "What year did Makovsky return to Oklahoma State?",
+        "When did Boh join the president's staff?",
+        "What year did Makovsky come back to Stillwater?",
+        "When did he return to work at the university?"
+      ],
+      "correctAnswer": "1931",
+      "wrongAnswers": [
+        "1930",
+        "1935",
+        "1928",
+        "1933",
+        "1925",
+        "1940"
+      ],
+      "tags": ["career", "oamc", "timeline"]
+    },
+    {
+      "id": 68,
+      "questionVersions": [
+        "What position did Bohumil hold when he returned in 1931?",
+        "What was Makovsky's role on returning to Stillwater?",
+        "What job did Boh have in 1931?",
+        "What position did he take in 1931?",
+        "Where did Makovsky work in 1931?"
+      ],
+      "correctAnswer": "University president's staff",
+      "wrongAnswers": [
+        "Band director",
+        "Music department head",
+        "Dean of Arts",
+        "Orchestra conductor",
+        "Music professor",
+        "Athletic band director"
+      ],
+      "tags": ["career", "oamc", "administration"]
+    },
+    {
+      "id": 69,
+      "questionVersions": [
+        "What honor did Bohumil receive in 1922?",
+        "What military honor was Makovsky given?",
+        "What ROTC rank did Boh receive?",
+        "What commission was Makovsky given in 1922?",
+        "What honorary rank did he receive?"
+      ],
+      "correctAnswer": "Honorary Major in OAMC ROTC",
+      "wrongAnswers": [
+        "Honorary Colonel",
+        "Honorary Captain",
+        "Honorary Lieutenant",
+        "Honorary General",
+        "Honorary Sergeant",
+        "Honorary Commander"
+      ],
+      "tags": ["honors", "military", "1922"]
+    },
+    {
+      "id": 70,
+      "questionVersions": [
+        "What two founding fathers served in a Navy band together?",
+        "Which founders were in the same WWI band?",
+        "Who served together in New Orleans during WWI?",
+        "What founders were Navy bandmates?",
+        "Which two founders served in the Navy band?"
+      ],
+      "correctAnswer": "William Coppedge and A. Frank Martin",
+      "wrongAnswers": [
+        "William Scroggs and A. Frank Martin",
+        "Clyde Haston and William Coppedge",
+        "Raymond Shannon and Dick Hurst",
+        "William Scroggs and Raymond Shannon",
+        "Clayton Soule and George Hendrickson",
+        "A. Frank Martin and William Scroggs"
+      ],
+      "tags": ["founding-fathers", "military", "wwi"]
+    },
+    {
+      "id": 71,
+      "questionVersions": [
+        "How long did Bohumil serve at OAMC?",
+        "What was the duration of Makovsky's OAMC career?",
+        "How many years was Boh at Oklahoma A&M?",
+        "What was the length of his tenure?",
+        "How long was Makovsky Director of Bands?"
+      ],
+      "correctAnswer": "30 years (1915-1945)",
+      "wrongAnswers": [
+        "25 years",
+        "35 years",
+        "20 years",
+        "40 years",
+        "28 years",
+        "32 years"
+      ],
+      "tags": ["career", "oamc", "tenure"]
+    },
+    {
+      "id": 72,
+      "questionVersions": [
+        "At what age did Bohumil Makovsky die?",
+        "How old was Boh when he died?",
+        "What was Makovsky's age at death?",
+        "How many years did Bohumil live?",
+        "What age was he at his passing?"
+      ],
+      "correctAnswer": "71",
+      "wrongAnswers": [
+        "70",
+        "72",
+        "75",
+        "68",
+        "73",
+        "69"
+      ],
+      "tags": ["biography", "death", "age"]
+    },
+    {
+      "id": 73,
+      "questionVersions": [
+        "On what exact date did Bohumil Makovsky die?",
+        "When exactly did Boh pass away?",
+        "What was the specific date of Makovsky's death?",
+        "On what day did Bohumil die?",
+        "What is the exact death date?"
+      ],
+      "correctAnswer": "June 12, 1950",
+      "wrongAnswers": [
+        "June 15, 1950",
+        "May 12, 1950",
+        "July 12, 1950",
+        "June 12, 1945",
+        "June 10, 1950",
+        "June 20, 1950"
+      ],
+      "tags": ["biography", "death", "dates"]
+    },
+    {
+      "id": 74,
+      "questionVersions": [
+        "On what exact date did Georgia Makovsky die?",
+        "When did Boh's wife pass away?",
+        "What was the specific date of Georgia's death?",
+        "When did Mrs. Makovsky die?",
+        "What was Georgia Shestack Makovsky's death date?"
+      ],
+      "correctAnswer": "April 9, 1940",
+      "wrongAnswers": [
+        "April 10, 1940",
+        "March 9, 1940",
+        "May 9, 1940",
+        "April 9, 1939",
+        "April 15, 1940",
+        "April 1, 1940"
+      ],
+      "tags": ["biography", "family", "death"]
+    },
+    {
+      "id": 75,
+      "questionVersions": [
+        "On what exact date did Bohumil marry Georgia?",
+        "When was the Makovsky wedding?",
+        "What was the specific marriage date?",
+        "When exactly did Boh and Georgia marry?",
+        "What date was the marriage ceremony?"
+      ],
+      "correctAnswer": "August 2, 1911",
+      "wrongAnswers": [
+        "August 1, 1911",
+        "July 2, 1911",
+        "September 2, 1911",
+        "August 2, 1910",
+        "August 15, 1911",
+        "August 2, 1912"
+      ],
+      "tags": ["biography", "marriage", "dates"]
     }
   ]
 }

@@ -1,0 +1,1007 @@
+{
+  "gameTitle": "Kappa Kappa Psi Awards & Jewelry Trivia Challenge",
+  "description": "A comprehensive trivia game about Kappa Kappa Psi's awards, service projects, and official jewelry",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "questionVersions": [
+        "What is the official badge of Kappa Kappa Psi called?",
+        "What is the name of the official KKPsi badge?",
+        "What do members wear as their formal identification?",
+        "What is the formal badge of the fraternity called?",
+        "What is the official jewelry piece for KKPsi members?"
+      ],
+      "correctAnswer": "Crown Pearl Badge",
+      "wrongAnswers": [
+        "Golden Crown Badge",
+        "Pearl Crown Pin",
+        "Kappa Badge",
+        "Official Member Badge",
+        "Greek Letter Badge",
+        "Fraternity Crown"
+      ],
+      "tags": ["jewelry", "badge", "founding"]
+    },
+    {
+      "id": 2,
+      "questionVersions": [
+        "Who designed the Crown Pearl Badge?",
+        "Which three founding fathers designed the official badge?",
+        "Who were the designers of the KKPsi badge?",
+        "What founding fathers created the Crown Pearl Badge?",
+        "Who designed the official badge of Kappa Kappa Psi?"
+      ],
+      "correctAnswer": "William H. Coppedge, Clyde Haston, and Dick Hurst",
+      "wrongAnswers": [
+        "William Scroggs, A. Frank Martin, and Raymond Shannon",
+        "A. Frank Martin, Clayton Soule, and William Coppedge",
+        "William Scroggs, Clyde Haston, and William Coppedge",
+        "Dick Hurst, George Hendrickson, and Carl Stevens",
+        "A. Frank Martin and William Scroggs",
+        "Clyde Haston and William Coppedge only"
+      ],
+      "tags": ["jewelry", "badge", "founding-fathers"]
+    },
+    {
+      "id": 3,
+      "questionVersions": [
+        "When was the Crown Pearl Badge design established?",
+        "In what year was the badge designed?",
+        "The Crown Pearl Badge was created in which year?",
+        "When was the official badge of KKPsi designed?",
+        "What year was the badge committee formed?"
+      ],
+      "correctAnswer": "1919",
+      "wrongAnswers": [
+        "1920",
+        "1918",
+        "1921",
+        "1922",
+        "1917",
+        "1923"
+      ],
+      "tags": ["jewelry", "badge", "history"]
+    },
+    {
+      "id": 4,
+      "questionVersions": [
+        "Is the Crown Pearl Badge purchase mandatory for members?",
+        "Are members required to buy the official badge?",
+        "Is buying the Crown Pearl Badge required?",
+        "Do all members have to purchase the badge?",
+        "Is the badge purchase optional or required?"
+      ],
+      "correctAnswer": "Optional",
+      "wrongAnswers": [
+        "Required",
+        "Mandatory",
+        "Required after one year",
+        "Required for officers only",
+        "Required for active members",
+        "Required at initiation"
+      ],
+      "tags": ["jewelry", "badge", "policy"]
+    },
+    {
+      "id": 5,
+      "questionVersions": [
+        "What does the crown on the badge symbolize?",
+        "What is the meaning of the crown symbol?",
+        "The crown represents what qualities?",
+        "What does the crown symbolize on the Crown Pearl Badge?",
+        "What symbolic meaning does the crown have?"
+      ],
+      "correctAnswer": "Authority, honor, and leadership",
+      "wrongAnswers": [
+        "Royalty and wealth",
+        "Excellence and achievement",
+        "Power and strength",
+        "Wisdom and knowledge",
+        "Victory and success",
+        "Pride and tradition"
+      ],
+      "tags": ["jewelry", "badge", "symbolism"]
+    },
+    {
+      "id": 6,
+      "questionVersions": [
+        "What does the pearl on the badge symbolize?",
+        "What is the meaning of the pearl symbol?",
+        "The pearl represents what qualities?",
+        "What does the pearl symbolize on the Crown Pearl Badge?",
+        "What symbolic meaning does the pearl have?"
+      ],
+      "correctAnswer": "Purity, value, and beauty developed through adversity",
+      "wrongAnswers": [
+        "Wisdom and knowledge",
+        "Strength and courage",
+        "Excellence and perfection",
+        "Tradition and history",
+        "Unity and brotherhood",
+        "Honor and integrity"
+      ],
+      "tags": ["jewelry", "badge", "symbolism"]
+    },
+    {
+      "id": 7,
+      "questionVersions": [
+        "What is the Cofa?",
+        "What is the Membership Recognition Pin called?",
+        "What is an affordable alternative to the Crown Pearl Badge?",
+        "What pin serves as everyday identification?",
+        "What is the casual identification pin called?"
+      ],
+      "correctAnswer": "Membership Recognition Pin (derived from Coat of Arms)",
+      "wrongAnswers": [
+        "Crown Pin",
+        "Member Pin",
+        "KKPsi Pin",
+        "Greek Letter Pin",
+        "Fraternity Pin",
+        "Service Pin"
+      ],
+      "tags": ["jewelry", "cofa", "badge"]
+    },
+    {
+      "id": 8,
+      "questionVersions": [
+        "When was the Cofa introduced?",
+        "In what decade was the Membership Recognition Pin established?",
+        "When did the Cofa become available?",
+        "What era saw the introduction of the Cofa?",
+        "The Cofa was introduced in which time period?"
+      ],
+      "correctAnswer": "1920s",
+      "wrongAnswers": [
+        "1910s",
+        "1930s",
+        "1919",
+        "1940s",
+        "1915",
+        "1925"
+      ],
+      "tags": ["jewelry", "cofa", "history"]
+    },
+    {
+      "id": 9,
+      "questionVersions": [
+        "What does Cofa stand for?",
+        "Where does the name Cofa come from?",
+        "What is the origin of the word Cofa?",
+        "Cofa is derived from what phrase?",
+        "What does the term Cofa mean?"
+      ],
+      "correctAnswer": "Coat of Arms",
+      "wrongAnswers": [
+        "Council of Fraternal Affairs",
+        "Collegiate Fraternity Association",
+        "Certificate of Affiliation",
+        "Crown of Alpha",
+        "Collegiate Organization of Fraternity Associates",
+        "Crown Official Fraternity Award"
+      ],
+      "tags": ["jewelry", "cofa", "etymology"]
+    },
+    {
+      "id": 10,
+      "questionVersions": [
+        "What is the National Intercollegiate Band?",
+        "What does NIB stand for?",
+        "What is KKPsi's flagship service project?",
+        "What band performs at the National Convention?",
+        "What is the most prestigious ensemble project of KKPsi?"
+      ],
+      "correctAnswer": "National Intercollegiate Band",
+      "wrongAnswers": [
+        "National Institute Band",
+        "National Instrumental Band",
+        "National Independent Band",
+        "National Invitational Band",
+        "National Integration Band",
+        "National Inspirational Band"
+      ],
+      "tags": ["service-project", "nib", "bands"]
+    },
+    {
+      "id": 11,
+      "questionVersions": [
+        "When was the National Intercollegiate Band founded?",
+        "In what year was NIB established?",
+        "The National Intercollegiate Band was created in which year?",
+        "When did the NIB first perform?",
+        "What year was the National Intercollegiate Band founded?"
+      ],
+      "correctAnswer": "1947",
+      "wrongAnswers": [
+        "1945",
+        "1950",
+        "1946",
+        "1948",
+        "1949",
+        "1940"
+      ],
+      "tags": ["service-project", "nib", "history"]
+    },
+    {
+      "id": 12,
+      "questionVersions": [
+        "Who founded the National Intercollegiate Band?",
+        "Who established the NIB?",
+        "Which Grand President created the National Intercollegiate Band?",
+        "Who had the cherished idea for NIB?",
+        "What leader founded the National Intercollegiate Band?"
+      ],
+      "correctAnswer": "Dr. F. Lee Bowling",
+      "wrongAnswers": [
+        "A. Frank Martin",
+        "William Scroggs",
+        "Bohumil Makovsky",
+        "J. Lee Burke",
+        "Dr. William D. Revelli",
+        "Paul Creston"
+      ],
+      "tags": ["service-project", "nib", "founding"]
+    },
+    {
+      "id": 13,
+      "questionVersions": [
+        "What years did Dr. F. Lee Bowling serve as Grand President?",
+        "When was Dr. Bowling the Grand President?",
+        "What was Dr. F. Lee Bowling's term as Grand President?",
+        "During what period was Dr. Bowling Grand President?",
+        "When did Dr. F. Lee Bowling lead KKPsi?"
+      ],
+      "correctAnswer": "1941-1947",
+      "wrongAnswers": [
+        "1939-1945",
+        "1940-1946",
+        "1942-1948",
+        "1945-1951",
+        "1947-1953",
+        "1935-1941"
+      ],
+      "tags": ["service-project", "nib", "leadership"]
+    },
+    {
+      "id": 14,
+      "questionVersions": [
+        "How often does the National Intercollegiate Band perform?",
+        "What is the frequency of NIB performances?",
+        "How often is the National Intercollegiate Band assembled?",
+        "NIB performs at what interval?",
+        "The National Intercollegiate Band meets how often?"
+      ],
+      "correctAnswer": "Biennial (every 2 years)",
+      "wrongAnswers": [
+        "Annual",
+        "Every 4 years",
+        "Every 3 years",
+        "Triennial",
+        "Quarterly",
+        "Semi-annually"
+      ],
+      "tags": ["service-project", "nib", "schedule"]
+    },
+    {
+      "id": 15,
+      "questionVersions": [
+        "How many musicians are selected for NIB?",
+        "What is the typical size of the National Intercollegiate Band?",
+        "Approximately how many members are in NIB?",
+        "How many musicians participate in the National Intercollegiate Band?",
+        "What is the approximate membership of NIB?"
+      ],
+      "correctAnswer": "Approximately 200",
+      "wrongAnswers": [
+        "100",
+        "150",
+        "250",
+        "300",
+        "175",
+        "225"
+      ],
+      "tags": ["service-project", "nib", "membership"]
+    },
+    {
+      "id": 16,
+      "questionVersions": [
+        "Who conducted the Second NIB in 1949?",
+        "What famous conductor led the 1949 National Intercollegiate Band?",
+        "Who was the guest conductor for the Second NIB?",
+        "Which renowned director conducted the second NIB performance?",
+        "Who led the National Intercollegiate Band in 1949?"
+      ],
+      "correctAnswer": "Dr. William D. Revelli",
+      "wrongAnswers": [
+        "Dr. F. Lee Bowling",
+        "Bohumil Makovsky",
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "W. Francis McBeth",
+        "Clifton Williams"
+      ],
+      "tags": ["service-project", "nib", "conductors"]
+    },
+    {
+      "id": 17,
+      "questionVersions": [
+        "Who composed 'Songs for Band' for NIB in 1957?",
+        "What composer was commissioned in 1957?",
+        "Who wrote the commissioned work at the 19th Biennial?",
+        "Which composer created 'Songs for Band'?",
+        "Who was commissioned to write for the 1957 NIB?"
+      ],
+      "correctAnswer": "Robert Russell Bennett",
+      "wrongAnswers": [
+        "Paul Creston",
+        "W. Francis McBeth",
+        "Clifton Williams",
+        "Fisher Tull",
+        "Aaron Copland",
+        "Leonard Bernstein"
+      ],
+      "tags": ["service-project", "nib", "composers"]
+    },
+    {
+      "id": 18,
+      "questionVersions": [
+        "Who composed and conducted at the 1959 NIB?",
+        "Which composer served as both composer and conductor in 1959?",
+        "Who was commissioned for the 20th Biennial Convention?",
+        "What composer conducted their own work at NIB in 1959?",
+        "Who had a dual role at the 1959 National Intercollegiate Band?"
+      ],
+      "correctAnswer": "Paul Creston",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "W. Francis McBeth",
+        "Clifton Williams",
+        "Fisher Tull",
+        "Dr. William D. Revelli",
+        "Aaron Copland"
+      ],
+      "tags": ["service-project", "nib", "composers"]
+    },
+    {
+      "id": 19,
+      "questionVersions": [
+        "Who composed 'Symphonic Essays' premiered in 1963?",
+        "What composer wrote for the 22nd Biennial in 1963?",
+        "Who created 'Symphonic Essays' for NIB?",
+        "Which composer's work was premiered at the 1963 NIB?",
+        "Who composed the work premiered at the 22nd Biennial?"
+      ],
+      "correctAnswer": "Clifton Williams",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "W. Francis McBeth",
+        "Fisher Tull",
+        "Aaron Copland",
+        "John Philip Sousa"
+      ],
+      "tags": ["service-project", "nib", "composers"]
+    },
+    {
+      "id": 20,
+      "questionVersions": [
+        "Who was commissioned for NIB in 1971?",
+        "What composer wrote for the National Intercollegiate Band in 1971?",
+        "Which composer created a commissioned work in 1971?",
+        "Who composed for NIB in 1971?",
+        "What composer's work was commissioned in 1971?"
+      ],
+      "correctAnswer": "W. Francis McBeth",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "Clifton Williams",
+        "Fisher Tull",
+        "Aaron Copland",
+        "Vincent Persichetti"
+      ],
+      "tags": ["service-project", "nib", "composers"]
+    },
+    {
+      "id": 21,
+      "questionVersions": [
+        "What award recognizes outstanding college band directors?",
+        "Which KKPsi award honors band directors?",
+        "What is the name of the award for college band directors?",
+        "Which award commemorates the Guiding Spirit?",
+        "What award is named after Bohumil Makovsky?"
+      ],
+      "correctAnswer": "Bohumil Makovsky Memorial Award",
+      "wrongAnswers": [
+        "A. Frank Martin Award",
+        "William Scroggs Award",
+        "Distinguished Service to Music Medal",
+        "J. Lee Burke Award",
+        "Grand President's Award",
+        "Excellence in Music Award"
+      ],
+      "tags": ["awards", "makovsky", "band-directors"]
+    },
+    {
+      "id": 22,
+      "questionVersions": [
+        "When was the Bohumil Makovsky Memorial Award established?",
+        "In what year was the Makovsky Award created?",
+        "The Bohumil Makovsky Memorial Award was founded in which year?",
+        "When did KKPsi establish the Makovsky Award?",
+        "What year saw the creation of the Makovsky Award?"
+      ],
+      "correctAnswer": "1979",
+      "wrongAnswers": [
+        "1975",
+        "1980",
+        "1950",
+        "1970",
+        "1985",
+        "1960"
+      ],
+      "tags": ["awards", "makovsky", "history"]
+    },
+    {
+      "id": 23,
+      "questionVersions": [
+        "How long after Makovsky's death was the award established?",
+        "How many years after 1950 was the Makovsky Award created?",
+        "What was the time gap between Makovsky's death and the award?",
+        "How many years elapsed before the award was established?",
+        "What was the delay between Makovsky's death and the award's creation?"
+      ],
+      "correctAnswer": "29 years",
+      "wrongAnswers": [
+        "25 years",
+        "30 years",
+        "20 years",
+        "35 years",
+        "15 years",
+        "40 years"
+      ],
+      "tags": ["awards", "makovsky", "timeline"]
+    },
+    {
+      "id": 24,
+      "questionVersions": [
+        "How often is the Bohumil Makovsky Memorial Award given?",
+        "What is the frequency of the Makovsky Award?",
+        "The Makovsky Award is presented at what interval?",
+        "How frequently is the Makovsky Award presented?",
+        "When is the Makovsky Award given?"
+      ],
+      "correctAnswer": "Biennial (at National Convention)",
+      "wrongAnswers": [
+        "Annual",
+        "Every 4 years",
+        "Triennial",
+        "Semi-annually",
+        "Quarterly",
+        "Monthly"
+      ],
+      "tags": ["awards", "makovsky", "frequency"]
+    },
+    {
+      "id": 25,
+      "questionVersions": [
+        "Can non-KKPsi members receive the Makovsky Award?",
+        "Is the Makovsky Award open to non-members?",
+        "Who is eligible for the Bohumil Makovsky Memorial Award?",
+        "Must recipients be KKPsi members?",
+        "Is membership required for the Makovsky Award?"
+      ],
+      "correctAnswer": "Yes, open to all college band directors",
+      "wrongAnswers": [
+        "No, only KKPsi members",
+        "Only honorary members",
+        "Only active members",
+        "Only alumni members",
+        "Only life members",
+        "Only national officers"
+      ],
+      "tags": ["awards", "makovsky", "eligibility"]
+    },
+    {
+      "id": 26,
+      "questionVersions": [
+        "When was the A. Frank Martin Award established?",
+        "In what year was the A. Frank Martin Award created?",
+        "The A. Frank Martin Award was founded in which year?",
+        "When did KKPsi establish the A. Frank Martin Award?",
+        "What year saw the creation of the Martin Award?"
+      ],
+      "correctAnswer": "January 1984",
+      "wrongAnswers": [
+        "1982",
+        "1985",
+        "1980",
+        "1983",
+        "1986",
+        "1975"
+      ],
+      "tags": ["awards", "martin", "history"]
+    },
+    {
+      "id": 27,
+      "questionVersions": [
+        "How many categories does the A. Frank Martin Award have?",
+        "What is the number of award categories for the Martin Award?",
+        "How many different Martin Awards can be given?",
+        "How many categories exist for the A. Frank Martin Award?",
+        "What is the total number of Martin Award categories?"
+      ],
+      "correctAnswer": "9 categories",
+      "wrongAnswers": [
+        "5 categories",
+        "7 categories",
+        "10 categories",
+        "8 categories",
+        "6 categories",
+        "12 categories"
+      ],
+      "tags": ["awards", "martin", "categories"]
+    },
+    {
+      "id": 28,
+      "questionVersions": [
+        "Which is NOT a category of the A. Frank Martin Award?",
+        "What is not included in the Martin Award categories?",
+        "Which category is missing from the A. Frank Martin Award?",
+        "What is not a Martin Award category?",
+        "Which area is not covered by the Martin Award?"
+      ],
+      "correctAnswer": "Jazz Band Direction",
+      "wrongAnswers": [
+        "Composition",
+        "Concert Band",
+        "Marching Band",
+        "Instrumental Music Education",
+        "Artist Performer",
+        "Alumni Achievement"
+      ],
+      "tags": ["awards", "martin", "categories"]
+    },
+    {
+      "id": 29,
+      "questionVersions": [
+        "When was the Distinguished Service to Music Medal established?",
+        "In what year was the Distinguished Service Medal created?",
+        "The Distinguished Service to Music Medal was founded in which year?",
+        "When did KKPsi establish this medal?",
+        "What year saw the creation of the Distinguished Service Medal?"
+      ],
+      "correctAnswer": "1963",
+      "wrongAnswers": [
+        "1960",
+        "1965",
+        "1970",
+        "1955",
+        "1950",
+        "1975"
+      ],
+      "tags": ["awards", "distinguished-service", "history"]
+    },
+    {
+      "id": 30,
+      "questionVersions": [
+        "How often is the Distinguished Service to Music Medal awarded?",
+        "What is the frequency of the Distinguished Service Medal?",
+        "The Distinguished Service Medal is presented at what interval?",
+        "How frequently is the Distinguished Service Medal given?",
+        "When is the Distinguished Service Medal awarded?"
+      ],
+      "correctAnswer": "Biennial (at National Convention)",
+      "wrongAnswers": [
+        "Annual",
+        "Every 4 years",
+        "Triennial",
+        "Semi-annually",
+        "Quarterly",
+        "Every 5 years"
+      ],
+      "tags": ["awards", "distinguished-service", "frequency"]
+    },
+    {
+      "id": 31,
+      "questionVersions": [
+        "Who is the J. Lee Burke Student Achievement Award named after?",
+        "What position did J. Lee Burke hold?",
+        "Who was J. Lee Burke Jr.?",
+        "What role did J. Lee Burke serve in KKPsi?",
+        "Who was the award's namesake?"
+      ],
+      "correctAnswer": "Dr. J. Lee Burke Jr., third Grand President",
+      "wrongAnswers": [
+        "Dr. J. Lee Burke, first Grand President",
+        "J. Lee Burke, founder",
+        "Dr. J. Lee Burke Sr., second Grand President",
+        "J. Lee Burke, first Secretary",
+        "Dr. J. Lee Burke, National Executive Secretary",
+        "J. Lee Burke, fourth Grand President"
+      ],
+      "tags": ["awards", "burke", "history"]
+    },
+    {
+      "id": 32,
+      "questionVersions": [
+        "When was the J. Lee Burke Student Achievement Award established?",
+        "In what year was the Burke Award created?",
+        "The J. Lee Burke Award was founded in which year?",
+        "When did KKPsi establish the Burke Award?",
+        "What year saw the creation of the Burke Award?"
+      ],
+      "correctAnswer": "1991",
+      "wrongAnswers": [
+        "1990",
+        "1992",
+        "1985",
+        "1995",
+        "1989",
+        "1993"
+      ],
+      "tags": ["awards", "burke", "history"]
+    },
+    {
+      "id": 33,
+      "questionVersions": [
+        "When did Dr. J. Lee Burke Jr. pass away?",
+        "In what year did J. Lee Burke die?",
+        "What was the year of Dr. Burke's death?",
+        "When did J. Lee Burke Jr. pass away?",
+        "What year did Dr. Burke die?"
+      ],
+      "correctAnswer": "1991",
+      "wrongAnswers": [
+        "1990",
+        "1992",
+        "1989",
+        "1993",
+        "1985",
+        "1988"
+      ],
+      "tags": ["awards", "burke", "biography"]
+    },
+    {
+      "id": 34,
+      "questionVersions": [
+        "What special title was J. Lee Burke given in 1973?",
+        "What lifetime position did Burke receive?",
+        "What honor was bestowed on J. Lee Burke in 1973?",
+        "What permanent role was J. Lee Burke given?",
+        "What lifetime appointment did Burke receive?"
+      ],
+      "correctAnswer": "National Chapter Parliamentarian for Life",
+      "wrongAnswers": [
+        "National Executive Secretary for Life",
+        "Grand President Emeritus",
+        "National Advisor for Life",
+        "Honorary Grand President",
+        "National Treasurer for Life",
+        "Supreme Court Justice for Life"
+      ],
+      "tags": ["awards", "burke", "honors"]
+    },
+    {
+      "id": 35,
+      "questionVersions": [
+        "What years did J. Lee Burke serve as Grand President?",
+        "When was J. Lee Burke the Grand President?",
+        "What was J. Lee Burke's term as Grand President?",
+        "During what period was Burke Grand President?",
+        "When did J. Lee Burke lead KKPsi?"
+      ],
+      "correctAnswer": "1925-1927",
+      "wrongAnswers": [
+        "1923-1925",
+        "1927-1929",
+        "1920-1922",
+        "1922-1924",
+        "1930-1932",
+        "1919-1921"
+      ],
+      "tags": ["awards", "burke", "leadership"]
+    },
+    {
+      "id": 36,
+      "questionVersions": [
+        "Where was J. Lee Burke born?",
+        "What was J. Lee Burke's birthplace?",
+        "Which Oklahoma town was Burke from?",
+        "Where did J. Lee Burke originate?",
+        "What was Burke's hometown?"
+      ],
+      "correctAnswer": "Hobart, Oklahoma",
+      "wrongAnswers": [
+        "Stillwater, Oklahoma",
+        "Norman, Oklahoma",
+        "Oklahoma City, Oklahoma",
+        "Tulsa, Oklahoma",
+        "Lawton, Oklahoma",
+        "Enid, Oklahoma"
+      ],
+      "tags": ["awards", "burke", "biography"]
+    },
+    {
+      "id": 37,
+      "questionVersions": [
+        "What chapter was J. Lee Burke a charter member of?",
+        "Which chapter did J. Lee Burke help found?",
+        "J. Lee Burke was a charter member of which chapter?",
+        "What was Burke's home chapter?",
+        "Which chapter did Burke join at Ohio State?"
+      ],
+      "correctAnswer": "Eta Chapter (Ohio State)",
+      "wrongAnswers": [
+        "Alpha Chapter",
+        "Beta Chapter",
+        "Gamma Chapter",
+        "Delta Chapter",
+        "Epsilon Chapter",
+        "Zeta Chapter"
+      ],
+      "tags": ["awards", "burke", "membership"]
+    },
+    {
+      "id": 38,
+      "questionVersions": [
+        "How often is the J. Lee Burke Student Achievement Award given?",
+        "What is the frequency of the Burke Award?",
+        "The Burke Award is presented at what interval?",
+        "How frequently is the Burke Award presented?",
+        "When is the Burke Award given?"
+      ],
+      "correctAnswer": "Biennial (at National Convention)",
+      "wrongAnswers": [
+        "Annual",
+        "Every 4 years",
+        "Triennial",
+        "Semi-annually",
+        "Quarterly",
+        "Every 5 years"
+      ],
+      "tags": ["awards", "burke", "frequency"]
+    },
+    {
+      "id": 39,
+      "questionVersions": [
+        "Who is eligible for the J. Lee Burke Student Achievement Award?",
+        "What type of members can receive the Burke Award?",
+        "Who can win the J. Lee Burke Award?",
+        "What is the eligibility for the Burke Award?",
+        "Who qualifies for the Burke Award?"
+      ],
+      "correctAnswer": "Active student members of KKPsi",
+      "wrongAnswers": [
+        "All members",
+        "Alumni only",
+        "Officers only",
+        "Honorary members",
+        "Graduate students only",
+        "Chapter presidents only"
+      ],
+      "tags": ["awards", "burke", "eligibility"]
+    },
+    {
+      "id": 40,
+      "questionVersions": [
+        "What is unique about the Crown Pearl Badge purchase policy?",
+        "Why is KKPsi's badge policy unusual?",
+        "What makes the badge purchase policy special?",
+        "How is the Crown Pearl Badge different from other fraternities?",
+        "What principle does the optional badge represent?"
+      ],
+      "correctAnswer": "Optional purchase shows membership is based on values, not possessions",
+      "wrongAnswers": [
+        "It's the most expensive badge",
+        "It's made of real pearls",
+        "It can only be worn at convention",
+        "It changes design every year",
+        "It's only for officers",
+        "It must be returned upon graduation"
+      ],
+      "tags": ["jewelry", "badge", "philosophy"]
+    },
+    {
+      "id": 41,
+      "questionVersions": [
+        "What materials is the Crown Pearl Badge typically made of?",
+        "What is the badge made from?",
+        "What materials compose the Crown Pearl Badge?",
+        "What is the Crown Pearl Badge constructed of?",
+        "What quality materials are used for the badge?"
+      ],
+      "correctAnswer": "Gold (14K or 10K) with pearl accents",
+      "wrongAnswers": [
+        "Sterling silver with pearl",
+        "Platinum with diamond",
+        "Bronze with pearl",
+        "Gold-plated with synthetic pearl",
+        "White gold with pearl",
+        "Titanium with pearl"
+      ],
+      "tags": ["jewelry", "badge", "materials"]
+    },
+    {
+      "id": 42,
+      "questionVersions": [
+        "Where should the Crown Pearl Badge be worn?",
+        "What is the proper placement of the badge?",
+        "How should the badge be positioned?",
+        "Where is the correct location for the badge?",
+        "What is the proper wearing position?"
+      ],
+      "correctAnswer": "Over the heart, slightly above pocket, toward button-line",
+      "wrongAnswers": [
+        "On the left lapel",
+        "On the right pocket",
+        "On the collar",
+        "On the tie",
+        "On the belt",
+        "On the shoulder"
+      ],
+      "tags": ["jewelry", "badge", "protocol"]
+    },
+    {
+      "id": 43,
+      "questionVersions": [
+        "What can be attached to the Crown Pearl Badge?",
+        "How can members customize their badge?",
+        "What additions can be made to the badge?",
+        "What elements personalize the badge?",
+        "What attachments are available for the badge?"
+      ],
+      "correctAnswer": "Chapter designation, office bars, years of service",
+      "wrongAnswers": [
+        "School name only",
+        "Graduation year only",
+        "Member number only",
+        "Initiation date only",
+        "Awards and medals",
+        "Photos and charms"
+      ],
+      "tags": ["jewelry", "badge", "customization"]
+    },
+    {
+      "id": 44,
+      "questionVersions": [
+        "What is the purpose of the National Intercollegiate Band?",
+        "Why was NIB created?",
+        "What are the main goals of NIB?",
+        "What does NIB accomplish?",
+        "What is NIB's mission?"
+      ],
+      "correctAnswer": "Commission new works and perform at convention",
+      "wrongAnswers": [
+        "Compete in band competitions",
+        "Tour internationally",
+        "Record albums",
+        "Teach music education",
+        "Fundraise for the fraternity",
+        "Perform at football games"
+      ],
+      "tags": ["service-project", "nib", "purpose"]
+    },
+    {
+      "id": 45,
+      "questionVersions": [
+        "What is NIB selection equivalent to?",
+        "What honor does NIB selection represent?",
+        "How prestigious is NIB selection?",
+        "What is NIB selection comparable to?",
+        "What level of achievement is NIB selection?"
+      ],
+      "correctAnswer": "All-American band selection",
+      "wrongAnswers": [
+        "Regional band selection",
+        "State band selection",
+        "District band selection",
+        "School band first chair",
+        "Music scholarship award",
+        "Academic honor society"
+      ],
+      "tags": ["service-project", "nib", "prestige"]
+    },
+    {
+      "id": 46,
+      "questionVersions": [
+        "Who must nominate students for NIB?",
+        "How are students selected for NIB?",
+        "Who recommends students for the National Intercollegiate Band?",
+        "What is required for NIB nomination?",
+        "Who nominates NIB participants?"
+      ],
+      "correctAnswer": "Band director",
+      "wrongAnswers": [
+        "Chapter president",
+        "Self-nomination",
+        "Fellow band members",
+        "Music professors",
+        "KKPsi national officers",
+        "Previous NIB members"
+      ],
+      "tags": ["service-project", "nib", "selection"]
+    },
+    {
+      "id": 47,
+      "questionVersions": [
+        "What trophy is named after William Scroggs?",
+        "What award honors the founder?",
+        "What is the William A. Scroggs award called?",
+        "What honors Scroggs's founding role?",
+        "What trophy commemorates the founder?"
+      ],
+      "correctAnswer": "William A. Scroggs Founder's Trophy",
+      "wrongAnswers": [
+        "Scroggs Excellence Award",
+        "Founder's Medal",
+        "Scroggs Leadership Trophy",
+        "Presidential Award",
+        "Scroggs Service Award",
+        "Founder's Medal of Honor"
+      ],
+      "tags": ["awards", "scroggs", "honors"]
+    },
+    {
+      "id": 48,
+      "questionVersions": [
+        "What does the NIB commissioning program do?",
+        "What is commissioned for NIB?",
+        "What does KKPsi commission for NIB?",
+        "What new works are created for NIB?",
+        "What does the commissioning program create?"
+      ],
+      "correctAnswer": "New compositions from major composers",
+      "wrongAnswers": [
+        "Arrangements of popular music",
+        "Transcriptions of symphonies",
+        "Marching band shows",
+        "Jazz compositions",
+        "Solo pieces",
+        "Choral works"
+      ],
+      "tags": ["service-project", "nib", "commissioning"]
+    },
+    {
+      "id": 49,
+      "questionVersions": [
+        "When was A. Frank Martin elected National Executive Secretary?",
+        "In what year did Martin become Executive Secretary?",
+        "When did A. Frank Martin start as National Executive Secretary?",
+        "What year did Martin begin his Executive Secretary role?",
+        "When was Martin elected to the executive position?"
+      ],
+      "correctAnswer": "1939",
+      "wrongAnswers": [
+        "1935",
+        "1940",
+        "1945",
+        "1930",
+        "1950",
+        "1955"
+      ],
+      "tags": ["awards", "martin", "leadership"]
+    },
+    {
+      "id": 50,
+      "questionVersions": [
+        "When did A. Frank Martin retire from National Executive Secretary?",
+        "In what year did Martin retire from his executive role?",
+        "When did A. Frank Martin step down as Executive Secretary?",
+        "What year did Martin's term as Executive Secretary end?",
+        "When did Martin retire from national leadership?"
+      ],
+      "correctAnswer": "1964",
+      "wrongAnswers": [
+        "1960",
+        "1965",
+        "1970",
+        "1955",
+        "1975",
+        "1950"
+      ],
+      "tags": ["awards", "martin", "leadership"]
+    }
+  ]
+}
