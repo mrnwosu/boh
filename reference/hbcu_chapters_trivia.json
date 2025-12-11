@@ -1,0 +1,527 @@
+{
+  "gameTitle": "KKPsi HBCU Chapters Trivia",
+  "description": "Test your knowledge about Kappa Kappa Psi chapters at Historically Black Colleges and Universities (HBCUs). Learn about the 34 HBCU chapters that represent an important aspect of KKPsi's diversity and heritage.",
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": 1,
+      "questionVersions": [
+        "How many HBCU chapters does Kappa Kappa Psi have?",
+        "What is the total number of KKPsi chapters at HBCUs?",
+        "Kappa Kappa Psi has how many HBCU chapters?",
+        "How many chapters are located at Historically Black Colleges and Universities?",
+        "What is the HBCU chapter count for KKPsi?"
+      ],
+      "correctAnswer": "34",
+      "wrongAnswers": ["30", "40", "28", "32", "36", "38"],
+      "tags": ["hbcu", "statistics", "general"]
+    },
+    {
+      "id": 2,
+      "questionVersions": [
+        "Which chapter was the first HBCU chapter of Kappa Kappa Psi?",
+        "What was the first chapter chartered at an HBCU?",
+        "Which HBCU chapter was founded first?",
+        "What is the oldest HBCU chapter in KKPsi?",
+        "The first HBCU chapter of Kappa Kappa Psi was which chapter?"
+      ],
+      "correctAnswer": "Gamma Omega",
+      "wrongAnswers": ["Alpha Phi", "Beta Eta", "Gamma Phi", "Delta Epsilon", "Epsilon Zeta"],
+      "tags": ["hbcu", "founding", "history", "gamma-omega"]
+    },
+    {
+      "id": 3,
+      "questionVersions": [
+        "At which HBCU was the first KKPsi chapter established?",
+        "Gamma Omega, the first HBCU chapter, was founded at which university?",
+        "Where is the first HBCU chapter of Kappa Kappa Psi located?",
+        "Which HBCU hosted the first KKPsi chapter?",
+        "The first HBCU chapter was chartered at which school?"
+      ],
+      "correctAnswer": "Texas Southern University",
+      "wrongAnswers": ["Howard University", "Florida A&M University", "Southern University", "North Carolina A&T", "Alabama State University"],
+      "tags": ["hbcu", "founding", "gamma-omega", "texas-southern"]
+    },
+    {
+      "id": 4,
+      "questionVersions": [
+        "When was the first HBCU chapter of KKPsi founded?",
+        "What year was Gamma Omega at Texas Southern University chartered?",
+        "In what year did KKPsi establish its first HBCU chapter?",
+        "When was the first chapter at an HBCU founded?",
+        "What is the founding date of Gamma Omega chapter?"
+      ],
+      "correctAnswer": "1957",
+      "wrongAnswers": ["1955", "1960", "1950", "1962", "1958"],
+      "tags": ["hbcu", "founding", "gamma-omega", "dates"]
+    },
+    {
+      "id": 5,
+      "questionVersions": [
+        "Which district has the most HBCU chapters?",
+        "What district contains the largest number of HBCU chapters?",
+        "The Southeast District has how many HBCU chapters?",
+        "Which district leads in HBCU chapter count?",
+        "What is the district with the most chapters at HBCUs?"
+      ],
+      "correctAnswer": "Southeast (28 chapters)",
+      "wrongAnswers": ["Southwest (5 chapters)", "Northeast (6 chapters)", "North Central (3 chapters)", "South Central (10 chapters)", "Western (2 chapters)"],
+      "tags": ["hbcu", "districts", "southeast", "statistics"]
+    },
+    {
+      "id": 6,
+      "questionVersions": [
+        "Which chapter is located at Howard University?",
+        "What is the name of Howard University's KKPsi chapter?",
+        "Howard University hosts which KKPsi chapter?",
+        "Which chapter was chartered at Howard University?",
+        "What chapter represents Howard University?"
+      ],
+      "correctAnswer": "Alpha Phi",
+      "wrongAnswers": ["Beta Eta", "Gamma Omega", "Delta Epsilon", "Epsilon Zeta", "Zeta Omega"],
+      "tags": ["hbcu", "howard", "alpha-phi", "chapters"]
+    },
+    {
+      "id": 7,
+      "questionVersions": [
+        "When was Alpha Phi chapter at Howard University founded?",
+        "What year was the Howard University chapter chartered?",
+        "In what year was Alpha Phi established?",
+        "When did Howard University get its KKPsi chapter?",
+        "What is the founding date of Alpha Phi?"
+      ],
+      "correctAnswer": "1968",
+      "wrongAnswers": ["1965", "1970", "1967", "1969", "1972"],
+      "tags": ["hbcu", "howard", "alpha-phi", "dates"]
+    },
+    {
+      "id": 8,
+      "questionVersions": [
+        "Which chapter is at Florida A&M University?",
+        "What is FAMU's KKPsi chapter name?",
+        "Florida A&M University hosts which chapter?",
+        "Which chapter represents FAMU?",
+        "What chapter was chartered at Florida A&M University?"
+      ],
+      "correctAnswer": "Beta Eta",
+      "wrongAnswers": ["Alpha Phi", "Gamma Omega", "Delta Sigma", "Epsilon Zeta", "Zeta Omega"],
+      "tags": ["hbcu", "famu", "beta-eta", "chapters"]
+    },
+    {
+      "id": 9,
+      "questionVersions": [
+        "Which HBCU athletic conference has the most KKPsi chapters?",
+        "What conference contains the most HBCU chapters?",
+        "The SWAC conference has how many KKPsi chapters?",
+        "Which athletic conference leads in HBCU KKPsi chapters?",
+        "What conference has the highest number of HBCU chapters?"
+      ],
+      "correctAnswer": "SWAC (13 chapters)",
+      "wrongAnswers": ["MEAC (8 chapters)", "SIAC (7 chapters)", "CIAA (6 chapters)", "Big South (3 chapters)", "Independent (2 chapters)"],
+      "tags": ["hbcu", "conferences", "swac", "statistics"]
+    },
+    {
+      "id": 10,
+      "questionVersions": [
+        "Which chapter is located at Southern University?",
+        "What is Southern University's KKPsi chapter?",
+        "Southern University hosts which chapter?",
+        "Which chapter represents Southern University?",
+        "What chapter was chartered at Southern University?"
+      ],
+      "correctAnswer": "Delta Epsilon",
+      "wrongAnswers": ["Gamma Omega", "Beta Eta", "Alpha Phi", "Epsilon Zeta", "Zeta Omega"],
+      "tags": ["hbcu", "southern", "delta-epsilon", "chapters"]
+    },
+    {
+      "id": 11,
+      "questionVersions": [
+        "Which chapter is at North Carolina A&T State University?",
+        "What is NC A&T's KKPsi chapter name?",
+        "North Carolina A&T hosts which chapter?",
+        "Which chapter represents NC A&T?",
+        "What chapter was chartered at North Carolina A&T?"
+      ],
+      "correctAnswer": "Epsilon Zeta",
+      "wrongAnswers": ["Beta Eta", "Alpha Phi", "Delta Epsilon", "Gamma Omega", "Zeta Omega"],
+      "tags": ["hbcu", "nc-at", "epsilon-zeta", "chapters"]
+    },
+    {
+      "id": 12,
+      "questionVersions": [
+        "How many HBCU chapters are in the MEAC conference?",
+        "What is the number of KKPsi chapters in the MEAC?",
+        "The MEAC has how many HBCU chapters?",
+        "How many chapters are at MEAC schools?",
+        "What is the MEAC's KKPsi chapter count?"
+      ],
+      "correctAnswer": "8",
+      "wrongAnswers": ["6", "10", "7", "9", "5"],
+      "tags": ["hbcu", "conferences", "meac", "statistics"]
+    },
+    {
+      "id": 13,
+      "questionVersions": [
+        "Which chapter is located at Alabama State University?",
+        "What is Alabama State's KKPsi chapter?",
+        "Alabama State University hosts which chapter?",
+        "Which chapter represents Alabama State?",
+        "What chapter was chartered at Alabama State University?"
+      ],
+      "correctAnswer": "Zeta Omega",
+      "wrongAnswers": ["Delta Epsilon", "Gamma Omega", "Beta Eta", "Epsilon Zeta", "Alpha Phi"],
+      "tags": ["hbcu", "alabama-state", "zeta-omega", "chapters"]
+    },
+    {
+      "id": 14,
+      "questionVersions": [
+        "Which chapter is at Jackson State University?",
+        "What is Jackson State's KKPsi chapter name?",
+        "Jackson State University hosts which chapter?",
+        "Which chapter represents Jackson State?",
+        "What chapter was chartered at Jackson State University?"
+      ],
+      "correctAnswer": "Eta Pi",
+      "wrongAnswers": ["Delta Epsilon", "Gamma Omega", "Zeta Omega", "Beta Eta", "Epsilon Zeta"],
+      "tags": ["hbcu", "jackson-state", "eta-pi", "chapters"]
+    },
+    {
+      "id": 15,
+      "questionVersions": [
+        "How many HBCU chapters are in the Southwest District?",
+        "What is the number of HBCU chapters in the Southwest?",
+        "The Southwest District has how many HBCU chapters?",
+        "How many chapters at HBCUs are in the Southwest?",
+        "What is the Southwest's HBCU chapter count?"
+      ],
+      "correctAnswer": "5",
+      "wrongAnswers": ["3", "7", "4", "6", "8"],
+      "tags": ["hbcu", "districts", "southwest", "statistics"]
+    },
+    {
+      "id": 16,
+      "questionVersions": [
+        "Which chapter is located at Grambling State University?",
+        "What is Grambling State's KKPsi chapter?",
+        "Grambling State University hosts which chapter?",
+        "Which chapter represents Grambling State?",
+        "What chapter was chartered at Grambling State University?"
+      ],
+      "correctAnswer": "Theta Psi",
+      "wrongAnswers": ["Delta Epsilon", "Gamma Omega", "Eta Pi", "Zeta Omega", "Beta Eta"],
+      "tags": ["hbcu", "grambling", "theta-psi", "chapters"]
+    },
+    {
+      "id": 17,
+      "questionVersions": [
+        "Which chapter is at Tennessee State University?",
+        "What is Tennessee State's KKPsi chapter name?",
+        "Tennessee State University hosts which chapter?",
+        "Which chapter represents Tennessee State?",
+        "What chapter was chartered at Tennessee State University?"
+      ],
+      "correctAnswer": "Iota Tau",
+      "wrongAnswers": ["Theta Psi", "Eta Pi", "Zeta Omega", "Delta Epsilon", "Epsilon Zeta"],
+      "tags": ["hbcu", "tennessee-state", "iota-tau", "chapters"]
+    },
+    {
+      "id": 18,
+      "questionVersions": [
+        "How many HBCU chapters are in the SIAC conference?",
+        "What is the number of KKPsi chapters in the SIAC?",
+        "The SIAC has how many HBCU chapters?",
+        "How many chapters are at SIAC schools?",
+        "What is the SIAC's KKPsi chapter count?"
+      ],
+      "correctAnswer": "7",
+      "wrongAnswers": ["5", "9", "6", "8", "10"],
+      "tags": ["hbcu", "conferences", "siac", "statistics"]
+    },
+    {
+      "id": 19,
+      "questionVersions": [
+        "Which chapter is located at Prairie View A&M University?",
+        "What is Prairie View A&M's KKPsi chapter?",
+        "Prairie View A&M University hosts which chapter?",
+        "Which chapter represents Prairie View A&M?",
+        "What chapter was chartered at Prairie View A&M University?"
+      ],
+      "correctAnswer": "Lambda Gamma",
+      "wrongAnswers": ["Gamma Omega", "Delta Epsilon", "Theta Psi", "Eta Pi", "Zeta Omega"],
+      "tags": ["hbcu", "prairie-view", "lambda-gamma", "chapters"]
+    },
+    {
+      "id": 20,
+      "questionVersions": [
+        "Which chapter is at Norfolk State University?",
+        "What is Norfolk State's KKPsi chapter name?",
+        "Norfolk State University hosts which chapter?",
+        "Which chapter represents Norfolk State?",
+        "What chapter was chartered at Norfolk State University?"
+      ],
+      "correctAnswer": "Lambda Rho",
+      "wrongAnswers": ["Alpha Phi", "Epsilon Zeta", "Beta Eta", "Delta Epsilon", "Zeta Omega"],
+      "tags": ["hbcu", "norfolk-state", "lambda-rho", "chapters"]
+    },
+    {
+      "id": 21,
+      "questionVersions": [
+        "How many HBCU chapters are in the CIAA conference?",
+        "What is the number of KKPsi chapters in the CIAA?",
+        "The CIAA has how many HBCU chapters?",
+        "How many chapters are at CIAA schools?",
+        "What is the CIAA's KKPsi chapter count?"
+      ],
+      "correctAnswer": "6",
+      "wrongAnswers": ["4", "8", "5", "7", "9"],
+      "tags": ["hbcu", "conferences", "ciaa", "statistics"]
+    },
+    {
+      "id": 22,
+      "questionVersions": [
+        "Which chapter is located at Morgan State University?",
+        "What is Morgan State's KKPsi chapter?",
+        "Morgan State University hosts which chapter?",
+        "Which chapter represents Morgan State?",
+        "What chapter was chartered at Morgan State University?"
+      ],
+      "correctAnswer": "Mu Kappa",
+      "wrongAnswers": ["Alpha Phi", "Lambda Rho", "Epsilon Zeta", "Beta Eta", "Delta Epsilon"],
+      "tags": ["hbcu", "morgan-state", "mu-kappa", "chapters"]
+    },
+    {
+      "id": 23,
+      "questionVersions": [
+        "Which chapter is at Bethune-Cookman University?",
+        "What is Bethune-Cookman's KKPsi chapter name?",
+        "Bethune-Cookman University hosts which chapter?",
+        "Which chapter represents Bethune-Cookman?",
+        "What chapter was chartered at Bethune-Cookman University?"
+      ],
+      "correctAnswer": "Nu Upsilon",
+      "wrongAnswers": ["Beta Eta", "Epsilon Zeta", "Lambda Rho", "Mu Kappa", "Delta Epsilon"],
+      "tags": ["hbcu", "bethune-cookman", "nu-upsilon", "chapters"]
+    },
+    {
+      "id": 24,
+      "questionVersions": [
+        "Which chapter is located at South Carolina State University?",
+        "What is South Carolina State's KKPsi chapter?",
+        "South Carolina State University hosts which chapter?",
+        "Which chapter represents South Carolina State?",
+        "What chapter was chartered at South Carolina State University?"
+      ],
+      "correctAnswer": "Xi Xi",
+      "wrongAnswers": ["Epsilon Zeta", "Lambda Rho", "Nu Upsilon", "Mu Kappa", "Beta Eta"],
+      "tags": ["hbcu", "sc-state", "xi-xi", "chapters"]
+    },
+    {
+      "id": 25,
+      "questionVersions": [
+        "Which chapter is at Alcorn State University?",
+        "What is Alcorn State's KKPsi chapter name?",
+        "Alcorn State University hosts which chapter?",
+        "Which chapter represents Alcorn State?",
+        "What chapter was chartered at Alcorn State University?"
+      ],
+      "correctAnswer": "Omicron Rho",
+      "wrongAnswers": ["Eta Pi", "Theta Psi", "Delta Epsilon", "Zeta Omega", "Gamma Omega"],
+      "tags": ["hbcu", "alcorn-state", "omicron-rho", "chapters"]
+    },
+    {
+      "id": 26,
+      "questionVersions": [
+        "How many HBCU chapters are in the Northeast District?",
+        "What is the number of HBCU chapters in the Northeast?",
+        "The Northeast District has how many HBCU chapters?",
+        "How many chapters at HBCUs are in the Northeast?",
+        "What is the Northeast's HBCU chapter count?"
+      ],
+      "correctAnswer": "6",
+      "wrongAnswers": ["4", "8", "5", "7", "3"],
+      "tags": ["hbcu", "districts", "northeast", "statistics"]
+    },
+    {
+      "id": 27,
+      "questionVersions": [
+        "Which chapter is located at Alabama A&M University?",
+        "What is Alabama A&M's KKPsi chapter?",
+        "Alabama A&M University hosts which chapter?",
+        "Which chapter represents Alabama A&M?",
+        "What chapter was chartered at Alabama A&M University?"
+      ],
+      "correctAnswer": "Pi Omicron",
+      "wrongAnswers": ["Zeta Omega", "Delta Epsilon", "Eta Pi", "Iota Tau", "Theta Psi"],
+      "tags": ["hbcu", "alabama-am", "pi-omicron", "chapters"]
+    },
+    {
+      "id": 28,
+      "questionVersions": [
+        "Which chapter is at Winston-Salem State University?",
+        "What is Winston-Salem State's KKPsi chapter name?",
+        "Winston-Salem State University hosts which chapter?",
+        "Which chapter represents Winston-Salem State?",
+        "What chapter was chartered at Winston-Salem State University?"
+      ],
+      "correctAnswer": "Rho Rho",
+      "wrongAnswers": ["Epsilon Zeta", "Xi Xi", "Lambda Rho", "Mu Kappa", "Nu Upsilon"],
+      "tags": ["hbcu", "winston-salem", "rho-rho", "chapters"]
+    },
+    {
+      "id": 29,
+      "questionVersions": [
+        "Which chapter is located at Tuskegee University?",
+        "What is Tuskegee's KKPsi chapter?",
+        "Tuskegee University hosts which chapter?",
+        "Which chapter represents Tuskegee?",
+        "What chapter was chartered at Tuskegee University?"
+      ],
+      "correctAnswer": "Sigma Rho",
+      "wrongAnswers": ["Zeta Omega", "Pi Omicron", "Delta Epsilon", "Eta Pi", "Iota Tau"],
+      "tags": ["hbcu", "tuskegee", "sigma-rho", "chapters"]
+    },
+    {
+      "id": 30,
+      "questionVersions": [
+        "How many HBCU chapters are in the North Central District?",
+        "What is the number of HBCU chapters in the North Central?",
+        "The North Central District has how many HBCU chapters?",
+        "How many chapters at HBCUs are in the North Central?",
+        "What is the North Central's HBCU chapter count?"
+      ],
+      "correctAnswer": "3",
+      "wrongAnswers": ["2", "5", "4", "6", "1"],
+      "tags": ["hbcu", "districts", "north-central", "statistics"]
+    },
+    {
+      "id": 31,
+      "questionVersions": [
+        "Which chapter is at Bowie State University?",
+        "What is Bowie State's KKPsi chapter name?",
+        "Bowie State University hosts which chapter?",
+        "Which chapter represents Bowie State?",
+        "What chapter was chartered at Bowie State University?"
+      ],
+      "correctAnswer": "Tau Iota",
+      "wrongAnswers": ["Alpha Phi", "Lambda Rho", "Mu Kappa", "Xi Xi", "Rho Rho"],
+      "tags": ["hbcu", "bowie-state", "tau-iota", "chapters"]
+    },
+    {
+      "id": 32,
+      "questionVersions": [
+        "Which chapter is located at Morehouse College?",
+        "What is Morehouse's KKPsi chapter?",
+        "Morehouse College hosts which chapter?",
+        "Which chapter represents Morehouse?",
+        "What chapter was chartered at Morehouse College?"
+      ],
+      "correctAnswer": "Tau Mu",
+      "wrongAnswers": ["Beta Eta", "Epsilon Zeta", "Sigma Rho", "Zeta Omega", "Pi Omicron"],
+      "tags": ["hbcu", "morehouse", "tau-mu", "chapters"]
+    },
+    {
+      "id": 33,
+      "questionVersions": [
+        "Which chapter is at Fort Valley State University?",
+        "What is Fort Valley State's KKPsi chapter name?",
+        "Fort Valley State University hosts which chapter?",
+        "Which chapter represents Fort Valley State?",
+        "What chapter was chartered at Fort Valley State University?"
+      ],
+      "correctAnswer": "Upsilon Phi",
+      "wrongAnswers": ["Tau Mu", "Sigma Rho", "Pi Omicron", "Zeta Omega", "Beta Eta"],
+      "tags": ["hbcu", "fort-valley", "upsilon-phi", "chapters"]
+    },
+    {
+      "id": 34,
+      "questionVersions": [
+        "Which chapter is located at Delaware State University?",
+        "What is Delaware State's KKPsi chapter?",
+        "Delaware State University hosts which chapter?",
+        "Which chapter represents Delaware State?",
+        "What chapter was chartered at Delaware State University?"
+      ],
+      "correctAnswer": "Phi Sigma",
+      "wrongAnswers": ["Alpha Phi", "Lambda Rho", "Mu Kappa", "Tau Iota", "Xi Xi"],
+      "tags": ["hbcu", "delaware-state", "phi-sigma", "chapters"]
+    },
+    {
+      "id": 35,
+      "questionVersions": [
+        "Which chapter is at Kentucky State University?",
+        "What is Kentucky State's KKPsi chapter name?",
+        "Kentucky State University hosts which chapter?",
+        "Which chapter represents Kentucky State?",
+        "What chapter was chartered at Kentucky State University?"
+      ],
+      "correctAnswer": "Phi Upsilon",
+      "wrongAnswers": ["Iota Tau", "Tau Mu", "Sigma Rho", "Pi Omicron", "Delta Epsilon"],
+      "tags": ["hbcu", "kentucky-state", "phi-upsilon", "chapters"]
+    },
+    {
+      "id": 36,
+      "questionVersions": [
+        "Which chapter is located at Central State University?",
+        "What is Central State's KKPsi chapter?",
+        "Central State University hosts which chapter?",
+        "Which chapter represents Central State?",
+        "What chapter was chartered at Central State University?"
+      ],
+      "correctAnswer": "Chi Gamma",
+      "wrongAnswers": ["Phi Upsilon", "Iota Tau", "Tau Mu", "Sigma Rho", "Pi Omicron"],
+      "tags": ["hbcu", "central-state", "chi-gamma", "chapters"]
+    },
+    {
+      "id": 37,
+      "questionVersions": [
+        "Which chapter is at Fayetteville State University?",
+        "What is Fayetteville State's KKPsi chapter name?",
+        "Fayetteville State University hosts which chapter?",
+        "Which chapter represents Fayetteville State?",
+        "What chapter was chartered at Fayetteville State University?"
+      ],
+      "correctAnswer": "Chi Mu",
+      "wrongAnswers": ["Epsilon Zeta", "Xi Xi", "Rho Rho", "Lambda Rho", "Mu Kappa"],
+      "tags": ["hbcu", "fayetteville-state", "chi-mu", "chapters"]
+    },
+    {
+      "id": 38,
+      "questionVersions": [
+        "Which chapter is located at Mississippi Valley State University?",
+        "What is Mississippi Valley State's KKPsi chapter?",
+        "Mississippi Valley State University hosts which chapter?",
+        "Which chapter represents Mississippi Valley State?",
+        "What chapter was chartered at Mississippi Valley State University?"
+      ],
+      "correctAnswer": "Psi Chi",
+      "wrongAnswers": ["Eta Pi", "Theta Psi", "Omicron Rho", "Delta Epsilon", "Zeta Omega"],
+      "tags": ["hbcu", "mvsu", "psi-chi", "chapters"]
+    },
+    {
+      "id": 39,
+      "questionVersions": [
+        "Which chapter is at Savannah State University?",
+        "What is Savannah State's KKPsi chapter name?",
+        "Savannah State University hosts which chapter?",
+        "Which chapter represents Savannah State?",
+        "What chapter was chartered at Savannah State University?"
+      ],
+      "correctAnswer": "Omega Upsilon",
+      "wrongAnswers": ["Beta Eta", "Tau Mu", "Upsilon Phi", "Sigma Rho", "Xi Xi"],
+      "tags": ["hbcu", "savannah-state", "omega-upsilon", "chapters"]
+    },
+    {
+      "id": 40,
+      "questionVersions": [
+        "What percentage of KKPsi chapters are at HBCUs?",
+        "Approximately what percent of chapters are HBCU chapters?",
+        "HBCUs represent what percentage of total KKPsi chapters?",
+        "What is the percentage of HBCU chapters in KKPsi?",
+        "About what percent of KKPsi's 343 chapters are at HBCUs?"
+      ],
+      "correctAnswer": "10%",
+      "wrongAnswers": ["5%", "15%", "20%", "8%", "12%"],
+      "tags": ["hbcu", "statistics", "percentage"]
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "gameTitle": "KKPsi Districts Trivia",
+  "description": "Test your knowledge about the organizational structure of Kappa Kappa Psi's seven districts. Learn about district sizes, geographic coverage, and chapter distribution across the fraternity.",
+  "totalQuestions": 35,
+  "questions": [
+    {
+      "id": 1,
+      "questionVersions": [
+        "How many districts does Kappa Kappa Psi have?",
+        "What is the total number of districts in KKPsi?",
+        "Kappa Kappa Psi is organized into how many districts?",
+        "How many districts exist in the KKPsi organizational structure?",
+        "What is the district count for Kappa Kappa Psi?"
+      ],
+      "correctAnswer": "7",
+      "wrongAnswers": ["6", "8", "5", "9", "10"],
+      "tags": ["districts", "general", "statistics"]
+    },
+    {
+      "id": 2,
+      "questionVersions": [
+        "Which district has the most chapters?",
+        "What is the largest district by chapter count?",
+        "Which district contains the highest number of chapters?",
+        "What district leads in total chapters?",
+        "The Southwest District has approximately how many chapters?"
+      ],
+      "correctAnswer": "Southwest (approximately 95 chapters)",
+      "wrongAnswers": ["Southeast (approximately 70 chapters)", "North Central (approximately 65 chapters)", "Northeast (approximately 50 chapters)", "Western (approximately 40 chapters)", "South Central (approximately 35 chapters)"],
+      "tags": ["districts", "southwest", "statistics"]
+    },
+    {
+      "id": 3,
+      "questionVersions": [
+        "Which chapter belongs to the Northeast District?",
+        "What is an example of a Northeast District chapter?",
+        "Which of these chapters is in the Northeast?",
+        "Name a chapter from the Northeast District.",
+        "Which chapter is located in the Northeast District?"
+      ],
+      "correctAnswer": "Alpha at Oklahoma State University",
+      "wrongAnswers": ["Beta at Kansas State University", "Gamma at Texas Tech University", "Delta at University of Arizona", "Epsilon at Texas A&M University"],
+      "tags": ["districts", "northeast", "chapters", "alpha"]
+    },
+    {
+      "id": 4,
+      "questionVersions": [
+        "Which district contains the most HBCU chapters?",
+        "What district has the highest number of HBCU chapters?",
+        "The Southeast District has how many HBCU chapters?",
+        "Which district leads in HBCU chapter count?",
+        "What is the district with the most chapters at HBCUs?"
+      ],
+      "correctAnswer": "Southeast (28 HBCU chapters)",
+      "wrongAnswers": ["Southwest (5 HBCU chapters)", "Northeast (6 HBCU chapters)", "North Central (3 HBCU chapters)", "South Central (8 HBCU chapters)", "Western (1 HBCU chapter)"],
+      "tags": ["districts", "southeast", "hbcu", "statistics"]
+    },
+    {
+      "id": 5,
+      "questionVersions": [
+        "Which chapter belongs to the North Central District?",
+        "What is an example of a North Central District chapter?",
+        "Which of these chapters is in the North Central?",
+        "Name a chapter from the North Central District.",
+        "Which chapter is located in the North Central District?"
+      ],
+      "correctAnswer": "Epsilon at Iowa State University",
+      "wrongAnswers": ["Alpha at Oklahoma State University", "Beta at Kansas State University", "Gamma at Texas Tech University", "Delta at University of Arizona"],
+      "tags": ["districts", "north-central", "chapters", "epsilon"]
+    },
+    {
+      "id": 6,
+      "questionVersions": [
+        "Which district contains Howard University's chapter?",
+        "Alpha Phi at Howard University belongs to which district?",
+        "What district is Howard University in?",
+        "Howard University's KKPsi chapter is in which district?",
+        "Which district includes Howard University?"
+      ],
+      "correctAnswer": "Northeast",
+      "wrongAnswers": ["Southeast", "North Central", "South Central", "Southwest", "Western"],
+      "tags": ["districts", "northeast", "howard", "alpha-phi"]
+    },
+    {
+      "id": 7,
+      "questionVersions": [
+        "Which chapter belongs to the Southeast District?",
+        "What is an example of a Southeast District chapter?",
+        "Which of these chapters is in the Southeast?",
+        "Name a chapter from the Southeast District.",
+        "Which chapter is located in the Southeast District?"
+      ],
+      "correctAnswer": "Beta Eta at Florida A&M University",
+      "wrongAnswers": ["Alpha at Oklahoma State University", "Epsilon at Iowa State University", "Gamma at Texas Tech University", "Delta at University of Arizona"],
+      "tags": ["districts", "southeast", "chapters", "beta-eta"]
+    },
+    {
+      "id": 8,
+      "questionVersions": [
+        "Which district contains Florida A&M University's chapter?",
+        "Beta Eta at FAMU belongs to which district?",
+        "What district is Florida A&M University in?",
+        "FAMU's KKPsi chapter is in which district?",
+        "Which district includes FAMU?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["Northeast", "Southwest", "South Central", "North Central", "Western"],
+      "tags": ["districts", "southeast", "famu", "beta-eta"]
+    },
+    {
+      "id": 9,
+      "questionVersions": [
+        "Which chapter belongs to the Southwest District?",
+        "What is an example of a Southwest District chapter?",
+        "Which of these chapters is in the Southwest?",
+        "Name a chapter from the Southwest District.",
+        "Which chapter is located in the Southwest District?"
+      ],
+      "correctAnswer": "Gamma Omega at Texas Southern University",
+      "wrongAnswers": ["Beta Eta at Florida A&M University", "Alpha Phi at Howard University", "Epsilon Zeta at North Carolina A&T", "Iota Tau at Tennessee State University"],
+      "tags": ["districts", "southwest", "chapters", "gamma-omega"]
+    },
+    {
+      "id": 10,
+      "questionVersions": [
+        "Which district contains Texas Southern University's chapter?",
+        "Gamma Omega at Texas Southern belongs to which district?",
+        "What district is Texas Southern University in?",
+        "Texas Southern's KKPsi chapter is in which district?",
+        "Which district includes Texas Southern University?"
+      ],
+      "correctAnswer": "Southwest",
+      "wrongAnswers": ["Southeast", "South Central", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "southwest", "texas-southern", "gamma-omega"]
+    },
+    {
+      "id": 11,
+      "questionVersions": [
+        "Which chapter belongs to the South Central District?",
+        "What is an example of a South Central District chapter?",
+        "Which of these chapters is in the South Central?",
+        "Name a chapter from the South Central District.",
+        "Which chapter is located in the South Central District?"
+      ],
+      "correctAnswer": "Delta Epsilon at Southern University",
+      "wrongAnswers": ["Beta Eta at Florida A&M University", "Gamma Omega at Texas Southern University", "Alpha Phi at Howard University", "Epsilon at Iowa State University"],
+      "tags": ["districts", "south-central", "chapters", "delta-epsilon"]
+    },
+    {
+      "id": 12,
+      "questionVersions": [
+        "Which district contains Southern University's chapter?",
+        "Delta Epsilon at Southern University belongs to which district?",
+        "What district is Southern University in?",
+        "Southern University's KKPsi chapter is in which district?",
+        "Which district includes Southern University?"
+      ],
+      "correctAnswer": "South Central",
+      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "south-central", "southern", "delta-epsilon"]
+    },
+    {
+      "id": 13,
+      "questionVersions": [
+        "Which district contains North Carolina A&T's chapter?",
+        "Epsilon Zeta at NC A&T belongs to which district?",
+        "What district is North Carolina A&T in?",
+        "NC A&T's KKPsi chapter is in which district?",
+        "Which district includes North Carolina A&T?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "nc-at", "epsilon-zeta"]
+    },
+    {
+      "id": 14,
+      "questionVersions": [
+        "Which district contains Alabama State University's chapter?",
+        "Zeta Omega at Alabama State belongs to which district?",
+        "What district is Alabama State University in?",
+        "Alabama State's KKPsi chapter is in which district?",
+        "Which district includes Alabama State?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["South Central", "Southwest", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "southeast", "alabama-state", "zeta-omega"]
+    },
+    {
+      "id": 15,
+      "questionVersions": [
+        "Which district contains Jackson State University's chapter?",
+        "Eta Pi at Jackson State belongs to which district?",
+        "What district is Jackson State University in?",
+        "Jackson State's KKPsi chapter is in which district?",
+        "Which district includes Jackson State?"
+      ],
+      "correctAnswer": "South Central",
+      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "south-central", "jackson-state", "eta-pi"]
+    },
+    {
+      "id": 16,
+      "questionVersions": [
+        "Which district contains Grambling State University's chapter?",
+        "Theta Psi at Grambling State belongs to which district?",
+        "What district is Grambling State University in?",
+        "Grambling State's KKPsi chapter is in which district?",
+        "Which district includes Grambling State?"
+      ],
+      "correctAnswer": "South Central",
+      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "south-central", "grambling", "theta-psi"]
+    },
+    {
+      "id": 17,
+      "questionVersions": [
+        "Which district contains Tennessee State University's chapter?",
+        "Iota Tau at Tennessee State belongs to which district?",
+        "What district is Tennessee State University in?",
+        "Tennessee State's KKPsi chapter is in which district?",
+        "Which district includes Tennessee State?"
+      ],
+      "correctAnswer": "South Central",
+      "wrongAnswers": ["Southeast", "North Central", "Southwest", "Northeast", "Western"],
+      "tags": ["districts", "south-central", "tennessee-state", "iota-tau"]
+    },
+    {
+      "id": 18,
+      "questionVersions": [
+        "Which district contains Prairie View A&M University's chapter?",
+        "Lambda Gamma at Prairie View A&M belongs to which district?",
+        "What district is Prairie View A&M University in?",
+        "Prairie View A&M's KKPsi chapter is in which district?",
+        "Which district includes Prairie View A&M?"
+      ],
+      "correctAnswer": "Southwest",
+      "wrongAnswers": ["South Central", "Southeast", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "southwest", "prairie-view", "lambda-gamma"]
+    },
+    {
+      "id": 19,
+      "questionVersions": [
+        "Which district contains Norfolk State University's chapter?",
+        "Lambda Rho at Norfolk State belongs to which district?",
+        "What district is Norfolk State University in?",
+        "Norfolk State's KKPsi chapter is in which district?",
+        "Which district includes Norfolk State?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "norfolk-state", "lambda-rho"]
+    },
+    {
+      "id": 20,
+      "questionVersions": [
+        "Which district contains Morgan State University's chapter?",
+        "Mu Kappa at Morgan State belongs to which district?",
+        "What district is Morgan State University in?",
+        "Morgan State's KKPsi chapter is in which district?",
+        "Which district includes Morgan State?"
+      ],
+      "correctAnswer": "Northeast",
+      "wrongAnswers": ["Southeast", "South Central", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "northeast", "morgan-state", "mu-kappa"]
+    },
+    {
+      "id": 21,
+      "questionVersions": [
+        "Which district contains Bethune-Cookman University's chapter?",
+        "Nu Upsilon at Bethune-Cookman belongs to which district?",
+        "What district is Bethune-Cookman University in?",
+        "Bethune-Cookman's KKPsi chapter is in which district?",
+        "Which district includes Bethune-Cookman?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "bethune-cookman", "nu-upsilon"]
+    },
+    {
+      "id": 22,
+      "questionVersions": [
+        "Which district contains South Carolina State University's chapter?",
+        "Xi Xi at South Carolina State belongs to which district?",
+        "What district is South Carolina State University in?",
+        "South Carolina State's KKPsi chapter is in which district?",
+        "Which district includes South Carolina State?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "sc-state", "xi-xi"]
+    },
+    {
+      "id": 23,
+      "questionVersions": [
+        "Which district contains Alcorn State University's chapter?",
+        "Omicron Rho at Alcorn State belongs to which district?",
+        "What district is Alcorn State University in?",
+        "Alcorn State's KKPsi chapter is in which district?",
+        "Which district includes Alcorn State?"
+      ],
+      "correctAnswer": "South Central",
+      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "south-central", "alcorn-state", "omicron-rho"]
+    },
+    {
+      "id": 24,
+      "questionVersions": [
+        "Which district contains Alabama A&M University's chapter?",
+        "Pi Omicron at Alabama A&M belongs to which district?",
+        "What district is Alabama A&M University in?",
+        "Alabama A&M's KKPsi chapter is in which district?",
+        "Which district includes Alabama A&M?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "alabama-am", "pi-omicron"]
+    },
+    {
+      "id": 25,
+      "questionVersions": [
+        "Which district contains Winston-Salem State University's chapter?",
+        "Rho Rho at Winston-Salem State belongs to which district?",
+        "What district is Winston-Salem State University in?",
+        "Winston-Salem State's KKPsi chapter is in which district?",
+        "Which district includes Winston-Salem State?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "winston-salem", "rho-rho"]
+    },
+    {
+      "id": 26,
+      "questionVersions": [
+        "Which district contains Tuskegee University's chapter?",
+        "Sigma Rho at Tuskegee belongs to which district?",
+        "What district is Tuskegee University in?",
+        "Tuskegee's KKPsi chapter is in which district?",
+        "Which district includes Tuskegee?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["South Central", "Southwest", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "southeast", "tuskegee", "sigma-rho"]
+    },
+    {
+      "id": 27,
+      "questionVersions": [
+        "Which district contains Bowie State University's chapter?",
+        "Tau Iota at Bowie State belongs to which district?",
+        "What district is Bowie State University in?",
+        "Bowie State's KKPsi chapter is in which district?",
+        "Which district includes Bowie State?"
+      ],
+      "correctAnswer": "Northeast",
+      "wrongAnswers": ["Southeast", "South Central", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "northeast", "bowie-state", "tau-iota"]
+    },
+    {
+      "id": 28,
+      "questionVersions": [
+        "Which district contains Morehouse College's chapter?",
+        "Tau Mu at Morehouse belongs to which district?",
+        "What district is Morehouse College in?",
+        "Morehouse's KKPsi chapter is in which district?",
+        "Which district includes Morehouse?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "morehouse", "tau-mu"]
+    },
+    {
+      "id": 29,
+      "questionVersions": [
+        "Which district contains Delaware State University's chapter?",
+        "Phi Sigma at Delaware State belongs to which district?",
+        "What district is Delaware State University in?",
+        "Delaware State's KKPsi chapter is in which district?",
+        "Which district includes Delaware State?"
+      ],
+      "correctAnswer": "Northeast",
+      "wrongAnswers": ["Southeast", "South Central", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "northeast", "delaware-state", "phi-sigma"]
+    },
+    {
+      "id": 30,
+      "questionVersions": [
+        "Which district contains Kentucky State University's chapter?",
+        "Phi Upsilon at Kentucky State belongs to which district?",
+        "What district is Kentucky State University in?",
+        "Kentucky State's KKPsi chapter is in which district?",
+        "Which district includes Kentucky State?"
+      ],
+      "correctAnswer": "South Central",
+      "wrongAnswers": ["North Central", "Southeast", "Northeast", "Southwest", "Western"],
+      "tags": ["districts", "south-central", "kentucky-state", "phi-upsilon"]
+    },
+    {
+      "id": 31,
+      "questionVersions": [
+        "Which district contains Central State University's chapter?",
+        "Chi Gamma at Central State belongs to which district?",
+        "What district is Central State University in?",
+        "Central State's KKPsi chapter is in which district?",
+        "Which district includes Central State?"
+      ],
+      "correctAnswer": "North Central",
+      "wrongAnswers": ["South Central", "Southeast", "Northeast", "Southwest", "Western"],
+      "tags": ["districts", "north-central", "central-state", "chi-gamma"]
+    },
+    {
+      "id": 32,
+      "questionVersions": [
+        "Which district contains Fayetteville State University's chapter?",
+        "Chi Mu at Fayetteville State belongs to which district?",
+        "What district is Fayetteville State University in?",
+        "Fayetteville State's KKPsi chapter is in which district?",
+        "Which district includes Fayetteville State?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "fayetteville-state", "chi-mu"]
+    },
+    {
+      "id": 33,
+      "questionVersions": [
+        "Which district contains Mississippi Valley State University's chapter?",
+        "Psi Chi at Mississippi Valley State belongs to which district?",
+        "What district is Mississippi Valley State University in?",
+        "Mississippi Valley State's KKPsi chapter is in which district?",
+        "Which district includes Mississippi Valley State?"
+      ],
+      "correctAnswer": "South Central",
+      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
+      "tags": ["districts", "south-central", "mvsu", "psi-chi"]
+    },
+    {
+      "id": 34,
+      "questionVersions": [
+        "Which district contains Savannah State University's chapter?",
+        "Omega Upsilon at Savannah State belongs to which district?",
+        "What district is Savannah State University in?",
+        "Savannah State's KKPsi chapter is in which district?",
+        "Which district includes Savannah State?"
+      ],
+      "correctAnswer": "Southeast",
+      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
+      "tags": ["districts", "southeast", "savannah-state", "omega-upsilon"]
+    },
+    {
+      "id": 35,
+      "questionVersions": [
+        "Which district has the second-most chapters?",
+        "What is the second-largest district by chapter count?",
+        "After the Southwest, which district has the most chapters?",
+        "Which district ranks second in total chapters?",
+        "The Southeast District has approximately how many chapters?"
+      ],
+      "correctAnswer": "Southeast (approximately 70 chapters)",
+      "wrongAnswers": ["North Central (approximately 65 chapters)", "Northeast (approximately 50 chapters)", "South Central (approximately 35 chapters)", "Western (approximately 40 chapters)", "Southwest (approximately 95 chapters)"],
+      "tags": ["districts", "southeast", "statistics"]
+    }
+  ]
+}
