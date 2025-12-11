@@ -1,344 +1,344 @@
-Number,Chapter,School,District,Founding Date
-1,Alpha,Oklahoma State University,Southwest,11/27/1919
-2,Beta,Montana State University,Midwest,12/17/1920
-3,Gamma,University of Washington,Western,12/16/1920
-4,Delta,University of Oklahoma,Southwest,5/21/1921
-5,Epsilon,Mississippi State University,Southeast,4/20/1923
-6,Zeta,Pennsylvania State University,Northeast,4/25/1923
-7,Eta,The Ohio State University,North Central,4/26/1923
-8,Theta,Oregon State University,Western,5/12/1923
-9,Iota,Georgia Institute of Technology,Southeast,4/21/1924
-10,Kappa,Colorado State University,Midwest,5/31/1924
-11,Lambda,University of Arkansas,Southwest,6/5/1924
-12,Mu,University of North Dakota,Midwest,5/31/1925
-13,Nu,University of Michigan,North Central,6/12/1925
-14,Xi,Colorado School Of Mines,Midwest,11/21/1925
-15,Omicron,West Virginia University,Northeast,6/17/1926
-16,Pi,Auburn University,Southeast,5/18/1926
-17,Rho,Tulane University,Southwest,10/18/1926
-18,Sigma,Ohio Northern University,North Central,5/23/1927
-19,Tau,University of Montana,Midwest,6/2/1928
-20,Upsilon,University of Cincinnati,North Central,6/11/1928
-21,Phi,Stanford University,Western,3/20/1929
-22,Chi,"University of California, Berkeley",Western,4/20/1929
-23,Psi,"University of California, Los Angeles",Western,5/4/1929
-24,Omega,University of Arizona,Western,4/4/1929
-25,Alpha Alpha,University of Nevada,Western,5/14/1929
-26,Alpha Beta,Butler University,North Central,5/31/1929
-27,Alpha Gamma,Duke University,Southeast,6/2/1929
-28,Alpha Delta,Ohio University,North Central,5/17/1931
-29,Alpha Epsilon,Temple University,Northeast,5/21/1931
-30,Alpha Zeta,Indiana University,North Central,5/27/1931
-31,Alpha Eta,University of Florida,Southeast,5/25/1931
-32,Alpha Theta,University of Northern Colorado,Midwest,6/6/1931
-33,Alpha Iota,University of Colorado,Midwest,6/7/1931
-34,Alpha Kappa,The George Washington University,Northeast,12/4/1933
-35,Alpha Lambda,University of Denver,Midwest,6/8/1934
-36,Alpha Mu,North Dakota State University,Midwest,5/5/1935
-37,Alpha Nu,University of Wyoming,Midwest,5/12/1935
-38,Alpha Xi,Stetson University,Southeast,12/14/1935
-39,Alpha Omicron,Texas Tech University,Southwest,3/12/1938
-40,Alpha Pi,University of Tulsa,Southwest,3/18/1938
-41,Alpha Rho,Northeastern State University,Southwest,5/2/1938
-42,Alpha Sigma,University of Tampa,Southeast,5/11/1941
-43,Alpha Tau,University of Texas at Austin,Southwest,5/18/1941
-44,Alpha Upsilon,University of Southern California,Western,5/11/1942
-45,Alpha Phi,Rutgers University,Northeast,4/16/1942
-46,Alpha Chi,University of Texas at El Paso,Southwest,4/5/1947
-47,Alpha Psi,West Texas A & M University,Southwest,10/25/1947
-48,Alpha Omega,University of Pittsburgh,Northeast,2/14/1948
-49,Beta Alpha,Baylor University,Southwest,2/14/1948
-50,Beta Beta,University of Mississippi,Southeast,4/26/1948
-51,Beta Gamma,Louisiana State University,Southwest,5/16/1948
-52,Beta Delta,Sam Houston State University,Southwest,5/15/1948
-53,Beta Epsilon,University of South Dakota,Midwest,11/7/1948
-54,Beta Zeta,Long Island University,Northeast,11/20/1949
-55,Beta Eta,University of Tennessee,Southeast,3/20/1949
-56,Beta Theta,University of Utah,Western,4/30/1949
-57,Beta Iota,Nebraska Wesleyan University,Midwest,4/23/1949
-58,Beta Kappa,Bowling Green State University,North Central,4/17/1949
-59,Beta Lambda,Eastern New Mexico University,Southwest,5/8/1949
-60,Beta Mu,Emory University,Southeast,5/30/1949
-61,Beta Nu,VanderCook College of Music,North Central,12/19/1949
-62,Beta Xi,Sul Ross State University,Southwest,12/4/1949
-63,Beta Omicron,Arizona State University,Western,11/13/1949
-64,Beta Pi,Drury College,Midwest,12/17/1949
-65,Beta Rho,University of Toledo,North Central,1/15/1950
-66,Beta Sigma,University of Houston,Southwest,1/21/1950
-67,Beta Tau,The Wichita State University,Midwest,1/19/1950
-68,Beta Upsilon,Abilene Christian University,Southwest,3/25/1950
-69,Beta Phi,Southern Methodist University,Southwest,3/25/1950
-70,Beta Chi,University of Virginia,Northeast,9/23/1950
-71,Beta Psi,Kent State University,North Central,2/25/1951
-72,Beta Omega,Case-Western Reserve University,North Central,5/20/1951
-73,Gamma Alpha,Midwestern State University,Southwest,5/5/1951
-74,Gamma Beta,"Brigham Young University, Idaho (Ricks)",Western,5/3/1952
-75,Gamma Gamma,Oklahoma Panhandle State University,Southwest,5/22/1952
-76,Gamma Delta,Wayne State College,Midwest,8/27/2006
-77,Gamma Epsilon,Hobart College,Northeast,5/30/1953
-78,Gamma Zeta,Lamar University,Southwest,3/18/1954
-79,Gamma Eta,New Mexico State University,Southwest,5/16/1954
-80,Gamma Theta,East Central University,Southwest,5/9/1954
-81,Gamma Iota,University of New Mexico,Southwest,5/23/1954
-82,Gamma Kappa,Northern Arizona University,Western,5/9/1954
-83,Gamma Lambda,Doane College,Midwest,5/16/1954
-84,Gamma Mu,University of Pennsylvania,Northeast,6/5/1954
-85,Gamma Nu,Florida State University,Southeast,5/14/1955
-86,Gamma Xi,University of Maryland,Northeast,5/14/1955
-87,Gamma Omicron,Otterbein University,North Central,1/31/1956
-88,Gamma Pi,Purdue University,North Central,3/18/1956
-89,Gamma Rho,New Mexico Highlands University,Southwest,6/1/1956
-90,Gamma Sigma,Texas Christian University,Southwest,2/9/1957
-91,Gamma Tau,Lycoming College,Northeast,4/6/1957
-92,Gamma Upsilon,Ohio Wesleyan University,North Central,5/19/1957
-93,Gamma Phi,Stephen F. Austin State University,Southwest,5/1/1957
-94,Gamma Chi,University of Southern Mississippi,Southeast,5/17/1957
-95,Gamma Psi,College of William and Mary,Northeast,5/4/1957
-96,Gamma Omega,Texas Southern University,Southwest,5/22/1957
-97,Delta Alpha,Langston University,Southwest,5/19/1957
-98,Delta Beta,Baldwin-Wallace College,North Central,11/17/1957
-99,Delta Gamma,Missouri University of Science and Technology,Midwest,3/9/1958
-100,Delta Delta,Arkansas Tech University,Southwest,3/14/1958
-101,Delta Epsilon,Samford University,Southeast,5/6/1958
-102,Delta Zeta,Cornell University,Northeast,3/18/1959
-103,Delta Eta,Pittsburg State University,Midwest,4/12/1959
-104,Delta Theta,Jacksonville University,Southeast,5/2/1959
-105,Delta Iota,Florida A & M University,Southeast,5/26/1960
-106,Delta Kappa,South Dakota State University,Midwest,5/24/1961
-107,Delta Lambda,Eastern Washington State University,Western,8/25/1961
-108,Delta Mu,Humboldt State University,Western,1/6/1962
-109,Delta Nu,Morris Harvey College,Northeast,1/7/1962
-110,Delta Xi,Emporia State University,Midwest,4/6/1962
-111,Delta Omicron,University of Connecticut,Northeast,5/19/1962
-112,Delta Pi,Mississippi Valley State University,Southeast,5/5/1962
-113,Delta Rho,Arkansas State University,Southwest,3/7/1964
-114,Delta Sigma,University of Texas at Arlington,Southwest,3/15/1964
-115,Delta Tau,Adams State College,Midwest,5/16/1964
-116,Delta Upsilon,Eastern Michigan University,North Central,5/16/1965
-117,Delta Phi,Xavier University,North Central,10/9/1965
-118,Delta Chi,Southern Arkansas University,Southwest,2/12/1966
-119,Delta Psi,Prairie View A & M University,Southwest,4/17/1966
-120,Delta Omega,Ferris State University,North Central,5/22/1966
-121,Epsilon Alpha,"University of Arkansas, Little Rock",Southwest,2/17/1967
-122,Epsilon Beta,University of Central Arkansas,Southwest,2/17/1967
-123,Epsilon Gamma,Alabama State University,Southeast,4/8/1967
-124,Epsilon Delta,Texas A & M University at Kingsville,Southwest,5/13/1967
-125,Epsilon Epsilon,Southwestern Oklahoma State University,Southwest,5/26/1967
-126,Epsilon Zeta,Oklahoma Baptist University,Southwest,5/23/1967
-127,Epsilon Eta,Western State College,Midwest,5/21/1967
-128,Epsilon Theta,University of Louisiana at Monroe,Southwest,4/20/1968
-129,Epsilon Iota,Mansfield University,Northeast,10/6/1968
-130,Epsilon Kappa,Angelo State University,Southwest,12/6/1968
-131,Epsilon Lambda,Western Carolina University,Southeast,2/23/1969
-132,Epsilon Mu,Wayland Baptist University,Southwest,5/16/1969
-133,Epsilon Nu,University of Massachusetts,Northeast,5/16/1969
-134,Epsilon Xi,Miami University,North Central,3/13/1970
-135,Epsilon Omicron,Wagner College,Northeast,3/22/1970
-136,Epsilon Pi,Kansas State University,Midwest,4/4/1970
-137,Epsilon Rho,Grambling State University,Southwest,4/7/1970
-138,Epsilon Sigma,"California State University, Sacramento",Western,4/11/1970
-139,Epsilon Tau,Oral Roberts University,Southwest,4/25/1970
-140,Epsilon Upsilon,University of Maine,Northeast,5/9/1970
-141,Epsilon Phi,Pennsylvania Western University Clarion,Northeast,5/16/1970
-142,Epsilon Chi,University of Arkansas at Pine Bluff,Southwest,11/15/1970
-143,Epsilon Psi,Missouri State University,Midwest,11/21/1970
-144,Epsilon Omega,University of Nebraska at Lincoln,Midwest,2/5/1971
-145,Zeta Alpha,Bloomsburg University of Pennsylvania,Northeast,2/14/1971
-146,Zeta Beta,Howard Payne University,Southwest,2/27/1971
-147,Zeta Gamma,Texas Lutheran University,Southwest,3/21/1971
-148,Zeta Delta,Southwest Baptist University,Midwest,5/3/1971
-149,Zeta Epsilon,Michigan State University,North Central,6/6/1971
-150,Zeta Zeta,University of Arkansas at Monticello,Southwest,12/4/1971
-151,Zeta Eta,South Carolina State University,Southeast,12/14/1971
-152,Zeta Theta,West Virginia Institute of Technology,Northeast,4/16/1972
-153,Zeta Iota,Lane College,Southeast,5/13/1972
-154,Zeta Kappa,East Texas A&M University,Southwest,11/19/1972
-155,Zeta Lambda,Marshall University,North Central,12/3/1972
-156,Zeta Mu,Kutztown University,Northeast,1/23/1973
-157,Zeta Nu,Southern University,Southwest,5/12/1973
-158,Zeta Xi,Tyler Junior College,Southwest,5/5/1973
-159,Zeta Omicron,The University of Akron,North Central,5/27/1973
-160,Zeta Pi,Tennessee State University,Southeast,6/10/1973
-161,Zeta Rho,Modesto Junior College,Western,6/17/1973
-162,Zeta Sigma,North Carolina Central University,Southeast,2/9/1974
-163,Zeta Tau,Cameron University,Southwest,5/10/1974
-164,Zeta Upsilon,Troy University,Southeast,5/18/1974
-165,Zeta Phi,Tuskegee University,Southeast,11/2/1974
-166,Zeta Chi,University of South Carolina,Southeast,11/8/1974
-167,Zeta Psi,Virginia State University,Northeast,2/1/1975
-168,Zeta Omega,Weber State University,Western,5/29/1975
-169,Eta Alpha,Lock Haven University,Northeast,10/19/1975
-170,Eta Beta,Virginia Polytechnic Institute & State University,Northeast,4/3/1976
-171,Eta Gamma,Morgan State University,Northeast,4/24/1976
-172,Eta Delta,Eastern Illinois University,North Central,12/13/1976
-173,Eta Epsilon,Illinois State University,North Central,4/16/1977
-174,Eta Zeta,University of Kansas,Midwest,4/16/1977
-175,Eta Eta,Jackson State University,Southeast,10/28/1977
-176,Eta Theta,Nicholls State University,Southwest,4/9/1978
-177,Eta Iota,Bethune-Cookman University,Southeast,2/18/1978
-178,Eta Kappa,Albany State University,Southeast,5/20/1978
-179,Eta Lambda,Carson Newman College,Southeast,10/7/1978
-180,Eta Mu,San Diego State University,Western,12/16/1978
-181,Eta Nu,Southeastern Oklahoma State University,Southwest,2/17/1979
-182,Eta Xi,Louisiana Tech University,Southwest,3/15/1980
-183,Eta Omicron,James Madison University,Northeast,11/9/1980
-184,Eta Pi,University of Northern Iowa,Midwest,10/3/1981
-185,Eta Rho,West Chester University,Northeast,11/22/1981
-186,Eta Sigma,University of Central Florida,Southeast,4/23/1982
-187,Eta Tau,Allegheny College,Northeast,4/25/1982
-188,Eta Upsilon,University of Missouri-Columbia,Midwest,5/1/1982
-189,Eta Phi,Syracuse University,Northeast,12/4/1982
-190,Eta Chi,Bowie State University,Northeast,5/1/1983
-191,Eta Psi,Delaware State University,Northeast,5/8/1983
-192,Eta Omega,Howard University,Northeast,2/4/1984
-193,Theta Alpha,Texas State University at San Marcos,Southwest,2/19/1984
-194,Theta Beta,Boston University,Northeast,3/29/1984
-195,Theta Gamma,Pennsylvania Western University California,Northeast,5/11/1984
-196,Theta Delta,Central State University,North Central,6/1/1984
-197,Theta Epsilon,University of Kentucky,North Central,10/6/1984
-198,Theta Zeta,Ashland University,North Central,2/2/1985
-199,Theta Eta,University of Louisville,North Central,7/20/1985
-200,Theta Theta,University of Alabama at Birmingham,Southeast,2/21/1986
-201,Theta Iota,Baker University,Midwest,3/2/1986
-202,Theta Kappa,Tarleton State University,Southwest,3/13/1986
-203,Theta Lambda,University of Memphis,Southeast,10/19/1986
-204,Theta Mu,Johnson C. Smith University,Southeast,10/19/1986
-205,Theta Nu,Northwestern State University of Louisiana,Southwest,11/21/1986
-206,Theta Xi,Southern Connecticut State University,Northeast,4/10/1987
-207,Theta Omicron,Georgia Southwestern State University,Southeast,5/3/1987
-208,Theta Pi,Brigham Young University,Western,5/27/1987
-209,Theta Rho,Lincoln University,Midwest,12/3/1987
-210,Theta Sigma,Fairmont State University,Northeast,12/4/1987
-211,Theta Tau,Fayetteville State University,Southeast,2/7/1988
-212,Theta Upsilon,University of Rhode Island,Northeast,2/21/1988
-213,Theta Phi,Henderson State University,Southwest,3/8/1988
-214,Theta Chi,Livingstone College,Southeast,4/22/1988
-215,Theta Psi,Virginia Union University,Northeast,4/25/1988
-216,Theta Omega,University of North Alabama,Southeast,4/29/1988
-217,Iota Alpha,California State University at Fresno,Western,4/30/1988
-218,Iota Beta,Alcorn State University,Southeast,2/4/1989
-219,Iota Gamma,Washington State University,Western,4/1/1989
-220,Iota Delta,Towson University,Northeast,4/8/1989
-221,Iota Epsilon,Cumberland College,North Central,2/25/1990
-222,Iota Zeta,North Carolina A & T State University,Southeast,2/24/1990
-223,Iota Eta,Waynesburg College,Northeast,3/30/1990
-224,Iota Theta,Morehouse College,Southeast,4/7/1990
-225,Iota Iota,Utah State University,Western,4/13/1990
-226,Iota Kappa,Boise State University,Western,4/14/1990
-227,Iota Lambda,University of Mount Union,North Central,5/2/1990
-228,Iota Mu,Kentucky State University,North Central,5/6/1990
-229,Iota Nu,Alabama A & M University,Southeast,10/21/1990
-230,Iota Xi,Norfolk State University,Northeast,3/14/1991
-231,Iota Omicron,Appalachian State University,Southeast,9/29/1991
-232,Iota Pi,"California Polytechnic State University, SLO",Western,4/5/1992
-233,Iota Rho,Morris Brown College,Southeast,5/9/1992
-234,Iota Sigma,Blinn College,Southwest,6/11/1992
-235,Iota Tau,Clark Atlanta University,Southeast,2/7/1993
-236,Iota Upsilon,McNeese State University,Southwest,3/20/1993
-237,Iota Phi,University of New Hampshire,Northeast,5/8/1993
-238,Iota Chi,Youngstown State University,North Central,11/14/1993
-239,Iota Psi,University of Nebraska at Kearney,Midwest,12/5/1993
-240,Iota Omega,Iowa State University,Midwest,3/19/1994
-241,Kappa Alpha,University of Minnesota,Midwest,10/16/1994
-242,Kappa Beta,Clemson University,Southeast,10/30/1994
-243,Kappa Gamma,Lehigh University,Northeast,1/28/1995
-244,Kappa Delta,Northwest Missouri State University,Midwest,2/26/1995
-245,Kappa Epsilon,Shenandoah University,Northeast,11/26/1995
-246,Kappa Zeta,Wake Forest University,Southeast,2/3/1996
-247,Kappa Eta,S.U.N.Y 45 Buffalo,Northeast,2/24/1996
-248,Kappa Theta,Liberty University,Northeast,5/4/1997
-249,Kappa Iota,University of Nebraska at Omaha,Midwest,12/6/1997
-250,Kappa Kappa,Miles College,Southeast,4/18/1998
-251,Kappa Lambda,Winston-Salem State University,Southeast,3/14/1999
-252,Kappa Mu,University of Georgia,Southeast,4/22/1999
-253,Kappa Nu,Northern Illinois University,North Central,4/25/1999
-254,Kappa Xi,Northeastern Oklahoma A & M College,Southwest,6/1/2000
-255,Kappa Omicron,Stillman College,Southeast,10/29/2000
-256,Kappa Pi,Claflin University,Southeast,2/24/2001
-257,Kappa Rho,Duquesne University,Northeast,3/11/2001
-258,Kappa Sigma,East Carolina University,Southeast,3/25/2001
-259,Kappa Tau,University of South Florida,Southeast,4/13/2001
-260,Kappa Upsilon,Marist College,Northeast,5/6/2001
-261,Kappa Phi,East Texas Baptist University,Southwest,4/19/2002
-262,Kappa Chi,Albion College,North Central,4/20/2002
-263,Kappa Psi,Virginia Commonwealth University,Northeast,4/28/2002
-264,Kappa Omega,Northern Kentucky University,North Central,5/18/2002
-265,Lambda Alpha,"University of California, Irvine",Western,6/1/2002
-266,Lambda Beta,Charleston Southern University,Southeast,4/27/2003
-267,Lambda Gamma,Florida International University,Southeast,5/31/2003
-268,Lambda Delta,Shippensburg University,Northeast,7/11/2003
-269,Lambda Epsilon,Ouachita Baptist University,Southwest,10/26/2003
-270,Lambda Zeta,Fort Valley State University,Southeast,12/7/2003
-271,Lambda Eta,University of West Georgia,Southeast,6/14/2004
-272,Lambda Theta,Coastal Carolina University,Southeast,11/2/2004
-273,Lambda Iota,Tiffin University,North Central,12/5/2004
-274,Lambda Kappa,University of Arkansas 45 Fort Smith,Southwest,2/21/2005
-275,Lambda Lambda,Indiana State University,North Central,2/27/2005
-276,Lambda Mu,East Tennessee State University,Southeast,5/7/2005
-277,Lambda Nu,Sacred Heart University,Northeast,5/21/2005
-278,Lambda Xi,Southeastern Louisiana University,Southwest,1/22/2006
-279,Lambda Omicron,Valdosta State University,Southeast,3/25/2006
-280,Lambda Pi,University of Texas at Tyler,Southwest,4/15/2006
-281,Lambda Rho,Tennessee Tech University,Southeast,5/6/2006
-282,Lambda Sigma,Coahoma Community College,Southeast,5/13/2006
-283,Lambda Tau,Central Michigan University,North Central,11/5/2006
-284,Lambda Upsilon,Savannah State University,Southeast,11/5/2006
-285,Lambda Phi,Kean University,Northeast,12/2/2006
-286,Lambda Chi,Quincy University,North Central,12/9/2006
-287,Lambda Psi,San Jose State University,Western,3/23/2007
-288,Lambda Omega,Northwestern Oklahoma State University,Southwest,4/28/2007
-289,Mu Alpha,McKendree University,North Central,5/6/2007
-290,Mu Beta,Florida Atlantic University,Southeast,6/9/2007
-291,Mu Gamma,Houston Baptist University,Southwest,11/4/2007
-292,Mu Delta,Western Michigan University,North Central,2/29/2008
-293,Mu Epsilon,East Stroudsburg University,Northeast,5/2/2008
-294,Mu Zeta,Diablo Valley College,Western,5/11/2008
-295,Mu Eta,University of North Carolina at Chapel Hill,Southeast,9/6/2008
-296,Mu Theta,Bethel University,Southeast,11/22/2008
-297,Mu Iota,Jacksonville State University,Southeast,3/1/2009
-298,Mu Kappa,Grand Valley State University,North Central,4/18/2009
-299,Mu Lambda,University of Mary Hardin-Baylor,Southwest,4/24/2009
-300,Mu Mu,University of Central Oklahoma,Southwest,4/26/2009
-301,Mu Nu,Christopher Newport University,Northeast,5/2/2009
-302,Mu Xi,Muhlenberg College,Northeast,5/8/2009
-303,Mu Omicron,George Mason University,Northeast,12/5/2009
-304,Mu Pi,University of Oregon,Western,2/14/2010
-305,Mu Rho,Benedict College,Southeast,3/21/2010
-306,Mu Sigma,Lincoln University,Northeast,4/3/2010
-307,Mu Tau,University of Texas at San Antonio,Southwest,4/24/2010
-308,Mu Upsilon,Florida Gulf Coast University,Southeast,5/1/2010
-309,Mu Phi,Fullerton College,Western,10/3/2010
-310,Mu Chi,University of Texas Rio Grande Valley,Southwest,11/20/2010
-311,Mu Psi,Texas College,Southwest,2/19/2011
-312,Mu Omega,Huntingdon College,Southeast,2/27/2011
-313,Nu Alpha,Georgia State University,Southeast,11/28/2011
-314,Nu Beta,Texas Wesleyan University,Southwest,3/4/2012
-315,Nu Gamma,Robert Morris University,Northeast,8/14/2012
-316,Nu Delta,McMurry University,Southwest,5/4/2013
-317,Nu Epsilon,Idaho State University,Western,5/11/2013
-318,Nu Zeta,Pennsylvania Western University Edinboro,Northeast,12/11/2013
-319,Nu Eta,Saint Augustine39s University,Southeast,3/2/2014
-320,Nu Theta,Northeastern University,Northeast,4/13/2014
-321,Nu Iota,Elizabeth City State University,Southeast,5/31/2014
-322,Nu Kappa,Georgia Southern University,Southeast,10/19/2014
-323,Nu Lambda,Arkansas State University 45 Beebe,Southwest,10/19/2014
-324,Nu Mu,Kennesaw State University,Southeast,4/16/2015
-325,Nu Nu,University of Alabama,Southeast,4/21/2015
-326,Nu Xi,University of Illinois Urbana-Champaign,North Central,3/13/2016
-327,Nu Omicron,University of New Haven,Northeast,4/24/2016
-328,Nu Pi,University of Illinois Chicago,North Central,5/1/2016
-329,Nu Rho,Old Dominion University,Northeast,4/19/2017
-330,Nu Sigma,"California State Polytechnic University, Pomona",Western,11/18/2017
-331,Nu Tau,High Point University,Southeast,4/21/2018
-332,Nu Upsilon,Ball State University,North Central,12/1/2018
-333,Nu Phi,Schreiner University,Southwest,5/5/2019
-334,Nu Chi,Wilkes University,Northeast,5/9/2019
-335,Nu Psi,Chicago State University,North Central,5/8/2020
-336,Nu Omega,Hampton University,Northeast,4/14/2021
-337,Xi Alpha,Shepherd University,Northeast,4/26/2021
-338,Xi Beta,University of North Texas,Southwest,4/28/2021
-339,Xi Gamma,Cleveland State University,North Central,1/30/2022
-340,Xi Delta,Stony Brook University,Northeast,12/4/2022
-341,Xi Epsilon,Florida Memorial University,Southeast,4/13/2023
-342,Xi Zeta,Widener University,Northeast,4/17/2023
-343,Xi Eta,Austin Peay State University,Southeast,4/27/2024
+Number,Chapter,School,District,Founding Date,NCAA Conference,Institution Type
+1,Alpha,Oklahoma State University,Southwest,11/27/1919,Big 12,PWI
+2,Beta,Montana State University,Midwest,12/17/1920,Big Sky (FCS),PWI
+3,Gamma,University of Washington,Western,12/16/1920,Big Ten,PWI
+4,Delta,University of Oklahoma,Southwest,5/21/1921,SEC,PWI
+5,Epsilon,Mississippi State University,Southeast,4/20/1923,SEC,PWI
+6,Zeta,Pennsylvania State University,Northeast,4/25/1923,Big Ten,PWI
+7,Eta,The Ohio State University,North Central,4/26/1923,Big Ten,PWI
+8,Theta,Oregon State University,Western,5/12/1923,Pac-12,PWI
+9,Iota,Georgia Institute of Technology,Southeast,4/21/1924,ACC,PWI
+10,Kappa,Colorado State University,Midwest,5/31/1924,Mountain West,PWI
+11,Lambda,University of Arkansas,Southwest,6/5/1924,SEC,PWI
+12,Mu,University of North Dakota,Midwest,5/31/1925,Missouri Valley (FCS),PWI
+13,Nu,University of Michigan,North Central,6/12/1925,Big Ten,PWI
+14,Xi,Colorado School Of Mines,Midwest,11/21/1925,RMAC (D-II),PWI
+15,Omicron,West Virginia University,Northeast,6/17/1926,Big 12,PWI
+16,Pi,Auburn University,Southeast,5/18/1926,SEC,PWI
+17,Rho,Tulane University,Southwest,10/18/1926,American Athletic,PWI
+18,Sigma,Ohio Northern University,North Central,5/23/1927,NCAC (D-III),PWI
+19,Tau,University of Montana,Midwest,6/2/1928,Big Sky (FCS),PWI
+20,Upsilon,University of Cincinnati,North Central,6/11/1928,Big 12,PWI
+21,Phi,Stanford University,Western,3/20/1929,ACC,PWI
+22,Chi,"University of California, Berkeley",Western,4/20/1929,ACC,PWI
+23,Psi,"University of California, Los Angeles",Western,5/4/1929,Big Ten,PWI
+24,Omega,University of Arizona,Western,4/4/1929,Big 12,PWI
+25,Alpha Alpha,University of Nevada,Western,5/14/1929,Mountain West,PWI
+26,Alpha Beta,Butler University,North Central,5/31/1929,Big East,PWI
+27,Alpha Gamma,Duke University,Southeast,6/2/1929,ACC,PWI
+28,Alpha Delta,Ohio University,North Central,5/17/1931,MAC,PWI
+29,Alpha Epsilon,Temple University,Northeast,5/21/1931,American Athletic,PWI
+30,Alpha Zeta,Indiana University,North Central,5/27/1931,Big Ten,PWI
+31,Alpha Eta,University of Florida,Southeast,5/25/1931,SEC,PWI
+32,Alpha Theta,University of Northern Colorado,Midwest,6/6/1931,Big Sky (FCS),PWI
+33,Alpha Iota,University of Colorado,Midwest,6/7/1931,Big 12,PWI
+34,Alpha Kappa,The George Washington University,Northeast,12/4/1933,Atlantic 10,PWI
+35,Alpha Lambda,University of Denver,Midwest,6/8/1934,Summit League,PWI
+36,Alpha Mu,North Dakota State University,Midwest,5/5/1935,Missouri Valley (FCS),PWI
+37,Alpha Nu,University of Wyoming,Midwest,5/12/1935,Mountain West,PWI
+38,Alpha Xi,Stetson University,Southeast,12/14/1935,ASUN (FCS),PWI
+39,Alpha Omicron,Texas Tech University,Southwest,3/12/1938,Big 12,PWI
+40,Alpha Pi,University of Tulsa,Southwest,3/18/1938,American Athletic,PWI
+41,Alpha Rho,Northeastern State University,Southwest,5/2/1938,MIAA (D-II),PWI
+42,Alpha Sigma,University of Tampa,Southeast,5/11/1941,Sunshine State (D-II),PWI
+43,Alpha Tau,University of Texas at Austin,Southwest,5/18/1941,SEC,PWI
+44,Alpha Upsilon,University of Southern California,Western,5/11/1942,Big Ten,PWI
+45,Alpha Phi,Rutgers University,Northeast,4/16/1942,Big Ten,PWI
+46,Alpha Chi,University of Texas at El Paso,Southwest,4/5/1947,Conference USA,PWI
+47,Alpha Psi,West Texas A & M University,Southwest,10/25/1947,Lone Star (D-II),PWI
+48,Alpha Omega,University of Pittsburgh,Northeast,2/14/1948,ACC,PWI
+49,Beta Alpha,Baylor University,Southwest,2/14/1948,Big 12,PWI
+50,Beta Beta,University of Mississippi,Southeast,4/26/1948,SEC,PWI
+51,Beta Gamma,Louisiana State University,Southwest,5/16/1948,SEC,PWI
+52,Beta Delta,Sam Houston State University,Southwest,5/15/1948,Conference USA,PWI
+53,Beta Epsilon,University of South Dakota,Midwest,11/7/1948,Missouri Valley (FCS),PWI
+54,Beta Zeta,Long Island University,Northeast,11/20/1949,Northeast Conference,PWI
+55,Beta Eta,University of Tennessee,Southeast,3/20/1949,SEC,PWI
+56,Beta Theta,University of Utah,Western,4/30/1949,Big 12,PWI
+57,Beta Iota,Nebraska Wesleyan University,Midwest,4/23/1949,American Rivers (D-III),PWI
+58,Beta Kappa,Bowling Green State University,North Central,4/17/1949,MAC,PWI
+59,Beta Lambda,Eastern New Mexico University,Southwest,5/8/1949,Lone Star (D-II),PWI
+60,Beta Mu,Emory University,Southeast,5/30/1949,UAA (D-III),PWI
+61,Beta Nu,VanderCook College of Music,North Central,12/19/1949,--,PWI
+62,Beta Xi,Sul Ross State University,Southwest,12/4/1949,American Southwest (D-III),PWI
+63,Beta Omicron,Arizona State University,Western,11/13/1949,Big 12,PWI
+64,Beta Pi,Drury College,Midwest,12/17/1949,GLVC (D-II),PWI
+65,Beta Rho,University of Toledo,North Central,1/15/1950,MAC,PWI
+66,Beta Sigma,University of Houston,Southwest,1/21/1950,Big 12,PWI
+67,Beta Tau,The Wichita State University,Midwest,1/19/1950,American Athletic,PWI
+68,Beta Upsilon,Abilene Christian University,Southwest,3/25/1950,WAC (FCS),PWI
+69,Beta Phi,Southern Methodist University,Southwest,3/25/1950,ACC,PWI
+70,Beta Chi,University of Virginia,Northeast,9/23/1950,ACC,PWI
+71,Beta Psi,Kent State University,North Central,2/25/1951,MAC,PWI
+72,Beta Omega,Case-Western Reserve University,North Central,5/20/1951,UAA (D-III),PWI
+73,Gamma Alpha,Midwestern State University,Southwest,5/5/1951,Lone Star (D-II),PWI
+74,Gamma Beta,"Brigham Young University, Idaho (Ricks)",Western,5/3/1952,--,PWI
+75,Gamma Gamma,Oklahoma Panhandle State University,Southwest,5/22/1952,Sooner (NAIA),PWI
+76,Gamma Delta,Wayne State College,Midwest,8/27/2006,NSIC (D-II),PWI
+77,Gamma Epsilon,Hobart College,Northeast,5/30/1953,Liberty League (D-III),PWI
+78,Gamma Zeta,Lamar University,Southwest,3/18/1954,Southland (FCS),PWI
+79,Gamma Eta,New Mexico State University,Southwest,5/16/1954,Conference USA,PWI
+80,Gamma Theta,East Central University,Southwest,5/9/1954,GAC (D-II),PWI
+81,Gamma Iota,University of New Mexico,Southwest,5/23/1954,Mountain West,PWI
+82,Gamma Kappa,Northern Arizona University,Western,5/9/1954,Big Sky (FCS),PWI
+83,Gamma Lambda,Doane College,Midwest,5/16/1954,GPAC (NAIA),PWI
+84,Gamma Mu,University of Pennsylvania,Northeast,6/5/1954,Ivy League (FCS),PWI
+85,Gamma Nu,Florida State University,Southeast,5/14/1955,ACC,PWI
+86,Gamma Xi,University of Maryland,Northeast,5/14/1955,Big Ten,PWI
+87,Gamma Omicron,Otterbein University,North Central,1/31/1956,OAC (D-III),PWI
+88,Gamma Pi,Purdue University,North Central,3/18/1956,Big Ten,PWI
+89,Gamma Rho,New Mexico Highlands University,Southwest,6/1/1956,RMAC (D-II),PWI
+90,Gamma Sigma,Texas Christian University,Southwest,2/9/1957,Big 12,PWI
+91,Gamma Tau,Lycoming College,Northeast,4/6/1957,MAC Commonwealth (D-III),PWI
+92,Gamma Upsilon,Ohio Wesleyan University,North Central,5/19/1957,NCAC (D-III),PWI
+93,Gamma Phi,Stephen F. Austin State University,Southwest,5/1/1957,WAC (FCS),PWI
+94,Gamma Chi,University of Southern Mississippi,Southeast,5/17/1957,Sun Belt,PWI
+95,Gamma Psi,College of William and Mary,Northeast,5/4/1957,CAA (FCS),PWI
+96,Gamma Omega,Texas Southern University,Southwest,5/22/1957,SWAC (FCS),HBCU
+97,Delta Alpha,Langston University,Southwest,5/19/1957,SWAC (FCS),HBCU
+98,Delta Beta,Baldwin-Wallace College,North Central,11/17/1957,OAC (D-III),PWI
+99,Delta Gamma,Missouri University of Science and Technology,Midwest,3/9/1958,GLVC (D-II),PWI
+100,Delta Delta,Arkansas Tech University,Southwest,3/14/1958,GAC (D-II),PWI
+101,Delta Epsilon,Samford University,Southeast,5/6/1958,Southern (FCS),PWI
+102,Delta Zeta,Cornell University,Northeast,3/18/1959,Ivy League (FCS),PWI
+103,Delta Eta,Pittsburg State University,Midwest,4/12/1959,MIAA (D-II),PWI
+104,Delta Theta,Jacksonville University,Southeast,5/2/1959,ASUN (FCS),PWI
+105,Delta Iota,Florida A & M University,Southeast,5/26/1960,SWAC (FCS),HBCU
+106,Delta Kappa,South Dakota State University,Midwest,5/24/1961,Missouri Valley (FCS),PWI
+107,Delta Lambda,Eastern Washington State University,Western,8/25/1961,Big Sky (FCS),PWI
+108,Delta Mu,Humboldt State University,Western,1/6/1962,--,PWI
+109,Delta Nu,Morris Harvey College,Northeast,1/7/1962,--,PWI
+110,Delta Xi,Emporia State University,Midwest,4/6/1962,MIAA (D-II),PWI
+111,Delta Omicron,University of Connecticut,Northeast,5/19/1962,Big East,PWI
+112,Delta Pi,Mississippi Valley State University,Southeast,5/5/1962,SWAC (FCS),HBCU
+113,Delta Rho,Arkansas State University,Southwest,3/7/1964,Sun Belt,PWI
+114,Delta Sigma,University of Texas at Arlington,Southwest,3/15/1964,WAC (FCS),PWI
+115,Delta Tau,Adams State College,Midwest,5/16/1964,RMAC (D-II),PWI
+116,Delta Upsilon,Eastern Michigan University,North Central,5/16/1965,MAC,PWI
+117,Delta Phi,Xavier University,North Central,10/9/1965,Big East,PWI
+118,Delta Chi,Southern Arkansas University,Southwest,2/12/1966,GAC (D-II),PWI
+119,Delta Psi,Prairie View A & M University,Southwest,4/17/1966,SWAC (FCS),HBCU
+120,Delta Omega,Ferris State University,North Central,5/22/1966,GLIAC (D-II),PWI
+121,Epsilon Alpha,"University of Arkansas, Little Rock",Southwest,2/17/1967,Ohio Valley (FCS),PWI
+122,Epsilon Beta,University of Central Arkansas,Southwest,2/17/1967,ASUN (FCS),PWI
+123,Epsilon Gamma,Alabama State University,Southeast,4/8/1967,SWAC (FCS),HBCU
+124,Epsilon Delta,Texas A & M University at Kingsville,Southwest,5/13/1967,Lone Star (D-II),PWI
+125,Epsilon Epsilon,Southwestern Oklahoma State University,Southwest,5/26/1967,GAC (D-II),PWI
+126,Epsilon Zeta,Oklahoma Baptist University,Southwest,5/23/1967,GAC (D-II),PWI
+127,Epsilon Eta,Western State College,Midwest,5/21/1967,RMAC (D-II),PWI
+128,Epsilon Theta,University of Louisiana at Monroe,Southwest,4/20/1968,Sun Belt,PWI
+129,Epsilon Iota,Mansfield University,Northeast,10/6/1968,PSAC (D-II),PWI
+130,Epsilon Kappa,Angelo State University,Southwest,12/6/1968,Lone Star (D-II),PWI
+131,Epsilon Lambda,Western Carolina University,Southeast,2/23/1969,Southern (FCS),PWI
+132,Epsilon Mu,Wayland Baptist University,Southwest,5/16/1969,Sooner (NAIA),PWI
+133,Epsilon Nu,University of Massachusetts,Northeast,5/16/1969,MAC (FCS),PWI
+134,Epsilon Xi,Miami University,North Central,3/13/1970,MAC,PWI
+135,Epsilon Omicron,Wagner College,Northeast,3/22/1970,Northeast Conference,PWI
+136,Epsilon Pi,Kansas State University,Midwest,4/4/1970,Big 12,PWI
+137,Epsilon Rho,Grambling State University,Southwest,4/7/1970,SWAC (FCS),HBCU
+138,Epsilon Sigma,"California State University, Sacramento",Western,4/11/1970,Big Sky (FCS),PWI
+139,Epsilon Tau,Oral Roberts University,Southwest,4/25/1970,Summit League,PWI
+140,Epsilon Upsilon,University of Maine,Northeast,5/9/1970,CAA (FCS),PWI
+141,Epsilon Phi,Pennsylvania Western University Clarion,Northeast,5/16/1970,PSAC (D-II),PWI
+142,Epsilon Chi,University of Arkansas at Pine Bluff,Southwest,11/15/1970,SWAC (FCS),HBCU
+143,Epsilon Psi,Missouri State University,Midwest,11/21/1970,Missouri Valley (FCS),PWI
+144,Epsilon Omega,University of Nebraska at Lincoln,Midwest,2/5/1971,Big Ten,PWI
+145,Zeta Alpha,Bloomsburg University of Pennsylvania,Northeast,2/14/1971,PSAC (D-II),PWI
+146,Zeta Beta,Howard Payne University,Southwest,2/27/1971,American Southwest (D-III),PWI
+147,Zeta Gamma,Texas Lutheran University,Southwest,3/21/1971,SCAC (D-III),PWI
+148,Zeta Delta,Southwest Baptist University,Midwest,5/3/1971,GLVC (D-II),PWI
+149,Zeta Epsilon,Michigan State University,North Central,6/6/1971,Big Ten,PWI
+150,Zeta Zeta,University of Arkansas at Monticello,Southwest,12/4/1971,GAC (D-II),PWI
+151,Zeta Eta,South Carolina State University,Southeast,12/14/1971,MEAC (FCS),HBCU
+152,Zeta Theta,West Virginia Institute of Technology,Northeast,4/16/1972,--,PWI
+153,Zeta Iota,Lane College,Southeast,5/13/1972,SIAC (D-II),HBCU
+154,Zeta Kappa,East Texas A&M University,Southwest,11/19/1972,Southland (FCS),PWI
+155,Zeta Lambda,Marshall University,North Central,12/3/1972,Sun Belt,PWI
+156,Zeta Mu,Kutztown University,Northeast,1/23/1973,PSAC (D-II),PWI
+157,Zeta Nu,Southern University,Southwest,5/12/1973,SWAC (FCS),HBCU
+158,Zeta Xi,Tyler Junior College,Southwest,5/5/1973,NJCAA,PWI
+159,Zeta Omicron,The University of Akron,North Central,5/27/1973,MAC,PWI
+160,Zeta Pi,Tennessee State University,Southeast,6/10/1973,Big South-OVC (FCS),HBCU
+161,Zeta Rho,Modesto Junior College,Western,6/17/1973,NJCAA,PWI
+162,Zeta Sigma,North Carolina Central University,Southeast,2/9/1974,MEAC (FCS),HBCU
+163,Zeta Tau,Cameron University,Southwest,5/10/1974,Lone Star (D-II),PWI
+164,Zeta Upsilon,Troy University,Southeast,5/18/1974,Sun Belt,PWI
+165,Zeta Phi,Tuskegee University,Southeast,11/2/1974,SIAC (D-II),HBCU
+166,Zeta Chi,University of South Carolina,Southeast,11/8/1974,SEC,PWI
+167,Zeta Psi,Virginia State University,Northeast,2/1/1975,CIAA (D-II),HBCU
+168,Zeta Omega,Weber State University,Western,5/29/1975,Big Sky (FCS),PWI
+169,Eta Alpha,Lock Haven University,Northeast,10/19/1975,PSAC (D-II),PWI
+170,Eta Beta,Virginia Polytechnic Institute & State University,Northeast,4/3/1976,ACC,PWI
+171,Eta Gamma,Morgan State University,Northeast,4/24/1976,MEAC (FCS),HBCU
+172,Eta Delta,Eastern Illinois University,North Central,12/13/1976,Ohio Valley (FCS),PWI
+173,Eta Epsilon,Illinois State University,North Central,4/16/1977,Missouri Valley (FCS),PWI
+174,Eta Zeta,University of Kansas,Midwest,4/16/1977,Big 12,PWI
+175,Eta Eta,Jackson State University,Southeast,10/28/1977,SWAC (FCS),HBCU
+176,Eta Theta,Nicholls State University,Southwest,4/9/1978,Southland (FCS),PWI
+177,Eta Iota,Bethune-Cookman University,Southeast,2/18/1978,SWAC (FCS),HBCU
+178,Eta Kappa,Albany State University,Southeast,5/20/1978,SIAC (D-II),HBCU
+179,Eta Lambda,Carson Newman College,Southeast,10/7/1978,South Atlantic (D-II),PWI
+180,Eta Mu,San Diego State University,Western,12/16/1978,Mountain West,PWI
+181,Eta Nu,Southeastern Oklahoma State University,Southwest,2/17/1979,GAC (D-II),PWI
+182,Eta Xi,Louisiana Tech University,Southwest,3/15/1980,Conference USA,PWI
+183,Eta Omicron,James Madison University,Northeast,11/9/1980,Sun Belt,PWI
+184,Eta Pi,University of Northern Iowa,Midwest,10/3/1981,Missouri Valley (FCS),PWI
+185,Eta Rho,West Chester University,Northeast,11/22/1981,PSAC (D-II),PWI
+186,Eta Sigma,University of Central Florida,Southeast,4/23/1982,Big 12,PWI
+187,Eta Tau,Allegheny College,Northeast,4/25/1982,NCAC (D-III),PWI
+188,Eta Upsilon,University of Missouri-Columbia,Midwest,5/1/1982,SEC,PWI
+189,Eta Phi,Syracuse University,Northeast,12/4/1982,ACC,PWI
+190,Eta Chi,Bowie State University,Northeast,5/1/1983,CIAA (D-II),HBCU
+191,Eta Psi,Delaware State University,Northeast,5/8/1983,MEAC (FCS),HBCU
+192,Eta Omega,Howard University,Northeast,2/4/1984,MEAC (FCS),HBCU
+193,Theta Alpha,Texas State University at San Marcos,Southwest,2/19/1984,Sun Belt,PWI
+194,Theta Beta,Boston University,Northeast,3/29/1984,Patriot League,PWI
+195,Theta Gamma,Pennsylvania Western University California,Northeast,5/11/1984,PSAC (D-II),PWI
+196,Theta Delta,Central State University,North Central,6/1/1984,SIAC (D-II),HBCU
+197,Theta Epsilon,University of Kentucky,North Central,10/6/1984,SEC,PWI
+198,Theta Zeta,Ashland University,North Central,2/2/1985,GLIAC (D-II),PWI
+199,Theta Eta,University of Louisville,North Central,7/20/1985,ACC,PWI
+200,Theta Theta,University of Alabama at Birmingham,Southeast,2/21/1986,American Athletic,PWI
+201,Theta Iota,Baker University,Midwest,3/2/1986,Heart of America (NAIA),PWI
+202,Theta Kappa,Tarleton State University,Southwest,3/13/1986,WAC (FCS),PWI
+203,Theta Lambda,University of Memphis,Southeast,10/19/1986,American Athletic,PWI
+204,Theta Mu,Johnson C. Smith University,Southeast,10/19/1986,CIAA (D-II),HBCU
+205,Theta Nu,Northwestern State University of Louisiana,Southwest,11/21/1986,Southland (FCS),PWI
+206,Theta Xi,Southern Connecticut State University,Northeast,4/10/1987,Northeast Conference,PWI
+207,Theta Omicron,Georgia Southwestern State University,Southeast,5/3/1987,Peach Belt (D-II),PWI
+208,Theta Pi,Brigham Young University,Western,5/27/1987,Big 12,PWI
+209,Theta Rho,Lincoln University,Midwest,12/3/1987,MIAA (D-II),PWI
+210,Theta Sigma,Fairmont State University,Northeast,12/4/1987,MEC (D-II),PWI
+211,Theta Tau,Fayetteville State University,Southeast,2/7/1988,CIAA (D-II),HBCU
+212,Theta Upsilon,University of Rhode Island,Northeast,2/21/1988,CAA (FCS),PWI
+213,Theta Phi,Henderson State University,Southwest,3/8/1988,GAC (D-II),PWI
+214,Theta Chi,Livingstone College,Southeast,4/22/1988,CIAA (D-II),HBCU
+215,Theta Psi,Virginia Union University,Northeast,4/25/1988,CIAA (D-II),HBCU
+216,Theta Omega,University of North Alabama,Southeast,4/29/1988,ASUN (FCS),PWI
+217,Iota Alpha,California State University at Fresno,Western,4/30/1988,Mountain West,PWI
+218,Iota Beta,Alcorn State University,Southeast,2/4/1989,SWAC (FCS),HBCU
+219,Iota Gamma,Washington State University,Western,4/1/1989,Pac-12,PWI
+220,Iota Delta,Towson University,Northeast,4/8/1989,CAA (FCS),PWI
+221,Iota Epsilon,Cumberland College,North Central,2/25/1990,Mid-South (NAIA),PWI
+222,Iota Zeta,North Carolina A & T State University,Southeast,2/24/1990,CAA (FCS),HBCU
+223,Iota Eta,Waynesburg College,Northeast,3/30/1990,PAC (D-III),PWI
+224,Iota Theta,Morehouse College,Southeast,4/7/1990,SIAC (D-II),HBCU
+225,Iota Iota,Utah State University,Western,4/13/1990,Mountain West,PWI
+226,Iota Kappa,Boise State University,Western,4/14/1990,Mountain West,PWI
+227,Iota Lambda,University of Mount Union,North Central,5/2/1990,OAC (D-III),PWI
+228,Iota Mu,Kentucky State University,North Central,5/6/1990,SIAC (D-II),HBCU
+229,Iota Nu,Alabama A & M University,Southeast,10/21/1990,SWAC (FCS),HBCU
+230,Iota Xi,Norfolk State University,Northeast,3/14/1991,MEAC (FCS),HBCU
+231,Iota Omicron,Appalachian State University,Southeast,9/29/1991,Sun Belt,PWI
+232,Iota Pi,"California Polytechnic State University, SLO",Western,4/5/1992,Big West,PWI
+233,Iota Rho,Morris Brown College,Southeast,5/9/1992,--,HBCU
+234,Iota Sigma,Blinn College,Southwest,6/11/1992,NJCAA,PWI
+235,Iota Tau,Clark Atlanta University,Southeast,2/7/1993,SIAC (D-II),HBCU
+236,Iota Upsilon,McNeese State University,Southwest,3/20/1993,Southland (FCS),PWI
+237,Iota Phi,University of New Hampshire,Northeast,5/8/1993,CAA (FCS),PWI
+238,Iota Chi,Youngstown State University,North Central,11/14/1993,Missouri Valley (FCS),PWI
+239,Iota Psi,University of Nebraska at Kearney,Midwest,12/5/1993,MIAA (D-II),PWI
+240,Iota Omega,Iowa State University,Midwest,3/19/1994,Big 12,PWI
+241,Kappa Alpha,University of Minnesota,Midwest,10/16/1994,Big Ten,PWI
+242,Kappa Beta,Clemson University,Southeast,10/30/1994,ACC,PWI
+243,Kappa Gamma,Lehigh University,Northeast,1/28/1995,Patriot League,PWI
+244,Kappa Delta,Northwest Missouri State University,Midwest,2/26/1995,MIAA (D-II),PWI
+245,Kappa Epsilon,Shenandoah University,Northeast,11/26/1995,ODAC (D-III),PWI
+246,Kappa Zeta,Wake Forest University,Southeast,2/3/1996,ACC,PWI
+247,Kappa Eta,S.U.N.Y 45 Buffalo,Northeast,2/24/1996,MAC,PWI
+248,Kappa Theta,Liberty University,Northeast,5/4/1997,Conference USA,PWI
+249,Kappa Iota,University of Nebraska at Omaha,Midwest,12/6/1997,Summit League,PWI
+250,Kappa Kappa,Miles College,Southeast,4/18/1998,SIAC (D-II),HBCU
+251,Kappa Lambda,Winston-Salem State University,Southeast,3/14/1999,CIAA (D-II),HBCU
+252,Kappa Mu,University of Georgia,Southeast,4/22/1999,SEC,PWI
+253,Kappa Nu,Northern Illinois University,North Central,4/25/1999,MAC,PWI
+254,Kappa Xi,Northeastern Oklahoma A & M College,Southwest,6/1/2000,NJCAA,PWI
+255,Kappa Omicron,Stillman College,Southeast,10/29/2000,SIAC (D-II),HBCU
+256,Kappa Pi,Claflin University,Southeast,2/24/2001,SIAC (D-II),HBCU
+257,Kappa Rho,Duquesne University,Northeast,3/11/2001,Atlantic 10,PWI
+258,Kappa Sigma,East Carolina University,Southeast,3/25/2001,American Athletic,PWI
+259,Kappa Tau,University of South Florida,Southeast,4/13/2001,American Athletic,PWI
+260,Kappa Upsilon,Marist College,Northeast,5/6/2001,MAAC,PWI
+261,Kappa Phi,East Texas Baptist University,Southwest,4/19/2002,American Southwest (D-III),PWI
+262,Kappa Chi,Albion College,North Central,4/20/2002,MIAA (D-III),PWI
+263,Kappa Psi,Virginia Commonwealth University,Northeast,4/28/2002,Atlantic 10,PWI
+264,Kappa Omega,Northern Kentucky University,North Central,5/18/2002,Horizon League,PWI
+265,Lambda Alpha,"University of California, Irvine",Western,6/1/2002,Big West,PWI
+266,Lambda Beta,Charleston Southern University,Southeast,4/27/2003,Big South (FCS),PWI
+267,Lambda Gamma,Florida International University,Southeast,5/31/2003,Conference USA,PWI
+268,Lambda Delta,Shippensburg University,Northeast,7/11/2003,PSAC (D-II),PWI
+269,Lambda Epsilon,Ouachita Baptist University,Southwest,10/26/2003,GAC (D-II),PWI
+270,Lambda Zeta,Fort Valley State University,Southeast,12/7/2003,SIAC (D-II),HBCU
+271,Lambda Eta,University of West Georgia,Southeast,6/14/2004,Gulf South (D-II),PWI
+272,Lambda Theta,Coastal Carolina University,Southeast,11/2/2004,Sun Belt,PWI
+273,Lambda Iota,Tiffin University,North Central,12/5/2004,GMAC (D-II),PWI
+274,Lambda Kappa,University of Arkansas 45 Fort Smith,Southwest,2/21/2005,--,PWI
+275,Lambda Lambda,Indiana State University,North Central,2/27/2005,Missouri Valley (FCS),PWI
+276,Lambda Mu,East Tennessee State University,Southeast,5/7/2005,Southern (FCS),PWI
+277,Lambda Nu,Sacred Heart University,Northeast,5/21/2005,MAAC,PWI
+278,Lambda Xi,Southeastern Louisiana University,Southwest,1/22/2006,Southland (FCS),PWI
+279,Lambda Omicron,Valdosta State University,Southeast,3/25/2006,Gulf South (D-II),PWI
+280,Lambda Pi,University of Texas at Tyler,Southwest,4/15/2006,--,PWI
+281,Lambda Rho,Tennessee Tech University,Southeast,5/6/2006,Ohio Valley (FCS),PWI
+282,Lambda Sigma,Coahoma Community College,Southeast,5/13/2006,NJCAA,HBCU
+283,Lambda Tau,Central Michigan University,North Central,11/5/2006,MAC,PWI
+284,Lambda Upsilon,Savannah State University,Southeast,11/5/2006,SIAC (D-II),HBCU
+285,Lambda Phi,Kean University,Northeast,12/2/2006,NJAC (D-III),PWI
+286,Lambda Chi,Quincy University,North Central,12/9/2006,GLVC (D-II),PWI
+287,Lambda Psi,San Jose State University,Western,3/23/2007,Mountain West,PWI
+288,Lambda Omega,Northwestern Oklahoma State University,Southwest,4/28/2007,GAC (D-II),PWI
+289,Mu Alpha,McKendree University,North Central,5/6/2007,GLVC (D-II),PWI
+290,Mu Beta,Florida Atlantic University,Southeast,6/9/2007,American Athletic,PWI
+291,Mu Gamma,Houston Baptist University,Southwest,11/4/2007,Southland (FCS),PWI
+292,Mu Delta,Western Michigan University,North Central,2/29/2008,MAC,PWI
+293,Mu Epsilon,East Stroudsburg University,Northeast,5/2/2008,PSAC (D-II),PWI
+294,Mu Zeta,Diablo Valley College,Western,5/11/2008,NJCAA,PWI
+295,Mu Eta,University of North Carolina at Chapel Hill,Southeast,9/6/2008,ACC,PWI
+296,Mu Theta,Bethel University,Southeast,11/22/2008,Mid-South (NAIA),PWI
+297,Mu Iota,Jacksonville State University,Southeast,3/1/2009,Conference USA,PWI
+298,Mu Kappa,Grand Valley State University,North Central,4/18/2009,GLIAC (D-II),PWI
+299,Mu Lambda,University of Mary Hardin-Baylor,Southwest,4/24/2009,American Southwest (D-III),PWI
+300,Mu Mu,University of Central Oklahoma,Southwest,4/26/2009,MIAA (D-II),PWI
+301,Mu Nu,Christopher Newport University,Northeast,5/2/2009,CAC (D-III),PWI
+302,Mu Xi,Muhlenberg College,Northeast,5/8/2009,Centennial (D-III),PWI
+303,Mu Omicron,George Mason University,Northeast,12/5/2009,Atlantic 10,PWI
+304,Mu Pi,University of Oregon,Western,2/14/2010,Big Ten,PWI
+305,Mu Rho,Benedict College,Southeast,3/21/2010,SIAC (D-II),HBCU
+306,Mu Sigma,Lincoln University,Northeast,4/3/2010,CIAA (D-II),HBCU
+307,Mu Tau,University of Texas at San Antonio,Southwest,4/24/2010,American Athletic,PWI
+308,Mu Upsilon,Florida Gulf Coast University,Southeast,5/1/2010,ASUN,PWI
+309,Mu Phi,Fullerton College,Western,10/3/2010,NJCAA,PWI
+310,Mu Chi,University of Texas Rio Grande Valley,Southwest,11/20/2010,WAC (FCS),PWI
+311,Mu Psi,Texas College,Southwest,2/19/2011,Red River (NAIA),HBCU
+312,Mu Omega,Huntingdon College,Southeast,2/27/2011,USA South (D-III),PWI
+313,Nu Alpha,Georgia State University,Southeast,11/28/2011,Sun Belt,PWI
+314,Nu Beta,Texas Wesleyan University,Southwest,3/4/2012,Sooner (NAIA),PWI
+315,Nu Gamma,Robert Morris University,Northeast,8/14/2012,Horizon League,PWI
+316,Nu Delta,McMurry University,Southwest,5/4/2013,ASC (D-III),PWI
+317,Nu Epsilon,Idaho State University,Western,5/11/2013,Big Sky (FCS),PWI
+318,Nu Zeta,Pennsylvania Western University Edinboro,Northeast,12/11/2013,PSAC (D-II),PWI
+319,Nu Eta,Saint Augustine39s University,Southeast,3/2/2014,CIAA (D-II),HBCU
+320,Nu Theta,Northeastern University,Northeast,4/13/2014,CAA,PWI
+321,Nu Iota,Elizabeth City State University,Southeast,5/31/2014,CIAA (D-II),HBCU
+322,Nu Kappa,Georgia Southern University,Southeast,10/19/2014,Sun Belt,PWI
+323,Nu Lambda,Arkansas State University 45 Beebe,Southwest,10/19/2014,NJCAA,PWI
+324,Nu Mu,Kennesaw State University,Southeast,4/16/2015,Conference USA,PWI
+325,Nu Nu,University of Alabama,Southeast,4/21/2015,SEC,PWI
+326,Nu Xi,University of Illinois Urbana-Champaign,North Central,3/13/2016,Big Ten,PWI
+327,Nu Omicron,University of New Haven,Northeast,4/24/2016,Northeast Conference,PWI
+328,Nu Pi,University of Illinois Chicago,North Central,5/1/2016,Missouri Valley,PWI
+329,Nu Rho,Old Dominion University,Northeast,4/19/2017,Sun Belt,PWI
+330,Nu Sigma,"California State Polytechnic University, Pomona",Western,11/18/2017,Big West,PWI
+331,Nu Tau,High Point University,Southeast,4/21/2018,Big South,PWI
+332,Nu Upsilon,Ball State University,North Central,12/1/2018,MAC,PWI
+333,Nu Phi,Schreiner University,Southwest,5/5/2019,ASC (D-III),PWI
+334,Nu Chi,Wilkes University,Northeast,5/9/2019,MAC Freedom (D-III),PWI
+335,Nu Psi,Chicago State University,North Central,5/8/2020,Independent,HBCU
+336,Nu Omega,Hampton University,Northeast,4/14/2021,CAA (FCS),HBCU
+337,Xi Alpha,Shepherd University,Northeast,4/26/2021,PSAC (D-II),PWI
+338,Xi Beta,University of North Texas,Southwest,4/28/2021,American Athletic,PWI
+339,Xi Gamma,Cleveland State University,North Central,1/30/2022,Horizon League,PWI
+340,Xi Delta,Stony Brook University,Northeast,12/4/2022,CAA (FCS),PWI
+341,Xi Epsilon,Florida Memorial University,Southeast,4/13/2023,--,HBCU
+342,Xi Zeta,Widener University,Northeast,4/17/2023,MAC Commonwealth (D-III),PWI
+343,Xi Eta,Austin Peay State University,Southeast,4/27/2024,United Athletic (FCS),PWI
