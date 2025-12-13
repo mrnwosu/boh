@@ -1,0 +1,1007 @@
+{
+  "gameTitle": "National Intercollegiate Band (NIB) Trivia Challenge",
+  "description": "A comprehensive trivia game about the National Intercollegiate Band - one of Kappa Kappa Psi's most prestigious service projects",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "questionVersions": [
+        "When was the National Intercollegiate Band founded?",
+        "In what year was NIB established?",
+        "The National Intercollegiate Band was created in which year?",
+        "When did the NIB first perform?",
+        "What year was the National Intercollegiate Band founded?"
+      ],
+      "correctAnswer": "1947",
+      "wrongAnswers": [
+        "1945",
+        "1950",
+        "1946",
+        "1948",
+        "1949",
+        "1940"
+      ],
+      "tags": ["history", "founding", "dates"]
+    },
+    {
+      "id": 2,
+      "questionVersions": [
+        "Who founded the National Intercollegiate Band?",
+        "Who established the NIB?",
+        "Which Grand President created the National Intercollegiate Band?",
+        "Who had the cherished idea for NIB?",
+        "What leader founded the National Intercollegiate Band?"
+      ],
+      "correctAnswer": "Dr. F. Lee Bowling",
+      "wrongAnswers": [
+        "A. Frank Martin",
+        "William Scroggs",
+        "Bohumil Makovsky",
+        "J. Lee Burke",
+        "Max A. Mitchell",
+        "W. Theodore Jones"
+      ],
+      "tags": ["founding", "leadership", "bowling"]
+    },
+    {
+      "id": 3,
+      "questionVersions": [
+        "What years did Dr. F. Lee Bowling serve as Grand President?",
+        "When was Dr. Bowling the Grand President?",
+        "What was Dr. F. Lee Bowling's term as Grand President?",
+        "During what period was Dr. Bowling Grand President?",
+        "When did Dr. F. Lee Bowling lead KKPsi?"
+      ],
+      "correctAnswer": "1941-1947",
+      "wrongAnswers": [
+        "1939-1945",
+        "1940-1946",
+        "1942-1948",
+        "1945-1951",
+        "1947-1953",
+        "1935-1941"
+      ],
+      "tags": ["leadership", "bowling", "dates"]
+    },
+    {
+      "id": 4,
+      "questionVersions": [
+        "How often does the National Intercollegiate Band perform?",
+        "What is the frequency of NIB performances?",
+        "How often is the National Intercollegiate Band assembled?",
+        "NIB performs at what interval?",
+        "The National Intercollegiate Band meets how often?"
+      ],
+      "correctAnswer": "Biennial (every 2 years)",
+      "wrongAnswers": [
+        "Annual",
+        "Every 4 years",
+        "Every 3 years",
+        "Triennial",
+        "Quarterly",
+        "Semi-annually"
+      ],
+      "tags": ["operations", "schedule", "frequency"]
+    },
+    {
+      "id": 5,
+      "questionVersions": [
+        "How many musicians are selected for NIB?",
+        "What is the typical size of the National Intercollegiate Band?",
+        "Approximately how many members are in NIB?",
+        "How many musicians participate in the National Intercollegiate Band?",
+        "What is the approximate membership of NIB?"
+      ],
+      "correctAnswer": "Approximately 200",
+      "wrongAnswers": [
+        "100",
+        "150",
+        "250",
+        "300",
+        "175",
+        "225"
+      ],
+      "tags": ["membership", "size", "operations"]
+    },
+    {
+      "id": 6,
+      "questionVersions": [
+        "What is the purpose of the National Intercollegiate Band?",
+        "Why was NIB created?",
+        "What are the main goals of NIB?",
+        "What does NIB accomplish?",
+        "What is NIB's mission?"
+      ],
+      "correctAnswer": "Commission new works and perform at convention",
+      "wrongAnswers": [
+        "Compete in band competitions",
+        "Tour internationally",
+        "Record albums",
+        "Teach music education",
+        "Fundraise for the fraternity",
+        "Perform at football games"
+      ],
+      "tags": ["purpose", "mission", "goals"]
+    },
+    {
+      "id": 7,
+      "questionVersions": [
+        "Who conducted the Second NIB in 1949?",
+        "What famous conductor led the 1949 National Intercollegiate Band?",
+        "Who was the guest conductor for the Second NIB?",
+        "Which renowned director conducted the second NIB performance?",
+        "Who led the National Intercollegiate Band in 1949?"
+      ],
+      "correctAnswer": "Dr. William D. Revelli",
+      "wrongAnswers": [
+        "Dr. F. Lee Bowling",
+        "Bohumil Makovsky",
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "W. Francis McBeth",
+        "A. Austin Harding"
+      ],
+      "tags": ["conductors", "revelli", "dates"]
+    },
+    {
+      "id": 8,
+      "questionVersions": [
+        "Who composed 'Songs for Band' for NIB in 1957?",
+        "What composer was commissioned in 1957?",
+        "Who wrote the commissioned work at the 19th Biennial?",
+        "Which composer created 'Songs for Band'?",
+        "Who was commissioned to write for the 1957 NIB?"
+      ],
+      "correctAnswer": "Robert Russell Bennett",
+      "wrongAnswers": [
+        "Paul Creston",
+        "W. Francis McBeth",
+        "Clifton Williams",
+        "Fisher Tull",
+        "Don Gillis",
+        "Karel Husa"
+      ],
+      "tags": ["composers", "commissions", "bennett"]
+    },
+    {
+      "id": 9,
+      "questionVersions": [
+        "Where was the 19th Biennial Convention held in 1957?",
+        "What city hosted the convention where 'Songs for Band' premiered?",
+        "Where did Robert Russell Bennett's work premiere?",
+        "What was the location of the 1957 convention?",
+        "Where was the 19th Biennial held?"
+      ],
+      "correctAnswer": "Salt Lake City",
+      "wrongAnswers": [
+        "Oklahoma City",
+        "Denver",
+        "Las Vegas",
+        "Phoenix",
+        "Reno",
+        "Albuquerque"
+      ],
+      "tags": ["locations", "conventions", "dates"]
+    },
+    {
+      "id": 10,
+      "questionVersions": [
+        "Who composed and conducted at the 1959 NIB?",
+        "Which composer served as both composer and conductor in 1959?",
+        "Who was commissioned for the 20th Biennial Convention?",
+        "What composer conducted their own work at NIB in 1959?",
+        "Who had a dual role at the 1959 National Intercollegiate Band?"
+      ],
+      "correctAnswer": "Paul Creston",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "W. Francis McBeth",
+        "Clifton Williams",
+        "Fisher Tull",
+        "Don Gillis",
+        "Vincent Persichetti"
+      ],
+      "tags": ["composers", "conductors", "creston"]
+    },
+    {
+      "id": 11,
+      "questionVersions": [
+        "Where was the 20th Biennial Convention held in 1959?",
+        "What university hosted the 1959 NIB performance?",
+        "Where did Paul Creston conduct the NIB?",
+        "What was the location of the 1959 convention?",
+        "Where was the 20th Biennial held?"
+      ],
+      "correctAnswer": "Florida State University",
+      "wrongAnswers": [
+        "University of Florida",
+        "University of Miami",
+        "University of South Florida",
+        "Florida Atlantic University",
+        "University of Central Florida",
+        "Florida International University"
+      ],
+      "tags": ["locations", "conventions", "dates"]
+    },
+    {
+      "id": 12,
+      "questionVersions": [
+        "Who composed 'Symphonic Essays' premiered in 1963?",
+        "What composer wrote for the 22nd Biennial in 1963?",
+        "Who created 'Symphonic Essays' for NIB?",
+        "Which composer's work was premiered at the 1963 NIB?",
+        "Who composed the work premiered at the 22nd Biennial?"
+      ],
+      "correctAnswer": "Clifton Williams",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "W. Francis McBeth",
+        "Fisher Tull",
+        "Don Gillis",
+        "Karel Husa"
+      ],
+      "tags": ["composers", "commissions", "williams"]
+    },
+    {
+      "id": 13,
+      "questionVersions": [
+        "Where was Clifton Williams composer in residence?",
+        "What university did Clifton Williams work at?",
+        "Where was Williams a faculty member?",
+        "What institution employed Clifton Williams?",
+        "Where did Clifton Williams teach?"
+      ],
+      "correctAnswer": "University of Texas",
+      "wrongAnswers": [
+        "Texas Tech University",
+        "University of Oklahoma",
+        "Oklahoma State University",
+        "Texas A&M University",
+        "University of North Texas",
+        "Baylor University"
+      ],
+      "tags": ["composers", "williams", "universities"]
+    },
+    {
+      "id": 14,
+      "questionVersions": [
+        "Who was commissioned for NIB in 1971?",
+        "What composer wrote for the National Intercollegiate Band in 1971?",
+        "Which composer created a commissioned work in 1971?",
+        "Who composed for NIB in 1971?",
+        "What composer's work was commissioned in 1971?"
+      ],
+      "correctAnswer": "W. Francis McBeth",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "Clifton Williams",
+        "Fisher Tull",
+        "Don Gillis",
+        "Karel Husa"
+      ],
+      "tags": ["composers", "commissions", "mcbeth"]
+    },
+    {
+      "id": 15,
+      "questionVersions": [
+        "What is NIB selection equivalent to?",
+        "What honor does NIB selection represent?",
+        "How prestigious is NIB selection?",
+        "What is NIB selection comparable to?",
+        "What level of achievement is NIB selection?"
+      ],
+      "correctAnswer": "All-American band selection",
+      "wrongAnswers": [
+        "Regional band selection",
+        "State band selection",
+        "District band selection",
+        "School band first chair",
+        "Music scholarship award",
+        "Academic honor society"
+      ],
+      "tags": ["prestige", "selection", "honors"]
+    },
+    {
+      "id": 16,
+      "questionVersions": [
+        "Who must nominate students for NIB?",
+        "How are students selected for NIB?",
+        "Who recommends students for the National Intercollegiate Band?",
+        "What is required for NIB nomination?",
+        "Who nominates NIB participants?"
+      ],
+      "correctAnswer": "Band director",
+      "wrongAnswers": [
+        "Chapter president",
+        "Self-nomination",
+        "Fellow band members",
+        "Music professors",
+        "KKPsi national officers",
+        "Previous NIB members"
+      ],
+      "tags": ["selection", "nomination", "process"]
+    },
+    {
+      "id": 17,
+      "questionVersions": [
+        "What does the NIB commissioning program do?",
+        "What is commissioned for NIB?",
+        "What does KKPsi commission for NIB?",
+        "What new works are created for NIB?",
+        "What does the commissioning program create?"
+      ],
+      "correctAnswer": "New compositions from major composers",
+      "wrongAnswers": [
+        "Arrangements of popular music",
+        "Transcriptions of symphonies",
+        "Marching band shows",
+        "Jazz compositions",
+        "Solo pieces",
+        "Choral works"
+      ],
+      "tags": ["commissioning", "compositions", "purpose"]
+    },
+    {
+      "id": 18,
+      "questionVersions": [
+        "Who was the first composer commissioned by KKPsi?",
+        "What composer wrote 'Ballet for Band'?",
+        "Who was commissioned at the 17th Biennial in 1953?",
+        "What was the first commissioned work for NIB?",
+        "Who initiated the commissioning program?"
+      ],
+      "correctAnswer": "Don Gillis",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "Clifton Williams",
+        "W. Francis McBeth",
+        "Fisher Tull",
+        "Karel Husa"
+      ],
+      "tags": ["composers", "commissions", "gillis", "history"]
+    },
+    {
+      "id": 19,
+      "questionVersions": [
+        "What was the first commissioned work for NIB?",
+        "What piece did Don Gillis compose?",
+        "What work premiered at the 1953 convention?",
+        "What was the inaugural commissioned composition?",
+        "What work started the commissioning tradition?"
+      ],
+      "correctAnswer": "Ballet for Band",
+      "wrongAnswers": [
+        "Songs for Band",
+        "Symphonic Essays",
+        "The Seventh Seal",
+        "Prelude and Dance",
+        "Symphony #1 for Band",
+        "Symphonic Canticle"
+      ],
+      "tags": ["compositions", "commissions", "history"]
+    },
+    {
+      "id": 20,
+      "questionVersions": [
+        "Who initiated the commissioning program for composers?",
+        "Which Grand President started the composer commissioning?",
+        "Who believed KKPsi should offer something constructive to bands?",
+        "What leader initiated the NIB commissioning program?",
+        "Who was Grand President when commissioning began?"
+      ],
+      "correctAnswer": "Hugh E. McMillen",
+      "wrongAnswers": [
+        "Dr. F. Lee Bowling",
+        "Max A. Mitchell",
+        "W. Theodore Jones",
+        "Charles A. Wiley",
+        "Donald I. Moore",
+        "A. Frank Martin"
+      ],
+      "tags": ["leadership", "mcmillen", "commissioning", "history"]
+    },
+    {
+      "id": 21,
+      "questionVersions": [
+        "When did Hugh E. McMillen serve as Grand President?",
+        "What were McMillen's years as Grand President?",
+        "When did McMillen lead KKPsi?",
+        "What was McMillen's presidential term?",
+        "When did McMillen initiate the commissioning program?"
+      ],
+      "correctAnswer": "1951-1953",
+      "wrongAnswers": [
+        "1949-1951",
+        "1953-1955",
+        "1947-1949",
+        "1955-1957",
+        "1945-1947",
+        "1957-1959"
+      ],
+      "tags": ["leadership", "mcmillen", "dates"]
+    },
+    {
+      "id": 22,
+      "questionVersions": [
+        "Who conducted the NIB at the 17th Biennial in 1953?",
+        "What legendary conductor led the first commissioned premiere?",
+        "Who was guest conductor when 'Ballet for Band' premiered?",
+        "Which famous director conducted the 1953 NIB?",
+        "Who conducted at Texas Tech in 1953?"
+      ],
+      "correctAnswer": "Dr. A. Austin Harding",
+      "wrongAnswers": [
+        "Dr. William D. Revelli",
+        "Frederick Fennell",
+        "Dr. F. Lee Bowling",
+        "Paul Creston",
+        "Robert Russell Bennett",
+        "Claude T. Smith"
+      ],
+      "tags": ["conductors", "harding", "history"]
+    },
+    {
+      "id": 23,
+      "questionVersions": [
+        "Where was the 17th Biennial Convention held in 1953?",
+        "What university hosted the first commissioned work premiere?",
+        "Where did Dr. A. Austin Harding conduct the NIB?",
+        "What was the location of the 1953 convention?",
+        "Where did 'Ballet for Band' premiere?"
+      ],
+      "correctAnswer": "Texas Tech University",
+      "wrongAnswers": [
+        "University of Texas",
+        "Texas A&M University",
+        "Baylor University",
+        "University of Oklahoma",
+        "Oklahoma State University",
+        "University of North Texas"
+      ],
+      "tags": ["locations", "conventions", "dates"]
+    },
+    {
+      "id": 24,
+      "questionVersions": [
+        "Who was the first composer honored as Grand Honorary President?",
+        "What famous march composer was honored by KKPsi?",
+        "Who accepted honorary membership alongside Bohumil Makovsky?",
+        "What legendary bandmaster became an honorary member in 1922?",
+        "Who was the second National Honorary Member?"
+      ],
+      "correctAnswer": "John Philip Sousa",
+      "wrongAnswers": [
+        "Dr. William D. Revelli",
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "A. Austin Harding",
+        "Frederick Fennell",
+        "Edwin Franko Goldman"
+      ],
+      "tags": ["sousa", "honorary-members", "history"]
+    },
+    {
+      "id": 25,
+      "questionVersions": [
+        "What year did John Philip Sousa pass away?",
+        "When did the fraternity lose John Philip Sousa?",
+        "What year was the May 1933 issue of The Baton dedicated to Sousa?",
+        "When did Sousa die?",
+        "What year did KKPsi lose its cherished honorary member Sousa?"
+      ],
+      "correctAnswer": "1932",
+      "wrongAnswers": [
+        "1930",
+        "1933",
+        "1935",
+        "1928",
+        "1931",
+        "1934"
+      ],
+      "tags": ["sousa", "history", "dates"]
+    },
+    {
+      "id": 26,
+      "questionVersions": [
+        "What famous work did W. Francis McBeth compose and conduct in 1971?",
+        "What commissioned piece did McBeth conduct?",
+        "What work premiered at the 26th Biennial in 1971?",
+        "What McBeth composition was performed at Michigan?",
+        "What commissioned work did McBeth create in 1971?"
+      ],
+      "correctAnswer": "The Seventh Seal",
+      "wrongAnswers": [
+        "Songs for Band",
+        "Symphonic Essays",
+        "Ballet for Band",
+        "Prelude and Dance",
+        "Symphony #1 for Band",
+        "Symphonic Canticle"
+      ],
+      "tags": ["compositions", "mcbeth", "commissions"]
+    },
+    {
+      "id": 27,
+      "questionVersions": [
+        "Where was the 26th Biennial Convention held in 1971?",
+        "What university hosted the NIB in 1971?",
+        "Where did McBeth conduct 'The Seventh Seal'?",
+        "What was the location of the 1971 convention?",
+        "Where was the convention with the theme 'excellence in music'?"
+      ],
+      "correctAnswer": "University of Michigan",
+      "wrongAnswers": [
+        "Michigan State University",
+        "Ohio State University",
+        "Indiana University",
+        "Purdue University",
+        "University of Illinois",
+        "Northwestern University"
+      ],
+      "tags": ["locations", "conventions", "dates"]
+    },
+    {
+      "id": 28,
+      "questionVersions": [
+        "Who else conducted at the 1971 NIB alongside McBeth?",
+        "What legendary director shared conducting duties in 1971?",
+        "Who was the co-conductor at the 26th Biennial?",
+        "What famous Michigan director conducted the NIB?",
+        "Who conducted with McBeth in 1971?"
+      ],
+      "correctAnswer": "Dr. William D. Revelli",
+      "wrongAnswers": [
+        "Dr. A. Austin Harding",
+        "Frederick Fennell",
+        "Paul Creston",
+        "Claude T. Smith",
+        "Jerry Junkin",
+        "H. Robert Reynolds"
+      ],
+      "tags": ["conductors", "revelli", "mcbeth"]
+    },
+    {
+      "id": 29,
+      "questionVersions": [
+        "Who composed 'Concerto for Trumpet and Wind Ensemble' for the 1973 NIB?",
+        "What composer wrote the trumpet concerto premiered in 1973?",
+        "Who was commissioned at the 27th Biennial?",
+        "What work featured Raymond Crisara as guest artist?",
+        "Who composed the 1973 commissioned work?"
+      ],
+      "correctAnswer": "Karel Husa",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "W. Francis McBeth",
+        "Clifton Williams",
+        "Fisher Tull",
+        "Vincent Persichetti"
+      ],
+      "tags": ["composers", "commissions", "husa"]
+    },
+    {
+      "id": 30,
+      "questionVersions": [
+        "Who was the guest trumpet artist at the 1973 NIB?",
+        "What soloist performed the Husa trumpet concerto?",
+        "Who was featured in the 1973 commissioned work?",
+        "What trumpeter appeared at the 27th Biennial?",
+        "Who performed as guest artist in 1973?"
+      ],
+      "correctAnswer": "Raymond Crisara",
+      "wrongAnswers": [
+        "Wynton Marsalis",
+        "Maurice André",
+        "Philip Smith",
+        "Doc Severinsen",
+        "Adolph Herseth",
+        "Rafael Méndez"
+      ],
+      "tags": ["soloists", "artists", "husa"]
+    },
+    {
+      "id": 31,
+      "questionVersions": [
+        "Who conducted the 1973 NIB at the University of Connecticut?",
+        "What military conductor led the 27th Biennial NIB?",
+        "Who was guest conductor at the 1973 convention?",
+        "What conductor led the Karel Husa premiere?",
+        "Who conducted the NIB in 1973?"
+      ],
+      "correctAnswer": "Col. Arnald Gabriel",
+      "wrongAnswers": [
+        "Col. John Bourgeois",
+        "Lt. Col. William F. Santelmann",
+        "Dr. William D. Revelli",
+        "Frederick Fennell",
+        "Dr. A. Austin Harding",
+        "Paul Creston"
+      ],
+      "tags": ["conductors", "gabriel", "military"]
+    },
+    {
+      "id": 32,
+      "questionVersions": [
+        "Who conducted the famed Goldman Band in New York?",
+        "What Grand President conducted at Lincoln Center?",
+        "Who presented the Distinguished Service Medal to Richard Franko Goldman?",
+        "What KKPsi leader conducted the Goldman Band?",
+        "Who was Grand President that conducted in New York?"
+      ],
+      "correctAnswer": "James A. Jacobsen",
+      "wrongAnswers": [
+        "Richard Worthington",
+        "Thomas Tyra",
+        "Wayman E. Walker",
+        "Donald Stanley",
+        "Jay Slaughter",
+        "Jack K. Lee"
+      ],
+      "tags": ["conductors", "jacobsen", "goldman"]
+    },
+    {
+      "id": 33,
+      "questionVersions": [
+        "Who composed the march 'The National Intercollegiate Band March'?",
+        "What composer gave KKPsi a specially-written march in 1961?",
+        "Who was guest conductor at the 1961 NIB in Wichita?",
+        "What composer conducted the NIB in 1961?",
+        "Who composed a march specifically for the NIB?"
+      ],
+      "correctAnswer": "Richard Franko Goldman",
+      "wrongAnswers": [
+        "John Philip Sousa",
+        "Edwin Franko Goldman",
+        "Karl King",
+        "Henry Fillmore",
+        "Kenneth Alford",
+        "Robert Russell Bennett"
+      ],
+      "tags": ["composers", "goldman", "marches"]
+    },
+    {
+      "id": 34,
+      "questionVersions": [
+        "Who composed 'Prelude and Dance' premiered in 1959?",
+        "What work did Paul Creston conduct in 1959?",
+        "What commissioned work premiered at Florida State?",
+        "What composition did Creston create for the 20th Biennial?",
+        "What was Paul Creston's commissioned work called?"
+      ],
+      "correctAnswer": "Prelude and Dance",
+      "wrongAnswers": [
+        "Songs for Band",
+        "Symphonic Essays",
+        "Ballet for Band",
+        "The Seventh Seal",
+        "Symphony #1 for Band",
+        "Symphonic Canticle"
+      ],
+      "tags": ["compositions", "creston", "commissions"]
+    },
+    {
+      "id": 35,
+      "questionVersions": [
+        "Who composed 'Symphony #1 for Band' premiered in 1977?",
+        "What composer conducted his own symphony at the 1977 NIB?",
+        "Who was commissioned for the 29th Biennial at UCLA?",
+        "What composer-conductor led the 1977 NIB?",
+        "Who created Symphony #1 for Band?"
+      ],
+      "correctAnswer": "Claude T. Smith",
+      "wrongAnswers": [
+        "Vincent Persichetti",
+        "W. Francis McBeth",
+        "Alfred Reed",
+        "Fisher Tull",
+        "Robert Jager",
+        "James Barnes"
+      ],
+      "tags": ["composers", "smith", "commissions"]
+    },
+    {
+      "id": 36,
+      "questionVersions": [
+        "Who was guest conductor at the 1977 NIB at UCLA?",
+        "What famous conductor led the Glendale Symphony?",
+        "Who conducted the NIB when Symphony #1 premiered?",
+        "What conductor appeared at the 29th Biennial?",
+        "Who was the guest conductor in 1977?"
+      ],
+      "correctAnswer": "Carmen Dragon",
+      "wrongAnswers": [
+        "Leopold Stokowski",
+        "Eugene Ormandy",
+        "Leonard Bernstein",
+        "George Szell",
+        "Fritz Reiner",
+        "Arturo Toscanini"
+      ],
+      "tags": ["conductors", "dragon", "orchestral"]
+    },
+    {
+      "id": 37,
+      "questionVersions": [
+        "Who composed 'Prelude and Double Fugue' for the 1979 NIB?",
+        "What composer wrote for the 30th Biennial?",
+        "Who was commissioned at Georgia Tech in 1979?",
+        "What work premiered at the 1979 convention?",
+        "Who composed the 1979 commissioned work?"
+      ],
+      "correctAnswer": "Fisher A. Tull",
+      "wrongAnswers": [
+        "Robert Russell Bennett",
+        "Paul Creston",
+        "W. Francis McBeth",
+        "Clifton Williams",
+        "Claude T. Smith",
+        "Karel Husa"
+      ],
+      "tags": ["composers", "tull", "commissions"]
+    },
+    {
+      "id": 38,
+      "questionVersions": [
+        "Who conducted the 1979 NIB at Georgia Tech?",
+        "What conductor led the premiere of 'Prelude and Double Fugue'?",
+        "Who was guest conductor at the 30th Biennial?",
+        "What conductor led the 1979 NIB performance?",
+        "Who conducted at Georgia Tech in 1979?"
+      ],
+      "correctAnswer": "Donald E. McGinnis",
+      "wrongAnswers": [
+        "Dr. William D. Revelli",
+        "Frederick Fennell",
+        "H. Robert Reynolds",
+        "Jerry Junkin",
+        "Ray Cramer",
+        "Eugene Corporon"
+      ],
+      "tags": ["conductors", "mcginnis"]
+    },
+    {
+      "id": 39,
+      "questionVersions": [
+        "Who composed 'LUX: Legend of Sankta Lucia' for the 1981 NIB?",
+        "What composer wrote for the 31st Biennial?",
+        "Who was commissioned at University of Cincinnati in 1981?",
+        "What female composer was commissioned by KKPsi?",
+        "Who composed the 1981 commissioned work?"
+      ],
+      "correctAnswer": "Mary Jeanne van Appledorn",
+      "wrongAnswers": [
+        "Joan Tower",
+        "Ellen Taaffe Zwilich",
+        "Jennifer Higdon",
+        "Libby Larsen",
+        "Anne McGinty",
+        "Julie Giroux"
+      ],
+      "tags": ["composers", "van-appledorn", "commissions", "women"]
+    },
+    {
+      "id": 40,
+      "questionVersions": [
+        "Who composed 'Stars and Stripes Variations' for the 1983 NIB?",
+        "What composer wrote for the 32nd Biennial?",
+        "Who was commissioned at Texas Tech in 1983?",
+        "What work premiered at the 1983 convention?",
+        "Who composed the 1983 commissioned work?"
+      ],
+      "correctAnswer": "Robert Jager",
+      "wrongAnswers": [
+        "James Barnes",
+        "Alfred Reed",
+        "Fisher Tull",
+        "W. Francis McBeth",
+        "Claude T. Smith",
+        "David Holsinger"
+      ],
+      "tags": ["composers", "jager", "commissions"]
+    },
+    {
+      "id": 41,
+      "questionVersions": [
+        "Who was guest conductor at the 1983 NIB?",
+        "What conductor led the premiere of 'Stars and Stripes Variations'?",
+        "Who conducted at the 32nd Biennial?",
+        "What conductor appeared at Texas Tech in 1983?",
+        "Who conducted the 1983 NIB performance?"
+      ],
+      "correctAnswer": "Donald Hunsberger",
+      "wrongAnswers": [
+        "Frederick Fennell",
+        "H. Robert Reynolds",
+        "Jerry Junkin",
+        "Ray Cramer",
+        "Eugene Corporon",
+        "Col. Arnald Gabriel"
+      ],
+      "tags": ["conductors", "hunsberger"]
+    },
+    {
+      "id": 42,
+      "questionVersions": [
+        "Who composed 'Chorale Prelude: Mein junges Leben hat ein End' for NIB?",
+        "What composer wrote for the 1985 NIB?",
+        "Who was commissioned at University of Kansas in 1985?",
+        "What work premiered at the 33rd Biennial?",
+        "Who composed the 1985 commissioned work?"
+      ],
+      "correctAnswer": "James Barnes",
+      "wrongAnswers": [
+        "Robert Jager",
+        "Alfred Reed",
+        "Fisher Tull",
+        "W. Francis McBeth",
+        "Claude T. Smith",
+        "David Holsinger"
+      ],
+      "tags": ["composers", "barnes", "commissions"]
+    },
+    {
+      "id": 43,
+      "questionVersions": [
+        "Who conducted the 1985 NIB at University of Kansas?",
+        "What famous FAMU director was guest conductor in 1985?",
+        "Who led the premiere of Barnes' chorale prelude?",
+        "What conductor appeared at the 33rd Biennial?",
+        "Who conducted the NIB in 1985?"
+      ],
+      "correctAnswer": "Dr. William P. Foster",
+      "wrongAnswers": [
+        "Dr. William D. Revelli",
+        "Frederick Fennell",
+        "H. Robert Reynolds",
+        "Jerry Junkin",
+        "Col. Arnald Gabriel",
+        "Ray Cramer"
+      ],
+      "tags": ["conductors", "foster", "hbcu"]
+    },
+    {
+      "id": 44,
+      "questionVersions": [
+        "Who composed 'Overture Alfresco' for the 1987 NIB?",
+        "What composer wrote for the 34th Biennial?",
+        "Who was commissioned at University of Michigan in 1987?",
+        "What work was the sixteenth commissioned piece?",
+        "Who composed the 1987 commissioned work?"
+      ],
+      "correctAnswer": "Jerry Bilik",
+      "wrongAnswers": [
+        "James Barnes",
+        "Robert Jager",
+        "Alfred Reed",
+        "David Holsinger",
+        "Frank Ticheli",
+        "Michael Colgrass"
+      ],
+      "tags": ["composers", "bilik", "commissions"]
+    },
+    {
+      "id": 45,
+      "questionVersions": [
+        "Who was guest conductor at the 1987 NIB?",
+        "What renowned conductor led the NIB at Michigan?",
+        "Who conducted the premiere of 'Overture Alfresco'?",
+        "What conductor appeared at the 34th Biennial?",
+        "Who conducted the NIB in 1987?"
+      ],
+      "correctAnswer": "Dr. Harry Begian",
+      "wrongAnswers": [
+        "Dr. William D. Revelli",
+        "Frederick Fennell",
+        "H. Robert Reynolds",
+        "Jerry Junkin",
+        "Eugene Corporon",
+        "Ray Cramer"
+      ],
+      "tags": ["conductors", "begian"]
+    },
+    {
+      "id": 46,
+      "questionVersions": [
+        "What were the two commissioned works at the 1989 convention?",
+        "What milestone convention featured two NIB commissions?",
+        "What convention premiered works by Holsinger and McGinty?",
+        "Where were the first dual NIB commissions premiered?",
+        "What historic convention had symphonic and concert band commissions?"
+      ],
+      "correctAnswer": "35th Biennial at Oklahoma State University (Stillwater)",
+      "wrongAnswers": [
+        "34th Biennial at University of Michigan",
+        "36th Biennial at University of Cincinnati",
+        "33rd Biennial at University of Kansas",
+        "37th Biennial at Purdue University",
+        "32nd Biennial at Texas Tech",
+        "38th Biennial at University of Florida"
+      ],
+      "tags": ["conventions", "commissions", "centennial", "stillwater"]
+    },
+    {
+      "id": 47,
+      "questionVersions": [
+        "Who composed 'Symphonic Canticle' for the symphonic NIB in 1989?",
+        "What work did David Holsinger compose for NIB?",
+        "Who wrote the symphonic band commission in 1989?",
+        "What Holsinger work premiered at Oklahoma State?",
+        "Who composed the first of two 1989 commissions?"
+      ],
+      "correctAnswer": "David Holsinger",
+      "wrongAnswers": [
+        "Anne McGinty",
+        "James Barnes",
+        "Alfred Reed",
+        "Frank Ticheli",
+        "Robert Jager",
+        "Eric Whitacre"
+      ],
+      "tags": ["composers", "holsinger", "commissions"]
+    },
+    {
+      "id": 48,
+      "questionVersions": [
+        "Who composed 'Athenian Festival' for the concert NIB in 1989?",
+        "What work did Anne McGinty compose for NIB?",
+        "Who wrote the concert band commission in 1989?",
+        "What McGinty work premiered at Oklahoma State?",
+        "Who composed the second of two 1989 commissions?"
+      ],
+      "correctAnswer": "Anne McGinty",
+      "wrongAnswers": [
+        "David Holsinger",
+        "Julie Giroux",
+        "Mary Jeanne van Appledorn",
+        "Jennifer Higdon",
+        "Joan Tower",
+        "Libby Larsen"
+      ],
+      "tags": ["composers", "mcginty", "commissions", "women"]
+    },
+    {
+      "id": 49,
+      "questionVersions": [
+        "Who conducted the symphonic NIB at the 1989 Stillwater convention?",
+        "What famous Northwestern director conducted in 1989?",
+        "Who led the premiere of 'Symphonic Canticle'?",
+        "What conductor appeared at the 35th Biennial?",
+        "Who conducted the symphonic band in 1989?"
+      ],
+      "correctAnswer": "John Paynter",
+      "wrongAnswers": [
+        "Frederick Fennell",
+        "Dr. William D. Revelli",
+        "H. Robert Reynolds",
+        "Jerry Junkin",
+        "Eugene Corporon",
+        "Ray Cramer"
+      ],
+      "tags": ["conductors", "paynter"]
+    },
+    {
+      "id": 50,
+      "questionVersions": [
+        "Who conducted the concert NIB at the 1989 Stillwater convention?",
+        "What Oklahoma State director conducted in 1989?",
+        "Who led the premiere of 'Athenian Festival'?",
+        "What local conductor appeared at the 35th Biennial?",
+        "Who conducted the concert band in 1989?"
+      ],
+      "correctAnswer": "Joseph Missal",
+      "wrongAnswers": [
+        "John Paynter",
+        "Frederick Fennell",
+        "Dr. William D. Revelli",
+        "Jerry Junkin",
+        "Eugene Corporon",
+        "Ray Cramer"
+      ],
+      "tags": ["conductors", "missal", "oklahoma-state"]
+    }
+  ]
+}
