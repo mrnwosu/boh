@@ -42,8 +42,9 @@ export function FlashcardDeck({
 }: FlashcardDeckProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [shuffleKey, setShuffleKey] = useState(0);
+  const [swipeOffset, setSwipeOffset] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
   const touchStartX = useRef<number | null>(null);
-  const touchEndX = useRef<number | null>(null);
 
   // Shuffle questions on mount and when shuffleKey changes
   const shuffledQuestions = useMemo(
@@ -91,32 +92,50 @@ export function FlashcardDeck({
     handleNext();
   };
 
-  // Touch event handlers for swipe navigation
+  // Touch event handlers for swipe navigation with animation
   const handleTouchStart = (e: React.TouchEvent) => {
+    if (isAnimating) return;
     touchStartX.current = e.touches[0]?.clientX ?? null;
-    touchEndX.current = null;
+    setSwipeOffset(0);
   };
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    touchEndX.current = e.touches[0]?.clientX ?? null;
+    if (touchStartX.current === null || isAnimating) return;
+    const currentX = e.touches[0]?.clientX ?? 0;
+    const diff = currentX - touchStartX.current;
+    // Limit the swipe offset for a more natural feel
+    setSwipeOffset(diff * 0.5);
   };
 
   const handleTouchEnd = () => {
-    if (touchStartX.current === null || touchEndX.current === null) return;
+    if (touchStartX.current === null || isAnimating) return;
 
-    const swipeDistance = touchStartX.current - touchEndX.current;
+    const threshold = SWIPE_THRESHOLD;
 
-    if (swipeDistance > SWIPE_THRESHOLD) {
-      // Swiped left -> go to next card
-      handleNext();
-    } else if (swipeDistance < -SWIPE_THRESHOLD) {
-      // Swiped right -> go to previous card
-      handlePrevious();
+    if (swipeOffset < -threshold && currentIndex < shuffledQuestions.length - 1) {
+      // Swiped left -> animate out and go to next card
+      setIsAnimating(true);
+      setSwipeOffset(-300);
+      setTimeout(() => {
+        setCurrentIndex(currentIndex + 1);
+        setSwipeOffset(0);
+        setIsAnimating(false);
+      }, 200);
+    } else if (swipeOffset > threshold && currentIndex > 0) {
+      // Swiped right -> animate out and go to previous card
+      setIsAnimating(true);
+      setSwipeOffset(300);
+      setTimeout(() => {
+        setCurrentIndex(currentIndex - 1);
+        setSwipeOffset(0);
+        setIsAnimating(false);
+      }, 200);
+    } else {
+      // Snap back to center
+      setSwipeOffset(0);
     }
 
-    // Reset touch positions
     touchStartX.current = null;
-    touchEndX.current = null;
   };
 
   return (
@@ -134,15 +153,24 @@ export function FlashcardDeck({
 
       {/* Flashcard with swipe support */}
       <div
+        className="touch-pan-y"
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
-        <Flashcard
-          question={currentQuestion.question}
-          answer={currentQuestion.answer}
-          description={currentQuestion.description}
-        />
+        <div
+          className="transition-transform duration-200 ease-out"
+          style={{
+            transform: `translateX(${swipeOffset}px) rotate(${swipeOffset * 0.02}deg)`,
+            opacity: isAnimating ? 0.5 : 1,
+          }}
+        >
+          <Flashcard
+            question={currentQuestion.question}
+            answer={currentQuestion.answer}
+            description={currentQuestion.description}
+          />
+        </div>
       </div>
 
       {/* Navigation Controls */}
