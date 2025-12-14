@@ -1,6 +1,33 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+  --font-sans: var(--font-open-sans), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --font-serif: Georgia, "Times New Roman", serif;
+
+  /* KKPsi Brand Colors */
+  --color-kkpsi-navy: #09268a;
+  --color-kkpsi-navy-light: #1a3a9e;
+  --color-kkpsi-navy-dark: #061854;
+  --color-kkpsi-gold: #ffc61e;
+  --color-kkpsi-gold-light: #ffd54f;
+  --color-kkpsi-gold-dark: #e5ac00;
+}
+
+/* 3D Transforms for Flashcards */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
 }
