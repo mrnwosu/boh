@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { ChevronLeft, ChevronRight, RotateCcw } from "lucide-react";
+import { useState, useMemo, useCallback } from "react";
+import { ChevronLeft, ChevronRight, RotateCcw, Shuffle } from "lucide-react";
 import { Button } from "~/components/ui/button";
 import { Progress } from "~/components/ui/progress";
 import { Flashcard } from "./flashcard";
@@ -22,14 +22,37 @@ interface FlashcardDeckProps {
   isAuthenticated?: boolean;
 }
 
+// Fisher-Yates shuffle algorithm
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j]!, shuffled[i]!];
+  }
+  return shuffled;
+}
+
 export function FlashcardDeck({
   questions,
   onRecordResponse,
   isAuthenticated,
 }: FlashcardDeckProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [shuffleKey, setShuffleKey] = useState(0);
 
-  if (questions.length === 0) {
+  // Shuffle questions on mount and when shuffleKey changes
+  const shuffledQuestions = useMemo(
+    () => shuffleArray(questions),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [questions, shuffleKey]
+  );
+
+  const handleShuffle = useCallback(() => {
+    setShuffleKey((prev) => prev + 1);
+    setCurrentIndex(0);
+  }, []);
+
+  if (shuffledQuestions.length === 0) {
     return (
       <div className="py-12 text-center">
         <p className="text-lg text-muted-foreground">No flashcards available for this topic.</p>
@@ -37,11 +60,11 @@ export function FlashcardDeck({
     );
   }
 
-  const currentQuestion = questions[currentIndex]!;
-  const progress = ((currentIndex + 1) / questions.length) * 100;
+  const currentQuestion = shuffledQuestions[currentIndex]!;
+  const progress = ((currentIndex + 1) / shuffledQuestions.length) * 100;
 
   const handleNext = () => {
-    if (currentIndex < questions.length - 1) {
+    if (currentIndex < shuffledQuestions.length - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   };
@@ -69,7 +92,7 @@ export function FlashcardDeck({
       <div className="space-y-2">
         <div className="flex items-center justify-between text-sm text-muted-foreground">
           <span>
-            Card {currentIndex + 1} of {questions.length}
+            Card {currentIndex + 1} of {shuffledQuestions.length}
           </span>
           <span>{Math.round(progress)}% Complete</span>
         </div>
@@ -96,15 +119,21 @@ export function FlashcardDeck({
           <span className="sm:hidden">Prev</span>
         </Button>
 
-        <Button variant="ghost" onClick={handleReset} className="gap-1 px-3 sm:gap-2 sm:px-4">
-          <RotateCcw className="h-4 w-4" />
-          <span className="hidden xs:inline">Reset</span>
-        </Button>
+        <div className="flex gap-1">
+          <Button variant="ghost" onClick={handleReset} className="gap-1 px-3 sm:gap-2 sm:px-4">
+            <RotateCcw className="h-4 w-4" />
+            <span className="hidden sm:inline">Reset</span>
+          </Button>
+          <Button variant="ghost" onClick={handleShuffle} className="gap-1 px-3 sm:gap-2 sm:px-4">
+            <Shuffle className="h-4 w-4" />
+            <span className="hidden sm:inline">Shuffle</span>
+          </Button>
+        </div>
 
         <Button
           variant="outline"
           onClick={handleNext}
-          disabled={currentIndex === questions.length - 1}
+          disabled={currentIndex === shuffledQuestions.length - 1}
           className="gap-1 px-3 sm:gap-2 sm:px-4"
         >
           Next
@@ -116,7 +145,7 @@ export function FlashcardDeck({
       {isAuthenticated && onRecordResponse && (
         <SpacedRepetitionControls
           onResponse={handleResponse}
-          disabled={currentIndex === questions.length - 1 && !onRecordResponse}
+          disabled={currentIndex === shuffledQuestions.length - 1 && !onRecordResponse}
         />
       )}
 
