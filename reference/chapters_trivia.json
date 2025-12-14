@@ -1,14 +1,679 @@
 {
   "gameTitle": "Kappa Kappa Psi Chapters Trivia Challenge",
-  "description": "A comprehensive trivia game about Kappa Kappa Psi's 343 chapters across the United States",
-  "totalQuestions": 50,
+  "description": "A comprehensive trivia game about Kappa Kappa Psi's 343 chapters across the United States - focusing on district firsts, HBCU history, and state statistics",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": 1,
       "questionVersions": [
-        "What is the total number of Kappa Kappa Psi chapters?",
-        "How many chapters does Kappa Kappa Psi have?",
-        "Kappa Kappa Psi has how many total chapters?",
+        "Which chapter was the first in the Southwest District?",
+        "What is the oldest chapter in the Southwest District?",
+        "Which Southwest chapter was founded first?",
+        "The first chapter chartered in the Southwest District was?",
+        "What chapter started the Southwest District?"
+      ],
+      "correctAnswer": "Alpha at Oklahoma State University",
+      "wrongAnswers": [
+        "Delta at University of Oklahoma",
+        "Lambda at University of Arkansas",
+        "Alpha Tau at University of Texas at Austin",
+        "Alpha Omicron at Texas Tech University",
+        "Rho at Tulane University"
+      ],
+      "tags": ["districts", "southwest", "first-chapter", "firsts"]
+    },
+    {
+      "id": 2,
+      "questionVersions": [
+        "Which chapter was the first in the Western District?",
+        "What is the oldest chapter in the Western District?",
+        "Which Western chapter was founded first?",
+        "The first chapter chartered in the Western District was?",
+        "What chapter started the Western District?"
+      ],
+      "correctAnswer": "Gamma at University of Washington",
+      "wrongAnswers": [
+        "Theta at Oregon State University",
+        "Phi at Stanford University",
+        "Chi at UC Berkeley",
+        "Psi at UCLA",
+        "Omega at University of Arizona"
+      ],
+      "tags": ["districts", "western", "first-chapter", "firsts"]
+    },
+    {
+      "id": 3,
+      "questionVersions": [
+        "Which chapter was the first in the Midwest District?",
+        "What is the oldest chapter in the Midwest District?",
+        "Which Midwest chapter was founded first?",
+        "The first chapter chartered in the Midwest District was?",
+        "What chapter started the Midwest District?"
+      ],
+      "correctAnswer": "Beta at Montana State University",
+      "wrongAnswers": [
+        "Kappa at Colorado State University",
+        "Xi at Colorado School of Mines",
+        "Mu at University of North Dakota",
+        "Alpha Theta at University of Northern Colorado",
+        "Tau at University of Montana"
+      ],
+      "tags": ["districts", "midwest", "first-chapter", "firsts"]
+    },
+    {
+      "id": 4,
+      "questionVersions": [
+        "Which chapter was the first in the North Central District?",
+        "What is the oldest chapter in the North Central District?",
+        "Which North Central chapter was founded first?",
+        "The first chapter chartered in the North Central District was?",
+        "What chapter started the North Central District?"
+      ],
+      "correctAnswer": "Eta at The Ohio State University",
+      "wrongAnswers": [
+        "Nu at University of Michigan",
+        "Sigma at Ohio Northern University",
+        "Alpha Beta at Butler University",
+        "Alpha Zeta at Indiana University",
+        "Alpha Delta at Ohio University"
+      ],
+      "tags": ["districts", "north-central", "first-chapter", "firsts"]
+    },
+    {
+      "id": 5,
+      "questionVersions": [
+        "Which chapter was the first in the Northeast District?",
+        "What is the oldest chapter in the Northeast District?",
+        "Which Northeast chapter was founded first?",
+        "The first chapter chartered in the Northeast District was?",
+        "What chapter started the Northeast District?"
+      ],
+      "correctAnswer": "Zeta at Pennsylvania State University",
+      "wrongAnswers": [
+        "Omicron at West Virginia University",
+        "Alpha Epsilon at Temple University",
+        "Alpha Kappa at George Washington University",
+        "Alpha Phi at Rutgers University",
+        "Beta Delta at Cornell University"
+      ],
+      "tags": ["districts", "northeast", "first-chapter", "firsts"]
+    },
+    {
+      "id": 6,
+      "questionVersions": [
+        "Which chapter was the first in the Southeast District?",
+        "What is the oldest chapter in the Southeast District?",
+        "Which Southeast chapter was founded first?",
+        "The first chapter chartered in the Southeast District was?",
+        "What chapter started the Southeast District?"
+      ],
+      "correctAnswer": "Epsilon at Mississippi State University",
+      "wrongAnswers": [
+        "Iota at Georgia Tech",
+        "Pi at Auburn University",
+        "Alpha Eta at University of Florida",
+        "Alpha Gamma at Duke University",
+        "Alpha Sigma at University of Tampa"
+      ],
+      "tags": ["districts", "southeast", "first-chapter", "firsts"]
+    },
+    {
+      "id": 7,
+      "questionVersions": [
+        "Which was the first HBCU to have a KKPsi chapter?",
+        "What is the oldest HBCU chapter?",
+        "Which HBCU chapter was founded first?",
+        "The first Historically Black College to get a chapter was?",
+        "Where was KKPsi's first HBCU chapter established?"
+      ],
+      "correctAnswer": "Langston University (Delta Alpha)",
+      "wrongAnswers": [
+        "Texas Southern University",
+        "Florida A&M University",
+        "Howard University",
+        "Southern University",
+        "Prairie View A&M University"
+      ],
+      "tags": ["hbcu", "first", "history", "firsts"]
+    },
+    {
+      "id": 8,
+      "questionVersions": [
+        "When was the first HBCU chapter of Kappa Kappa Psi founded?",
+        "What date was Delta Alpha at Langston University chartered?",
+        "When did Langston University get its KKPsi chapter?",
+        "What is the founding date of the first HBCU chapter?",
+        "When was KKPsi's first HBCU chapter established?"
+      ],
+      "correctAnswer": "May 19, 1957",
+      "wrongAnswers": [
+        "May 22, 1957",
+        "May 26, 1960",
+        "April 17, 1966",
+        "April 8, 1967",
+        "May 5, 1962"
+      ],
+      "tags": ["hbcu", "dates", "firsts", "1957"]
+    },
+    {
+      "id": 9,
+      "questionVersions": [
+        "What was the first HBCU chapter in the Southeast District?",
+        "Which Southeast HBCU got a chapter first?",
+        "The oldest HBCU chapter in the Southeast is at?",
+        "Which HBCU was first in the Southeast to get KKPsi?",
+        "What Southeast District HBCU chapter was founded earliest?"
+      ],
+      "correctAnswer": "Delta Iota at Florida A&M University",
+      "wrongAnswers": [
+        "Epsilon Gamma at Alabama State University",
+        "Delta Pi at Mississippi Valley State University",
+        "Zeta Eta at South Carolina State University",
+        "Tau Mu at Morehouse College",
+        "Sigma Rho at Tuskegee University"
+      ],
+      "tags": ["hbcu", "southeast", "first-chapter", "firsts"]
+    },
+    {
+      "id": 10,
+      "questionVersions": [
+        "What was the first HBCU chapter in the Northeast District?",
+        "Which Northeast HBCU got a chapter first?",
+        "The oldest HBCU chapter in the Northeast is at?",
+        "Which HBCU was first in the Northeast to get KKPsi?",
+        "What Northeast District HBCU chapter was founded earliest?"
+      ],
+      "correctAnswer": "Zeta Psi at Virginia State University",
+      "wrongAnswers": [
+        "Eta Omega at Howard University",
+        "Mu Kappa at Morgan State University",
+        "Tau Iota at Bowie State University",
+        "Phi Sigma at Delaware State University",
+        "Lambda Rho at Norfolk State University"
+      ],
+      "tags": ["hbcu", "northeast", "first-chapter", "firsts"]
+    },
+    {
+      "id": 11,
+      "questionVersions": [
+        "What was the first HBCU chapter in the North Central District?",
+        "Which North Central HBCU got a chapter first?",
+        "The oldest HBCU chapter in the North Central is at?",
+        "Which HBCU was first in the North Central to get KKPsi?",
+        "What North Central District HBCU chapter was founded earliest?"
+      ],
+      "correctAnswer": "Theta Delta at Central State University",
+      "wrongAnswers": [
+        "Chi Gamma at Lincoln University (Missouri)",
+        "Phi Upsilon at Kentucky State University",
+        "Iota Nu at Wilberforce University",
+        "Lambda Kappa at Harris-Stowe State University",
+        "Mu Eta at Lincoln University (Pennsylvania)"
+      ],
+      "tags": ["hbcu", "north-central", "first-chapter", "firsts"]
+    },
+    {
+      "id": 12,
+      "questionVersions": [
+        "Which state has the most chapters in the Southwest District?",
+        "What state leads the Southwest in chapter count?",
+        "The Southwest District has the most chapters in which state?",
+        "Which state dominates the Southwest District?",
+        "What state has the highest number of Southwest chapters?"
+      ],
+      "correctAnswer": "Texas (38 chapters)",
+      "wrongAnswers": [
+        "Oklahoma (15 chapters)",
+        "Louisiana (8 chapters)",
+        "Arkansas (6 chapters)",
+        "New Mexico (4 chapters)",
+        "Kansas (5 chapters)"
+      ],
+      "tags": ["districts", "southwest", "states", "statistics"]
+    },
+    {
+      "id": 13,
+      "questionVersions": [
+        "Which state has the most chapters in the Northeast District?",
+        "What state leads the Northeast in chapter count?",
+        "The Northeast District has the most chapters in which state?",
+        "Which state dominates the Northeast District?",
+        "What state has the highest number of Northeast chapters?"
+      ],
+      "correctAnswer": "Pennsylvania (24 chapters)",
+      "wrongAnswers": [
+        "Virginia (14 chapters)",
+        "New York (10 chapters)",
+        "New Jersey (8 chapters)",
+        "Maryland (6 chapters)",
+        "Massachusetts (5 chapters)"
+      ],
+      "tags": ["districts", "northeast", "states", "statistics"]
+    },
+    {
+      "id": 14,
+      "questionVersions": [
+        "Which state has the most chapters in the North Central District?",
+        "What state leads the North Central in chapter count?",
+        "The North Central District has the most chapters in which state?",
+        "Which state dominates the North Central District?",
+        "What state has the highest number of North Central chapters?"
+      ],
+      "correctAnswer": "Ohio (20 chapters)",
+      "wrongAnswers": [
+        "Illinois (9 chapters)",
+        "Indiana (8 chapters)",
+        "Michigan (7 chapters)",
+        "Wisconsin (4 chapters)",
+        "Kentucky (3 chapters)"
+      ],
+      "tags": ["districts", "north-central", "states", "statistics"]
+    },
+    {
+      "id": 15,
+      "questionVersions": [
+        "Which state has the most chapters in the Southeast District?",
+        "What state leads the Southeast in chapter count?",
+        "The Southeast District has the most chapters in which state?",
+        "Which state dominates the Southeast District?",
+        "What state has the highest number of Southeast chapters?"
+      ],
+      "correctAnswer": "Georgia (15 chapters)",
+      "wrongAnswers": [
+        "North Carolina (15 chapters)",
+        "Florida (13 chapters)",
+        "Alabama (13 chapters)",
+        "Tennessee (10 chapters)",
+        "South Carolina (8 chapters)"
+      ],
+      "tags": ["districts", "southeast", "states", "statistics"]
+    },
+    {
+      "id": 16,
+      "questionVersions": [
+        "Which state has the most chapters in the Western District?",
+        "What state leads the Western in chapter count?",
+        "The Western District has the most chapters in which state?",
+        "Which state dominates the Western District?",
+        "What state has the highest number of Western chapters?"
+      ],
+      "correctAnswer": "California (15 chapters)",
+      "wrongAnswers": [
+        "Utah (4 chapters)",
+        "Oregon (3 chapters)",
+        "Washington (3 chapters)",
+        "Arizona (2 chapters)",
+        "Nevada (2 chapters)"
+      ],
+      "tags": ["districts", "western", "states", "statistics"]
+    },
+    {
+      "id": 17,
+      "questionVersions": [
+        "Which state has the most chapters in the Midwest District?",
+        "What state leads the Midwest in chapter count?",
+        "The Midwest District has the most chapters in which state?",
+        "Which state dominates the Midwest District?",
+        "What state has the highest number of Midwest chapters?"
+      ],
+      "correctAnswer": "Colorado (7 chapters)",
+      "wrongAnswers": [
+        "Missouri (7 chapters)",
+        "Nebraska (4 chapters)",
+        "North Dakota (3 chapters)",
+        "Montana (3 chapters)",
+        "Wyoming (2 chapters)"
+      ],
+      "tags": ["districts", "midwest", "states", "statistics"]
+    },
+    {
+      "id": 18,
+      "questionVersions": [
+        "What is the most recent chapter in the Southeast District?",
+        "Which chapter was most recently founded in the Southeast?",
+        "The newest Southeast District chapter is?",
+        "What is the latest chapter added to the Southeast?",
+        "Which chapter is the youngest in the Southeast District?"
+      ],
+      "correctAnswer": "Xi Eta at Austin Peay State University (2024)",
+      "wrongAnswers": [
+        "Xi Delta at Jacksonville State University",
+        "Xi Gamma at Cleveland State University",
+        "Nu Omega at University of South Alabama",
+        "Nu Chi at Western Kentucky University",
+        "Omicron Sigma at University of Tennessee at Martin"
+      ],
+      "tags": ["districts", "southeast", "recent", "newest"]
+    },
+    {
+      "id": 19,
+      "questionVersions": [
+        "What is the most recent chapter in the Northeast District?",
+        "Which chapter was most recently founded in the Northeast?",
+        "The newest Northeast District chapter is?",
+        "What is the latest chapter added to the Northeast?",
+        "Which chapter is the youngest in the Northeast District?"
+      ],
+      "correctAnswer": "Xi Zeta at Widener University (2023)",
+      "wrongAnswers": [
+        "Xi Epsilon at Florida Memorial University",
+        "Xi Delta at Jacksonville State University",
+        "Nu Tau at Shippensburg University",
+        "Omicron Upsilon at Edinboro University",
+        "Pi Alpha at Slippery Rock University"
+      ],
+      "tags": ["districts", "northeast", "recent", "newest"]
+    },
+    {
+      "id": 20,
+      "questionVersions": [
+        "What is the most recent chapter in the Southwest District?",
+        "Which chapter was most recently founded in the Southwest?",
+        "The newest Southwest District chapter is?",
+        "What is the latest chapter added to the Southwest?",
+        "Which chapter is the youngest in the Southwest District?"
+      ],
+      "correctAnswer": "Xi Beta at University of North Texas (2021)",
+      "wrongAnswers": [
+        "Xi Alpha at University of Houston",
+        "Nu Xi at Midwestern State University",
+        "Omicron Iota at Texas A&M University-Commerce",
+        "Pi Kappa at Tarleton State University",
+        "Rho Eta at Stephen F. Austin State University"
+      ],
+      "tags": ["districts", "southwest", "recent", "newest"]
+    },
+    {
+      "id": 21,
+      "questionVersions": [
+        "What is the most recent chapter in the North Central District?",
+        "Which chapter was most recently founded in the North Central?",
+        "The newest North Central District chapter is?",
+        "What is the latest chapter added to the North Central?",
+        "Which chapter is the youngest in the North Central District?"
+      ],
+      "correctAnswer": "Xi Gamma at Cleveland State University (2022)",
+      "wrongAnswers": [
+        "Xi Alpha at University of Akron",
+        "Nu Upsilon at University of Wisconsin-Milwaukee",
+        "Omicron Eta at Ball State University",
+        "Pi Beta at Wright State University",
+        "Rho Kappa at Purdue University"
+      ],
+      "tags": ["districts", "north-central", "recent", "newest"]
+    },
+    {
+      "id": 22,
+      "questionVersions": [
+        "What is the most recent chapter in the Western District?",
+        "Which chapter was most recently founded in the Western?",
+        "The newest Western District chapter is?",
+        "What is the latest chapter added to the Western?",
+        "Which chapter is the youngest in the Western District?"
+      ],
+      "correctAnswer": "Nu Sigma at Cal Poly Pomona (2017)",
+      "wrongAnswers": [
+        "Nu Rho at Sacramento State University",
+        "Nu Pi at San Jose State University",
+        "Mu Upsilon at University of Portland",
+        "Mu Tau at Brigham Young University",
+        "Lambda Zeta at Northern Arizona University"
+      ],
+      "tags": ["districts", "western", "recent", "newest"]
+    },
+    {
+      "id": 23,
+      "questionVersions": [
+        "What is the most recent chapter in the Midwest District?",
+        "Which chapter was most recently founded in the Midwest?",
+        "The newest Midwest District chapter is?",
+        "What is the latest chapter added to the Midwest?",
+        "Which chapter is the youngest in the Midwest District?"
+      ],
+      "correctAnswer": "Gamma Delta at Wayne State College (2006)",
+      "wrongAnswers": [
+        "Gamma Beta at University of Wyoming",
+        "Lambda Beta at University of Nebraska at Omaha",
+        "Mu Gamma at South Dakota State University",
+        "Mu Delta at Missouri State University",
+        "Nu Beta at University of Colorado Denver"
+      ],
+      "tags": ["districts", "midwest", "recent", "newest"]
+    },
+    {
+      "id": 24,
+      "questionVersions": [
+        "Which two universities founded chapters on Valentine's Day 1948?",
+        "What schools share February 14, 1948 as their founding date?",
+        "Which chapters were chartered on the same Valentine's Day?",
+        "What universities have KKPsi chapters from 2/14/1948?",
+        "Which schools share the Valentine's Day founding date?"
+      ],
+      "correctAnswer": "University of Pittsburgh and Baylor University",
+      "wrongAnswers": [
+        "USC and UCLA",
+        "Stanford and UC Berkeley",
+        "Michigan and Ohio State",
+        "Texas and Oklahoma",
+        "Duke and UNC"
+      ],
+      "tags": ["trivia", "dates", "same-day", "unique"]
+    },
+    {
+      "id": 25,
+      "questionVersions": [
+        "Which two schools founded chapters on May 19, 1957?",
+        "What chapters share the founding date of 5/19/1957?",
+        "On May 19, 1957, which two chapters were chartered?",
+        "What schools both got chapters on 5/19/57?",
+        "Which chapters were founded together in May 1957?"
+      ],
+      "correctAnswer": "Ohio Wesleyan University and Langston University",
+      "wrongAnswers": [
+        "Texas Southern and Florida A&M",
+        "Howard and Southern University",
+        "Grambling and Prairie View",
+        "Alabama State and Jackson State",
+        "Tennessee State and Morgan State"
+      ],
+      "tags": ["trivia", "dates", "same-day", "unique"]
+    },
+    {
+      "id": 26,
+      "questionVersions": [
+        "What is the oldest active chapter in the Northeast District?",
+        "Which active Northeast chapter has been around longest?",
+        "The oldest continuously active Northeast chapter is?",
+        "Which is the first active chapter in the Northeast?",
+        "What Northeast chapter has the longest active history?"
+      ],
+      "correctAnswer": "Omicron at West Virginia University",
+      "wrongAnswers": [
+        "Zeta at Penn State University",
+        "Alpha Epsilon at Temple University",
+        "Alpha Kappa at George Washington University",
+        "Beta Delta at Cornell University",
+        "Beta Zeta at University of Pennsylvania"
+      ],
+      "tags": ["districts", "northeast", "active", "oldest"]
+    },
+    {
+      "id": 27,
+      "questionVersions": [
+        "Which district has the most total chapters?",
+        "What is the largest district by chapter count?",
+        "Which district has 79 chapters (tied for first)?",
+        "What district leads in total chapter count?",
+        "Which is the biggest district by number of chapters?"
+      ],
+      "correctAnswer": "Southeast and Southwest (tied with 79 each)",
+      "wrongAnswers": [
+        "Northeast (70 chapters)",
+        "North Central (48 chapters)",
+        "Midwest (36 chapters)",
+        "Western (31 chapters)",
+        "Southwest only (80 chapters)"
+      ],
+      "tags": ["districts", "statistics", "size"]
+    },
+    {
+      "id": 28,
+      "questionVersions": [
+        "Which district has the fewest chapters?",
+        "What is the smallest district by chapter count?",
+        "Which district has only 31 chapters?",
+        "What district has the least chapters?",
+        "Which is the smallest KKPsi district?"
+      ],
+      "correctAnswer": "Western (31 chapters)",
+      "wrongAnswers": [
+        "Midwest (36 chapters)",
+        "North Central (48 chapters)",
+        "Northeast (70 chapters)",
+        "Southeast (79 chapters)",
+        "Southwest (79 chapters)"
+      ],
+      "tags": ["districts", "statistics", "size"]
+    },
+    {
+      "id": 29,
+      "questionVersions": [
+        "Which district has the most HBCU chapters?",
+        "What district leads in HBCU chapter count?",
+        "The Southeast District has how many HBCU chapters?",
+        "Which district has the highest HBCU presence?",
+        "What district contains the most HBCUs?"
+      ],
+      "correctAnswer": "Southeast (31 HBCU chapters)",
+      "wrongAnswers": [
+        "Northeast (9 HBCU chapters)",
+        "Southwest (7 HBCU chapters)",
+        "North Central (3 HBCU chapters)",
+        "Midwest (0 HBCU chapters)",
+        "Western (0 HBCU chapters)"
+      ],
+      "tags": ["districts", "hbcu", "statistics"]
+    },
+    {
+      "id": 30,
+      "questionVersions": [
+        "Which districts have no HBCU chapters?",
+        "What two districts lack HBCU chapters?",
+        "Which districts have zero HBCUs?",
+        "What districts are without HBCU chapters?",
+        "Which districts don't have any HBCU chapters?"
+      ],
+      "correctAnswer": "Midwest and Western",
+      "wrongAnswers": [
+        "Northeast and North Central",
+        "Southwest and Western",
+        "Midwest and Northeast",
+        "North Central and Western",
+        "Southeast and Midwest"
+      ],
+      "tags": ["districts", "hbcu", "statistics"]
+    },
+    {
+      "id": 31,
+      "questionVersions": [
+        "What is the most recent HBCU chapter?",
+        "Which HBCU got a chapter most recently?",
+        "The newest HBCU chapter was founded at?",
+        "What is the latest HBCU chapter?",
+        "Which HBCU chapter is the youngest?"
+      ],
+      "correctAnswer": "Xi Epsilon at Florida Memorial University (2023)",
+      "wrongAnswers": [
+        "Xi Delta at Claflin University",
+        "Xi Gamma at Virginia Union University",
+        "Xi Beta at Dillard University",
+        "Nu Omega at Clark Atlanta University",
+        "Omicron Sigma at Miles College"
+      ],
+      "tags": ["hbcu", "recent", "newest"]
+    },
+    {
+      "id": 32,
+      "questionVersions": [
+        "How many chapters were founded in the 2000s decade?",
+        "What decade saw 51 chapters chartered?",
+        "The 2000s had how many new chapters?",
+        "Which decade was the most prolific for chartering?",
+        "How many chapters were added between 2000-2009?"
+      ],
+      "correctAnswer": "51 chapters",
+      "wrongAnswers": [
+        "48 chapters",
+        "39 chapters",
+        "33 chapters",
+        "31 chapters",
+        "29 chapters"
+      ],
+      "tags": ["history", "statistics", "decades"]
+    },
+    {
+      "id": 33,
+      "questionVersions": [
+        "Which decade had the second-most chapters chartered?",
+        "What decade saw 48 new chapters?",
+        "The 1970s had how many new chapters?",
+        "Which decade was very active for chartering after the 2000s?",
+        "How many chapters were added in the 1970s?"
+      ],
+      "correctAnswer": "1970s (48 chapters)",
+      "wrongAnswers": [
+        "1980s (39 chapters)",
+        "1990s (33 chapters)",
+        "2010s (31 chapters)",
+        "1960s (29 chapters)",
+        "1950s (39 chapters)"
+      ],
+      "tags": ["history", "statistics", "decades"]
+    },
+    {
+      "id": 34,
+      "questionVersions": [
+        "Which state has the most KKPsi chapters overall?",
+        "What state leads in total chapter count?",
+        "The state with the most chapters nationwide is?",
+        "Which state dominates KKPsi's chapter distribution?",
+        "What state has 38 chapters?"
+      ],
+      "correctAnswer": "Texas (38 chapters)",
+      "wrongAnswers": [
+        "Pennsylvania (24 chapters)",
+        "Ohio (20 chapters)",
+        "California (15 chapters)",
+        "Oklahoma (15 chapters)",
+        "Georgia (15 chapters)"
+      ],
+      "tags": ["geography", "statistics", "states"]
+    },
+    {
+      "id": 35,
+      "questionVersions": [
+        "Which state has the second-most KKPsi chapters?",
+        "What state has 24 chapters?",
+        "After Texas, which state has the most chapters?",
+        "Which state ranks second in chapter count?",
+        "What Northeast state leads in chapters?"
+      ],
+      "correctAnswer": "Pennsylvania (24 chapters)",
+      "wrongAnswers": [
+        "Texas (38 chapters)",
+        "Ohio (20 chapters)",
+        "California (15 chapters)",
+        "Oklahoma (15 chapters)",
+        "Georgia (15 chapters)"
+      ],
+      "tags": ["geography", "statistics", "states"]
+    },
+    {
+      "id": 36,
+      "questionVersions": [
+        "How many total chapters does Kappa Kappa Psi have?",
+        "What is the total number of KKPsi chapters?",
+        "Kappa Kappa Psi has how many chapters?",
         "What is the chapter count for KKPsi?",
         "How many chapters exist in Kappa Kappa Psi?"
       ],
@@ -18,173 +683,12 @@
         "340",
         "300",
         "325",
-        "360",
-        "400"
+        "360"
       ],
       "tags": ["general", "statistics", "total-chapters"]
     },
     {
-      "id": 2,
-      "questionVersions": [
-        "Which chapter is the first Kappa Kappa Psi chapter?",
-        "What is the name of the first KKPsi chapter?",
-        "The founding chapter of Kappa Kappa Psi is?",
-        "Which Greek letter represents the first chapter?",
-        "What is Chapter #1 called?"
-      ],
-      "correctAnswer": "Alpha",
-      "wrongAnswers": [
-        "Beta",
-        "Gamma",
-        "Omega",
-        "Delta",
-        "Epsilon",
-        "Zeta"
-      ],
-      "tags": ["founding", "first-chapter", "history"]
-    },
-    {
-      "id": 3,
-      "questionVersions": [
-        "At which university was the Alpha chapter founded?",
-        "Where is the first Kappa Kappa Psi chapter located?",
-        "Alpha chapter was established at which school?",
-        "What university has the Alpha chapter?",
-        "The first chapter is at which institution?"
-      ],
-      "correctAnswer": "Oklahoma State University",
-      "wrongAnswers": [
-        "University of Oklahoma",
-        "University of Kansas",
-        "Texas Tech University",
-        "University of Texas",
-        "Kansas State University",
-        "Oklahoma City University"
-      ],
-      "tags": ["founding", "first-chapter", "oklahoma"]
-    },
-    {
-      "id": 4,
-      "questionVersions": [
-        "When was the Alpha chapter founded?",
-        "What is the founding date of Kappa Kappa Psi?",
-        "On what date was the first chapter chartered?",
-        "When did Alpha chapter receive its charter?",
-        "What is KKPsi's founding date?"
-      ],
-      "correctAnswer": "November 27, 1919",
-      "wrongAnswers": [
-        "November 27, 1920",
-        "November 27, 1918",
-        "December 27, 1919",
-        "October 27, 1919",
-        "November 15, 1919",
-        "November 27, 1921"
-      ],
-      "tags": ["founding", "dates", "history"]
-    },
-    {
-      "id": 5,
-      "questionVersions": [
-        "Which is the most recent chapter to be chartered?",
-        "What is the newest Kappa Kappa Psi chapter?",
-        "Which chapter was most recently founded?",
-        "What is the latest chapter added?",
-        "Which is Chapter #343?"
-      ],
-      "correctAnswer": "Xi Eta",
-      "wrongAnswers": [
-        "Xi Zeta",
-        "Xi Epsilon",
-        "Xi Delta",
-        "Xi Gamma",
-        "Nu Omega",
-        "Xi Alpha"
-      ],
-      "tags": ["recent", "newest-chapter", "history"]
-    },
-    {
-      "id": 6,
-      "questionVersions": [
-        "At which university is the Xi Eta chapter located?",
-        "Where is the most recent chapter?",
-        "Xi Eta chapter is at which school?",
-        "What university has the newest chapter?",
-        "The 343rd chapter is at which institution?"
-      ],
-      "correctAnswer": "Austin Peay State University",
-      "wrongAnswers": [
-        "Middle Tennessee State University",
-        "Tennessee Tech University",
-        "East Tennessee State University",
-        "University of Tennessee",
-        "Tennessee State University",
-        "Belmont University"
-      ],
-      "tags": ["recent", "newest-chapter", "tennessee"]
-    },
-    {
-      "id": 7,
-      "questionVersions": [
-        "When was the Xi Eta chapter founded?",
-        "What is the date of the most recent chapter?",
-        "When was the 343rd chapter chartered?",
-        "On what date was Xi Eta founded?",
-        "When was the latest chapter established?"
-      ],
-      "correctAnswer": "April 27, 2024",
-      "wrongAnswers": [
-        "April 17, 2023",
-        "April 13, 2023",
-        "December 4, 2022",
-        "April 14, 2021",
-        "April 28, 2021",
-        "May 8, 2020"
-      ],
-      "tags": ["recent", "dates", "2024"]
-    },
-    {
-      "id": 8,
-      "questionVersions": [
-        "How many districts does Kappa Kappa Psi have?",
-        "What is the total number of KKPsi districts?",
-        "Kappa Kappa Psi is divided into how many districts?",
-        "How many administrative districts exist?",
-        "What is the district count?"
-      ],
-      "correctAnswer": "7",
-      "wrongAnswers": [
-        "6",
-        "8",
-        "5",
-        "10",
-        "9",
-        "12"
-      ],
-      "tags": ["districts", "organization", "structure"]
-    },
-    {
-      "id": 9,
-      "questionVersions": [
-        "Which district has the most chapters?",
-        "What is the largest district by chapter count?",
-        "Which district contains approximately 95 chapters?",
-        "What district has the highest number of chapters?",
-        "Which is the biggest district?"
-      ],
-      "correctAnswer": "Southwest",
-      "wrongAnswers": [
-        "Southeast",
-        "North Central",
-        "Western",
-        "Midwest",
-        "Northeast",
-        "Central"
-      ],
-      "tags": ["districts", "southwest", "statistics"]
-    },
-    {
-      "id": 10,
+      "id": 37,
       "questionVersions": [
         "How many HBCU chapters does Kappa Kappa Psi have?",
         "What is the total number of chapters at HBCUs?",
@@ -192,99 +696,18 @@
         "What is the HBCU chapter count?",
         "How many HBCU institutions have KKPsi chapters?"
       ],
-      "correctAnswer": "34",
+      "correctAnswer": "50",
       "wrongAnswers": [
-        "30",
+        "34",
         "40",
-        "25",
-        "35",
-        "50",
-        "28"
+        "45",
+        "55",
+        "60"
       ],
-      "tags": ["hbcu", "diversity", "statistics"]
+      "tags": ["hbcu", "statistics", "general"]
     },
     {
-      "id": 11,
-      "questionVersions": [
-        "Which was the first HBCU to have a KKPsi chapter?",
-        "What is the first HBCU chapter?",
-        "Which HBCU chapter was founded first?",
-        "What was the first Historically Black College chapter?",
-        "Which HBCU got a chapter first?"
-      ],
-      "correctAnswer": "Texas Southern University (Gamma Omega)",
-      "wrongAnswers": [
-        "Howard University",
-        "Florida A&M University",
-        "Langston University",
-        "Prairie View A&M University",
-        "Southern University",
-        "Grambling State University"
-      ],
-      "tags": ["hbcu", "first", "texas"]
-    },
-    {
-      "id": 12,
-      "questionVersions": [
-        "When was the first HBCU chapter founded?",
-        "What year was Gamma Omega chartered?",
-        "When did Texas Southern get its chapter?",
-        "What is the founding date of the first HBCU chapter?",
-        "When was the Gamma Omega chapter established?"
-      ],
-      "correctAnswer": "May 22, 1957",
-      "wrongAnswers": [
-        "May 19, 1957",
-        "May 26, 1960",
-        "May 22, 1960",
-        "April 8, 1967",
-        "May 12, 1973",
-        "May 20, 1978"
-      ],
-      "tags": ["hbcu", "dates", "1957"]
-    },
-    {
-      "id": 13,
-      "questionVersions": [
-        "How many Ivy League schools have KKPsi chapters?",
-        "What is the Ivy League chapter count?",
-        "How many Ivy League institutions have chapters?",
-        "What is the number of Ivy League chapters?",
-        "How many chapters are at Ivy League schools?"
-      ],
-      "correctAnswer": "2",
-      "wrongAnswers": [
-        "1",
-        "3",
-        "4",
-        "0",
-        "5",
-        "6"
-      ],
-      "tags": ["ivy-league", "elite-schools", "statistics"]
-    },
-    {
-      "id": 14,
-      "questionVersions": [
-        "Which Ivy League schools have KKPsi chapters?",
-        "What are the two Ivy League chapters?",
-        "Which Ivy League universities have chapters?",
-        "Name the Ivy League schools with KKPsi?",
-        "What Ivy League institutions have chapters?"
-      ],
-      "correctAnswer": "Cornell and University of Pennsylvania",
-      "wrongAnswers": [
-        "Harvard and Yale",
-        "Princeton and Columbia",
-        "Brown and Dartmouth",
-        "Cornell and Columbia",
-        "Penn and Princeton",
-        "Yale and Cornell"
-      ],
-      "tags": ["ivy-league", "elite-schools", "northeastern"]
-    },
-    {
-      "id": 15,
+      "id": 38,
       "questionVersions": [
         "What is the span of years from first to most recent chapter?",
         "How many years between the first and latest chapter?",
@@ -298,13 +721,145 @@
         "110 years",
         "95 years",
         "104 years",
-        "106 years",
-        "108 years"
+        "106 years"
       ],
       "tags": ["history", "timeline", "span"]
     },
     {
-      "id": 16,
+      "id": 39,
+      "questionVersions": [
+        "When was the Alpha chapter at Oklahoma State founded?",
+        "What is the founding date of Kappa Kappa Psi?",
+        "On what date was the first chapter chartered?",
+        "When did Alpha chapter receive its charter?",
+        "What is KKPsi's founding date?"
+      ],
+      "correctAnswer": "November 27, 1919",
+      "wrongAnswers": [
+        "November 27, 1920",
+        "November 27, 1918",
+        "December 27, 1919",
+        "October 27, 1919",
+        "November 15, 1919"
+      ],
+      "tags": ["founding", "dates", "history"]
+    },
+    {
+      "id": 40,
+      "questionVersions": [
+        "Which chapter is the most recent overall?",
+        "What is the newest Kappa Kappa Psi chapter?",
+        "Which chapter was most recently founded?",
+        "What is the latest chapter added?",
+        "Which is Chapter #343?"
+      ],
+      "correctAnswer": "Xi Eta at Austin Peay State University",
+      "wrongAnswers": [
+        "Xi Zeta at Widener University",
+        "Xi Epsilon at Florida Memorial University",
+        "Xi Delta at Jacksonville State University",
+        "Xi Gamma at Cleveland State University",
+        "Xi Beta at University of North Texas"
+      ],
+      "tags": ["recent", "newest-chapter", "history"]
+    },
+    {
+      "id": 41,
+      "questionVersions": [
+        "When was the Xi Eta chapter at Austin Peay founded?",
+        "What is the date of the most recent chapter?",
+        "When was the 343rd chapter chartered?",
+        "On what date was Xi Eta founded?",
+        "When was the latest chapter established?"
+      ],
+      "correctAnswer": "April 27, 2024",
+      "wrongAnswers": [
+        "April 17, 2023",
+        "April 13, 2023",
+        "January 30, 2022",
+        "April 28, 2021",
+        "November 18, 2017"
+      ],
+      "tags": ["recent", "dates", "2024"]
+    },
+    {
+      "id": 42,
+      "questionVersions": [
+        "What is the lowest-numbered active chapter in the Northeast?",
+        "Which active Northeast chapter has the lowest number?",
+        "The oldest active chapter by number in the Northeast is?",
+        "What is the first active chapter number in the Northeast?",
+        "Which Northeast chapter number is lowest and still active?"
+      ],
+      "correctAnswer": "#15 Omicron at West Virginia University",
+      "wrongAnswers": [
+        "#6 Zeta at Penn State",
+        "#29 Alpha Epsilon at Temple",
+        "#34 Alpha Kappa at GW",
+        "#45 Alpha Phi at Rutgers",
+        "#53 Beta Delta at Cornell"
+      ],
+      "tags": ["districts", "northeast", "active", "chapter-numbers"]
+    },
+    {
+      "id": 43,
+      "questionVersions": [
+        "Which conference has the most HBCU chapters?",
+        "What athletic conference contains the most HBCUs?",
+        "Which conference leads in HBCU representation?",
+        "What is the primary HBCU conference for KKPsi?",
+        "Which conference has the highest HBCU count?"
+      ],
+      "correctAnswer": "SWAC (Southwestern Athletic Conference)",
+      "wrongAnswers": [
+        "MEAC",
+        "SIAC",
+        "CIAA",
+        "SEC",
+        "Big Ten"
+      ],
+      "tags": ["hbcu", "conferences", "statistics"]
+    },
+    {
+      "id": 44,
+      "questionVersions": [
+        "How many Ivy League schools have KKPsi chapters?",
+        "What is the Ivy League chapter count?",
+        "How many Ivy League institutions have chapters?",
+        "What is the number of Ivy League chapters?",
+        "How many chapters are at Ivy League schools?"
+      ],
+      "correctAnswer": "2",
+      "wrongAnswers": [
+        "1",
+        "3",
+        "4",
+        "0",
+        "5"
+      ],
+      "tags": ["ivy-league", "elite-schools", "statistics"]
+    },
+    {
+      "id": 45,
+      "questionVersions": [
+        "Which Ivy League schools have KKPsi chapters?",
+        "What are the two Ivy League chapters?",
+        "Which Ivy League universities have chapters?",
+        "Name the Ivy League schools with KKPsi?",
+        "What Ivy League institutions have chapters?"
+      ],
+      "correctAnswer": "Cornell and University of Pennsylvania",
+      "wrongAnswers": [
+        "Harvard and Yale",
+        "Princeton and Columbia",
+        "Brown and Dartmouth",
+        "Cornell and Columbia",
+        "Penn and Princeton"
+      ],
+      "tags": ["ivy-league", "elite-schools", "northeastern"]
+    },
+    {
+      "id": 46,
       "questionVersions": [
         "Which chapter is at the University of Michigan?",
         "What is the Michigan chapter name?",
@@ -318,13 +873,12 @@
         "Eta",
         "Zeta Epsilon",
         "Alpha Zeta",
-        "Gamma",
-        "Xi"
+        "Gamma"
       ],
       "tags": ["big-ten", "michigan", "chapters"]
     },
     {
-      "id": 17,
+      "id": 47,
       "questionVersions": [
         "Which chapter is at The Ohio State University?",
         "What is the Ohio State chapter?",
@@ -338,133 +892,107 @@
         "Omicron",
         "Alpha Delta",
         "Beta Kappa",
-        "Nu",
-        "Gamma Upsilon"
+        "Nu"
       ],
       "tags": ["big-ten", "ohio", "chapters"]
     },
     {
-      "id": 18,
+      "id": 48,
       "questionVersions": [
-        "Which chapter is at Stanford University?",
-        "What is the Stanford chapter name?",
-        "Stanford has which Greek letter chapter?",
-        "What chapter is Phi?",
-        "Which chapter is at Stanford?"
+        "How many active chapters are in the Southwest District?",
+        "What is the active chapter count in the Southwest?",
+        "The Southwest has how many active chapters?",
+        "How many chapters are currently active in the Southwest?",
+        "What is the Southwest's active membership count?"
       ],
-      "correctAnswer": "Phi",
+      "correctAnswer": "50 active chapters",
       "wrongAnswers": [
-        "Psi",
-        "Chi",
-        "Omega",
-        "Gamma",
-        "Alpha Upsilon",
-        "Beta Omicron"
+        "79 active chapters",
+        "65 active chapters",
+        "55 active chapters",
+        "45 active chapters",
+        "60 active chapters"
       ],
-      "tags": ["pac-12", "california", "chapters"]
+      "tags": ["districts", "southwest", "active", "statistics"]
     },
     {
-      "id": 19,
+      "id": 49,
       "questionVersions": [
-        "Which chapter is at UCLA?",
-        "What is the UCLA chapter?",
-        "University of California Los Angeles has which chapter?",
-        "What Greek letters represent UCLA?",
-        "Which chapter is Psi?"
+        "How many active chapters are in the Southeast District?",
+        "What is the active chapter count in the Southeast?",
+        "The Southeast has how many active chapters?",
+        "How many chapters are currently active in the Southeast?",
+        "What is the Southeast's active membership count?"
       ],
-      "correctAnswer": "Psi",
+      "correctAnswer": "51 active chapters",
       "wrongAnswers": [
-        "Chi",
-        "Phi",
-        "Lambda Alpha",
-        "Alpha Upsilon",
-        "Omega",
-        "Beta Omicron"
+        "79 active chapters",
+        "70 active chapters",
+        "60 active chapters",
+        "45 active chapters",
+        "55 active chapters"
       ],
-      "tags": ["pac-12", "california", "chapters"]
+      "tags": ["districts", "southeast", "active", "statistics"]
     },
     {
-      "id": 20,
+      "id": 50,
       "questionVersions": [
-        "Which chapter is at UC Berkeley?",
-        "What is the Berkeley chapter?",
-        "University of California Berkeley has which chapter?",
-        "What Greek letter represents Cal?",
-        "Which chapter is Chi?"
+        "What was the second HBCU chapter founded?",
+        "Which HBCU got a chapter three days after the first?",
+        "After Langston, which HBCU chapter was founded next?",
+        "What is the second-oldest HBCU chapter?",
+        "Which HBCU chapter was chartered on May 22, 1957?"
       ],
-      "correctAnswer": "Chi",
+      "correctAnswer": "Gamma Omega at Texas Southern University",
       "wrongAnswers": [
-        "Psi",
-        "Phi",
-        "Lambda Alpha",
-        "Epsilon Sigma",
-        "Omega",
-        "Gamma"
+        "Delta Iota at Florida A&M University",
+        "Delta Alpha at Langston University",
+        "Eta Omega at Howard University",
+        "Delta Pi at Mississippi Valley State",
+        "Delta Psi at Prairie View A&M"
       ],
-      "tags": ["pac-12", "california", "chapters"]
+      "tags": ["hbcu", "history", "order", "texas-southern"]
     },
     {
-      "id": 21,
+      "id": 51,
       "questionVersions": [
-        "Which chapter is at Duke University?",
-        "What is the Duke chapter?",
-        "Duke has which chapter?",
-        "What Greek letters represent Duke?",
-        "Which chapter is Alpha Gamma?"
+        "What is the first chapter in Texas?",
+        "Which Texas chapter was founded first?",
+        "The oldest chapter in Texas is?",
+        "What chapter started KKPsi in Texas?",
+        "Which was the first Texas school with a chapter?"
       ],
-      "correctAnswer": "Alpha Gamma",
+      "correctAnswer": "Alpha Omicron at Texas Tech University",
       "wrongAnswers": [
-        "Alpha Beta",
-        "Gamma Nu",
-        "Alpha Delta",
-        "Beta Chi",
-        "Kappa Zeta",
-        "Alpha Eta"
+        "Alpha Tau at University of Texas at Austin",
+        "Alpha Chi at UTEP",
+        "Alpha Psi at West Texas A&M",
+        "Beta Alpha at Baylor University",
+        "Gamma Omega at Texas Southern"
       ],
-      "tags": ["acc", "north-carolina", "chapters"]
+      "tags": ["geography", "texas", "first-chapter", "firsts"]
     },
     {
-      "id": 22,
+      "id": 52,
       "questionVersions": [
-        "How many junior college or community college chapters exist?",
-        "What is the count of NJCAA chapters?",
-        "How many community college chapters are there?",
-        "How many junior college chapters does KKPsi have?",
-        "What is the junior college chapter count?"
+        "What is the first chapter in Ohio?",
+        "Which Ohio chapter was founded first?",
+        "The oldest chapter in Ohio is?",
+        "What chapter started KKPsi in Ohio?",
+        "Which was the first Ohio school with a chapter?"
       ],
-      "correctAnswer": "8",
+      "correctAnswer": "Eta at The Ohio State University",
       "wrongAnswers": [
-        "5",
-        "10",
-        "6",
-        "12",
-        "7",
-        "15"
+        "Sigma at Ohio Northern University",
+        "Upsilon at University of Cincinnati",
+        "Alpha Delta at Ohio University",
+        "Beta Kappa at Bowling Green State",
+        "Gamma Upsilon at Ohio Wesleyan"
       ],
-      "tags": ["junior-college", "njcaa", "statistics"]
+      "tags": ["geography", "ohio", "first-chapter", "firsts"]
     },
     {
-      "id": 23,
-      "questionVersions": [
-        "Which state has the most Kappa Kappa Psi chapters?",
-        "What state contains the highest number of chapters?",
-        "Which state leads in chapter count?",
-        "What state has the most KKPsi presence?",
-        "Which state is home to the most chapters?"
-      ],
-      "correctAnswer": "Texas",
-      "wrongAnswers": [
-        "Oklahoma",
-        "Pennsylvania",
-        "Ohio",
-        "California",
-        "Florida",
-        "New York"
-      ],
-      "tags": ["geography", "texas", "statistics"]
-    },
-    {
-      "id": 24,
+      "id": 53,
       "questionVersions": [
         "Which chapter is at Howard University?",
         "What is the Howard chapter?",
@@ -476,35 +1004,14 @@
       "wrongAnswers": [
         "Gamma Omega",
         "Delta Iota",
-        "Eta Gamma",
+        "Alpha Phi",
         "Nu Omega",
-        "Theta Mu",
         "Zeta Psi"
       ],
-      "tags": ["hbcu", "howard", "northeast"]
+      "tags": ["hbcu", "howard", "northeast", "chapters"]
     },
     {
-      "id": 25,
-      "questionVersions": [
-        "When was Howard University's chapter founded?",
-        "What year was Eta Omega chartered?",
-        "When did Howard get its KKPsi chapter?",
-        "What is the founding date of Howard's chapter?",
-        "When was the Eta Omega chapter established?"
-      ],
-      "correctAnswer": "February 4, 1984",
-      "wrongAnswers": [
-        "February 4, 1974",
-        "April 24, 1976",
-        "May 1, 1983",
-        "May 8, 1983",
-        "April 14, 2021",
-        "March 2, 2014"
-      ],
-      "tags": ["hbcu", "dates", "1984"]
-    },
-    {
-      "id": 26,
+      "id": 54,
       "questionVersions": [
         "Which chapter is at Florida A&M University?",
         "What is the FAMU chapter?",
@@ -514,297 +1021,35 @@
       ],
       "correctAnswer": "Delta Iota",
       "wrongAnswers": [
-        "Delta Pi",
-        "Epsilon Gamma",
-        "Eta Iota",
-        "Iota Beta",
+        "Beta Eta",
         "Gamma Omega",
-        "Zeta Eta"
-      ],
-      "tags": ["hbcu", "florida", "southeast"]
-    },
-    {
-      "id": 27,
-      "questionVersions": [
-        "Which chapter is at Morehouse College?",
-        "What is the Morehouse chapter?",
-        "Morehouse has which chapter?",
-        "What Greek letters represent Morehouse?",
-        "Which HBCU chapter is Iota Theta?"
-      ],
-      "correctAnswer": "Iota Theta",
-      "wrongAnswers": [
-        "Iota Tau",
-        "Theta Mu",
-        "Iota Nu",
         "Epsilon Gamma",
-        "Eta Kappa",
-        "Kappa Kappa"
+        "Eta Omega",
+        "Delta Alpha"
       ],
-      "tags": ["hbcu", "georgia", "morehouse"]
+      "tags": ["hbcu", "famu", "southeast", "chapters"]
     },
     {
-      "id": 28,
+      "id": 55,
       "questionVersions": [
-        "Which conference has the most HBCU chapters?",
-        "What athletic conference contains the most HBCUs?",
-        "Which conference leads in HBCU representation?",
-        "What is the primary HBCU conference for KKPsi?",
-        "Which conference has the most Historically Black Colleges?"
+        "How many districts does Kappa Kappa Psi have?",
+        "What is the total number of KKPsi districts?",
+        "Kappa Kappa Psi is divided into how many districts?",
+        "How many administrative districts exist?",
+        "What is the district count?"
       ],
-      "correctAnswer": "SWAC (Southwestern Athletic Conference)",
+      "correctAnswer": "6",
       "wrongAnswers": [
-        "MEAC",
-        "SIAC",
-        "CIAA",
-        "SEC",
-        "Big Ten",
-        "ACC"
+        "7",
+        "5",
+        "8",
+        "4",
+        "9"
       ],
-      "tags": ["hbcu", "conferences", "swac"]
+      "tags": ["districts", "organization", "structure"]
     },
     {
-      "id": 29,
-      "questionVersions": [
-        "Which chapter is at the University of Alabama?",
-        "What is the Alabama chapter?",
-        "University of Alabama has which chapter?",
-        "What Greek letters represent Alabama?",
-        "Which chapter is Nu Nu?"
-      ],
-      "correctAnswer": "Nu Nu",
-      "wrongAnswers": [
-        "Nu Mu",
-        "Nu Kappa",
-        "Theta Theta",
-        "Kappa Mu",
-        "Iota Nu",
-        "Epsilon Gamma"
-      ],
-      "tags": ["sec", "alabama", "chapters"]
-    },
-    {
-      "id": 30,
-      "questionVersions": [
-        "When was the University of Alabama's chapter founded?",
-        "What year was Nu Nu chartered?",
-        "When did Alabama get its chapter?",
-        "What is the founding date of Alabama's chapter?",
-        "When was Nu Nu established?"
-      ],
-      "correctAnswer": "April 21, 2015",
-      "wrongAnswers": [
-        "April 16, 2015",
-        "April 22, 1999",
-        "April 21, 2018",
-        "October 30, 1994",
-        "February 21, 1986",
-        "May 18, 1974"
-      ],
-      "tags": ["recent", "dates", "2015"]
-    },
-    {
-      "id": 31,
-      "questionVersions": [
-        "Which chapter is at the University of Texas at Austin?",
-        "What is the UT Austin chapter?",
-        "Texas has which chapter?",
-        "What Greek letters represent UT Austin?",
-        "Which chapter is Alpha Tau?"
-      ],
-      "correctAnswer": "Alpha Tau",
-      "wrongAnswers": [
-        "Alpha Omicron",
-        "Alpha Chi",
-        "Beta Alpha",
-        "Gamma Sigma",
-        "Delta Sigma",
-        "Theta Alpha"
-      ],
-      "tags": ["big-12", "texas", "chapters"]
-    },
-    {
-      "id": 32,
-      "questionVersions": [
-        "How many Big Ten schools have KKPsi chapters?",
-        "What is the Big Ten chapter count?",
-        "How many Big Ten institutions have chapters?",
-        "What is the number of Big Ten chapters?",
-        "How many chapters are in the Big Ten?"
-      ],
-      "correctAnswer": "13",
-      "wrongAnswers": [
-        "10",
-        "12",
-        "14",
-        "15",
-        "11",
-        "16"
-      ],
-      "tags": ["big-ten", "conferences", "statistics"]
-    },
-    {
-      "id": 33,
-      "questionVersions": [
-        "Which chapter is at the University of Southern California?",
-        "What is the USC chapter?",
-        "Southern California has which chapter?",
-        "What Greek letters represent USC?",
-        "Which chapter is Alpha Upsilon?"
-      ],
-      "correctAnswer": "Alpha Upsilon",
-      "wrongAnswers": [
-        "Psi",
-        "Chi",
-        "Lambda Alpha",
-        "Phi",
-        "Beta Omicron",
-        "Mu Pi"
-      ],
-      "tags": ["big-ten", "california", "chapters"]
-    },
-    {
-      "id": 34,
-      "questionVersions": [
-        "Which district contains states like Texas and Oklahoma?",
-        "What district has the most Texas chapters?",
-        "Which district is Texas part of?",
-        "What district contains Oklahoma?",
-        "Which district covers the Southwest region?"
-      ],
-      "correctAnswer": "Southwest",
-      "wrongAnswers": [
-        "Midwest",
-        "Southeast",
-        "Western",
-        "South Central",
-        "Central",
-        "Southern"
-      ],
-      "tags": ["districts", "geography", "southwest"]
-    },
-    {
-      "id": 35,
-      "questionVersions": [
-        "Which chapter is at Penn State University?",
-        "What is the Penn State chapter?",
-        "Pennsylvania State has which chapter?",
-        "What Greek letter represents Penn State?",
-        "Which chapter is Zeta?"
-      ],
-      "correctAnswer": "Zeta",
-      "wrongAnswers": [
-        "Eta",
-        "Alpha Epsilon",
-        "Alpha Omega",
-        "Gamma Xi",
-        "Nu",
-        "Beta Zeta"
-      ],
-      "tags": ["big-ten", "pennsylvania", "chapters"]
-    },
-    {
-      "id": 36,
-      "questionVersions": [
-        "What year was Penn State's chapter founded?",
-        "When was Zeta chapter chartered?",
-        "When did Penn State get its chapter?",
-        "What is the founding date of Zeta?",
-        "When was the sixth chapter established?"
-      ],
-      "correctAnswer": "April 25, 1923",
-      "wrongAnswers": [
-        "April 26, 1923",
-        "April 20, 1923",
-        "April 25, 1924",
-        "May 12, 1923",
-        "April 21, 1924",
-        "April 25, 1922"
-      ],
-      "tags": ["early-chapters", "dates", "1923"]
-    },
-    {
-      "id": 37,
-      "questionVersions": [
-        "Which chapter is at Louisiana State University?",
-        "What is the LSU chapter?",
-        "Louisiana State has which chapter?",
-        "What Greek letters represent LSU?",
-        "Which chapter is Beta Gamma?"
-      ],
-      "correctAnswer": "Beta Gamma",
-      "wrongAnswers": [
-        "Beta Alpha",
-        "Beta Delta",
-        "Gamma Nu",
-        "Lambda",
-        "Epsilon Theta",
-        "Eta Xi"
-      ],
-      "tags": ["sec", "louisiana", "chapters"]
-    },
-    {
-      "id": 38,
-      "questionVersions": [
-        "Which chapter is at Auburn University?",
-        "What is the Auburn chapter?",
-        "Auburn has which chapter?",
-        "What Greek letter represents Auburn?",
-        "Which chapter is Pi?"
-      ],
-      "correctAnswer": "Pi",
-      "wrongAnswers": [
-        "Iota",
-        "Epsilon",
-        "Alpha Gamma",
-        "Kappa Beta",
-        "Nu Nu",
-        "Theta Theta"
-      ],
-      "tags": ["sec", "alabama", "chapters"]
-    },
-    {
-      "id": 39,
-      "questionVersions": [
-        "Which universities founded chapters on the same day in 1948?",
-        "What two schools have the same founding date of February 14, 1948?",
-        "Which chapters share Valentine's Day 1948 as their founding?",
-        "What schools both chartered on 2/14/1948?",
-        "Which chapters were founded together on Valentine's Day?"
-      ],
-      "correctAnswer": "University of Pittsburgh and Baylor University",
-      "wrongAnswers": [
-        "USC and UCLA",
-        "Stanford and Berkeley",
-        "Michigan and Ohio State",
-        "Texas and Oklahoma",
-        "Duke and UNC",
-        "Alabama and Auburn"
-      ],
-      "tags": ["trivia", "dates", "same-day"]
-    },
-    {
-      "id": 40,
-      "questionVersions": [
-        "Which is the northernmost KKPsi chapter?",
-        "What chapter is farthest north?",
-        "Which university has the northern-most chapter?",
-        "What is the most northern chapter location?",
-        "Which chapter is located farthest north?"
-      ],
-      "correctAnswer": "University of North Dakota (Mu)",
-      "wrongAnswers": [
-        "Montana State University",
-        "University of Montana",
-        "North Dakota State University",
-        "University of Minnesota",
-        "University of Maine",
-        "SUNY Buffalo"
-      ],
-      "tags": ["geography", "trivia", "extremes"]
-    },
-    {
-      "id": 41,
+      "id": 56,
       "questionVersions": [
         "Which specialized music school has a KKPsi chapter?",
         "What music conservatory has a chapter?",
@@ -818,190 +1063,85 @@
         "Juilliard School",
         "Curtis Institute",
         "Manhattan School of Music",
-        "New England Conservatory",
         "Eastman School of Music"
       ],
       "tags": ["special-institutions", "music-schools", "unique"]
     },
     {
-      "id": 42,
+      "id": 57,
       "questionVersions": [
-        "When was VanderCook College of Music's chapter founded?",
-        "What year was Beta Nu chartered?",
-        "When did VanderCook get its chapter?",
-        "What is the founding date of the VanderCook chapter?",
-        "When was the music college chapter established?"
+        "What district contains Texas and Oklahoma?",
+        "Which district has the most Texas chapters?",
+        "Which district is Texas part of?",
+        "What district contains Oklahoma?",
+        "Which district covers the Southwest region?"
       ],
-      "correctAnswer": "December 19, 1949",
+      "correctAnswer": "Southwest",
       "wrongAnswers": [
-        "December 17, 1949",
-        "December 4, 1949",
-        "November 13, 1949",
-        "December 19, 1950",
-        "December 19, 1948",
-        "November 20, 1949"
+        "Midwest",
+        "Southeast",
+        "Western",
+        "South Central",
+        "Central"
       ],
-      "tags": ["dates", "1949", "music-schools"]
+      "tags": ["districts", "geography", "southwest"]
     },
     {
-      "id": 43,
+      "id": 58,
       "questionVersions": [
-        "Which chapter is at Florida State University?",
-        "What is the FSU chapter?",
-        "Florida State has which chapter?",
-        "What Greek letters represent Florida State?",
-        "Which chapter is Gamma Nu?"
+        "What district contains Ohio and Michigan?",
+        "Which district has Ohio State and Michigan?",
+        "Which district is Ohio part of?",
+        "What district contains Indiana?",
+        "Which district covers the North Central region?"
       ],
-      "correctAnswer": "Gamma Nu",
+      "correctAnswer": "North Central",
       "wrongAnswers": [
-        "Alpha Eta",
-        "Eta Sigma",
-        "Gamma Xi",
-        "Nu Nu",
-        "Beta Eta",
-        "Lambda Mu"
+        "Midwest",
+        "Northeast",
+        "Central",
+        "Eastern",
+        "Great Lakes"
       ],
-      "tags": ["acc", "florida", "chapters"]
+      "tags": ["districts", "geography", "north-central"]
     },
     {
-      "id": 44,
+      "id": 59,
       "questionVersions": [
-        "Which chapter is at Clemson University?",
-        "What is the Clemson chapter?",
-        "Clemson has which chapter?",
-        "What Greek letters represent Clemson?",
-        "Which chapter is Kappa Beta?"
+        "What district contains Pennsylvania and Virginia?",
+        "Which district has Penn State and West Virginia?",
+        "Which district is Pennsylvania part of?",
+        "What district contains the Mid-Atlantic states?",
+        "Which district covers the Northeast region?"
       ],
-      "correctAnswer": "Kappa Beta",
+      "correctAnswer": "Northeast",
       "wrongAnswers": [
-        "Kappa Alpha",
-        "Kappa Gamma",
-        "Beta",
-        "Alpha Gamma",
-        "Nu Nu",
-        "Kappa Zeta"
+        "North Central",
+        "Southeast",
+        "Eastern",
+        "Atlantic",
+        "Mid-Atlantic"
       ],
-      "tags": ["acc", "south-carolina", "chapters"]
+      "tags": ["districts", "geography", "northeast"]
     },
     {
-      "id": 45,
+      "id": 60,
       "questionVersions": [
-        "Which chapter is at the University of Georgia?",
-        "What is the UGA chapter?",
-        "Georgia has which chapter?",
-        "What Greek letters represent Georgia?",
-        "Which chapter is Kappa Mu?"
+        "What district contains Colorado and Montana?",
+        "Which district has Colorado State and Montana State?",
+        "Which district is Colorado part of?",
+        "What district contains Wyoming?",
+        "Which district covers the Rocky Mountain region?"
       ],
-      "correctAnswer": "Kappa Mu",
+      "correctAnswer": "Midwest",
       "wrongAnswers": [
-        "Iota",
-        "Nu Alpha",
-        "Kappa Kappa",
-        "Epsilon Gamma",
-        "Eta Kappa",
-        "Nu Kappa"
+        "Western",
+        "North Central",
+        "Southwest",
+        "Mountain",
+        "Central"
       ],
-      "tags": ["sec", "georgia", "chapters"]
-    },
-    {
-      "id": 46,
-      "questionVersions": [
-        "Approximately how many Division I FBS chapters exist?",
-        "What is the estimated D-I FBS chapter count?",
-        "How many Power 5 and Group of 5 chapters are there?",
-        "What is the Division I Football Bowl Subdivision count?",
-        "How many FBS chapters does KKPsi have?"
-      ],
-      "correctAnswer": "~120",
-      "wrongAnswers": [
-        "~100",
-        "~150",
-        "~80",
-        "~140",
-        "~90",
-        "~200"
-      ],
-      "tags": ["statistics", "division-I", "football"]
-    },
-    {
-      "id": 47,
-      "questionVersions": [
-        "Approximately how many Division II chapters exist?",
-        "What is the estimated D-II chapter count?",
-        "How many Division II chapters are there?",
-        "What is the Division II count?",
-        "How many D2 chapters does KKPsi have?"
-      ],
-      "correctAnswer": "~90",
-      "wrongAnswers": [
-        "~80",
-        "~100",
-        "~70",
-        "~110",
-        "~60",
-        "~120"
-      ],
-      "tags": ["statistics", "division-II", "ncaa"]
-    },
-    {
-      "id": 48,
-      "questionVersions": [
-        "Which chapter is at Georgia Institute of Technology?",
-        "What is the Georgia Tech chapter?",
-        "GT has which chapter?",
-        "What Greek letter represents Georgia Tech?",
-        "Which chapter is Iota?"
-      ],
-      "correctAnswer": "Iota",
-      "wrongAnswers": [
-        "Kappa Mu",
-        "Nu Alpha",
-        "Theta Omicron",
-        "Epsilon",
-        "Nu Kappa",
-        "Alpha Gamma"
-      ],
-      "tags": ["acc", "georgia", "chapters"]
-    },
-    {
-      "id": 49,
-      "questionVersions": [
-        "When was Georgia Tech's chapter founded?",
-        "What year was Iota chapter chartered?",
-        "When did Georgia Tech get its chapter?",
-        "What is the founding date of the Iota chapter?",
-        "When was the ninth chapter established?"
-      ],
-      "correctAnswer": "April 21, 1924",
-      "wrongAnswers": [
-        "April 20, 1923",
-        "April 26, 1923",
-        "May 31, 1924",
-        "April 25, 1923",
-        "May 12, 1923",
-        "April 21, 1923"
-      ],
-      "tags": ["early-chapters", "dates", "1924"]
-    },
-    {
-      "id": 50,
-      "questionVersions": [
-        "Which Power 5 schools recently moved conferences in 2024?",
-        "What major conference realignment happened in 2024?",
-        "Which schools moved from Pac-12 to Big Ten?",
-        "What conference realignment affected California schools?",
-        "Which schools changed conferences in recent years?"
-      ],
-      "correctAnswer": "USC and UCLA to Big Ten",
-      "wrongAnswers": [
-        "Texas and Oklahoma to Big 12",
-        "Colorado and Utah to Pac-12",
-        "Stanford and Cal to Big 12",
-        "Washington and Oregon to SEC",
-        "Nebraska and Missouri to Big Ten",
-        "Maryland and Rutgers to ACC"
-      ],
-      "tags": ["conferences", "realignment", "recent"]
+      "tags": ["districts", "geography", "midwest"]
     }
   ]
 }
