@@ -10,7 +10,7 @@ import { Providers } from "~/components/providers";
 export const metadata: Metadata = {
   title: "Kappa Kappa Psi Learning App",
   description: "Learn about Kappa Kappa Psi through flashcards, quizzes, and information pages",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.svg", type: "image/svg+xml" }],
 };
 
 const geist = Geist({
