@@ -241,7 +241,7 @@ export default function HomePage() {
               size="lg"
               className="btn-glow animate-pulse-glow bg-kkpsi-gold px-10 py-6 text-lg text-kkpsi-navy shadow-xl shadow-kkpsi-gold/25 transition-all hover:scale-105 hover:bg-kkpsi-gold-light"
             >
-              <Link href="/api/auth/signin">Sign In to Get Started</Link>
+              <Link href="/auth/signin">Sign In to Get Started</Link>
             </Button>
           </div>
         </div>

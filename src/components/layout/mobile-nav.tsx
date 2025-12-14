@@ -72,7 +72,7 @@ export function MobileNav() {
 
           {!session && (
             <Button asChild className="w-full bg-kkpsi-navy hover:bg-kkpsi-navy-light">
-              <Link href="/api/auth/signin">Sign In</Link>
+              <Link href="/auth/signin">Sign In</Link>
             </Button>
           )}
         </div>

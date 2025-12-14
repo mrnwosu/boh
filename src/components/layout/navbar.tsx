@@ -63,7 +63,7 @@ export function Navbar() {
               variant="outline"
               className="border-white/50 bg-white/5 text-white backdrop-blur-sm transition-all hover:scale-105 hover:border-white hover:bg-white hover:text-kkpsi-navy"
             >
-              <Link href="/api/auth/signin">Sign In</Link>
+              <Link href="/auth/signin">Sign In</Link>
             </Button>
           )}
 
