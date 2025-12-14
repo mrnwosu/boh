@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { Trophy } from "lucide-react";
-import { Card, CardHeader, CardTitle } from "~/components/ui/card";
+import { Trophy, ArrowRight } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
-import { PageHero } from "~/components/shared";
+import { PageHero, AnimatedSection } from "~/components/shared";
 import { api } from "~/trpc/server";
 
 export default async function AwardsPage() {
@@ -21,22 +20,29 @@ export default async function AwardsPage() {
       {/* Awards Grid */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {awards.map((award) => (
-              <Link key={award.slug} href={`/info/awards/${award.slug}`}>
-                <Card className="h-full border-2 transition-all hover:border-kkpsi-navy hover:shadow-lg">
-                  <CardHeader>
-                    <div className="mb-2 flex h-12 w-12 items-center justify-center rounded-lg bg-kkpsi-gold/20">
-                      <Trophy className="h-6 w-6 text-kkpsi-navy" />
-                    </div>
-                    <CardTitle className="text-2xl text-kkpsi-navy">
-                      {award.name}
-                    </CardTitle>
-                  </CardHeader>
-                </Card>
+          <AnimatedSection className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {awards.map((award, index) => (
+              <Link
+                key={award.slug}
+                href={`/info/awards/${award.slug}`}
+                className={`animate-on-scroll stagger-${Math.min(index + 1, 7)} group block`}
+              >
+                <div className="relative flex h-full flex-col rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-1 hover:shadow-md hover:ring-gray-300">
+                  {/* Gradient accent bar */}
+                  <div className="absolute left-0 top-6 h-10 w-1 rounded-r-full bg-gradient-to-b from-kkpsi-gold to-amber-500" />
+
+                  <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-50 transition-colors group-hover:bg-gray-100">
+                    <Trophy className="h-5 w-5 text-kkpsi-navy" strokeWidth={1.5} />
+                  </div>
+                  <h3 className="mb-4 flex-1 font-semibold text-gray-900">{award.name}</h3>
+                  <div className="flex items-center text-xs font-medium text-gray-400 transition-colors group-hover:text-kkpsi-navy">
+                    <span>Learn more</span>
+                    <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                  </div>
+                </div>
               </Link>
             ))}
-          </div>
+          </AnimatedSection>
         </div>
       </section>
 

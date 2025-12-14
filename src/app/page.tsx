@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { BookOpen, Brain, Users, TrendingUp, Sparkles, Music } from "lucide-react";
 import { Button } from "~/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
+import { AnimatedSection } from "~/components/shared";
 
 export default function HomePage() {
   return (
@@ -102,119 +102,65 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <Card className="card-hover group border-0 bg-white shadow-lg shadow-gray-200/50">
-              <CardHeader>
-                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-kkpsi-navy to-kkpsi-navy-light shadow-lg shadow-kkpsi-navy/20 transition-transform group-hover:scale-110">
-                  <Brain className="h-7 w-7 text-white" />
-                </div>
-                <CardTitle className="text-xl">Smart Flashcards</CardTitle>
-                <CardDescription className="text-base">
-                  Spaced repetition algorithm helps you remember what matters
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600">
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold"></div>
-                    7 different topic areas
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold"></div>
-                    320+ questions
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold"></div>
-                    Progress tracking
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
+          <AnimatedSection className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {[
+              {
+                icon: Brain,
+                title: "Smart Flashcards",
+                description: "Spaced repetition helps you retain knowledge efficiently",
+                features: ["7 topics", "320+ cards", "Progress sync"],
+                accent: "bg-kkpsi-navy",
+              },
+              {
+                icon: BookOpen,
+                title: "Interactive Quizzes",
+                description: "Test yourself with customizable quiz settings",
+                features: ["Timed mode", "Tag filters", "Instant results"],
+                accent: "bg-kkpsi-gold",
+              },
+              {
+                icon: Users,
+                title: "Rich Information",
+                description: "Explore our fraternity's history and chapters",
+                features: ["Founder bios", "343 chapters", "Awards"],
+                accent: "bg-kkpsi-navy",
+              },
+              {
+                icon: TrendingUp,
+                title: "Track Progress",
+                description: "Monitor your learning journey over time",
+                features: ["Streaks", "Analytics", "Leaderboards"],
+                accent: "bg-kkpsi-gold",
+              },
+            ].map((feature, index) => (
+              <div
+                key={feature.title}
+                className={`animate-on-scroll stagger-${index + 1} group relative rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:shadow-md hover:ring-gray-300 hover:-translate-y-1`}
+              >
+                {/* Accent line */}
+                <div className={`absolute left-0 top-6 h-8 w-1 rounded-r-full ${feature.accent}`} />
 
-            <Card className="card-hover group border-0 bg-white shadow-lg shadow-gray-200/50">
-              <CardHeader>
-                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-kkpsi-gold to-kkpsi-gold-dark shadow-lg shadow-kkpsi-gold/20 transition-transform group-hover:scale-110">
-                  <BookOpen className="h-7 w-7 text-kkpsi-navy" />
+                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-50 transition-colors group-hover:bg-gray-100">
+                  <feature.icon
+                    className="h-5 w-5 text-kkpsi-navy"
+                    strokeWidth={1.5}
+                  />
                 </div>
-                <CardTitle className="text-xl">Interactive Quizzes</CardTitle>
-                <CardDescription className="text-base">
-                  Test your knowledge with customizable quizzes
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600">
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-navy"></div>
-                    Timed or untimed mode
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-navy"></div>
-                    Filter by topic & tags
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-navy"></div>
-                    Detailed results
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-hover group border-0 bg-white shadow-lg shadow-gray-200/50">
-              <CardHeader>
-                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-kkpsi-navy to-kkpsi-navy-light shadow-lg shadow-kkpsi-navy/20 transition-transform group-hover:scale-110">
-                  <Users className="h-7 w-7 text-white" />
+                <h3 className="mb-2 font-semibold text-gray-900">{feature.title}</h3>
+                <p className="mb-4 text-sm leading-relaxed text-gray-500">{feature.description}</p>
+                <div className="flex flex-wrap gap-2">
+                  {feature.features.map((item) => (
+                    <span
+                      key={item}
+                      className="rounded-full bg-gray-100 px-2.5 py-1 text-xs font-medium text-gray-600"
+                    >
+                      {item}
+                    </span>
+                  ))}
                 </div>
-                <CardTitle className="text-xl">Rich Information</CardTitle>
-                <CardDescription className="text-base">
-                  Explore KKPsi&apos;s history and chapters
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600">
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold"></div>
-                    Founding fathers bios
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold"></div>
-                    343 chapter directory
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold"></div>
-                    Awards & honors
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-hover group border-0 bg-white shadow-lg shadow-gray-200/50">
-              <CardHeader>
-                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-kkpsi-gold to-kkpsi-gold-dark shadow-lg shadow-kkpsi-gold/20 transition-transform group-hover:scale-110">
-                  <TrendingUp className="h-7 w-7 text-kkpsi-navy" />
-                </div>
-                <CardTitle className="text-xl">Track Progress</CardTitle>
-                <CardDescription className="text-base">
-                  Monitor your learning journey
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-gray-600">
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-navy"></div>
-                    Study streaks
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-navy"></div>
-                    Quiz analytics
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="h-1.5 w-1.5 rounded-full bg-kkpsi-navy"></div>
-                    Leaderboards
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
+              </div>
+            ))}
+          </AnimatedSection>
         </div>
       </section>
 
@@ -234,39 +180,43 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="mx-auto grid max-w-4xl gap-4 md:grid-cols-2">
+          <AnimatedSection className="mx-auto grid max-w-4xl gap-4 md:grid-cols-2">
             {[
-              { name: "Chapters", count: "50 questions", icon: "📍", color: "from-blue-500 to-blue-600" },
-              { name: "Founding Fathers", count: "75 questions", icon: "👔", color: "from-kkpsi-navy to-kkpsi-navy-light" },
-              { name: "Awards & Jewelry", count: "50 questions", icon: "🏆", color: "from-kkpsi-gold to-kkpsi-gold-dark" },
-              { name: "Districts", count: "30 questions", icon: "🗺️", color: "from-emerald-500 to-emerald-600" },
-              { name: "HBCU Chapters", count: "40 questions", icon: "🎓", color: "from-purple-500 to-purple-600" },
-              { name: "National Intercollegiate Band", count: "50 questions", icon: "🎺", color: "from-kkpsi-navy to-kkpsi-navy-light" },
-              { name: "Bohumil Makovsky", count: "25 questions", icon: "⭐", color: "from-amber-500 to-amber-600" },
-            ].map((topic) => (
+              { name: "Chapters", count: 50, accent: "from-blue-500 to-blue-600" },
+              { name: "Founding Fathers", count: 75, accent: "from-kkpsi-navy to-kkpsi-navy-light" },
+              { name: "Awards & Jewelry", count: 50, accent: "from-kkpsi-gold to-amber-500" },
+              { name: "Districts", count: 30, accent: "from-emerald-500 to-emerald-600" },
+              { name: "HBCU Chapters", count: 40, accent: "from-purple-500 to-purple-600" },
+              { name: "National Intercollegiate Band", count: 50, accent: "from-kkpsi-navy to-blue-600" },
+              { name: "Bohumil Makovsky", count: 25, accent: "from-amber-500 to-orange-500" },
+            ].map((topic, index) => (
               <Link
                 key={topic.name}
                 href="/flashcards"
-                className="card-hover group relative flex items-center gap-4 overflow-hidden rounded-xl border-0 bg-white p-5 shadow-lg shadow-gray-200/50"
+                className={`animate-on-scroll stagger-${index + 1} group relative flex items-center justify-between overflow-hidden rounded-xl bg-white px-6 py-5 shadow-sm ring-1 ring-gray-200/50 transition-all hover:shadow-md hover:ring-gray-300 hover:-translate-y-0.5`}
               >
-                {/* Gradient accent bar */}
-                <div className={`absolute left-0 top-0 h-full w-1 bg-gradient-to-b ${topic.color}`}></div>
+                {/* Gradient accent */}
+                <div className={`absolute left-0 top-0 h-full w-1 bg-gradient-to-b ${topic.accent}`} />
 
-                <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gray-50 text-3xl transition-transform group-hover:scale-110">
-                  {topic.icon}
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-semibold text-kkpsi-navy transition-colors group-hover:text-kkpsi-navy-light">{topic.name}</h3>
-                  <p className="text-sm text-gray-500">{topic.count}</p>
-                </div>
-                <div className="text-gray-300 transition-transform group-hover:translate-x-1 group-hover:text-kkpsi-navy">
-                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <span className="font-medium text-gray-900 transition-colors group-hover:text-kkpsi-navy">
+                  {topic.name}
+                </span>
+                <div className="flex items-center gap-3">
+                  <span className="rounded-full bg-gray-100 px-2.5 py-1 text-xs font-medium tabular-nums text-gray-500">
+                    {topic.count} cards
+                  </span>
+                  <svg
+                    className="h-4 w-4 text-gray-300 transition-all group-hover:translate-x-0.5 group-hover:text-kkpsi-navy"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 </div>
               </Link>
             ))}
-          </div>
+          </AnimatedSection>
         </div>
       </section>
 

@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Search, MapPin, Filter } from "lucide-react";
 import { Input } from "~/components/ui/input";
 import { Button } from "~/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import {
   Select,
   SelectContent,
@@ -65,7 +64,7 @@ export default function ChaptersPage() {
                   className="pl-10"
                 />
               </div>
-              <Select value={district} onValueChange={setDistrict}>
+              <Select value={district || "all"} onValueChange={(value) => setDistrict(value === "all" ? "" : value)}>
                 <SelectTrigger className="w-full md:w-[200px]">
                   <SelectValue placeholder="All Districts" />
                 </SelectTrigger>
@@ -78,12 +77,12 @@ export default function ChaptersPage() {
                   ))}
                 </SelectContent>
               </Select>
-              <Select value={institutionType} onValueChange={(value) => setInstitutionType(value as "PWI" | "HBCU" | "")}>
+              <Select value={institutionType || "all"} onValueChange={(value) => setInstitutionType(value === "all" ? "" : value as "PWI" | "HBCU")}>
                 <SelectTrigger className="w-full md:w-[200px]">
                   <SelectValue placeholder="All Types" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Types</SelectItem>
+                  <SelectItem value="all">All Types</SelectItem>
                   {institutionTypes.map((type) => (
                     <SelectItem key={type.value} value={type.value}>
                       {type.label}
@@ -126,82 +125,81 @@ export default function ChaptersPage() {
           {isLoading ? (
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {[...Array(9)].map((_, i) => (
-                <Card key={i}>
-                  <CardHeader>
-                    <Skeleton className="h-6 w-32" />
-                    <Skeleton className="h-4 w-full" />
-                  </CardHeader>
-                  <CardContent>
-                    <Skeleton className="h-4 w-24" />
-                  </CardContent>
-                </Card>
+                <div key={i} className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50">
+                  <Skeleton className="mb-3 h-6 w-32" />
+                  <Skeleton className="mb-4 h-4 w-full" />
+                  <Skeleton className="h-4 w-24" />
+                </div>
               ))}
             </div>
           ) : chapters && chapters.length > 0 ? (
             <>
-              <div className="mb-4 text-sm text-gray-600">
+              <div className="mb-4 text-sm text-gray-500">
                 Showing {chapters.length} chapter{chapters.length !== 1 ? "s" : ""}
               </div>
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {chapters.map((chapter) => (
-                  <Card
+                  <div
                     key={`${chapter.Number}-${chapter.Chapter}`}
-                    className={`border-2 transition-all hover:shadow-lg ${
-                      chapter.Active === "Active"
-                        ? "hover:border-kkpsi-navy"
-                        : "opacity-60"
+                    className={`relative rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-gray-300 ${
+                      chapter.Active !== "Active" ? "opacity-60" : ""
                     }`}
                   >
-                    <CardHeader>
-                      <div className="flex items-start justify-between">
-                        <div>
-                          <CardTitle className="text-xl text-kkpsi-navy">
-                            {chapter.Chapter}
-                          </CardTitle>
-                          <CardDescription className="mt-1 font-medium">
-                            {chapter.School}
-                          </CardDescription>
-                        </div>
-                        <Badge
-                          variant={chapter.Active === "Active" ? "default" : "secondary"}
-                          className={
-                            chapter.Active === "Active"
-                              ? "bg-green-500 hover:bg-green-600"
-                              : ""
-                          }
-                        >
-                          {chapter.Active === "Active" ? "Active" : "Inactive"}
-                        </Badge>
+                    {/* Gradient accent bar */}
+                    <div className={`absolute left-0 top-6 h-10 w-1 rounded-r-full bg-gradient-to-b ${
+                      chapter.Active === "Active"
+                        ? "from-blue-500 to-blue-600"
+                        : "from-gray-300 to-gray-400"
+                    }`} />
+
+                    <div className="mb-4 flex items-start justify-between">
+                      <div>
+                        <h3 className="font-semibold text-gray-900">
+                          {chapter.Chapter}
+                        </h3>
+                        <p className="mt-1 text-sm text-gray-500">
+                          {chapter.School}
+                        </p>
                       </div>
-                    </CardHeader>
-                    <CardContent className="space-y-2 text-sm">
+                      <Badge
+                        variant={chapter.Active === "Active" ? "default" : "secondary"}
+                        className={
+                          chapter.Active === "Active"
+                            ? "bg-green-500 hover:bg-green-600"
+                            : ""
+                        }
+                      >
+                        {chapter.Active === "Active" ? "Active" : "Inactive"}
+                      </Badge>
+                    </div>
+                    <div className="space-y-2 text-sm">
                       <div className="flex justify-between">
-                        <span className="text-gray-600">Chapter:</span>
-                        <span className="font-medium">{chapter.Number}</span>
+                        <span className="text-gray-400">Chapter:</span>
+                        <span className="font-medium text-gray-600">{chapter.Number}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-600">District:</span>
-                        <span className="font-medium">{chapter.District}</span>
+                        <span className="text-gray-400">District:</span>
+                        <span className="font-medium text-gray-600">{chapter.District}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-600">Founded:</span>
-                        <span className="font-medium">{chapter["Founding Date"]}</span>
+                        <span className="text-gray-400">Founded:</span>
+                        <span className="font-medium text-gray-600">{chapter["Founding Date"]}</span>
                       </div>
                       {chapter.Location && (
                         <div className="flex justify-between">
-                          <span className="text-gray-600">Location:</span>
-                          <span className="font-medium">{chapter.Location}</span>
+                          <span className="text-gray-400">Location:</span>
+                          <span className="font-medium text-gray-600">{chapter.Location}</span>
                         </div>
                       )}
                       {chapter["NCAA Conference"] && (
-                        <div className="mt-2 pt-2 border-t">
-                          <span className="text-gray-600 text-xs">
+                        <div className="mt-3 border-t border-gray-100 pt-3">
+                          <span className="text-xs text-gray-400">
                             {chapter["NCAA Conference"]}
                           </span>
                         </div>
                       )}
-                    </CardContent>
-                  </Card>
+                    </div>
+                  </div>
                 ))}
               </div>
             </>

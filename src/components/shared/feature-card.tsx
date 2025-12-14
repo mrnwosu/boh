@@ -96,13 +96,15 @@ export function FeatureCard({
 
 /**
  * Simple info card variant (no features list)
+ * Sleek styling with accent bars, shadows, and hover effects
  */
 export interface InfoCardProps {
   title: string;
   description: string;
   icon: LucideIcon;
   href: string;
-  iconBgColor?: string;
+  /** Gradient accent color classes (e.g., "from-blue-500 to-blue-600") */
+  accentGradient?: string;
   className?: string;
 }
 
@@ -111,24 +113,37 @@ export function InfoCard({
   description,
   icon: Icon,
   href,
-  iconBgColor = "bg-kkpsi-navy/10",
+  accentGradient = "from-kkpsi-navy to-kkpsi-navy-light",
   className = "",
 }: InfoCardProps) {
   return (
-    <Link href={href}>
-      <Card
-        className={`h-full border-2 transition-all hover:border-kkpsi-navy hover:shadow-lg ${className}`}
-      >
-        <CardHeader>
-          <div
-            className={`mb-3 flex h-14 w-14 items-center justify-center rounded-lg ${iconBgColor}`}
+    <Link href={href} className={`group block ${className}`}>
+      <div className="relative flex h-full flex-col rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-1 hover:shadow-md hover:ring-gray-300">
+        {/* Gradient accent bar */}
+        <div className={`absolute left-0 top-6 h-10 w-1 rounded-r-full bg-gradient-to-b ${accentGradient}`} />
+
+        {/* Icon */}
+        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-50 transition-colors group-hover:bg-gray-100">
+          <Icon className="h-5 w-5 text-kkpsi-navy" strokeWidth={1.5} />
+        </div>
+
+        {/* Content */}
+        <h3 className="mb-2 font-semibold text-gray-900">{title}</h3>
+        <p className="mb-4 flex-1 text-sm leading-relaxed text-gray-500">{description}</p>
+
+        {/* Arrow indicator */}
+        <div className="flex items-center text-xs font-medium text-gray-400 transition-colors group-hover:text-kkpsi-navy">
+          <span>Learn more</span>
+          <svg
+            className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <Icon className="h-7 w-7 text-kkpsi-navy" />
-          </div>
-          <CardTitle className="text-2xl">{title}</CardTitle>
-          <CardDescription className="text-base">{description}</CardDescription>
-        </CardHeader>
-      </Card>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </div>
+      </div>
     </Link>
   );
 }

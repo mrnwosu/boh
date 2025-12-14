@@ -1,7 +1,6 @@
 import { Clock } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
-import { PageHero } from "~/components/shared";
+import { PageHero, AnimatedSection } from "~/components/shared";
 
 export default async function HistoryPage() {
   const timeline = [
@@ -31,36 +30,31 @@ export default async function HistoryPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-3xl text-kkpsi-navy">
-                  Major Milestones
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="relative space-y-8">
-                  {/* Vertical line */}
-                  <div className="absolute left-[39px] top-0 h-full w-0.5 bg-kkpsi-gold"></div>
+            <div className="mb-8 text-center">
+              <h2 className="font-serif text-3xl font-bold text-kkpsi-navy">Major Milestones</h2>
+            </div>
 
-                  {timeline.map((event, index) => (
-                    <div key={index} className="relative flex gap-6">
-                      {/* Year marker */}
-                      <div className="flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full border-4 border-kkpsi-gold bg-white">
-                        <span className="font-bold text-kkpsi-navy">{event.year}</span>
-                      </div>
+            <AnimatedSection className="relative space-y-6">
+              {/* Vertical line */}
+              <div className="absolute left-[39px] top-0 h-full w-0.5 bg-gradient-to-b from-kkpsi-gold to-amber-500"></div>
 
-                      {/* Event content */}
-                      <div className="flex-1 rounded-lg border-2 border-gray-200 bg-white p-6 transition-all hover:border-kkpsi-navy hover:shadow-md">
-                        <h3 className="mb-2 text-xl font-semibold text-kkpsi-navy">
-                          {event.title}
-                        </h3>
-                        <p className="text-gray-700">{event.description}</p>
-                      </div>
-                    </div>
-                  ))}
+              {timeline.map((event, index) => (
+                <div key={index} className={`animate-on-scroll stagger-${index + 1} relative flex gap-6`}>
+                  {/* Year marker */}
+                  <div className="z-10 flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full border-4 border-kkpsi-gold bg-white shadow-sm">
+                    <span className="font-bold text-kkpsi-navy">{event.year}</span>
+                  </div>
+
+                  {/* Event content */}
+                  <div className="flex-1 rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-gray-300">
+                    <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                      {event.title}
+                    </h3>
+                    <p className="text-sm leading-relaxed text-gray-500">{event.description}</p>
+                  </div>
                 </div>
-              </CardContent>
-            </Card>
+              ))}
+            </AnimatedSection>
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
 import { BookOpen, Users, Trophy, MapPin, GraduationCap, Star, Clock } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
-import { PageHero, InfoCard } from "~/components/shared";
+import { PageHero, InfoCard, AnimatedSection } from "~/components/shared";
 
 export default function InfoPage() {
   const infoSections = [
@@ -9,42 +9,42 @@ export default function InfoPage() {
       description: "Learn about the ten men who founded Kappa Kappa Psi",
       icon: Users,
       href: "/info/founding-fathers",
-      iconBgColor: "bg-kkpsi-navy/10",
+      accentGradient: "from-kkpsi-navy to-kkpsi-navy-light",
     },
     {
       title: "Chapter Directory",
       description: "Browse all 343 active and inactive chapters",
       icon: MapPin,
       href: "/info/chapters",
-      iconBgColor: "bg-kkpsi-gold/20",
+      accentGradient: "from-blue-500 to-blue-600",
     },
     {
       title: "Awards & Jewelry",
       description: "Explore the awards and honors of Kappa Kappa Psi",
       icon: Trophy,
       href: "/info/awards",
-      iconBgColor: "bg-kkpsi-navy/10",
+      accentGradient: "from-kkpsi-gold to-amber-500",
     },
     {
       title: "Bohumil Makovsky",
       description: "Learn about our beloved patron and mentor",
       icon: Star,
       href: "/info/bohumil-makovsky",
-      iconBgColor: "bg-kkpsi-gold/20",
+      accentGradient: "from-amber-500 to-orange-500",
     },
     {
       title: "History & Timeline",
       description: "Discover the rich history of the fraternity",
       icon: Clock,
       href: "/info/history",
-      iconBgColor: "bg-kkpsi-navy/10",
+      accentGradient: "from-emerald-500 to-emerald-600",
     },
     {
       title: "Past Presidents",
       description: "National Presidents who have led our fraternity",
       icon: GraduationCap,
       href: "/info/presidents",
-      iconBgColor: "bg-kkpsi-gold/20",
+      accentGradient: "from-purple-500 to-purple-600",
     },
   ];
 
@@ -61,18 +61,19 @@ export default function InfoPage() {
       {/* Info Sections Grid */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {infoSections.map((section) => (
+          <AnimatedSection className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {infoSections.map((section, index) => (
               <InfoCard
                 key={section.href}
                 title={section.title}
                 description={section.description}
                 icon={section.icon}
                 href={section.href}
-                iconBgColor={section.iconBgColor}
+                accentGradient={section.accentGradient}
+                className={`animate-on-scroll stagger-${index + 1}`}
               />
             ))}
-          </div>
+          </AnimatedSection>
         </div>
       </section>
 

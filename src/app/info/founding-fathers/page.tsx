@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { Users } from "lucide-react";
-import { Card, CardHeader, CardTitle } from "~/components/ui/card";
+import { Users, ArrowRight } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
-import { PageHero } from "~/components/shared";
+import { PageHero, AnimatedSection } from "~/components/shared";
 import { api } from "~/trpc/server";
 
 export default async function FoundingFathersPage() {
@@ -21,19 +20,28 @@ export default async function FoundingFathersPage() {
       {/* Founders Grid */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {founders.map((founder) => (
-              <Link key={founder.slug} href={`/info/founding-fathers/${founder.slug}`}>
-                <Card className="h-full border-2 transition-all hover:border-kkpsi-navy hover:shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="text-2xl text-kkpsi-navy">
-                      {founder.name}
-                    </CardTitle>
-                  </CardHeader>
-                </Card>
+          <AnimatedSection className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {founders.map((founder, index) => (
+              <Link
+                key={founder.slug}
+                href={`/info/founding-fathers/${founder.slug}`}
+                className={`animate-on-scroll stagger-${Math.min(index + 1, 7)} group block`}
+              >
+                <div className="relative flex h-full items-center justify-between rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-1 hover:shadow-md hover:ring-gray-300">
+                  {/* Gradient accent bar */}
+                  <div className="absolute left-0 top-1/2 h-10 w-1 -translate-y-1/2 rounded-r-full bg-gradient-to-b from-kkpsi-navy to-kkpsi-navy-light" />
+
+                  <div className="flex items-center gap-4">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-50 transition-colors group-hover:bg-gray-100">
+                      <Users className="h-5 w-5 text-kkpsi-navy" strokeWidth={1.5} />
+                    </div>
+                    <span className="font-semibold text-gray-900">{founder.name}</span>
+                  </div>
+                  <ArrowRight className="h-4 w-4 text-gray-300 transition-all group-hover:translate-x-1 group-hover:text-kkpsi-navy" />
+                </div>
               </Link>
             ))}
-          </div>
+          </AnimatedSection>
         </div>
       </section>
 

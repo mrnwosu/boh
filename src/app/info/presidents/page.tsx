@@ -1,7 +1,6 @@
 import { GraduationCap } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
-import { PageHero } from "~/components/shared";
+import { PageHero, AnimatedSection } from "~/components/shared";
 import { api } from "~/trpc/server";
 
 export default async function PresidentsPage() {
@@ -21,37 +20,35 @@ export default async function PresidentsPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-3xl text-kkpsi-navy">
-                  National Presidents
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-4">
-                  {presidents.map((president, index) => (
-                    <div
-                      key={index}
-                      className="flex items-start gap-4 border-l-4 border-kkpsi-gold bg-gray-50 p-4 transition-all hover:bg-gray-100"
-                    >
-                      <div className="min-w-[120px] text-sm font-semibold text-kkpsi-navy">
-                        {president.Years}
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="text-lg font-semibold text-gray-900">
-                          {president.Name}
-                        </h3>
-                        {president.Chapter && (
-                          <p className="mt-1 text-sm text-gray-600">
-                            {president.Chapter}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  ))}
+            <div className="mb-8 text-center">
+              <h2 className="font-serif text-3xl font-bold text-kkpsi-navy">National Presidents</h2>
+            </div>
+
+            <AnimatedSection className="space-y-3">
+              {presidents.map((president, index) => (
+                <div
+                  key={index}
+                  className={`animate-on-scroll stagger-${Math.min(index + 1, 7)} relative flex items-start gap-4 rounded-xl bg-white p-5 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-gray-300`}
+                >
+                  {/* Gradient accent bar */}
+                  <div className="absolute left-0 top-1/2 h-10 w-1 -translate-y-1/2 rounded-r-full bg-gradient-to-b from-purple-500 to-purple-600" />
+
+                  <div className="min-w-[100px] rounded-full bg-gray-100 px-3 py-1 text-center text-sm font-medium tabular-nums text-gray-600">
+                    {president.Years}
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-gray-900">
+                      {president.Name}
+                    </h3>
+                    {president.Chapter && (
+                      <p className="mt-1 text-sm text-gray-500">
+                        {president.Chapter}
+                      </p>
+                    )}
+                  </div>
                 </div>
-              </CardContent>
-            </Card>
+              ))}
+            </AnimatedSection>
           </div>
         </div>
       </section>
