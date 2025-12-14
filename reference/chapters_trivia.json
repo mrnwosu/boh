@@ -1,7 +1,7 @@
 {
   "gameTitle": "Kappa Kappa Psi Chapters Trivia Challenge",
   "description": "A comprehensive trivia game about Kappa Kappa Psi's 343 chapters across the United States - focusing on district firsts, HBCU history, and state statistics",
-  "totalQuestions": 56,
+  "totalQuestions": 68,
   "questions": [
     {
       "id": 1,
@@ -1066,6 +1066,246 @@
         "Central"
       ],
       "tags": ["districts", "geography", "midwest"]
+    },
+    {
+      "id": 57,
+      "questionVersions": [
+        "Which state has both the Alpha chapter AND is the birthplace of all 10 founding fathers?",
+        "What state is home to both KKPsi's first chapter and all its founders?",
+        "Which state claims both the Alpha chapter and all founding fathers?",
+        "Where were all 10 founding fathers born and the Alpha chapter founded?",
+        "What is the birthplace state of KKPsi's founders and first chapter?"
+      ],
+      "correctAnswer": "Oklahoma",
+      "wrongAnswers": [
+        "Texas",
+        "Kansas",
+        "Missouri",
+        "Arkansas",
+        "Colorado"
+      ],
+      "description": "Oklahoma is the true birthplace of KKPsi - home to the Alpha chapter and all 10 founding fathers.",
+      "tags": ["cross-reference", "founding-fathers", "oklahoma", "history"]
+    },
+    {
+      "id": 58,
+      "questionVersions": [
+        "How many years after KKPsi's founding was the first Texas chapter chartered?",
+        "How long did it take for Texas to get its first KKPsi chapter?",
+        "What was the gap in years between KKPsi's founding and Texas's first chapter?",
+        "How many years passed before Texas had a KKPsi chapter?",
+        "From 1919 to Texas's first chapter was how many years?"
+      ],
+      "correctAnswer": "19 years (Alpha Omicron at Texas Tech, 1938)",
+      "wrongAnswers": [
+        "10 years",
+        "25 years",
+        "15 years",
+        "22 years",
+        "12 years"
+      ],
+      "description": "Despite now leading with 38 chapters, Texas didn't get its first chapter until 1938.",
+      "tags": ["cross-reference", "texas", "timeline", "history"]
+    },
+    {
+      "id": 59,
+      "questionVersions": [
+        "How many years passed between the founding of KKPsi and its first HBCU chapter?",
+        "What was the time gap between KKPsi's founding and first HBCU chapter?",
+        "How long did it take for KKPsi to establish an HBCU chapter?",
+        "From 1919 to the first HBCU chapter was how many years?",
+        "How many years before KKPsi expanded to HBCUs?"
+      ],
+      "correctAnswer": "38 years (1919 to 1957)",
+      "wrongAnswers": [
+        "25 years",
+        "30 years",
+        "45 years",
+        "42 years",
+        "35 years"
+      ],
+      "description": "Delta Alpha at Langston University broke this barrier in 1957, paving the way for 50 HBCU chapters today.",
+      "tags": ["cross-reference", "hbcu", "timeline", "history"]
+    },
+    {
+      "id": 60,
+      "questionVersions": [
+        "How many chapters existed when the first HBCU chapter was founded in 1957?",
+        "What was KKPsi's chapter count when the first HBCU joined?",
+        "How many chapters did KKPsi have before its first HBCU chapter?",
+        "When Delta Alpha was chartered, how many chapters existed?",
+        "What was the chapter count in May 1957?"
+      ],
+      "correctAnswer": "93 chapters",
+      "wrongAnswers": [
+        "75 chapters",
+        "100 chapters",
+        "85 chapters",
+        "110 chapters",
+        "65 chapters"
+      ],
+      "description": "KKPsi had 93 chapters before expanding to HBCUs - HBCU chapters now make up over a third of chapters founded since.",
+      "tags": ["cross-reference", "hbcu", "statistics", "history"]
+    },
+    {
+      "id": 61,
+      "questionVersions": [
+        "How many chapters existed at KKPsi's 50th anniversary (1969)?",
+        "What was KKPsi's chapter count at its golden anniversary?",
+        "By 1969, how many chapters had been chartered?",
+        "How many chapters did KKPsi have after 50 years?",
+        "What was the chapter count at KKPsi's 50th birthday?"
+      ],
+      "correctAnswer": "132 chapters",
+      "wrongAnswers": [
+        "100 chapters",
+        "150 chapters",
+        "125 chapters",
+        "145 chapters",
+        "115 chapters"
+      ],
+      "description": "The fraternity averaged over 2.5 new chapters per year in its first 50 years.",
+      "tags": ["cross-reference", "anniversary", "statistics", "history"]
+    },
+    {
+      "id": 62,
+      "questionVersions": [
+        "Which district has the highest percentage of HBCU chapters?",
+        "What district has the greatest HBCU concentration?",
+        "Which district has nearly 40% HBCU chapters?",
+        "What district leads in HBCU percentage?",
+        "Which district has the strongest HBCU presence by percentage?"
+      ],
+      "correctAnswer": "Southeast (39% - 31 of 79 chapters)",
+      "wrongAnswers": [
+        "Southwest (15%)",
+        "Northeast (20%)",
+        "North Central (10%)",
+        "Southeast (25%)",
+        "Southwest (30%)"
+      ],
+      "description": "Nearly 4 in 10 Southeast chapters are at HBCUs, reflecting the region's concentration of historically Black institutions.",
+      "tags": ["cross-reference", "hbcu", "southeast", "statistics"]
+    },
+    {
+      "id": 63,
+      "questionVersions": [
+        "What percentage of Southwest District chapters are in Texas?",
+        "How much of the Southwest District does Texas represent?",
+        "Texas accounts for what percentage of Southwest chapters?",
+        "What portion of Southwest chapters are Texas-based?",
+        "How dominant is Texas in the Southwest District?"
+      ],
+      "correctAnswer": "48% (38 of 79 chapters)",
+      "wrongAnswers": [
+        "35%",
+        "55%",
+        "40%",
+        "60%",
+        "30%"
+      ],
+      "description": "Texas dominates the Southwest, accounting for nearly half of all district chapters.",
+      "tags": ["cross-reference", "texas", "southwest", "statistics"]
+    },
+    {
+      "id": 64,
+      "questionVersions": [
+        "Which district covers the most geographic area but has the fewest chapters?",
+        "What district spans the largest area with the smallest chapter count?",
+        "Which district has the lowest chapter density?",
+        "What is the most geographically spread district with fewest chapters?",
+        "Which district covers the most states but has the least chapters?"
+      ],
+      "correctAnswer": "Western (31 chapters)",
+      "wrongAnswers": [
+        "Midwest (36 chapters)",
+        "Northeast (70 chapters)",
+        "North Central (48 chapters)",
+        "Southwest (79 chapters)",
+        "Southeast (79 chapters)"
+      ],
+      "description": "The Western District spans from Hawaii to Washington but has fewer chapters than any other district.",
+      "tags": ["cross-reference", "western", "geography", "statistics"]
+    },
+    {
+      "id": 65,
+      "questionVersions": [
+        "Which decade had both the most total chapters AND the most HBCU chapters chartered?",
+        "What decade saw peak growth for both overall and HBCU chapters?",
+        "Which decade was the golden era for HBCU expansion?",
+        "What decade had 48 total and 13 HBCU chapters chartered?",
+        "Which decade saw the most HBCU chapters founded?"
+      ],
+      "correctAnswer": "1970s (48 total, 13 HBCU)",
+      "wrongAnswers": [
+        "1980s (39 total, 9 HBCU)",
+        "1960s (29 total, 4 HBCU)",
+        "1990s (33 total, 9 HBCU)",
+        "2000s (51 total, 5 HBCU)",
+        "1950s (39 total, 2 HBCU)"
+      ],
+      "description": "The 1970s saw unprecedented HBCU expansion, with 13 new HBCU chapters reflecting the civil rights era's impact.",
+      "tags": ["cross-reference", "hbcu", "decades", "statistics"]
+    },
+    {
+      "id": 66,
+      "questionVersions": [
+        "Which decade was the most prolific for chartering chapters overall?",
+        "What decade saw the most new chapters?",
+        "Which decade had 51 chapters chartered?",
+        "What was the peak decade for chapter growth?",
+        "Which decade added the most chapters to KKPsi?"
+      ],
+      "correctAnswer": "2000s (51 chapters)",
+      "wrongAnswers": [
+        "1970s (48 chapters)",
+        "1980s (39 chapters)",
+        "1990s (33 chapters)",
+        "2010s (31 chapters)",
+        "1950s (39 chapters)"
+      ],
+      "description": "The 2000s surpassed all decades with 51 new chapters, though only 5 were at HBCUs.",
+      "tags": ["cross-reference", "decades", "statistics", "growth"]
+    },
+    {
+      "id": 67,
+      "questionVersions": [
+        "Which state has KKPsi chapters in multiple districts?",
+        "What state is split between two KKPsi districts?",
+        "Which state straddles two district boundaries?",
+        "What state has chapters in both Northeast and North Central?",
+        "Which state belongs to two different KKPsi districts?"
+      ],
+      "correctAnswer": "West Virginia (Northeast and North Central)",
+      "wrongAnswers": [
+        "Virginia (Northeast and Southeast)",
+        "Kentucky (North Central and Southeast)",
+        "Missouri (Midwest and Southwest)",
+        "Pennsylvania (Northeast and North Central)",
+        "Tennessee (Southeast and Southwest)"
+      ],
+      "description": "West Virginia straddles two KKPsi districts due to its position between Appalachia and the Midwest.",
+      "tags": ["cross-reference", "geography", "districts", "unique"]
+    },
+    {
+      "id": 68,
+      "questionVersions": [
+        "What is the westernmost HBCU chapter?",
+        "Which HBCU chapter is located farthest west?",
+        "What is the most western HBCU chapter in KKPsi?",
+        "Which HBCU chapter is in the westernmost location?",
+        "What HBCU chapter is geographically the farthest west?"
+      ],
+      "correctAnswer": "Delta Alpha at Langston University (Oklahoma)",
+      "wrongAnswers": [
+        "Gamma Omega at Texas Southern University",
+        "Delta Psi at Prairie View A&M University",
+        "Epsilon Chi at University of Arkansas at Pine Bluff",
+        "Epsilon Rho at Grambling State University",
+        "Zeta Nu at Southern University"
+      ],
+      "description": "The Midwest and Western districts have zero HBCU chapters, making Oklahoma's Langston the westernmost.",
+      "tags": ["cross-reference", "hbcu", "geography", "westernmost"]
     }
   ]
 }
