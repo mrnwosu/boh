@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useSession } from "next-auth/react";
-import { ChevronLeft, HelpCircle } from "lucide-react";
+import { ChevronLeft, ChevronRight, HelpCircle, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { Button } from "~/components/ui/button";
 import { Navbar } from "~/components/layout/navbar";
@@ -137,12 +137,17 @@ function TakeQuizContent() {
     return (
       <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
         <Navbar />
-        <section className="py-16">
+        <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-8">
+          <div className="container mx-auto px-4">
+            <Skeleton className="mx-auto h-12 w-64 bg-white/20" />
+          </div>
+        </section>
+        <section className="py-12">
           <div className="container mx-auto px-4">
             <div className="mx-auto max-w-3xl space-y-6">
-              <Skeleton className="h-20 w-full" />
-              <Skeleton className="h-[400px] w-full" />
-              <Skeleton className="h-16 w-full" />
+              <Skeleton className="h-24 w-full rounded-xl" />
+              <Skeleton className="h-[400px] w-full rounded-2xl" />
+              <Skeleton className="h-16 w-full rounded-xl" />
             </div>
           </div>
         </section>
@@ -180,30 +185,41 @@ function TakeQuizContent() {
       <Navbar />
 
       {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-8">
-        <div className="container mx-auto px-4">
+      <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-6 md:py-8">
+        {/* Background decoration */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-kkpsi-gold/10 blur-3xl"></div>
+        </div>
+
+        <div className="container relative mx-auto px-4">
           <div className="mx-auto max-w-3xl">
             {!showResults && (
               <Button
                 asChild
                 variant="ghost"
-                className="mb-4 text-white hover:bg-white/10 hover:text-white"
+                size="sm"
+                className="mb-3 text-white/80 hover:bg-white/10 hover:text-white"
               >
                 <Link href="/quizzes">
-                  <ChevronLeft className="mr-2 h-4 w-4" />
+                  <ChevronLeft className="mr-1 h-4 w-4" />
                   Exit Quiz
                 </Link>
               </Button>
             )}
-            <h1 className="font-serif text-4xl font-bold text-white">
-              {showResults ? "Quiz Complete!" : "Quiz in Progress"}
-            </h1>
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10 backdrop-blur-sm">
+                <Sparkles className="h-5 w-5 text-kkpsi-gold" />
+              </div>
+              <h1 className="font-serif text-2xl font-bold text-white md:text-3xl">
+                {showResults ? "Quiz Complete!" : "Quiz in Progress"}
+              </h1>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Content */}
-      <section className="py-12">
+      <section className="py-8 md:py-12">
         <div className="container mx-auto px-4">
           {showResults ? (
             <QuizResults
@@ -235,7 +251,7 @@ function TakeQuizContent() {
               )}
 
               {/* Navigation */}
-              <div className="flex justify-between">
+              <div className="flex items-center justify-between rounded-xl bg-white p-4 shadow-sm ring-1 ring-gray-200/50">
                 <Button
                   variant="outline"
                   onClick={() => {
@@ -245,16 +261,23 @@ function TakeQuizContent() {
                     }
                   }}
                   disabled={currentQuestionIndex === 0}
+                  className="gap-2"
                 >
+                  <ChevronLeft className="h-4 w-4" />
                   Previous
                 </Button>
+
+                <div className="hidden text-sm text-gray-500 sm:block">
+                  {Object.keys(answers).length} of {questions.length} answered
+                </div>
 
                 <Button
                   onClick={handleNextQuestion}
                   disabled={!currentQuestion || !answers[currentQuestion.id]}
-                  className="bg-kkpsi-navy hover:bg-kkpsi-navy-light"
+                  className="gap-2 bg-kkpsi-navy shadow-lg shadow-kkpsi-navy/25 hover:bg-kkpsi-navy-light"
                 >
-                  {currentQuestionIndex === questions.length - 1 ? "Finish Quiz" : "Next Question"}
+                  {currentQuestionIndex === questions.length - 1 ? "Finish Quiz" : "Next"}
+                  <ChevronRight className="h-4 w-4" />
                 </Button>
               </div>
             </div>
@@ -267,7 +290,24 @@ function TakeQuizContent() {
 
 export default function TakeQuizPage() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+        <Navbar />
+        <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-8">
+          <div className="container mx-auto px-4">
+            <Skeleton className="mx-auto h-12 w-64 bg-white/20" />
+          </div>
+        </section>
+        <section className="py-12">
+          <div className="container mx-auto px-4">
+            <div className="mx-auto max-w-3xl space-y-6">
+              <Skeleton className="h-24 w-full rounded-xl" />
+              <Skeleton className="h-[400px] w-full rounded-2xl" />
+            </div>
+          </div>
+        </section>
+      </div>
+    }>
       <TakeQuizContent />
     </Suspense>
   );

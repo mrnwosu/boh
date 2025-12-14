@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { Play, Settings, Clock, Hash, Tag } from "lucide-react";
 import { Button } from "~/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import { Input } from "~/components/ui/input";
 import {
   Select,
@@ -59,25 +59,42 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <Card className="border-2">
-        <CardHeader>
-          <CardTitle className="text-2xl text-kkpsi-navy">Configure Your Quiz</CardTitle>
-          <CardDescription>
+      <div className="relative rounded-2xl bg-white p-8 shadow-xl ring-1 ring-gray-200/50">
+        {/* Header */}
+        <div className="mb-8">
+          <div className="mb-2 flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-kkpsi-navy to-kkpsi-navy-light">
+              <Settings className="h-5 w-5 text-white" />
+            </div>
+            <h2 className="font-serif text-2xl font-bold text-gray-900">
+              Configure Your Quiz
+            </h2>
+          </div>
+          <p className="text-gray-500">
             Customize your quiz settings to match your learning goals
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="space-y-6">
+          </p>
+        </div>
+
+        <div className="space-y-6">
           {/* Topic Selection */}
           <div className="space-y-2">
-            <label className="text-sm font-medium">Topic</label>
+            <label className="flex items-center gap-2 text-sm font-medium text-gray-700">
+              <Tag className="h-4 w-4 text-gray-400" />
+              Topic
+            </label>
             <Select value={selectedTopic} onValueChange={(val) => setSelectedTopic(val as TopicSlugWithMixed)}>
-              <SelectTrigger>
+              <SelectTrigger className="h-12 rounded-lg border-gray-200 bg-gray-50/50 transition-colors focus:bg-white">
                 <SelectValue placeholder="Select a topic..." />
               </SelectTrigger>
               <SelectContent>
                 {topics.map((topic) => (
                   <SelectItem key={topic.slug} value={topic.slug}>
-                    {topic.title} ({topic.totalQuestions} questions)
+                    <div className="flex items-center justify-between gap-4">
+                      <span>{topic.title}</span>
+                      <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">
+                        {topic.totalQuestions} questions
+                      </span>
+                    </div>
                   </SelectItem>
                 ))}
               </SelectContent>
@@ -86,7 +103,9 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
 
           {/* Tag Filters */}
           <div className="space-y-2">
-            <label className="text-sm font-medium">Filter by Tags (Optional)</label>
+            <label className="text-sm font-medium text-gray-700">
+              Filter by Tags <span className="text-gray-400">(Optional)</span>
+            </label>
             <TagSelector
               availableTags={availableTags}
               selectedTags={selectedTags}
@@ -98,11 +117,12 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
 
           {/* Question Count */}
           <div className="space-y-2">
-            <label className="text-sm font-medium">
+            <label className="flex items-center gap-2 text-sm font-medium text-gray-700">
+              <Hash className="h-4 w-4 text-gray-400" />
               Number of Questions
               {selectedTopicInfo && (
-                <span className="ml-2 text-xs text-gray-500">
-                  (Max: {selectedTopicInfo.totalQuestions})
+                <span className="ml-auto text-xs font-normal text-gray-400">
+                  Max: {selectedTopicInfo.totalQuestions}
                 </span>
               )}
             </label>
@@ -112,34 +132,70 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
               max={selectedTopicInfo?.totalQuestions ?? 100}
               value={questionCount}
               onChange={(e) => setQuestionCount(parseInt(e.target.value) || 10)}
+              className="h-12 rounded-lg border-gray-200 bg-gray-50/50 transition-colors focus:bg-white"
             />
           </div>
 
           {/* Timed Mode */}
-          <div className="space-y-3">
-            <div className="flex items-center gap-3">
-              <input
-                type="checkbox"
-                id="timed"
-                checked={isTimed}
-                onChange={(e) => setIsTimed(e.target.checked)}
-                className="h-4 w-4"
-              />
-              <label htmlFor="timed" className="text-sm font-medium">
-                Timed Quiz
-              </label>
+          <div className="rounded-xl border border-gray-200 bg-gray-50/50 p-4">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className={`flex h-10 w-10 items-center justify-center rounded-lg ${isTimed ? "bg-kkpsi-gold/20" : "bg-gray-200"} transition-colors`}>
+                  <Clock className={`h-5 w-5 ${isTimed ? "text-kkpsi-gold-dark" : "text-gray-400"} transition-colors`} />
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900">Timed Quiz</p>
+                  <p className="text-sm text-gray-500">Add time pressure to your quiz</p>
+                </div>
+              </div>
+              <button
+                type="button"
+                role="switch"
+                aria-checked={isTimed}
+                onClick={() => setIsTimed(!isTimed)}
+                className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full transition-colors ${
+                  isTimed ? "bg-kkpsi-navy" : "bg-gray-200"
+                }`}
+              >
+                <span
+                  className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow-lg ring-0 transition-transform ${
+                    isTimed ? "translate-x-5" : "translate-x-0.5"
+                  }`}
+                />
+              </button>
             </div>
 
             {isTimed && (
-              <div className="ml-7 space-y-2">
-                <label className="text-sm font-medium">Seconds per Question</label>
-                <Input
-                  type="number"
-                  min={5}
-                  max={120}
-                  value={timePerQuestion}
-                  onChange={(e) => setTimePerQuestion(parseInt(e.target.value) || 10)}
-                />
+              <div className="mt-4 border-t border-gray-200 pt-4">
+                <label className="mb-2 block text-sm font-medium text-gray-700">
+                  Seconds per Question
+                </label>
+                <div className="flex items-center gap-3">
+                  <Input
+                    type="number"
+                    min={5}
+                    max={120}
+                    value={timePerQuestion}
+                    onChange={(e) => setTimePerQuestion(parseInt(e.target.value) || 10)}
+                    className="h-10 w-24 rounded-lg border-gray-200 bg-white text-center"
+                  />
+                  <div className="flex gap-2">
+                    {[5, 10, 15, 30].map((seconds) => (
+                      <button
+                        key={seconds}
+                        type="button"
+                        onClick={() => setTimePerQuestion(seconds)}
+                        className={`rounded-lg px-3 py-2 text-sm font-medium transition-all ${
+                          timePerQuestion === seconds
+                            ? "bg-kkpsi-navy text-white"
+                            : "bg-white text-gray-600 hover:bg-gray-100"
+                        }`}
+                      >
+                        {seconds}s
+                      </button>
+                    ))}
+                  </div>
+                </div>
               </div>
             )}
           </div>
@@ -148,13 +204,14 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
           <Button
             type="submit"
             disabled={!selectedTopic}
-            className="w-full bg-kkpsi-navy hover:bg-kkpsi-navy-light"
+            className="h-14 w-full rounded-xl bg-gradient-to-r from-kkpsi-navy to-kkpsi-navy-light text-lg font-semibold shadow-lg shadow-kkpsi-navy/25 transition-all hover:scale-[1.02] hover:shadow-xl disabled:opacity-50 disabled:hover:scale-100"
             size="lg"
           >
+            <Play className="mr-2 h-5 w-5" />
             Start Quiz
           </Button>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
     </form>
   );
 }

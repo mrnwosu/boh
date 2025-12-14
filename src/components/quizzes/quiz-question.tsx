@@ -1,9 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
-import { Button } from "~/components/ui/button";
-import { CheckCircle2, XCircle } from "lucide-react";
+import { CheckCircle2, XCircle, Circle } from "lucide-react";
 import type { QuizQuestion } from "~/types/trivia";
 
 interface QuizQuestionProps {
@@ -35,63 +33,89 @@ export function QuizQuestionComponent({
     onAnswer(answerId);
   };
 
-  const getButtonVariant = (answerId: string) => {
+  const getOptionState = (option: string) => {
     if (!showResult) {
-      return selected === answerId ? "default" : "outline";
+      return selected === option ? "selected" : "default";
     }
-
-    // Show result
-    if (answerId === question.correctAnswer) {
-      return "default"; // Correct answer
+    if (option === question.correctAnswer) {
+      return "correct";
     }
-    if (selected === answerId && answerId !== question.correctAnswer) {
-      return "destructive"; // Wrong answer that was selected
+    if (selected === option && option !== question.correctAnswer) {
+      return "incorrect";
     }
-    return "outline";
+    return "default";
   };
 
-  const getButtonIcon = (answerId: string) => {
-    if (!showResult) return null;
-
-    if (answerId === question.correctAnswer) {
-      return <CheckCircle2 className="h-5 w-5 text-green-500" />;
-    }
-    if (selected === answerId && answerId !== question.correctAnswer) {
-      return <XCircle className="h-5 w-5 text-red-500" />;
-    }
-    return null;
+  const optionStyles = {
+    default: "border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50",
+    selected: "border-kkpsi-navy bg-kkpsi-navy/5 ring-2 ring-kkpsi-navy/20",
+    correct: "border-green-500 bg-green-50",
+    incorrect: "border-red-500 bg-red-50",
   };
 
   return (
-    <Card className="border-2">
-      <CardHeader>
-        <div className="mb-2 text-sm font-medium text-gray-500">
+    <div className="rounded-2xl bg-white p-6 shadow-xl ring-1 ring-gray-200/50 md:p-8">
+      {/* Question Header */}
+      <div className="mb-6">
+        <div className="mb-3 inline-flex items-center rounded-full bg-kkpsi-navy/5 px-3 py-1 text-sm font-medium text-kkpsi-navy">
           Question {questionNumber} of {totalQuestions}
         </div>
-        <CardTitle className="text-2xl text-kkpsi-navy">
+        <h2 className="font-serif text-xl font-bold text-gray-900 md:text-2xl">
           {question.question}
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="space-y-3">
-        {question.options.map((option, idx) => (
-          <Button
-            key={idx}
-            variant={getButtonVariant(option)}
-            className={`w-full justify-start text-left h-auto py-4 px-6 ${
-              getButtonVariant(option) === "default" && showResult
-                ? "bg-green-500 hover:bg-green-600"
-                : ""
-            }`}
-            onClick={() => handleSelect(option)}
-            disabled={showResult}
-          >
-            <div className="flex items-center gap-3 w-full">
-              <span className="flex-1">{option}</span>
-              {getButtonIcon(option)}
-            </div>
-          </Button>
-        ))}
-      </CardContent>
-    </Card>
+        </h2>
+      </div>
+
+      {/* Options */}
+      <div className="space-y-3">
+        {question.options.map((option, idx) => {
+          const state = getOptionState(option);
+          const isSelected = selected === option;
+          const letters = ["A", "B", "C", "D"];
+
+          return (
+            <button
+              key={idx}
+              type="button"
+              onClick={() => handleSelect(option)}
+              disabled={showResult}
+              className={`group flex w-full items-start gap-4 rounded-xl border-2 p-4 text-left transition-all ${optionStyles[state]} ${
+                !showResult && !isSelected ? "cursor-pointer" : ""
+              } ${showResult ? "cursor-default" : ""}`}
+            >
+              {/* Letter indicator */}
+              <div
+                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg font-semibold transition-colors ${
+                  state === "selected"
+                    ? "bg-kkpsi-navy text-white"
+                    : state === "correct"
+                      ? "bg-green-500 text-white"
+                      : state === "incorrect"
+                        ? "bg-red-500 text-white"
+                        : "bg-gray-100 text-gray-600 group-hover:bg-gray-200"
+                }`}
+              >
+                {letters[idx]}
+              </div>
+
+              {/* Option text */}
+              <span className="flex-1 pt-1 text-gray-700">{option}</span>
+
+              {/* Result icon */}
+              {showResult && state === "correct" && (
+                <CheckCircle2 className="h-6 w-6 shrink-0 text-green-500" />
+              )}
+              {showResult && state === "incorrect" && (
+                <XCircle className="h-6 w-6 shrink-0 text-red-500" />
+              )}
+              {!showResult && isSelected && (
+                <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-kkpsi-navy">
+                  <Circle className="h-3 w-3 fill-white text-white" />
+                </div>
+              )}
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 }
