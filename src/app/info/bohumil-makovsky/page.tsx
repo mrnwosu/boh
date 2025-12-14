@@ -8,7 +8,7 @@ export default async function MakovskyPage() {
   const makovsky = await api.content.getMakovsky();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       <PageHero
@@ -22,14 +22,14 @@ export default async function MakovskyPage() {
         <div className="container mx-auto px-4">
           <AnimatedSection className="mx-auto max-w-4xl space-y-6">
             {/* Biography Card */}
-            <div className="animate-on-scroll stagger-1 relative rounded-xl bg-white p-8 shadow-sm ring-1 ring-gray-200/50">
+            <div className="animate-on-scroll stagger-1 relative rounded-xl bg-card p-8 shadow-sm ring-1 ring-border">
               {/* Gradient accent bar */}
               <div className="absolute left-0 top-8 h-12 w-1 rounded-r-full bg-gradient-to-b from-amber-500 to-orange-500" />
 
-              <h2 className="mb-6 font-serif text-3xl font-bold text-kkpsi-navy">
+              <h2 className="mb-6 font-serif text-3xl font-bold text-kkpsi-navy dark:text-foreground">
                 Biography
               </h2>
-              <div className="prose prose-lg max-w-none prose-headings:text-kkpsi-navy prose-p:text-gray-600 prose-p:leading-relaxed">
+              <div className="prose prose-lg max-w-none prose-headings:text-kkpsi-navy dark:prose-headings:text-foreground prose-p:text-muted-foreground prose-p:leading-relaxed">
                 <ReactMarkdown>{makovsky.content}</ReactMarkdown>
               </div>
             </div>
@@ -39,10 +39,10 @@ export default async function MakovskyPage() {
               {/* Gradient accent bar */}
               <div className="absolute left-0 top-8 h-12 w-1 rounded-r-full bg-gradient-to-b from-kkpsi-gold to-amber-500" />
 
-              <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy">
+              <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy dark:text-foreground">
                 Legacy
               </h2>
-              <p className="leading-relaxed text-gray-700">
+              <p className="leading-relaxed text-muted-foreground">
                 Bohumil Makovsky served as the National Executive Secretary and Treasurer
                 of Kappa Kappa Psi for over 40 years. His dedication, wisdom, and love
                 for the fraternity shaped it into what it is today. Members affectionately

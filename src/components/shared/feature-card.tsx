@@ -29,10 +29,10 @@ const iconColorClasses = {
 };
 
 const iconTextClasses = {
-  navy: "text-kkpsi-navy",
-  gold: "text-kkpsi-navy",
+  navy: "text-kkpsi-navy dark:text-kkpsi-navy-light",
+  gold: "text-kkpsi-navy dark:text-kkpsi-navy-light",
   "gradient-navy": "text-white",
-  "gradient-gold": "text-kkpsi-navy",
+  "gradient-gold": "text-kkpsi-navy dark:text-kkpsi-navy-light",
 };
 
 const bulletColorClasses = {
@@ -56,7 +56,7 @@ export function FeatureCard({
 }: FeatureCardProps) {
   const cardContent = (
     <Card
-      className={`card-hover group h-full border-0 bg-white shadow-lg shadow-gray-200/50 ${
+      className={`card-hover group h-full border-0 bg-card shadow-lg shadow-muted/50 ${
         href ? "cursor-pointer" : ""
       } ${className}`}
     >
@@ -72,7 +72,7 @@ export function FeatureCard({
 
       {features && features.length > 0 && (
         <CardContent>
-          <ul className="space-y-2 text-sm text-gray-600">
+          <ul className="space-y-2 text-sm text-muted-foreground">
             {features.map((feature, index) => (
               <li key={index} className="flex items-center gap-2">
                 <div
@@ -118,21 +118,21 @@ export function InfoCard({
 }: InfoCardProps) {
   return (
     <Link href={href} className={`group block ${className}`}>
-      <div className="relative flex h-full flex-col rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-1 hover:shadow-md hover:ring-gray-300">
+      <div className="relative flex h-full flex-col rounded-xl bg-card p-6 shadow-sm ring-1 ring-border transition-all hover:-translate-y-1 hover:shadow-md hover:ring-ring/50">
         {/* Gradient accent bar */}
         <div className={`absolute left-0 top-6 h-10 w-1 rounded-r-full bg-gradient-to-b ${accentGradient}`} />
 
         {/* Icon */}
-        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-50 transition-colors group-hover:bg-gray-100">
-          <Icon className="h-5 w-5 text-kkpsi-navy" strokeWidth={1.5} />
+        <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-muted transition-colors group-hover:bg-muted/80">
+          <Icon className="h-5 w-5 text-kkpsi-navy dark:text-kkpsi-navy-light" strokeWidth={1.5} />
         </div>
 
         {/* Content */}
-        <h3 className="mb-2 font-semibold text-gray-900">{title}</h3>
-        <p className="mb-4 flex-1 text-sm leading-relaxed text-gray-500">{description}</p>
+        <h3 className="mb-2 font-semibold text-foreground">{title}</h3>
+        <p className="mb-4 flex-1 text-sm leading-relaxed text-muted-foreground">{description}</p>
 
         {/* Arrow indicator */}
-        <div className="flex items-center text-xs font-medium text-gray-400 transition-colors group-hover:text-kkpsi-navy">
+        <div className="flex items-center text-xs font-medium text-muted-foreground transition-colors group-hover:text-kkpsi-navy dark:group-hover:text-kkpsi-navy-light">
           <span>Learn more</span>
           <svg
             className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-0.5"

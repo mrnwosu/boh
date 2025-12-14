@@ -16,7 +16,7 @@ export default function QuizzesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       {/* Hero Section */}
@@ -64,11 +64,11 @@ export default function QuizzesPage() {
 
         <div className="container mx-auto px-4">
           <div className="mx-auto mb-12 max-w-2xl text-center">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-kkpsi-navy/5 px-4 py-2 text-sm font-medium text-kkpsi-navy">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-kkpsi-navy/5 dark:bg-kkpsi-navy/20 px-4 py-2 text-sm font-medium text-kkpsi-navy dark:text-kkpsi-navy-light">
               <Target className="h-4 w-4" />
               Features
             </div>
-            <h2 className="mb-4 font-serif text-3xl font-bold text-kkpsi-navy md:text-4xl">
+            <h2 className="mb-4 font-serif text-3xl font-bold text-kkpsi-navy dark:text-foreground md:text-4xl">
               Quiz Features
             </h2>
           </div>
@@ -99,20 +99,20 @@ export default function QuizzesPage() {
             ].map((feature, index) => (
               <div
                 key={feature.title}
-                className={`animate-on-scroll stagger-${index + 1} group relative rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-1 hover:shadow-md hover:ring-gray-300`}
+                className={`animate-on-scroll stagger-${index + 1} group relative rounded-xl bg-card p-6 shadow-sm ring-1 ring-border transition-all hover:-translate-y-1 hover:shadow-md hover:ring-ring/50`}
               >
                 {/* Accent line */}
                 <div
                   className={`absolute left-0 top-6 h-10 w-1 rounded-r-full bg-gradient-to-b ${feature.accent}`}
                 />
 
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-gray-50 transition-colors group-hover:bg-gray-100">
-                  <feature.icon className="h-6 w-6 text-kkpsi-navy" strokeWidth={1.5} />
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-muted transition-colors group-hover:bg-muted/80">
+                  <feature.icon className="h-6 w-6 text-kkpsi-navy dark:text-kkpsi-navy-light" strokeWidth={1.5} />
                 </div>
-                <h3 className="mb-2 text-lg font-semibold text-gray-900">
+                <h3 className="mb-2 text-lg font-semibold text-card-foreground">
                   {feature.title}
                 </h3>
-                <p className="text-sm leading-relaxed text-gray-500">
+                <p className="text-sm leading-relaxed text-muted-foreground">
                   {feature.description}
                 </p>
               </div>

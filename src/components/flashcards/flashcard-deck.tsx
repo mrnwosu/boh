@@ -32,7 +32,7 @@ export function FlashcardDeck({
   if (questions.length === 0) {
     return (
       <div className="py-12 text-center">
-        <p className="text-lg text-gray-600">No flashcards available for this topic.</p>
+        <p className="text-lg text-muted-foreground">No flashcards available for this topic.</p>
       </div>
     );
   }
@@ -67,7 +67,7 @@ export function FlashcardDeck({
     <div className="space-y-6">
       {/* Progress Bar */}
       <div className="space-y-2">
-        <div className="flex items-center justify-between text-sm text-gray-600">
+        <div className="flex items-center justify-between text-sm text-muted-foreground">
           <span>
             Card {currentIndex + 1} of {questions.length}
           </span>
@@ -123,7 +123,7 @@ export function FlashcardDeck({
       {/* Guest Notice */}
       {!isAuthenticated && (
         <div className="rounded-lg border-2 border-kkpsi-gold bg-kkpsi-gold/10 p-4 text-center">
-          <p className="text-sm text-gray-700">
+          <p className="text-sm text-foreground">
             Sign in to track your progress and use spaced repetition for efficient learning!
           </p>
         </div>

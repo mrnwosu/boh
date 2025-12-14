@@ -41,61 +41,61 @@ export function QuizResults({
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       {/* Main Results Card */}
-      <div className="relative overflow-hidden rounded-2xl bg-white p-8 shadow-xl ring-1 ring-gray-200/50">
+      <div className="relative overflow-hidden rounded-2xl bg-card p-8 shadow-xl ring-1 ring-border">
         {/* Background decoration */}
         <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-kkpsi-gold/10 blur-3xl"></div>
         <div className="absolute -bottom-10 -left-10 h-32 w-32 rounded-full bg-kkpsi-navy/5 blur-3xl"></div>
 
         {/* Trophy and Score */}
         <div className="relative mb-8 text-center">
-          <div className="mb-4 inline-flex rounded-full bg-gradient-to-br from-kkpsi-gold/20 to-amber-100 p-6">
+          <div className="mb-4 inline-flex rounded-full bg-gradient-to-br from-kkpsi-gold/20 to-amber-100 dark:to-amber-900/30 p-6">
             <Trophy className="h-16 w-16 text-kkpsi-gold" />
           </div>
           <h2 className={`mb-2 font-serif text-3xl font-bold ${grade.color}`}>
             {grade.text}
           </h2>
           <div className="flex items-center justify-center gap-2">
-            <span className="text-6xl font-bold text-kkpsi-navy">{percentage}</span>
-            <span className="text-2xl font-medium text-gray-400">%</span>
+            <span className="text-6xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light">{percentage}</span>
+            <span className="text-2xl font-medium text-muted-foreground">%</span>
           </div>
         </div>
 
         {/* Score Breakdown */}
         <div className="mb-6 grid gap-4 sm:grid-cols-2">
-          <div className="flex items-center gap-4 rounded-xl bg-green-50 p-4 ring-1 ring-green-100">
+          <div className="flex items-center gap-4 rounded-xl bg-green-50 dark:bg-green-950/30 p-4 ring-1 ring-green-100 dark:ring-green-900/50">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-green-500">
               <CheckCircle2 className="h-6 w-6 text-white" />
             </div>
             <div>
               <p className="text-2xl font-bold text-green-600">{correctAnswers}</p>
-              <p className="text-sm text-gray-600">Correct</p>
+              <p className="text-sm text-muted-foreground">Correct</p>
             </div>
           </div>
-          <div className="flex items-center gap-4 rounded-xl bg-red-50 p-4 ring-1 ring-red-100">
+          <div className="flex items-center gap-4 rounded-xl bg-red-50 dark:bg-red-950/30 p-4 ring-1 ring-red-100 dark:ring-red-900/50">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-red-500">
               <XCircle className="h-6 w-6 text-white" />
             </div>
             <div>
               <p className="text-2xl font-bold text-red-600">{incorrectAnswers}</p>
-              <p className="text-sm text-gray-600">Incorrect</p>
+              <p className="text-sm text-muted-foreground">Incorrect</p>
             </div>
           </div>
         </div>
 
         {/* Time Elapsed */}
         {timeElapsed !== undefined && (
-          <div className="mb-6 flex items-center justify-center gap-3 rounded-xl bg-gray-50 p-4 ring-1 ring-gray-100">
-            <Clock className="h-5 w-5 text-gray-500" />
-            <span className="text-lg font-semibold text-gray-700">{formatTime(timeElapsed)}</span>
-            <span className="text-sm text-gray-500">total time</span>
+          <div className="mb-6 flex items-center justify-center gap-3 rounded-xl bg-muted p-4 ring-1 ring-border">
+            <Clock className="h-5 w-5 text-muted-foreground" />
+            <span className="text-lg font-semibold text-foreground">{formatTime(timeElapsed)}</span>
+            <span className="text-sm text-muted-foreground">total time</span>
           </div>
         )}
 
         {/* Progress Bar */}
         <div className="mb-8 space-y-2">
           <div className="flex items-center justify-between text-sm">
-            <span className="font-medium text-gray-700">Accuracy</span>
-            <span className="text-gray-500">{correctAnswers} / {totalQuestions}</span>
+            <span className="font-medium text-foreground">Accuracy</span>
+            <span className="text-muted-foreground">{correctAnswers} / {totalQuestions}</span>
           </div>
           <Progress value={percentage} className="h-3" />
         </div>
@@ -126,8 +126,8 @@ export function QuizResults({
       </div>
 
       {/* Encouragement Card */}
-      <div className="rounded-xl bg-gradient-to-br from-kkpsi-navy/5 to-kkpsi-gold/5 p-6 text-center ring-1 ring-gray-200/50">
-        <p className="text-gray-700">
+      <div className="rounded-xl bg-gradient-to-br from-kkpsi-navy/5 to-kkpsi-gold/5 p-6 text-center ring-1 ring-border">
+        <p className="text-foreground">
           {percentage >= 80
             ? "Outstanding performance! You really know your KKPsi knowledge."
             : percentage >= 60
@@ -135,7 +135,7 @@ export function QuizResults({
               : "Keep studying! Use the flashcards to reinforce your knowledge."}
         </p>
         {percentage < 80 && (
-          <Button asChild variant="link" className="mt-2 text-kkpsi-navy">
+          <Button asChild variant="link" className="mt-2 text-kkpsi-navy dark:text-kkpsi-navy-light">
             <Link href="/flashcards">
               Study with Flashcards
               <ArrowRight className="ml-1 h-4 w-4" />

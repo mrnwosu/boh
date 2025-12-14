@@ -13,16 +13,16 @@ export default async function SignOutPage() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-b from-white to-gray-50">
+    <div className="flex min-h-screen flex-col bg-gradient-to-b from-background to-muted/50">
       {/* Header */}
-      <header className="border-b border-gray-100 bg-white/80 backdrop-blur-sm">
+      <header className="border-b border-border bg-card/80 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="group flex items-center space-x-2">
-            <span className="font-serif text-2xl font-bold text-kkpsi-navy transition-all group-hover:text-kkpsi-gold">
+            <span className="font-serif text-2xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light transition-all group-hover:text-kkpsi-gold">
               KKΨ
             </span>
-            <div className="hidden h-4 w-px bg-gray-300 sm:block"></div>
-            <span className="hidden text-sm font-medium text-gray-600 transition-colors group-hover:text-kkpsi-navy sm:block">
+            <div className="hidden h-4 w-px bg-border sm:block"></div>
+            <span className="hidden text-sm font-medium text-muted-foreground transition-colors group-hover:text-foreground sm:block">
               Learning App
             </span>
           </Link>
@@ -37,7 +37,7 @@ export default async function SignOutPage() {
           <div className="absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-kkpsi-navy/10 blur-3xl"></div>
 
           {/* Card */}
-          <div className="relative rounded-2xl bg-white p-8 shadow-xl ring-1 ring-gray-200/50">
+          <div className="relative rounded-2xl bg-card p-8 shadow-xl ring-1 ring-border">
             {/* Decorative music notes */}
             <div className="absolute -right-3 -top-3 opacity-20">
               <Music className="h-8 w-8 text-kkpsi-gold" />
@@ -45,31 +45,31 @@ export default async function SignOutPage() {
 
             {/* Header */}
             <div className="mb-8 text-center">
-              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-gray-100 to-gray-200">
-                <LogOut className="h-7 w-7 text-gray-600" />
+              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-muted">
+                <LogOut className="h-7 w-7 text-muted-foreground" />
               </div>
-              <h1 className="mb-2 font-serif text-2xl font-bold text-gray-900">
+              <h1 className="mb-2 font-serif text-2xl font-bold text-card-foreground">
                 Sign Out
               </h1>
-              <p className="text-gray-600">
+              <p className="text-muted-foreground">
                 Are you sure you want to sign out?
               </p>
             </div>
 
             {/* User info */}
-            <div className="mb-6 flex items-center justify-center gap-3 rounded-lg bg-gray-50 p-4">
+            <div className="mb-6 flex items-center justify-center gap-3 rounded-lg bg-muted p-4">
               {session.user.image && (
                 <img
                   src={session.user.image}
                   alt=""
-                  className="h-10 w-10 rounded-full ring-2 ring-white"
+                  className="h-10 w-10 rounded-full ring-2 ring-background"
                 />
               )}
               <div className="text-left">
-                <p className="font-medium text-gray-900">
+                <p className="font-medium text-card-foreground">
                   {session.user.displayName ?? session.user.name}
                 </p>
-                <p className="text-sm text-gray-500">{session.user.email}</p>
+                <p className="text-sm text-muted-foreground">{session.user.email}</p>
               </div>
             </div>
 
@@ -95,14 +95,13 @@ export default async function SignOutPage() {
               <Button
                 asChild
                 variant="ghost"
-                className="text-gray-600 hover:text-gray-900"
               >
                 <Link href="/dashboard">Cancel</Link>
               </Button>
             </div>
 
             {/* Footer note */}
-            <p className="mt-6 text-center text-xs text-gray-500">
+            <p className="mt-6 text-center text-xs text-muted-foreground">
               Your progress is saved and will be here when you return
             </p>
           </div>
@@ -110,9 +109,9 @@ export default async function SignOutPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-100 bg-white py-6">
+      <footer className="border-t border-border bg-card py-6">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-muted-foreground">
             Kappa Kappa Psi Learning App
           </p>
         </div>

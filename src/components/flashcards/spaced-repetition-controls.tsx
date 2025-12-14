@@ -40,9 +40,9 @@ export function SpacedRepetitionControls({
   ];
 
   return (
-    <Card className="border-kkpsi-navy/20 bg-gradient-to-br from-white to-gray-50">
+    <Card className="border-kkpsi-navy/20 bg-gradient-to-br from-card to-muted/50">
       <CardHeader>
-        <CardTitle className="text-xl text-kkpsi-navy">How well did you know this?</CardTitle>
+        <CardTitle className="text-xl text-kkpsi-navy dark:text-kkpsi-navy-light">How well did you know this?</CardTitle>
         <CardDescription>
           Your response helps the system schedule this card for optimal review
         </CardDescription>

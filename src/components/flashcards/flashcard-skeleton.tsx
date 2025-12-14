@@ -17,7 +17,7 @@ export function FlashcardSkeleton() {
 
       {/* Flashcard Skeleton */}
       <div className="h-[400px] w-full">
-        <Card className="relative flex h-full items-center justify-center overflow-hidden rounded-2xl border-0 bg-white p-8 shadow-2xl shadow-kkpsi-navy/10">
+        <Card className="relative flex h-full items-center justify-center overflow-hidden rounded-2xl border-0 bg-card p-8 shadow-2xl shadow-kkpsi-navy/10">
           {/* Decorative corner accents */}
           <div className="absolute left-0 top-0 h-24 w-24 bg-gradient-to-br from-kkpsi-navy/5 to-transparent"></div>
           <div className="absolute bottom-0 right-0 h-24 w-24 bg-gradient-to-tl from-kkpsi-gold/10 to-transparent"></div>

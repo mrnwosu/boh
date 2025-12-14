@@ -49,7 +49,7 @@ export default function InfoPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       <PageHero
@@ -78,13 +78,13 @@ export default function InfoPage() {
       </section>
 
       {/* About Section */}
-      <section className="bg-gray-50 py-16">
+      <section className="bg-muted/50 py-16">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-6 font-serif text-3xl font-bold text-kkpsi-navy">
+            <h2 className="mb-6 font-serif text-3xl font-bold text-kkpsi-navy dark:text-foreground">
               About Kappa Kappa Psi
             </h2>
-            <div className="space-y-4 text-lg text-gray-700">
+            <div className="space-y-4 text-lg text-muted-foreground">
               <p>
                 Kappa Kappa Psi is a fraternal organization that promotes the advancement of college and university bands through dedicated service and support.
               </p>

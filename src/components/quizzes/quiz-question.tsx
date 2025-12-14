@@ -47,20 +47,20 @@ export function QuizQuestionComponent({
   };
 
   const optionStyles = {
-    default: "border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50",
+    default: "border-border bg-card hover:border-muted-foreground/30 hover:bg-muted/50",
     selected: "border-kkpsi-navy bg-kkpsi-navy/5 ring-2 ring-kkpsi-navy/20",
-    correct: "border-green-500 bg-green-50",
-    incorrect: "border-red-500 bg-red-50",
+    correct: "border-green-500 bg-green-50 dark:bg-green-950/30",
+    incorrect: "border-red-500 bg-red-50 dark:bg-red-950/30",
   };
 
   return (
-    <div className="rounded-2xl bg-white p-4 shadow-xl ring-1 ring-gray-200/50 sm:p-6 md:p-8">
+    <div className="rounded-2xl bg-card p-4 shadow-xl ring-1 ring-border sm:p-6 md:p-8">
       {/* Question Header */}
       <div className="mb-6">
-        <div className="mb-3 inline-flex items-center rounded-full bg-kkpsi-navy/5 px-3 py-1 text-sm font-medium text-kkpsi-navy">
+        <div className="mb-3 inline-flex items-center rounded-full bg-kkpsi-navy/5 dark:bg-kkpsi-navy/20 px-3 py-1 text-sm font-medium text-kkpsi-navy dark:text-kkpsi-navy-light">
           Question {questionNumber} of {totalQuestions}
         </div>
-        <h2 className="font-serif text-lg font-bold text-gray-900 sm:text-xl md:text-2xl">
+        <h2 className="font-serif text-lg font-bold text-foreground sm:text-xl md:text-2xl">
           {question.question}
         </h2>
       </div>
@@ -91,14 +91,14 @@ export function QuizQuestionComponent({
                       ? "bg-green-500 text-white"
                       : state === "incorrect"
                         ? "bg-red-500 text-white"
-                        : "bg-gray-100 text-gray-600 group-hover:bg-gray-200"
+                        : "bg-muted text-muted-foreground group-hover:bg-muted/80"
                 }`}
               >
                 {letters[idx]}
               </div>
 
               {/* Option text */}
-              <span className="flex-1 pt-1 text-gray-700">{option}</span>
+              <span className="flex-1 pt-1 text-foreground">{option}</span>
 
               {/* Result icon */}
               {showResult && state === "correct" && (

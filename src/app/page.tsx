@@ -6,11 +6,11 @@ import { AnimatedSection } from "~/components/shared";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50 dark:from-background dark:to-background">
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-12 sm:py-16 md:py-24 lg:py-32">
+      <section className="relative overflow-hidden bg-gradient-to-br from-hero via-hero-light to-hero py-12 sm:py-16 md:py-24 lg:py-32">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -left-20 -top-20 h-72 w-72 rounded-full bg-kkpsi-gold/10 blur-3xl animate-float"></div>
@@ -84,20 +84,20 @@ export default function HomePage() {
       <section className="relative py-12 sm:py-16 md:py-24">
         {/* Subtle background decoration */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-kkpsi-navy/5 blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-kkpsi-gold/5 blur-3xl"></div>
+          <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-kkpsi-navy/5 blur-3xl dark:bg-kkpsi-navy/10"></div>
+          <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-kkpsi-gold/5 blur-3xl dark:bg-kkpsi-gold/10"></div>
         </div>
 
         <div className="container mx-auto px-4">
           <div className="mx-auto mb-16 max-w-2xl text-center">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-kkpsi-navy/5 px-4 py-2 text-sm font-medium text-kkpsi-navy">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-kkpsi-navy/5 px-4 py-2 text-sm font-medium text-kkpsi-navy dark:bg-kkpsi-navy/20 dark:text-kkpsi-navy-light">
               <Sparkles className="h-4 w-4" />
               Features
             </div>
-            <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy sm:text-3xl md:text-4xl lg:text-5xl">
+            <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy dark:text-foreground sm:text-3xl md:text-4xl lg:text-5xl">
               Everything You Need to Learn
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-muted-foreground">
               Comprehensive learning tools designed for Kappa Kappa Psi members
             </p>
           </div>
@@ -135,24 +135,24 @@ export default function HomePage() {
             ].map((feature, index) => (
               <div
                 key={feature.title}
-                className={`animate-on-scroll stagger-${index + 1} group relative rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:shadow-md hover:ring-gray-300 hover:-translate-y-1`}
+                className={`animate-on-scroll stagger-${index + 1} group relative rounded-xl bg-card p-6 shadow-sm ring-1 ring-border transition-all hover:shadow-md hover:ring-ring/50 hover:-translate-y-1`}
               >
                 {/* Accent line */}
                 <div className={`absolute left-0 top-6 h-8 w-1 rounded-r-full ${feature.accent}`} />
 
-                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-50 transition-colors group-hover:bg-gray-100">
+                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-muted transition-colors group-hover:bg-muted/80">
                   <feature.icon
-                    className="h-5 w-5 text-kkpsi-navy"
+                    className="h-5 w-5 text-kkpsi-navy dark:text-kkpsi-navy-light"
                     strokeWidth={1.5}
                   />
                 </div>
-                <h3 className="mb-2 font-semibold text-gray-900">{feature.title}</h3>
-                <p className="mb-4 text-sm leading-relaxed text-gray-500">{feature.description}</p>
+                <h3 className="mb-2 font-semibold text-card-foreground">{feature.title}</h3>
+                <p className="mb-4 text-sm leading-relaxed text-muted-foreground">{feature.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {feature.features.map((item) => (
                     <span
                       key={item}
-                      className="rounded-full bg-gray-100 px-2.5 py-1 text-xs font-medium text-gray-600"
+                      className="rounded-full bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground"
                     >
                       {item}
                     </span>
@@ -165,17 +165,17 @@ export default function HomePage() {
       </section>
 
       {/* Topics Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white py-12 sm:py-16 md:py-24">
+      <section className="relative overflow-hidden bg-gradient-to-b from-muted/50 to-background py-12 sm:py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mx-auto mb-16 max-w-2xl text-center">
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-kkpsi-gold/10 px-4 py-2 text-sm font-medium text-kkpsi-gold-dark">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-kkpsi-gold/10 px-4 py-2 text-sm font-medium text-kkpsi-gold-dark dark:text-kkpsi-gold">
               <BookOpen className="h-4 w-4" />
               Topics
             </div>
-            <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy sm:text-3xl md:text-4xl lg:text-5xl">
+            <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy dark:text-foreground sm:text-3xl md:text-4xl lg:text-5xl">
               Study Topics
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-muted-foreground">
               Dive deep into seven comprehensive topic areas
             </p>
           </div>
@@ -193,20 +193,20 @@ export default function HomePage() {
               <Link
                 key={topic.name}
                 href="/flashcards"
-                className={`animate-on-scroll stagger-${index + 1} group relative flex items-center justify-between overflow-hidden rounded-xl bg-white px-6 py-5 shadow-sm ring-1 ring-gray-200/50 transition-all hover:shadow-md hover:ring-gray-300 hover:-translate-y-0.5`}
+                className={`animate-on-scroll stagger-${index + 1} group relative flex items-center justify-between overflow-hidden rounded-xl bg-card px-6 py-5 shadow-sm ring-1 ring-border transition-all hover:shadow-md hover:ring-ring/50 hover:-translate-y-0.5`}
               >
                 {/* Gradient accent */}
                 <div className={`absolute left-0 top-0 h-full w-1 bg-gradient-to-b ${topic.accent}`} />
 
-                <span className="font-medium text-gray-900 transition-colors group-hover:text-kkpsi-navy">
+                <span className="font-medium text-card-foreground transition-colors group-hover:text-kkpsi-navy dark:group-hover:text-kkpsi-navy-light">
                   {topic.name}
                 </span>
                 <div className="flex items-center gap-3">
-                  <span className="rounded-full bg-gray-100 px-2.5 py-1 text-xs font-medium tabular-nums text-gray-500">
+                  <span className="rounded-full bg-muted px-2.5 py-1 text-xs font-medium tabular-nums text-muted-foreground">
                     {topic.count} cards
                   </span>
                   <svg
-                    className="h-4 w-4 text-gray-300 transition-all group-hover:translate-x-0.5 group-hover:text-kkpsi-navy"
+                    className="h-4 w-4 text-muted-foreground/50 transition-all group-hover:translate-x-0.5 group-hover:text-kkpsi-navy dark:group-hover:text-kkpsi-navy-light"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -221,7 +221,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-12 sm:py-16 md:py-24">
+      <section className="relative overflow-hidden bg-gradient-to-br from-hero via-hero-light to-hero py-12 sm:py-16 md:py-24">
         {/* Decorative elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -right-20 -top-20 h-80 w-80 rounded-full bg-kkpsi-gold/10 blur-3xl"></div>
@@ -248,18 +248,18 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-gray-100 bg-white py-12">
+      <footer className="border-t border-border bg-card py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="flex items-center gap-2">
-              <span className="font-serif text-2xl font-bold text-kkpsi-navy">ΚΚΨ</span>
-              <div className="h-6 w-px bg-gray-200"></div>
-              <span className="text-sm text-gray-600">Learning App</span>
+              <span className="font-serif text-2xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light">ΚΚΨ</span>
+              <div className="h-6 w-px bg-border"></div>
+              <span className="text-sm text-muted-foreground">Learning App</span>
             </div>
-            <p className="text-center font-serif text-gray-600">
+            <p className="text-center font-serif text-muted-foreground">
               Kappa Kappa Psi • National Honorary Band Fraternity
             </p>
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-muted-foreground/70">
               Built with dedication for the brotherhood
             </p>
           </div>

@@ -75,18 +75,18 @@ function ErrorContent() {
         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-red-100 to-red-200">
           <AlertCircle className="h-8 w-8 text-red-600" />
         </div>
-        <h1 className="mb-2 font-serif text-2xl font-bold text-gray-900">
+        <h1 className="mb-2 font-serif text-2xl font-bold text-card-foreground">
           {errorInfo.title}
         </h1>
-        <p className="text-gray-600">{errorInfo.description}</p>
+        <p className="text-muted-foreground">{errorInfo.description}</p>
       </div>
 
       {/* Error code */}
-      <div className="mb-6 rounded-lg bg-gray-50 p-3 text-center">
-        <p className="text-xs font-medium uppercase tracking-wider text-gray-500">
+      <div className="mb-6 rounded-lg bg-muted p-3 text-center">
+        <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
           Error Code
         </p>
-        <p className="font-mono text-sm text-gray-700">{error}</p>
+        <p className="font-mono text-sm text-foreground">{error}</p>
       </div>
     </>
   );
@@ -98,26 +98,26 @@ function ErrorContentFallback() {
       <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-red-100 to-red-200">
         <AlertCircle className="h-8 w-8 text-red-600" />
       </div>
-      <h1 className="mb-2 font-serif text-2xl font-bold text-gray-900">
+      <h1 className="mb-2 font-serif text-2xl font-bold text-card-foreground">
         Authentication Error
       </h1>
-      <p className="text-gray-600">Loading error details...</p>
+      <p className="text-muted-foreground">Loading error details...</p>
     </div>
   );
 }
 
 export default function AuthErrorPage() {
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-b from-white to-gray-50">
+    <div className="flex min-h-screen flex-col bg-gradient-to-b from-background to-muted/50">
       {/* Header */}
-      <header className="border-b border-gray-100 bg-white/80 backdrop-blur-sm">
+      <header className="border-b border-border bg-card/80 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="group flex items-center space-x-2">
-            <span className="font-serif text-2xl font-bold text-kkpsi-navy transition-all group-hover:text-kkpsi-gold">
+            <span className="font-serif text-2xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light transition-all group-hover:text-kkpsi-gold">
               KKΨ
             </span>
-            <div className="hidden h-4 w-px bg-gray-300 sm:block"></div>
-            <span className="hidden text-sm font-medium text-gray-600 transition-colors group-hover:text-kkpsi-navy sm:block">
+            <div className="hidden h-4 w-px bg-border sm:block"></div>
+            <span className="hidden text-sm font-medium text-muted-foreground transition-colors group-hover:text-foreground sm:block">
               Learning App
             </span>
           </Link>
@@ -132,7 +132,7 @@ export default function AuthErrorPage() {
           <div className="absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-kkpsi-navy/10 blur-3xl"></div>
 
           {/* Card */}
-          <div className="relative rounded-2xl bg-white p-8 shadow-xl ring-1 ring-gray-200/50">
+          <div className="relative rounded-2xl bg-card p-8 shadow-xl ring-1 ring-border">
             {/* Decorative music notes */}
             <div className="absolute -right-3 -top-3 opacity-20">
               <Music className="h-8 w-8 text-kkpsi-gold" />
@@ -157,7 +157,7 @@ export default function AuthErrorPage() {
               <Button
                 asChild
                 variant="outline"
-                className="w-full border-gray-200 py-6 text-gray-700 transition-all hover:bg-gray-50"
+                className="w-full py-6 transition-all"
               >
                 <Link href="/">
                   <Home className="mr-2 h-4 w-4" />
@@ -167,7 +167,7 @@ export default function AuthErrorPage() {
             </div>
 
             {/* Footer note */}
-            <p className="mt-6 text-center text-xs text-gray-500">
+            <p className="mt-6 text-center text-xs text-muted-foreground">
               If this problem persists, please contact support
             </p>
           </div>
@@ -175,9 +175,9 @@ export default function AuthErrorPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-100 bg-white py-6">
+      <footer className="border-t border-border bg-card py-6">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-gray-500">Kappa Kappa Psi Learning App</p>
+          <p className="text-sm text-muted-foreground">Kappa Kappa Psi Learning App</p>
         </div>
       </footer>
     </div>

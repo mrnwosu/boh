@@ -44,7 +44,7 @@ export default async function DashboardPage() {
   }));
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       <PageHero
@@ -105,7 +105,7 @@ export default async function DashboardPage() {
                           <div key={topic.topic} className="space-y-2">
                             <div className="flex items-center justify-between text-sm">
                               <span className="font-medium">{topic.topic}</span>
-                              <span className="text-gray-600">
+                              <span className="text-muted-foreground">
                                 {topic.mastered} / {topic.total}
                               </span>
                             </div>
@@ -114,7 +114,7 @@ export default async function DashboardPage() {
                         );
                       })
                     ) : (
-                      <p className="text-center text-sm text-gray-600 py-4">
+                      <p className="text-center text-sm text-muted-foreground py-4">
                         Start studying flashcards to see your progress!
                       </p>
                     )}
@@ -135,7 +135,7 @@ export default async function DashboardPage() {
                 <div className="grid gap-4 md:grid-cols-3">
                   <Link
                     href="/flashcards"
-                    className="flex flex-col items-center gap-2 rounded-lg border-2 border-gray-200 p-6 transition-all hover:border-kkpsi-navy hover:shadow-md"
+                    className="flex flex-col items-center gap-2 rounded-lg border-2 border-border p-6 transition-all hover:border-kkpsi-navy hover:shadow-md"
                   >
                     <Brain className="h-8 w-8 text-kkpsi-navy" />
                     <span className="font-medium">Study Flashcards</span>
@@ -147,14 +147,14 @@ export default async function DashboardPage() {
                   </Link>
                   <Link
                     href="/quizzes"
-                    className="flex flex-col items-center gap-2 rounded-lg border-2 border-gray-200 p-6 transition-all hover:border-kkpsi-navy hover:shadow-md"
+                    className="flex flex-col items-center gap-2 rounded-lg border-2 border-border p-6 transition-all hover:border-kkpsi-navy hover:shadow-md"
                   >
                     <Trophy className="h-8 w-8 text-kkpsi-navy" />
                     <span className="font-medium">Take a Quiz</span>
                   </Link>
                   <Link
                     href="/info"
-                    className="flex flex-col items-center gap-2 rounded-lg border-2 border-gray-200 p-6 transition-all hover:border-kkpsi-navy hover:shadow-md"
+                    className="flex flex-col items-center gap-2 rounded-lg border-2 border-border p-6 transition-all hover:border-kkpsi-navy hover:shadow-md"
                   >
                     <Target className="h-8 w-8 text-kkpsi-navy" />
                     <span className="font-medium">Browse Info</span>

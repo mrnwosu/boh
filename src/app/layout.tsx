@@ -28,8 +28,12 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable} ${openSans.variable}`}>
-      <body className="font-sans">
+    <html
+      lang="en"
+      className={`${geist.variable} ${openSans.variable}`}
+      suppressHydrationWarning
+    >
+      <body className="font-sans antialiased bg-background text-foreground">
         <Providers>
           <TRPCReactProvider>{children}</TRPCReactProvider>
         </Providers>

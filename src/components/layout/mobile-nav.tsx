@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import { Menu } from "lucide-react";
+import { Menu, Moon, Sun, Monitor } from "lucide-react";
+import { useTheme } from "next-themes";
 import {
   Sheet,
   SheetContent,
@@ -16,7 +17,13 @@ import { Separator } from "~/components/ui/separator";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { data: session } = useSession();
+  const { setTheme, theme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -67,6 +74,42 @@ export function MobileNav() {
               </Link>
             </>
           )}
+
+          <Separator />
+
+          {/* Theme Selection */}
+          <div className="space-y-2">
+            <p className="text-sm font-medium text-muted-foreground">Theme</p>
+            <div className="flex gap-2">
+              <Button
+                variant={mounted && theme === "light" ? "default" : "outline"}
+                size="sm"
+                className="flex-1"
+                onClick={() => setTheme("light")}
+              >
+                <Sun className="mr-2 h-4 w-4" />
+                Light
+              </Button>
+              <Button
+                variant={mounted && theme === "dark" ? "default" : "outline"}
+                size="sm"
+                className="flex-1"
+                onClick={() => setTheme("dark")}
+              >
+                <Moon className="mr-2 h-4 w-4" />
+                Dark
+              </Button>
+              <Button
+                variant={mounted && theme === "system" ? "default" : "outline"}
+                size="sm"
+                className="flex-1"
+                onClick={() => setTheme("system")}
+              >
+                <Monitor className="mr-2 h-4 w-4" />
+                Auto
+              </Button>
+            </div>
+          </div>
 
           <Separator />
 

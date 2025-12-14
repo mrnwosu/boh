@@ -20,7 +20,7 @@ export default async function AwardPage({
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       {/* Header */}

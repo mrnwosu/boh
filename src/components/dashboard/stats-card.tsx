@@ -20,7 +20,7 @@ export function StatsCard({ title, value, icon: Icon, description, trend }: Stat
         <Icon className="h-5 w-5 text-muted-foreground sm:h-4 sm:w-4" />
       </CardHeader>
       <CardContent>
-        <div className="text-2xl font-bold text-kkpsi-navy">{value}</div>
+        <div className="text-2xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light">{value}</div>
         {description && <p className="text-xs text-muted-foreground">{description}</p>}
         {trend && (
           <p className={`text-xs ${trend.isPositive ? "text-green-600" : "text-red-600"}`}>

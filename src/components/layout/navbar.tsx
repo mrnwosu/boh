@@ -1,18 +1,37 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
 import { Button } from "~/components/ui/button";
+import { ThemeToggleCompact } from "~/components/ui/theme-toggle";
+import { GlobalSearch } from "~/components/search/global-search";
 import { UserMenu } from "./user-menu";
 import { MobileNav } from "./mobile-nav";
 
 export function Navbar() {
   const { data: session } = useSession();
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 400);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
       {/* Fixed navbar */}
-      <nav className="fixed left-0 right-0 top-0 z-50 border-b border-white/10 bg-kkpsi-navy/95 backdrop-blur-md">
+      <nav
+        className={`fixed left-0 right-0 top-0 z-50 border-b border-white/10 transition-colors duration-200 ${
+          scrolled
+            ? "bg-kkpsi-navy/80 dark:bg-kkpsi-navy-dark/80 backdrop-blur-md"
+            : "bg-kkpsi-navy dark:bg-kkpsi-navy-dark"
+        }`}
+      >
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           {/* Logo */}
           <Link href="/" className="group flex items-center space-x-2">
@@ -56,7 +75,16 @@ export function Navbar() {
           </div>
 
           {/* Auth Section */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2">
+            {/* Global Search */}
+            <GlobalSearch />
+
+            {/* Theme Toggle */}
+            <ThemeToggleCompact
+              variant="ghost"
+              className="text-white hover:bg-white/10 hover:text-white"
+            />
+
             {session ? (
               <UserMenu />
             ) : (

@@ -55,7 +55,7 @@ export function TagSelector({
             className={`cursor-pointer transition-colors ${
               selectedTags.includes(tag)
                 ? "bg-kkpsi-navy hover:bg-kkpsi-navy-light"
-                : "hover:bg-gray-100"
+                : "hover:bg-muted"
             }`}
             onClick={() => onTagToggle(tag)}
           >
@@ -99,7 +99,7 @@ export function TagSelector({
               <Button
                 variant="ghost"
                 size="sm"
-                className="w-full justify-center text-xs text-gray-500"
+                className="w-full justify-center text-xs text-muted-foreground"
                 onClick={onClearAll}
               >
                 Clear All
@@ -115,7 +115,7 @@ export function TagSelector({
           <Badge
             key={tag}
             variant="secondary"
-            className="gap-1 bg-kkpsi-navy/10 pr-1 text-kkpsi-navy hover:bg-kkpsi-navy/20"
+            className="gap-1 bg-kkpsi-navy/10 pr-1 text-kkpsi-navy dark:text-kkpsi-navy-light hover:bg-kkpsi-navy/20"
           >
             {tag}
             <button

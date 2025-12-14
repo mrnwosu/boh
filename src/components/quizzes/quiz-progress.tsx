@@ -20,17 +20,17 @@ export function QuizProgress({
   const isLowTime = timeRemaining !== undefined && timeRemaining <= 5;
 
   return (
-    <div className="rounded-xl bg-white p-3 shadow-sm ring-1 ring-gray-200/50 sm:p-4">
+    <div className="rounded-xl bg-card p-3 shadow-sm ring-1 ring-border sm:p-4">
       <div className="flex items-center gap-2 sm:gap-4">
         {/* Progress Section */}
         <div className="min-w-0 flex-1 space-y-1.5 sm:space-y-2">
           <div className="flex items-center justify-between text-xs sm:text-sm">
-            <span className="font-medium text-gray-700">
+            <span className="font-medium text-foreground">
               <span className="hidden sm:inline">Question </span>
               <span className="sm:hidden">Q</span>
               {currentQuestion}/{totalQuestions}
             </span>
-            <span className="text-gray-500">{Math.round(progress)}%</span>
+            <span className="text-muted-foreground">{Math.round(progress)}%</span>
           </div>
           <Progress value={progress} className="h-1.5 sm:h-2" />
         </div>
@@ -40,8 +40,8 @@ export function QuizProgress({
           <div
             className={`flex shrink-0 items-center gap-1.5 rounded-lg px-2.5 py-1.5 transition-colors sm:gap-2 sm:px-4 sm:py-2 ${
               isLowTime
-                ? "animate-pulse bg-red-100 text-red-600"
-                : "bg-kkpsi-gold/10 text-kkpsi-navy"
+                ? "animate-pulse bg-red-100 dark:bg-red-950/50 text-red-600"
+                : "bg-kkpsi-gold/10 text-kkpsi-navy dark:text-kkpsi-navy-light"
             }`}
           >
             {isLowTime ? (

@@ -26,7 +26,7 @@ export function Flashcard({ question, answer, description }: FlashcardProps) {
       >
         {/* Front */}
         <Card
-          className={`absolute inset-0 flex items-center justify-center overflow-hidden rounded-2xl border-0 bg-white p-4 shadow-2xl shadow-kkpsi-navy/10 backface-hidden sm:p-6 md:p-8 ${
+          className={`absolute inset-0 flex items-center justify-center overflow-hidden rounded-2xl border-0 bg-card p-4 shadow-2xl shadow-kkpsi-navy/10 backface-hidden sm:p-6 md:p-8 ${
             isFlipped ? "invisible" : "visible"
           }`}
         >
@@ -42,8 +42,8 @@ export function Flashcard({ question, answer, description }: FlashcardProps) {
               <span className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold animate-pulse"></span>
               Question
             </div>
-            <p className="text-lg font-medium leading-relaxed text-gray-900 sm:text-2xl md:text-3xl">{question}</p>
-            <div className="mt-6 flex items-center justify-center gap-2 text-sm text-gray-400 transition-colors group-hover:text-kkpsi-navy sm:mt-8 md:mt-10">
+            <p className="text-lg font-medium leading-relaxed text-foreground sm:text-2xl md:text-3xl">{question}</p>
+            <div className="mt-6 flex items-center justify-center gap-2 text-sm text-muted-foreground transition-colors group-hover:text-kkpsi-navy dark:group-hover:text-kkpsi-navy-light sm:mt-8 md:mt-10">
               <RotateCcw className="h-4 w-4" />
               <span>Click to reveal answer</span>
             </div>

@@ -32,15 +32,15 @@ export function EmptyState({
   return (
     <div className={`py-12 text-center ${className}`}>
       {Icon && (
-        <Icon className="mx-auto mb-4 h-12 w-12 text-gray-400" strokeWidth={1.5} />
+        <Icon className="mx-auto mb-4 h-12 w-12 text-muted-foreground" strokeWidth={1.5} />
       )}
 
       {title && (
-        <h3 className="mb-2 text-lg font-semibold text-gray-900">{title}</h3>
+        <h3 className="mb-2 text-lg font-semibold text-foreground">{title}</h3>
       )}
 
       {description && (
-        <p className="mb-4 text-gray-600">{description}</p>
+        <p className="mb-4 text-muted-foreground">{description}</p>
       )}
 
       {action && (

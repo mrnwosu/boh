@@ -17,7 +17,7 @@ export default async function HistoryPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       <PageHero
@@ -31,7 +31,7 @@ export default async function HistoryPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
             <div className="mb-8 text-center">
-              <h2 className="font-serif text-3xl font-bold text-kkpsi-navy">Major Milestones</h2>
+              <h2 className="font-serif text-3xl font-bold text-kkpsi-navy dark:text-foreground">Major Milestones</h2>
             </div>
 
             <AnimatedSection className="relative space-y-6">
@@ -41,16 +41,16 @@ export default async function HistoryPage() {
               {timeline.map((event, index) => (
                 <div key={index} className={`animate-on-scroll stagger-${index + 1} relative flex gap-6`}>
                   {/* Year marker */}
-                  <div className="z-10 flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full border-4 border-kkpsi-gold bg-white shadow-sm">
-                    <span className="font-bold text-kkpsi-navy">{event.year}</span>
+                  <div className="z-10 flex h-20 w-20 flex-shrink-0 items-center justify-center rounded-full border-4 border-kkpsi-gold bg-card shadow-sm">
+                    <span className="font-bold text-kkpsi-navy dark:text-kkpsi-navy-light">{event.year}</span>
                   </div>
 
                   {/* Event content */}
-                  <div className="flex-1 rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-gray-300">
-                    <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                  <div className="flex-1 rounded-xl bg-card p-6 shadow-sm ring-1 ring-border transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-ring/50">
+                    <h3 className="mb-2 text-xl font-semibold text-card-foreground">
                       {event.title}
                     </h3>
-                    <p className="text-sm leading-relaxed text-gray-500">{event.description}</p>
+                    <p className="text-sm leading-relaxed text-muted-foreground">{event.description}</p>
                   </div>
                 </div>
               ))}
@@ -60,13 +60,13 @@ export default async function HistoryPage() {
       </section>
 
       {/* Historical Note */}
-      <section className="bg-gray-50 py-12">
+      <section className="bg-muted/50 py-12">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 font-serif text-3xl font-bold text-kkpsi-navy">
+            <h2 className="mb-4 font-serif text-3xl font-bold text-kkpsi-navy dark:text-foreground">
               A Rich Heritage
             </h2>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-muted-foreground">
               Since its founding in 1919, Kappa Kappa Psi has been dedicated to serving
               college bands and fostering brotherhood among band members. Through decades
               of growth and change, our core mission remains: to unite college and

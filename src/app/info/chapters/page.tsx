@@ -41,7 +41,7 @@ export default function ChaptersPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       <PageHero
@@ -51,12 +51,12 @@ export default function ChaptersPage() {
       />
 
       {/* Filters */}
-      <section className="border-b bg-white py-6">
+      <section className="border-b border-border bg-card py-6">
         <div className="container mx-auto px-4">
           <div className="space-y-4">
             <div className="flex flex-col gap-4 md:flex-row">
               <div className="relative flex-1">
-                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
+                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                 <Input
                   placeholder="Search by chapter name or school..."
                   value={search}
@@ -125,7 +125,7 @@ export default function ChaptersPage() {
           {isLoading ? (
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
               {[...Array(9)].map((_, i) => (
-                <div key={i} className="rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50">
+                <div key={i} className="rounded-xl bg-card p-6 shadow-sm ring-1 ring-border">
                   <Skeleton className="mb-3 h-6 w-32" />
                   <Skeleton className="mb-4 h-4 w-full" />
                   <Skeleton className="h-4 w-24" />
@@ -134,14 +134,14 @@ export default function ChaptersPage() {
             </div>
           ) : chapters && chapters.length > 0 ? (
             <>
-              <div className="mb-4 text-sm text-gray-500">
+              <div className="mb-4 text-sm text-muted-foreground">
                 Showing {chapters.length} chapter{chapters.length !== 1 ? "s" : ""}
               </div>
               <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {chapters.map((chapter) => (
                   <div
                     key={`${chapter.Number}-${chapter.Chapter}`}
-                    className={`relative rounded-xl bg-white p-6 shadow-sm ring-1 ring-gray-200/50 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-gray-300 ${
+                    className={`relative rounded-xl bg-card p-6 shadow-sm ring-1 ring-border transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-ring/50 ${
                       chapter.Active !== "Active" ? "opacity-60" : ""
                     }`}
                   >
@@ -154,10 +154,10 @@ export default function ChaptersPage() {
 
                     <div className="mb-4 flex items-start justify-between">
                       <div>
-                        <h3 className="font-semibold text-gray-900">
+                        <h3 className="font-semibold text-card-foreground">
                           {chapter.Chapter}
                         </h3>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="mt-1 text-sm text-muted-foreground">
                           {chapter.School}
                         </p>
                       </div>
@@ -174,26 +174,26 @@ export default function ChaptersPage() {
                     </div>
                     <div className="space-y-2 text-sm">
                       <div className="flex justify-between">
-                        <span className="text-gray-400">Chapter:</span>
-                        <span className="font-medium text-gray-600">{chapter.Number}</span>
+                        <span className="text-muted-foreground">Chapter:</span>
+                        <span className="font-medium text-foreground">{chapter.Number}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-400">District:</span>
-                        <span className="font-medium text-gray-600">{chapter.District}</span>
+                        <span className="text-muted-foreground">District:</span>
+                        <span className="font-medium text-foreground">{chapter.District}</span>
                       </div>
                       <div className="flex justify-between">
-                        <span className="text-gray-400">Founded:</span>
-                        <span className="font-medium text-gray-600">{chapter["Founding Date"]}</span>
+                        <span className="text-muted-foreground">Founded:</span>
+                        <span className="font-medium text-foreground">{chapter["Founding Date"]}</span>
                       </div>
                       {chapter.Location && (
                         <div className="flex justify-between">
-                          <span className="text-gray-400">Location:</span>
-                          <span className="font-medium text-gray-600">{chapter.Location}</span>
+                          <span className="text-muted-foreground">Location:</span>
+                          <span className="font-medium text-foreground">{chapter.Location}</span>
                         </div>
                       )}
                       {chapter["NCAA Conference"] && (
-                        <div className="mt-3 border-t border-gray-100 pt-3">
-                          <span className="text-xs text-gray-400">
+                        <div className="mt-3 border-t border-border pt-3">
+                          <span className="text-xs text-muted-foreground">
                             {chapter["NCAA Conference"]}
                           </span>
                         </div>

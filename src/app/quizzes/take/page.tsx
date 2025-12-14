@@ -135,7 +135,7 @@ function TakeQuizContent() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
         <Navbar />
         <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-8">
           <div className="container mx-auto px-4">
@@ -157,7 +157,7 @@ function TakeQuizContent() {
 
   if (!quizData || questions.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
         <Navbar />
         <section className="py-16">
           <div className="container mx-auto px-4">
@@ -181,7 +181,7 @@ function TakeQuizContent() {
   const results = calculateResults();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
       <Navbar />
 
       {/* Header */}
@@ -251,7 +251,7 @@ function TakeQuizContent() {
               )}
 
               {/* Navigation */}
-              <div className="flex items-center justify-between rounded-xl bg-white p-4 shadow-sm ring-1 ring-gray-200/50">
+              <div className="flex items-center justify-between rounded-xl bg-card p-4 shadow-sm ring-1 ring-border">
                 <Button
                   variant="outline"
                   onClick={() => {
@@ -267,7 +267,7 @@ function TakeQuizContent() {
                   Previous
                 </Button>
 
-                <div className="hidden text-sm text-gray-500 sm:block">
+                <div className="hidden text-sm text-muted-foreground sm:block">
                   {Object.keys(answers).length} of {questions.length} answered
                 </div>
 
@@ -291,7 +291,7 @@ function TakeQuizContent() {
 export default function TakeQuizPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <div className="min-h-screen bg-gradient-to-b from-background to-muted/50">
         <Navbar />
         <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-8">
           <div className="container mx-auto px-4">

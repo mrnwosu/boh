@@ -18,16 +18,16 @@ export default async function SignInPage({
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-gradient-to-b from-white to-gray-50">
+    <div className="flex min-h-screen flex-col bg-gradient-to-b from-background to-muted/50">
       {/* Header */}
-      <header className="border-b border-gray-100 bg-white/80 backdrop-blur-sm">
+      <header className="border-b border-border bg-card/80 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="group flex items-center space-x-2">
-            <span className="font-serif text-2xl font-bold text-kkpsi-navy transition-all group-hover:text-kkpsi-gold">
+            <span className="font-serif text-2xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light transition-all group-hover:text-kkpsi-gold">
               KKΨ
             </span>
-            <div className="hidden h-4 w-px bg-gray-300 sm:block"></div>
-            <span className="hidden text-sm font-medium text-gray-600 transition-colors group-hover:text-kkpsi-navy sm:block">
+            <div className="hidden h-4 w-px bg-border sm:block"></div>
+            <span className="hidden text-sm font-medium text-muted-foreground transition-colors group-hover:text-foreground sm:block">
               Learning App
             </span>
           </Link>
@@ -42,7 +42,7 @@ export default async function SignInPage({
           <div className="absolute -bottom-20 -right-20 h-40 w-40 rounded-full bg-kkpsi-navy/10 blur-3xl"></div>
 
           {/* Card */}
-          <div className="relative rounded-2xl bg-white p-8 shadow-xl ring-1 ring-gray-200/50">
+          <div className="relative rounded-2xl bg-card p-8 shadow-xl ring-1 ring-border">
             {/* Decorative music notes */}
             <div className="absolute -right-3 -top-3 opacity-20">
               <Music className="h-8 w-8 text-kkpsi-gold" />
@@ -53,10 +53,10 @@ export default async function SignInPage({
               <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-kkpsi-navy to-kkpsi-navy-light">
                 <span className="font-serif text-2xl font-bold text-white">ΚΚΨ</span>
               </div>
-              <h1 className="mb-2 font-serif text-2xl font-bold text-gray-900">
+              <h1 className="mb-2 font-serif text-2xl font-bold text-card-foreground">
                 Welcome Back
               </h1>
-              <p className="text-gray-600">
+              <p className="text-muted-foreground">
                 Sign in to track your learning progress
               </p>
             </div>
@@ -85,20 +85,20 @@ export default async function SignInPage({
 
             {/* Divider */}
             <div className="my-6 flex items-center gap-4">
-              <div className="h-px flex-1 bg-gray-200"></div>
-              <span className="text-sm text-gray-400">or</span>
-              <div className="h-px flex-1 bg-gray-200"></div>
+              <div className="h-px flex-1 bg-border"></div>
+              <span className="text-sm text-muted-foreground">or</span>
+              <div className="h-px flex-1 bg-border"></div>
             </div>
 
             {/* Guest access */}
             <div className="text-center">
-              <p className="mb-4 text-sm text-gray-600">
+              <p className="mb-4 text-sm text-muted-foreground">
                 Continue without signing in
               </p>
               <Button
                 asChild
                 variant="outline"
-                className="w-full border-gray-200 py-6 text-gray-700 transition-all hover:bg-gray-50"
+                className="w-full py-6 transition-all"
               >
                 <Link href="/flashcards">
                   <Sparkles className="mr-2 h-4 w-4" />
@@ -108,7 +108,7 @@ export default async function SignInPage({
             </div>
 
             {/* Footer note */}
-            <p className="mt-6 text-center text-xs text-gray-500">
+            <p className="mt-6 text-center text-xs text-muted-foreground">
               Sign in to save your progress, track streaks, and compete on leaderboards
             </p>
           </div>
@@ -116,9 +116,9 @@ export default async function SignInPage({
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-100 bg-white py-6">
+      <footer className="border-t border-border bg-card py-6">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-muted-foreground">
             Kappa Kappa Psi Learning App
           </p>
         </div>
