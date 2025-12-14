@@ -3,25 +3,24 @@
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { ChevronLeft, Filter } from "lucide-react";
-import { useState } from "react";
+import { ChevronLeft } from "lucide-react";
 import { Button } from "~/components/ui/button";
-import { Badge } from "~/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
 import { FlashcardDeck } from "~/components/flashcards/flashcard-deck";
+import { FlashcardSkeleton, TagFilterSkeleton } from "~/components/flashcards/flashcard-skeleton";
+import { TagSelector, EmptyState } from "~/components/shared";
+import { useTagSelection } from "~/hooks";
 import { api } from "~/trpc/react";
 import { Skeleton } from "~/components/ui/skeleton";
 import { toast } from "sonner";
 import { TOPICS } from "~/lib/content/topics";
-
-type Topic = "chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib";
+import type { TopicSlug } from "~/lib/schemas/topic";
 
 export default function FlashcardTopicPage() {
   const params = useParams();
-  const topic = params.topic as Topic;
+  const topic = params.topic as TopicSlug;
   const { data: session } = useSession();
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const { selectedTags, toggleTag, clearTags } = useTagSelection();
 
   // Find topic metadata
   const topicInfo = TOPICS.find((t) => t.slug === topic);
@@ -55,12 +54,6 @@ export default function FlashcardTopicPage() {
     new Set(flashcards?.flatMap((card) => card.tags) ?? [])
   ).sort();
 
-  const toggleTag = (tag: string) => {
-    setSelectedTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
-    );
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
@@ -83,7 +76,11 @@ export default function FlashcardTopicPage() {
               {topicInfo?.title ?? topic}
             </h1>
             <p className="text-xl text-gray-200">
-              {flashcards?.length ?? 0} flashcard{flashcards?.length !== 1 ? "s" : ""} available
+              {isLoading ? (
+                <Skeleton className="inline-block h-6 w-40 bg-white/20" />
+              ) : (
+                <>{flashcards?.length ?? 0} flashcard{flashcards?.length !== 1 ? "s" : ""} available</>
+              )}
             </p>
           </div>
         </div>
@@ -94,51 +91,22 @@ export default function FlashcardTopicPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl space-y-6">
             {/* Tag Filters */}
-            {allTags.length > 0 && (
-              <Card>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2 text-lg">
-                    <Filter className="h-5 w-5" />
-                    Filter by Tags
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {allTags.map((tag) => (
-                      <Badge
-                        key={tag}
-                        variant={selectedTags.includes(tag) ? "default" : "outline"}
-                        className={`cursor-pointer transition-colors ${
-                          selectedTags.includes(tag)
-                            ? "bg-kkpsi-navy hover:bg-kkpsi-navy-light"
-                            : "hover:bg-gray-100"
-                        }`}
-                        onClick={() => toggleTag(tag)}
-                      >
-                        {tag}
-                      </Badge>
-                    ))}
-                    {selectedTags.length > 0 && (
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={() => setSelectedTags([])}
-                        className="h-7 text-xs"
-                      >
-                        Clear All
-                      </Button>
-                    )}
-                  </div>
-                </CardContent>
-              </Card>
-            )}
+            {isLoading ? (
+              <TagFilterSkeleton />
+            ) : allTags.length > 0 ? (
+              <TagSelector
+                availableTags={allTags}
+                selectedTags={selectedTags}
+                onTagToggle={toggleTag}
+                onClearAll={clearTags}
+                variant="dropdown"
+                showSelectedBadges
+              />
+            ) : null}
 
             {/* Flashcard Deck */}
             {isLoading ? (
-              <div className="space-y-4">
-                <Skeleton className="h-[400px] w-full" />
-                <Skeleton className="h-12 w-full" />
-              </div>
+              <FlashcardSkeleton />
             ) : flashcards && flashcards.length > 0 ? (
               <FlashcardDeck
                 questions={flashcards}
@@ -147,20 +115,15 @@ export default function FlashcardTopicPage() {
                 isAuthenticated={!!session}
               />
             ) : (
-              <div className="py-12 text-center">
-                <p className="text-lg text-gray-600">
-                  No flashcards found{selectedTags.length > 0 ? " with the selected tags" : ""}.
-                </p>
-                {selectedTags.length > 0 && (
-                  <Button
-                    variant="outline"
-                    className="mt-4"
-                    onClick={() => setSelectedTags([])}
-                  >
-                    Clear Filters
-                  </Button>
-                )}
-              </div>
+              <EmptyState
+                title="No flashcards found"
+                description={selectedTags.length > 0 ? "No flashcards match the selected tags" : undefined}
+                action={
+                  selectedTags.length > 0
+                    ? { label: "Clear Filters", onClick: clearTags }
+                    : undefined
+                }
+              />
             )}
           </div>
         </div>

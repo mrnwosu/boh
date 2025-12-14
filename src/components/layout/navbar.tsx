@@ -10,42 +10,43 @@ export function Navbar() {
   const { data: session } = useSession();
 
   return (
-    <nav className="border-b border-border bg-kkpsi-navy">
+    <nav className="sticky top-0 z-50 border-b border-white/10 bg-kkpsi-navy/95 backdrop-blur-md">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="font-serif text-2xl font-bold text-white">
+        <Link href="/" className="group flex items-center space-x-2">
+          <span className="font-serif text-2xl font-bold text-white transition-all group-hover:text-kkpsi-gold">
             ΚΚΨ
           </span>
-          <span className="hidden text-sm font-semibold text-white sm:block">
+          <div className="hidden h-4 w-px bg-white/30 sm:block"></div>
+          <span className="hidden text-sm font-medium text-white/80 transition-colors group-hover:text-white sm:block">
             Learning App
           </span>
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden items-center space-x-6 md:flex">
+        <div className="hidden items-center space-x-1 md:flex">
           <Link
             href="/flashcards"
-            className="text-sm font-medium text-white transition-colors hover:text-kkpsi-gold"
+            className="link-underline rounded-lg px-4 py-2 text-sm font-medium text-white/90 transition-all hover:bg-white/10 hover:text-white"
           >
             Flashcards
           </Link>
           <Link
             href="/quizzes"
-            className="text-sm font-medium text-white transition-colors hover:text-kkpsi-gold"
+            className="link-underline rounded-lg px-4 py-2 text-sm font-medium text-white/90 transition-all hover:bg-white/10 hover:text-white"
           >
             Quizzes
           </Link>
           <Link
             href="/info"
-            className="text-sm font-medium text-white transition-colors hover:text-kkpsi-gold"
+            className="link-underline rounded-lg px-4 py-2 text-sm font-medium text-white/90 transition-all hover:bg-white/10 hover:text-white"
           >
             Info
           </Link>
           {session && (
             <Link
               href="/dashboard"
-              className="text-sm font-medium text-white transition-colors hover:text-kkpsi-gold"
+              className="link-underline rounded-lg px-4 py-2 text-sm font-medium text-white/90 transition-all hover:bg-white/10 hover:text-white"
             >
               Dashboard
             </Link>
@@ -60,7 +61,7 @@ export function Navbar() {
             <Button
               asChild
               variant="outline"
-              className="border-white bg-transparent text-white hover:bg-white hover:text-kkpsi-navy"
+              className="border-white/50 bg-white/5 text-white backdrop-blur-sm transition-all hover:scale-105 hover:border-white hover:bg-white hover:text-kkpsi-navy"
             >
               <Link href="/api/auth/signin">Sign In</Link>
             </Button>

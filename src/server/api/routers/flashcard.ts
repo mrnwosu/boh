@@ -5,22 +5,14 @@
 
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure, protectedProcedure } from "~/server/api/trpc";
-import { loadTriviaByTopic, TOPICS, getTagsForTopic } from "~/lib/content/trivia-loader";
+import { loadTriviaByTopic, TOPICS } from "~/lib/content/trivia-loader";
 import {
   calculateNextReview,
   determineStatus,
   mapResponseToQuality,
 } from "~/lib/spaced-repetition";
-
-const topicEnum = z.enum([
-  "chapters",
-  "founding_fathers",
-  "awards_and_jewelry",
-  "bohumil_makovsky",
-  "districts",
-  "hbcu_chapters",
-  "nib",
-]);
+import { topicSlugSchema } from "~/lib/schemas/topic";
+import { updateDailyStreak } from "~/lib/streak-manager";
 
 export const flashcardRouter = createTRPCRouter({
   // Get all available topics
@@ -32,7 +24,7 @@ export const flashcardRouter = createTRPCRouter({
   getCards: publicProcedure
     .input(
       z.object({
-        topic: topicEnum,
+        topic: topicSlugSchema,
         tags: z.array(z.string()).optional(),
         limit: z.number().optional(),
       }),
@@ -58,12 +50,13 @@ export const flashcardRouter = createTRPCRouter({
         question: q.questionVersions[0]!, // Use first version for flashcards
         answer: q.correctAnswer,
         tags: q.tags,
+        description: q.description,
       }));
     }),
 
   // Get user's progress for a topic (protected)
   getProgress: protectedProcedure
-    .input(z.object({ topic: topicEnum }))
+    .input(z.object({ topic: topicSlugSchema }))
     .query(async ({ ctx, input }) => {
       const progress = await ctx.db.flashcardProgress.findMany({
         where: {
@@ -79,7 +72,7 @@ export const flashcardRouter = createTRPCRouter({
   getDueCards: protectedProcedure
     .input(
       z.object({
-        topic: topicEnum,
+        topic: topicSlugSchema,
         limit: z.number().optional().default(20),
       }),
     )
@@ -116,6 +109,8 @@ export const flashcardRouter = createTRPCRouter({
           answer: question?.correctAnswer ?? "",
           status: p.status,
           nextReview: p.nextReview,
+          tags: question?.tags ?? [],
+          description: question?.description,
         };
       });
 
@@ -126,7 +121,7 @@ export const flashcardRouter = createTRPCRouter({
   recordResponse: protectedProcedure
     .input(
       z.object({
-        topic: topicEnum,
+        topic: topicSlugSchema,
         questionId: z.string(),
         response: z.enum(["again", "hard", "good", "easy"]),
       }),
@@ -203,7 +198,7 @@ export const flashcardRouter = createTRPCRouter({
       });
 
       // Update daily streak for flashcard activity
-      await updateDailyStreakForCards(ctx.db, ctx.session.user.id);
+      await updateDailyStreak(ctx.db, ctx.session.user.id, "card");
 
       return progress;
     }),
@@ -256,7 +251,7 @@ export const flashcardRouter = createTRPCRouter({
 
   // Reset progress for a topic (protected)
   resetProgress: protectedProcedure
-    .input(z.object({ topic: topicEnum }))
+    .input(z.object({ topic: topicSlugSchema }))
     .mutation(async ({ ctx, input }) => {
       await ctx.db.flashcardProgress.deleteMany({
         where: {
@@ -268,72 +263,3 @@ export const flashcardRouter = createTRPCRouter({
       return { success: true };
     }),
 });
-
-// Helper function to update daily streak for flashcard activity
-async function updateDailyStreakForCards(db: any, userId: string) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-
-  const streak = await db.dailyStreak.findUnique({
-    where: { userId },
-  });
-
-  if (!streak) {
-    await db.dailyStreak.create({
-      data: {
-        userId,
-        currentStreak: 1,
-        longestStreak: 1,
-        lastActivityDate: today,
-        totalDaysActive: 1,
-        totalCards: 1,
-      },
-    });
-    return;
-  }
-
-  const lastActivity = streak.lastActivityDate
-    ? new Date(streak.lastActivityDate)
-    : null;
-
-  if (lastActivity) {
-    lastActivity.setHours(0, 0, 0, 0);
-    const daysDiff = Math.floor(
-      (today.getTime() - lastActivity.getTime()) / (1000 * 60 * 60 * 24),
-    );
-
-    if (daysDiff === 0) {
-      // Same day
-      await db.dailyStreak.update({
-        where: { userId },
-        data: {
-          totalCards: { increment: 1 },
-        },
-      });
-    } else if (daysDiff === 1) {
-      // Consecutive day
-      const newStreak = streak.currentStreak + 1;
-      await db.dailyStreak.update({
-        where: { userId },
-        data: {
-          currentStreak: newStreak,
-          longestStreak: Math.max(newStreak, streak.longestStreak),
-          lastActivityDate: today,
-          totalDaysActive: { increment: 1 },
-          totalCards: { increment: 1 },
-        },
-      });
-    } else {
-      // Streak broken
-      await db.dailyStreak.update({
-        where: { userId },
-        data: {
-          currentStreak: 1,
-          lastActivityDate: today,
-          totalDaysActive: { increment: 1 },
-          totalCards: { increment: 1 },
-        },
-      });
-    }
-  }
-}

@@ -1,6 +1,7 @@
 import { GraduationCap } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
+import { PageHero } from "~/components/shared";
 import { api } from "~/trpc/server";
 
 export default async function PresidentsPage() {
@@ -10,20 +11,11 @@ export default async function PresidentsPage() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-16">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center">
-            <GraduationCap className="mx-auto mb-4 h-16 w-16 text-kkpsi-gold" />
-            <h1 className="mb-4 font-serif text-5xl font-bold text-white">
-              Past National Presidents
-            </h1>
-            <p className="text-xl text-gray-200">
-              Leaders who have guided Kappa Kappa Psi throughout its history
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        icon={GraduationCap}
+        title="Past National Presidents"
+        description="Leaders who have guided Kappa Kappa Psi throughout its history"
+      />
 
       {/* Presidents Timeline */}
       <section className="py-16">

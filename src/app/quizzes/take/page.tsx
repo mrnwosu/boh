@@ -3,13 +3,15 @@
 import { useState, useEffect, useCallback, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useSession } from "next-auth/react";
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft, HelpCircle } from "lucide-react";
 import Link from "next/link";
 import { Button } from "~/components/ui/button";
 import { Navbar } from "~/components/layout/navbar";
+import { EmptyState } from "~/components/shared";
 import { QuizQuestionComponent } from "~/components/quizzes/quiz-question";
 import { QuizProgress } from "~/components/quizzes/quiz-progress";
 import { QuizResults } from "~/components/quizzes/quiz-results";
+import { decodeQuizConfig } from "~/lib/utils/quiz-params";
 import { api } from "~/trpc/react";
 import { Skeleton } from "~/components/ui/skeleton";
 import { toast } from "sonner";
@@ -18,23 +20,20 @@ function TakeQuizContent() {
   const searchParams = useSearchParams();
   const { data: session } = useSession();
 
-  // Parse URL params
-  const topic = searchParams.get("topic") ?? "chapters";
-  const questionCount = parseInt(searchParams.get("count") ?? "10");
-  const isTimed = searchParams.get("timed") === "true";
-  const timePerQuestion = parseInt(searchParams.get("time") ?? "10");
-  const tags = searchParams.get("tags")?.split(",").filter(Boolean);
+  // Parse URL params using shared utility
+  const config = decodeQuizConfig(searchParams);
+  const { topic, questionCount, isTimed, timePerQuestion, tags } = config;
 
   // State
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
-  const [timeRemaining, setTimeRemaining] = useState(isTimed ? timePerQuestion : undefined);
+  const [timeRemaining, setTimeRemaining] = useState<number | undefined>(isTimed ? timePerQuestion : undefined);
   const [showResults, setShowResults] = useState(false);
   const [quizStartTime] = useState(Date.now());
 
   // Generate quiz
   const { data: quizData, isLoading } = api.quiz.generateQuiz.useQuery({
-    topic: topic as "chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib" | "mixed",
+    topic,
     questionCount,
     tags,
     isTimed,
@@ -104,7 +103,7 @@ function TakeQuizContent() {
     if (session) {
       // Submit to backend for authenticated users
       submitQuiz.mutate({
-        topic: topic as "chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib" | "mixed",
+        topic,
         tags,
         totalQuestions: questions.length,
         isTimed,
@@ -157,16 +156,16 @@ function TakeQuizContent() {
         <Navbar />
         <section className="py-16">
           <div className="container mx-auto px-4">
-            <div className="mx-auto max-w-2xl text-center">
-              <h1 className="mb-4 text-3xl font-bold text-gray-900">
-                No Questions Available
-              </h1>
-              <p className="mb-8 text-gray-600">
-                We couldn't generate a quiz with your selected criteria.
-              </p>
-              <Button asChild>
-                <Link href="/quizzes">Back to Quiz Setup</Link>
-              </Button>
+            <div className="mx-auto max-w-2xl">
+              <EmptyState
+                icon={HelpCircle}
+                title="No Questions Available"
+                description="We couldn't generate a quiz with your selected criteria."
+                action={{
+                  label: "Back to Quiz Setup",
+                  onClick: () => window.location.href = "/quizzes",
+                }}
+              />
             </div>
           </div>
         </section>

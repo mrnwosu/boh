@@ -7,11 +7,11 @@ import { type TopicInfo } from "~/types";
 
 export const TOPICS: TopicInfo[] = [
   {
-    slug: "chapters",
-    title: "Chapters",
-    description: "Learn about KKPsi's 343 chapters across the United States",
-    fileName: "chapters_trivia.json",
-    totalQuestions: 50,
+    slug: "bohumil_makovsky",
+    title: "Bohumil Makovsky",
+    description: "Learn about the Guiding Spirit",
+    fileName: "bohumil_makovsky_trivia.json",
+    totalQuestions: 25,
   },
   {
     slug: "founding_fathers",
@@ -21,18 +21,18 @@ export const TOPICS: TopicInfo[] = [
     totalQuestions: 75,
   },
   {
+    slug: "chapters",
+    title: "Chapters",
+    description: "Learn about KKPsi's 343 chapters across the United States",
+    fileName: "chapters_trivia.json",
+    totalQuestions: 50,
+  },
+  {
     slug: "awards_and_jewelry",
     title: "Awards & Jewelry",
     description: "Discover KKPsi awards and official jewelry",
     fileName: "awards_and_jewelry_trivia.json",
     totalQuestions: 50,
-  },
-  {
-    slug: "bohumil_makovsky",
-    title: "Bohumil Makovsky",
-    description: "Learn about this notable KKPsi member",
-    fileName: "bohumil_makovsky_trivia.json",
-    totalQuestions: 25,
   },
   {
     slug: "districts",

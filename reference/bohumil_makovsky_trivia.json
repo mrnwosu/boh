@@ -21,7 +21,8 @@
         "1890",
         "1868"
       ],
-      "tags": ["biography", "personal-facts", "birth"]
+      "tags": ["biography", "personal-facts", "birth"],
+      "description": "Bohumil Makovsky was born on September 23, 1878, in Frantisky, Bohemia. Tragically, his father died before he was born."
     },
     {
       "id": 2,
@@ -41,7 +42,8 @@
         "Berlin, Germany",
         "Munich, Bavaria"
       ],
-      "tags": ["biography", "birthplace", "bohemia"]
+      "tags": ["biography", "birthplace", "bohemia"],
+      "description": "Frantisky is a town in Bohemia, which is now part of the Czech Republic."
     },
     {
       "id": 3,
@@ -61,7 +63,8 @@
         "1940",
         "1960"
       ],
-      "tags": ["biography", "death", "personal-facts"]
+      "tags": ["biography", "death", "personal-facts"],
+      "description": "Bohumil Makovsky passed away on June 12, 1950, at the age of 71, leaving behind a profound legacy in music education."
     },
     {
       "id": 4,
@@ -81,7 +84,8 @@
         "9",
         "11"
       ],
-      "tags": ["biography", "family", "early-life"]
+      "tags": ["biography", "family", "early-life"],
+      "description": "In 1890, Anna Hladik Makovsky passed away, leaving 12-year-old Bohumil largely on his own. He continued living on the family estate inherited by his older brother."
     },
     {
       "id": 5,
@@ -101,7 +105,8 @@
         "21",
         "18"
       ],
-      "tags": ["biography", "immigration", "early-life"]
+      "tags": ["biography", "immigration", "early-life"],
+      "description": "At just 17 years old in 1895, Bohumil made the journey to America with help from his older sister Anna Brdicka, who had settled in Nebraska."
     },
     {
       "id": 6,
@@ -121,7 +126,8 @@
         "1905",
         "1888"
       ],
-      "tags": ["biography", "immigration", "early-life"]
+      "tags": ["biography", "immigration", "early-life"],
+      "description": "Bohumil immigrated in 1895, making a four-day voyage in steerage class with minimal food and money."
     },
     {
       "id": 7,
@@ -141,7 +147,8 @@
         "Kearney, Nebraska",
         "Lexington, Nebraska"
       ],
-      "tags": ["biography", "immigration", "settlement"]
+      "tags": ["biography", "immigration", "settlement"],
+      "description": "Clarkson, Nebraska was where his sister Anna Brdicka had settled, providing young Bohumil with a foothold in his new country."
     },
     {
       "id": 8,
@@ -161,7 +168,8 @@
         "Anton Makovsky",
         "Karel Makovsky"
       ],
-      "tags": ["biography", "music-education", "family"]
+      "tags": ["biography", "music-education", "family"],
+      "description": "Uncle Tomas Makovsky was a former royal music instructor who taught young Bohumil clarinet and violin, laying the foundation for his musical career."
     },
     {
       "id": 9,
@@ -181,7 +189,8 @@
         "Sophie Shestack",
         "Margaret Shestack"
       ],
-      "tags": ["biography", "family", "marriage"]
+      "tags": ["biography", "family", "marriage"],
+      "description": "Georgia Shestack was also of Bohemian descent. Bohumil met her while visiting family in Nebraska, and she became an important source of encouragement throughout his life."
     },
     {
       "id": 10,
@@ -201,7 +210,8 @@
         "1908",
         "1914"
       ],
-      "tags": ["biography", "marriage", "personal-facts"]
+      "tags": ["biography", "marriage", "personal-facts"],
+      "description": "They were married on August 2, 1911, when Bohumil was 33 years old."
     },
     {
       "id": 11,
@@ -221,7 +231,8 @@
         "Cameron University",
         "Southwestern Oklahoma State University"
       ],
-      "tags": ["career", "education", "oklahoma-amc"]
+      "tags": ["career", "education", "oklahoma-amc"],
+      "description": "Oklahoma Agricultural and Mechanical College (OAMC) is now known as Oklahoma State University. This is where Kappa Kappa Psi was founded."
     },
     {
       "id": 12,
@@ -241,7 +252,8 @@
         "1915-1943",
         "1918-1945"
       ],
-      "tags": ["career", "oklahoma-amc", "timeline"]
+      "tags": ["career", "oklahoma-amc", "timeline"],
+      "description": "Bohumil served for 30 years as Director of Bands and Head of the Music Department, retiring as Head Emeritus in 1945."
     },
     {
       "id": 13,
@@ -261,7 +273,8 @@
         "Humi",
         "Bumil"
       ],
-      "tags": ["biography", "nickname", "personal"]
+      "tags": ["biography", "nickname", "personal"],
+      "description": "\"Boh\" was the affectionate nickname used by students, colleagues, and friends throughout his life."
     },
     {
       "id": 14,
@@ -281,7 +294,8 @@
         "1905",
         "1918"
       ],
-      "tags": ["career", "music", "concert-band"]
+      "tags": ["career", "music", "concert-band"],
+      "description": "In 1912, Bohumil formed his own professional concert band, resigning his position with the Oklahoma City Metropolitan Band to pursue this venture."
     },
     {
       "id": 15,
@@ -301,7 +315,8 @@
         "Patron Saint",
         "Spiritual Guide"
       ],
-      "tags": ["kappa-kappa-psi", "honors", "titles"]
+      "tags": ["kappa-kappa-psi", "honors", "titles"],
+      "description": "The \"Guiding Spirit\" title recognizes Bohumil's pivotal role in mentoring and inspiring the founding fathers of Kappa Kappa Psi, though he was not a founder himself."
     },
     {
       "id": 16,
@@ -321,7 +336,8 @@
         "1918",
         "1924"
       ],
-      "tags": ["biography", "citizenship", "personal-facts"]
+      "tags": ["biography", "citizenship", "personal-facts"],
+      "description": "Bohumil was naturalized in May 1921 in Stillwater, Oklahoma, after living in America for 26 years."
     },
     {
       "id": 17,
@@ -341,7 +357,8 @@
         "Lawton, Oklahoma",
         "Tahlequah, Oklahoma"
       ],
-      "tags": ["biography", "citizenship", "oklahoma"]
+      "tags": ["biography", "citizenship", "oklahoma"],
+      "description": "Stillwater was Bohumil's home as Director of Bands at Oklahoma A&M College (now Oklahoma State University)."
     },
     {
       "id": 18,
@@ -361,7 +378,8 @@
         "Sergeant",
         "Commander"
       ],
-      "tags": ["honors", "military", "1922"]
+      "tags": ["honors", "military", "1922"],
+      "description": "In 1922, Bohumil was commissioned as an Honorary Major in the Oklahoma A&M College ROTC program, recognizing his contributions to the institution."
     },
     {
       "id": 19,
@@ -381,7 +399,8 @@
         "1923",
         "1929"
       ],
-      "tags": ["kappa-kappa-psi", "leadership", "honors"]
+      "tags": ["kappa-kappa-psi", "leadership", "honors"],
+      "description": "Elected in December 1926, Bohumil served as Grand President during a critical period of development and the challenges of the Great Depression."
     },
     {
       "id": 20,
@@ -401,7 +420,8 @@
         "1937",
         "1942"
       ],
-      "tags": ["honors", "oklahoma-hall-of-fame", "recognition"]
+      "tags": ["honors", "oklahoma-hall-of-fame", "recognition"],
+      "description": "In 1939, Bohumil was elected to the Oklahoma Hall of Fame in recognition of his lifetime achievements in music education and band development in the state."
     },
     {
       "id": 21,
@@ -421,7 +441,8 @@
         "Southern Methodist University",
         "Baylor University"
       ],
-      "tags": ["honors", "education", "doctorate"]
+      "tags": ["honors", "education", "doctorate"],
+      "description": "The University of Tulsa awarded Bohumil this honorary degree in recognition of his significant contributions to music education throughout Oklahoma."
     },
     {
       "id": 22,
@@ -441,7 +462,8 @@
         "1937",
         "1943"
       ],
-      "tags": ["honors", "education", "1940"]
+      "tags": ["honors", "education", "1940"],
+      "description": "The same year his wife Georgia passed away, Bohumil received this prestigious honor recognizing his decades of work in music education."
     },
     {
       "id": 23,
@@ -461,7 +483,8 @@
         "World Musicians Directory",
         "International Music Registry"
       ],
-      "tags": ["recognition", "publications", "1918"]
+      "tags": ["recognition", "publications", "1918"],
+      "description": "Being listed in the International Who's Who marked Bohumil's rising prominence as an educator and musician on the world stage."
     },
     {
       "id": 24,
@@ -481,7 +504,8 @@
         "1924",
         "1926"
       ],
-      "tags": ["recognition", "oamc", "1922"]
+      "tags": ["recognition", "oamc", "1922"],
+      "description": "The Redskin yearbook dedication recognized Bohumil's significant contributions to Oklahoma A&M College in his seventh year at the institution."
     },
     {
       "id": 25,
@@ -501,7 +525,8 @@
         "Honorary Member",
         "First Secretary"
       ],
-      "tags": ["kappa-kappa-psi", "history", "founding"]
+      "tags": ["kappa-kappa-psi", "history", "founding"],
+      "description": "William A. Scroggs approached Boh in Fall 1919 with the idea, and Makovsky immediately saw the great possibilities and offered his undivided support."
     },
     {
       "id": 26,
@@ -521,7 +546,8 @@
         "1917",
         "1923"
       ],
-      "tags": ["kappa-kappa-psi", "founding", "history"]
+      "tags": ["kappa-kappa-psi", "founding", "history"],
+      "description": "Kappa Kappa Psi was founded at Oklahoma A&M College, where Bohumil served as Director of Bands and mentored the founding fathers."
     },
     {
       "id": 27,
@@ -541,7 +567,8 @@
         "November 27, 1918",
         "November 15, 1919"
       ],
-      "tags": ["kappa-kappa-psi", "founding", "dates"]
+      "tags": ["kappa-kappa-psi", "founding", "dates"],
+      "description": "This date marks when Kappa Kappa Psi received its official charter from the Oklahoma Corporation Commission, with Bohumil Makovsky as the guiding force."
     },
     {
       "id": 28,
@@ -561,7 +588,8 @@
         "Oklahoma City University",
         "Cameron University"
       ],
-      "tags": ["kappa-kappa-psi", "founding", "history"]
+      "tags": ["kappa-kappa-psi", "founding", "history"],
+      "description": "The Alpha Chapter was founded at OAMC, which is now known as Oklahoma State University in Stillwater, Oklahoma."
     },
     {
       "id": 29,
@@ -581,7 +609,8 @@
         "Creative",
         "Improvised"
       ],
-      "tags": ["music-education", "conducting", "style"]
+      "tags": ["music-education", "conducting", "style"],
+      "description": "Bohumil was known for his meticulous and precise rehearsal technique, demanding the highest standards from his ensembles."
     },
     {
       "id": 30,
@@ -601,7 +630,8 @@
         "Expression and articulation",
         "Balance and rhythm"
       ],
-      "tags": ["music-education", "conducting", "philosophy"]
+      "tags": ["music-education", "conducting", "philosophy"],
+      "description": "Bohumil's emphasis on tone and balance became hallmarks of his approach to music education, creating a distinctive sound quality in his bands."
     },
     {
       "id": 31,
@@ -621,7 +651,8 @@
         "Baroque sound",
         "Romantic sound"
       ],
-      "tags": ["music-education", "conducting", "philosophy"]
+      "tags": ["music-education", "conducting", "philosophy"],
+      "description": "Bohumil strove to achieve a symphonic quality in his bands, elevating the concert band to the level of orchestral performance."
     },
     {
       "id": 32,
@@ -641,7 +672,8 @@
         "Harmonic complexity",
         "Tonal brightness"
       ],
-      "tags": ["music-education", "conducting", "technique"]
+      "tags": ["music-education", "conducting", "technique"],
+      "description": "By emphasizing the second and third parts, Bohumil created a richer, darker harmonic foundation that gave his bands their distinctive symphonic character."
     },
     {
       "id": 33,
@@ -661,7 +693,8 @@
         "Solo performance skills",
         "Instrument proficiency"
       ],
-      "tags": ["music-education", "discipline", "leadership"]
+      "tags": ["music-education", "discipline", "leadership"],
+      "description": "Bohumil maintained strict discipline regarding attendance and punctuality, recognizing these as essential to building a cohesive and excellent ensemble."
     },
     {
       "id": 34,
@@ -681,7 +714,8 @@
         "Timid",
         "Reluctant"
       ],
-      "tags": ["biography", "leadership", "personality"]
+      "tags": ["biography", "leadership", "personality"],
+      "description": "Bohumil's dynamic personality and passionate leadership style inspired generations of students and influenced the founding of Kappa Kappa Psi."
     },
     {
       "id": 35,
@@ -701,7 +735,8 @@
         "Treasurer",
         "Distant observer"
       ],
-      "tags": ["kappa-kappa-psi", "history", "leadership"]
+      "tags": ["kappa-kappa-psi", "history", "leadership"],
+      "description": "While not a founder himself, Bohumil provided essential guidance and mentorship to William Scroggs and the other founding fathers, earning him the title \"Guiding Spirit.\""
     },
     {
       "id": 36,
@@ -721,7 +756,8 @@
         "Founding Father",
         "National Treasurer"
       ],
-      "tags": ["kappa-kappa-psi", "honors", "history"]
+      "tags": ["kappa-kappa-psi", "honors", "history"],
+      "description": "At the first National Convention on January 2, 1922, Bohumil became the first person to receive this honor. John Philip Sousa accepted honorary membership shortly after."
     },
     {
       "id": 37,
@@ -741,7 +777,8 @@
         "Guiding Spirit Trophy",
         "Makovsky Honor Award"
       ],
-      "tags": ["kappa-kappa-psi", "awards", "honors"]
+      "tags": ["kappa-kappa-psi", "awards", "honors"],
+      "description": "Established in 1979, this award ensures that Bohumil's legacy continues to recognize outstanding contributions within the fraternity."
     },
     {
       "id": 38,
@@ -761,7 +798,8 @@
         "Bohumil and Anna Makovsky",
         "Anton and Anna Makovsky"
       ],
-      "tags": ["biography", "family", "parents"]
+      "tags": ["biography", "family", "parents"],
+      "description": "Tragically, Bohumil's father Vaclav died before he was born, and his mother Anna passed away when he was only 12 years old."
     },
     {
       "id": 39,
@@ -781,7 +819,8 @@
         "Clerical work",
         "Manual labor only"
       ],
-      "tags": ["biography", "early-life", "immigration"]
+      "tags": ["biography", "early-life", "immigration"],
+      "description": "Upon arriving in America, Bohumil took various jobs to survive, including farm work while establishing himself as a professional musician."
     },
     {
       "id": 40,
@@ -801,7 +840,8 @@
         "Stillwater",
         "Lawton"
       ],
-      "tags": ["biography", "career", "relocation"]
+      "tags": ["biography", "career", "relocation"],
+      "description": "After working in Woodward, Bohumil returned to Oklahoma City in 1908, where he taught private lessons and performed with theater orchestras."
     },
     {
       "id": 41,
@@ -821,7 +861,8 @@
         "Stillwater, Perkins, Glencoe, and Cushing",
         "Oklahoma City, Yukon, Mustang, and Norman"
       ],
-      "tags": ["career", "oklahoma", "bands"]
+      "tags": ["career", "oklahoma", "bands"],
+      "description": "These were primarily Bohemian settlement towns where Bohumil organized bands before turning them over to local directors around 1907-1908."
     },
     {
       "id": 42,
@@ -841,7 +882,8 @@
         "1905",
         "1911"
       ],
-      "tags": ["career", "oklahoma", "state-fair"]
+      "tags": ["career", "oklahoma", "state-fair"],
+      "description": "Bohumil's association with the Oklahoma State Fair began in 1910, providing him with significant public exposure through regular concerts."
     },
     {
       "id": 43,
@@ -861,7 +903,8 @@
         "5 years",
         "7 years"
       ],
-      "tags": ["career", "oklahoma", "state-fair"]
+      "tags": ["career", "oklahoma", "state-fair"],
+      "description": "His 12-year tenure from 1910 to 1922 gave Bohumil extensive experience conducting for large public audiences at the annual fair."
     },
     {
       "id": 44,
@@ -881,7 +924,8 @@
         "Oklahoma Metropolitan Orchestra",
         "State Capital Band"
       ],
-      "tags": ["career", "oklahoma", "bands"]
+      "tags": ["career", "oklahoma", "bands"],
+      "description": "Bohumil conducted the Oklahoma City Metropolitan Band at the State Fair, performing approximately 10 concerts with rarely repeated programs."
     },
     {
       "id": 45,
@@ -901,7 +945,8 @@
         "1943",
         "1937"
       ],
-      "tags": ["biography", "family", "death"]
+      "tags": ["biography", "family", "death"],
+      "description": "Georgia Shestack Makovsky died on April 9, 1940, after years of being an important source of encouragement for Bohumil's work."
     },
     {
       "id": 46,
@@ -921,7 +966,8 @@
         "Emeritus Music Supervisor",
         "Music Professor Emeritus"
       ],
-      "tags": ["career", "retirement", "honors"]
+      "tags": ["career", "retirement", "honors"],
+      "description": "After 30 years of distinguished service (1915-1945) at Oklahoma A&M College, Bohumil retired with the emeritus title recognizing his lifelong contributions."
     },
     {
       "id": 47,
@@ -941,7 +987,8 @@
         "Music Educators Directory",
         "Band Directors' Who's Who"
       ],
-      "tags": ["recognition", "publications", "1931"]
+      "tags": ["recognition", "publications", "1931"],
+      "description": "Pierre Key's Musical Who's Who listing in 1931 further cemented Bohumil's status as a leading music educator in America."
     },
     {
       "id": 48,
@@ -961,7 +1008,8 @@
         "Directory of Oklahoma Leaders",
         "American Who's Who"
       ],
-      "tags": ["recognition", "publications", "oklahoma"]
+      "tags": ["recognition", "publications", "oklahoma"],
+      "description": "This publication recognized Bohumil's contributions to Oklahoma's cultural and educational development during his years at Oklahoma A&M."
     },
     {
       "id": 49,
@@ -981,7 +1029,8 @@
         "Eight",
         "Two"
       ],
-      "tags": ["kappa-kappa-psi", "founding", "purposes"]
+      "tags": ["kappa-kappa-psi", "founding", "purposes"],
+      "description": "Kappa Kappa Psi's five purposes guide the organization's mission to promote the advancement of college and university bands."
     },
     {
       "id": 50,
@@ -1001,7 +1050,8 @@
         "Discipline, Knowledge, Character, and Achievement",
         "Commitment, Reliability, Honesty, and Growth"
       ],
-      "tags": ["kappa-kappa-psi", "values", "code-of-conduct"]
+      "tags": ["kappa-kappa-psi", "values", "code-of-conduct"],
+      "description": "These four values exemplified by Bohumil form the foundation of Kappa Kappa Psi's Fraternal Code of Conduct and guide members' behavior."
     },
     {
       "id": 51,
@@ -1021,7 +1071,8 @@
         "His uncle Tomas",
         "His mother Anna"
       ],
-      "tags": ["biography", "family", "immigration"]
+      "tags": ["biography", "family", "immigration"],
+      "description": "Anna Brdicka had settled in Clarkson, Nebraska the year before Bohumil arrived, providing him with family support in his new country."
     },
     {
       "id": 52,
@@ -1041,7 +1092,8 @@
         "Kearney, Nebraska",
         "Norfolk, Nebraska"
       ],
-      "tags": ["biography", "immigration", "nebraska"]
+      "tags": ["biography", "immigration", "nebraska"],
+      "description": "Clarkson was a small Bohemian settlement town where Bohumil's sister Anna had established herself before helping him immigrate."
     },
     {
       "id": 53,
@@ -1061,7 +1113,8 @@
         "Six days",
         "Ten days"
       ],
-      "tags": ["biography", "immigration", "travel"]
+      "tags": ["biography", "immigration", "travel"],
+      "description": "The four-day voyage was made in steerage class with minimal food and money, demonstrating the hardship of Bohumil's journey to America."
     },
     {
       "id": 54,
@@ -1081,7 +1134,8 @@
         "Tourist class",
         "Premium class"
       ],
-      "tags": ["biography", "immigration", "hardship"]
+      "tags": ["biography", "immigration", "hardship"],
+      "description": "Steerage was the lowest and cheapest class of ship travel, with cramped conditions and minimal amenities, reflecting Bohumil's limited resources."
     },
     {
       "id": 55,
@@ -1101,7 +1155,8 @@
         "Cousin Karel Makovsky",
         "Uncle Ludwig Makovsky"
       ],
-      "tags": ["biography", "music-education", "family"]
+      "tags": ["biography", "music-education", "family"],
+      "description": "Uncle Tomas's royal credentials and professional training gave young Bohumil a strong foundation in classical music performance."
     },
     {
       "id": 56,
@@ -1121,7 +1176,8 @@
         "Enid, Woodward, and Alva",
         "Lawton, Duncan, and Ardmore"
       ],
-      "tags": ["career", "oklahoma", "bands"]
+      "tags": ["career", "oklahoma", "bands"],
+      "description": "Between 1907-1908, Bohumil helped establish musical traditions in these Bohemian communities before returning to Oklahoma City."
     },
     {
       "id": 57,
@@ -1141,7 +1197,8 @@
         "5 years",
         "7 years"
       ],
-      "tags": ["career", "oklahoma", "state-fair"]
+      "tags": ["career", "oklahoma", "state-fair"],
+      "description": "The consistency of performing for 12 consecutive years demonstrated Bohumil's reliability and excellence as a conductor."
     },
     {
       "id": 58,
@@ -1161,7 +1218,8 @@
         "Oklahoma Symphony Band",
         "Metropolitan Symphony"
       ],
-      "tags": ["career", "oklahoma", "bands"]
+      "tags": ["career", "oklahoma", "bands"],
+      "description": "This professional ensemble provided entertainment at the Oklahoma State Fair and gave Bohumil prominence in the Oklahoma City music scene."
     },
     {
       "id": 59,
@@ -1181,7 +1239,8 @@
         "1907",
         "1913"
       ],
-      "tags": ["career", "oklahoma", "timeline"]
+      "tags": ["career", "oklahoma", "timeline"],
+      "description": "The start of his State Fair work in 1910 came two years before he formed his own Makovsky Concert Band in 1912."
     },
     {
       "id": 60,
@@ -1201,7 +1260,8 @@
         "Daily concerts for 30 days",
         "One concert per week"
       ],
-      "tags": ["career", "oklahoma", "performance"]
+      "tags": ["career", "oklahoma", "performance"],
+      "description": "The fact that programs were rarely repeated showed Bohumil's vast repertoire knowledge and ability to prepare diverse musical programs."
     },
     {
       "id": 61,
@@ -1221,7 +1281,8 @@
         "George Wilson",
         "John Thompson"
       ],
-      "tags": ["career", "oamc", "administration"]
+      "tags": ["career", "oamc", "administration"],
+      "description": "President J. W. Cantwell advocated a new attitude toward music education when he hired Bohumil in Fall 1915."
     },
     {
       "id": 62,
@@ -1241,7 +1302,8 @@
         "Charles Miller (promotion)",
         "Henry Davis (moved)"
       ],
-      "tags": ["career", "oamc", "history"]
+      "tags": ["career", "oamc", "history"],
+      "description": "The sudden illness and death of Joseph Watson created an unexpected opening that brought Bohumil to Oklahoma A&M College."
     },
     {
       "id": 63,
@@ -1261,7 +1323,8 @@
         "Lived to see Bohumil's success",
         "Died when Bohumil was 12"
       ],
-      "tags": ["biography", "family", "tragedy"]
+      "tags": ["biography", "family", "tragedy"],
+      "description": "This tragic circumstance meant Bohumil never knew his father, adding to the hardships of his early childhood in Bohemia."
     },
     {
       "id": 64,
@@ -1281,7 +1344,8 @@
         "Left to Uncle Tomas",
         "Divided among all siblings"
       ],
-      "tags": ["biography", "family", "estate"]
+      "tags": ["biography", "family", "estate"],
+      "description": "Though the estate went to his older brother, young Bohumil was allowed to continue living there after his mother's death in 1890."
     },
     {
       "id": 65,
@@ -1301,7 +1365,8 @@
         "Prague, Oklahoma",
         "Shawnee, Oklahoma"
       ],
-      "tags": ["career", "education", "administration"]
+      "tags": ["career", "education", "administration"],
+      "description": "Bohumil's work in Yale, Oklahoma as school superintendent showed his versatility beyond music education into general educational administration."
     },
     {
       "id": 66,
@@ -1321,7 +1386,8 @@
         "Yale, Oklahoma",
         "Shawnee, Oklahoma"
       ],
-      "tags": ["career", "education", "administration"]
+      "tags": ["career", "education", "administration"],
+      "description": "His role at the Pauls Valley Boys Training School demonstrated his commitment to helping young people through education and music."
     },
     {
       "id": 67,
@@ -1341,7 +1407,8 @@
         "1925",
         "1940"
       ],
-      "tags": ["career", "oamc", "timeline"]
+      "tags": ["career", "oamc", "timeline"],
+      "description": "After leaving OAMC in the 1920s, Bohumil returned to Stillwater in 1931 to work on the university president's staff."
     },
     {
       "id": 68,
@@ -1361,7 +1428,8 @@
         "Music professor",
         "Athletic band director"
       ],
-      "tags": ["career", "oamc", "administration"]
+      "tags": ["career", "oamc", "administration"],
+      "description": "This position on the president's staff marked a different role from his earlier work as Director of Bands and Music Department Head."
     },
     {
       "id": 69,
@@ -1381,7 +1449,8 @@
         "Honorary Sergeant",
         "Honorary Commander"
       ],
-      "tags": ["honors", "military", "1922"]
+      "tags": ["honors", "military", "1922"],
+      "description": "The honorary commission as Major recognized Bohumil's significant contributions to the OAMC ROTC program and the institution."
     },
     {
       "id": 70,
@@ -1401,7 +1470,8 @@
         "Clayton Soule and George Hendrickson",
         "A. Frank Martin and William Scroggs"
       ],
-      "tags": ["founding-fathers", "military", "wwi"]
+      "tags": ["founding-fathers", "military", "wwi"],
+      "description": "William Coppedge and A. Frank Martin served together in a U.S. Navy band in New Orleans during World War I before becoming founding fathers."
     },
     {
       "id": 71,
@@ -1421,7 +1491,8 @@
         "28 years",
         "32 years"
       ],
-      "tags": ["career", "oamc", "tenure"]
+      "tags": ["career", "oamc", "tenure"],
+      "description": "Three decades of dedicated service from 1915 to 1945 established Bohumil as one of the most influential band directors in Oklahoma history."
     },
     {
       "id": 72,
@@ -1441,7 +1512,8 @@
         "73",
         "69"
       ],
-      "tags": ["biography", "death", "age"]
+      "tags": ["biography", "death", "age"],
+      "description": "Born in 1878, Bohumil lived 71 years, leaving behind a profound legacy in music education and fraternal traditions."
     },
     {
       "id": 73,
@@ -1461,7 +1533,8 @@
         "June 10, 1950",
         "June 20, 1950"
       ],
-      "tags": ["biography", "death", "dates"]
+      "tags": ["biography", "death", "dates"],
+      "description": "Bohumil passed away on June 12, 1950, five years after his retirement from Oklahoma A&M College."
     },
     {
       "id": 74,
@@ -1481,7 +1554,8 @@
         "April 15, 1940",
         "April 1, 1940"
       ],
-      "tags": ["biography", "family", "death"]
+      "tags": ["biography", "family", "death"],
+      "description": "Georgia died on April 9, 1940, the same year Bohumil received his honorary doctorate from the University of Tulsa."
     },
     {
       "id": 75,
@@ -1501,7 +1575,8 @@
         "August 15, 1911",
         "August 2, 1912"
       ],
-      "tags": ["biography", "marriage", "dates"]
+      "tags": ["biography", "marriage", "dates"],
+      "description": "Bohumil married Georgia Shestack on August 2, 1911, when he was 33 years old, after meeting her during a visit to his family in Nebraska."
     }
   ]
 }

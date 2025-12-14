@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
+import { Users } from "lucide-react";
+import { Card, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
+import { PageHero } from "~/components/shared";
 import { api } from "~/trpc/server";
 
 export default async function FoundingFathersPage() {
@@ -10,19 +12,11 @@ export default async function FoundingFathersPage() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-16">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1 className="mb-4 font-serif text-5xl font-bold text-white">
-              The Founding Fathers
-            </h1>
-            <p className="text-xl text-gray-200">
-              The ten men who founded Kappa Kappa Psi on November 27, 1919
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        icon={Users}
+        title="The Founding Fathers"
+        description="The ten men who founded Kappa Kappa Psi on November 27, 1919"
+      />
 
       {/* Founders Grid */}
       <section className="py-16">

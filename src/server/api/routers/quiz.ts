@@ -7,17 +7,8 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure, protectedProcedure } from "~/server/api/trpc";
 import { generateQuiz, getAvailableQuestionCount } from "~/lib/quiz-generator";
 import { TOPICS, getTagsForTopic, getAllTags } from "~/lib/content/trivia-loader";
-
-const topicEnum = z.enum([
-  "chapters",
-  "founding_fathers",
-  "awards_and_jewelry",
-  "bohumil_makovsky",
-  "districts",
-  "hbcu_chapters",
-  "nib",
-  "mixed",
-]);
+import { topicSlugWithMixedSchema } from "~/lib/schemas/topic";
+import { updateDailyStreak } from "~/lib/streak-manager";
 
 export const quizRouter = createTRPCRouter({
   // Get all available topics
@@ -36,7 +27,7 @@ export const quizRouter = createTRPCRouter({
 
   // Get tags for a specific topic
   getTags: publicProcedure
-    .input(z.object({ topic: topicEnum }))
+    .input(z.object({ topic: topicSlugWithMixedSchema }))
     .query(({ input }) => {
       if (input.topic === "mixed") {
         return getAllTags();
@@ -48,7 +39,7 @@ export const quizRouter = createTRPCRouter({
   getAvailableCount: publicProcedure
     .input(
       z.object({
-        topic: topicEnum,
+        topic: topicSlugWithMixedSchema,
         tags: z.array(z.string()).optional(),
       }),
     )
@@ -63,7 +54,7 @@ export const quizRouter = createTRPCRouter({
   generateQuiz: publicProcedure
     .input(
       z.object({
-        topic: topicEnum,
+        topic: topicSlugWithMixedSchema,
         tags: z.array(z.string()).optional(),
         questionCount: z.number().min(1).max(100),
         isTimed: z.boolean(),
@@ -82,7 +73,7 @@ export const quizRouter = createTRPCRouter({
   submitQuiz: protectedProcedure
     .input(
       z.object({
-        topic: topicEnum,
+        topic: topicSlugWithMixedSchema,
         tags: z.array(z.string()).optional(),
         totalQuestions: z.number(),
         isTimed: z.boolean(),
@@ -131,7 +122,7 @@ export const quizRouter = createTRPCRouter({
       });
 
       // Update daily streak
-      await updateDailyStreak(ctx.db, ctx.session.user.id);
+      await updateDailyStreak(ctx.db, ctx.session.user.id, "quiz");
 
       return {
         attemptId: attempt.id,
@@ -168,7 +159,7 @@ export const quizRouter = createTRPCRouter({
       z
         .object({
           limit: z.number().optional().default(10),
-          topic: topicEnum.optional(),
+          topic: topicSlugWithMixedSchema.optional(),
         })
         .optional(),
     )
@@ -236,73 +227,3 @@ export const quizRouter = createTRPCRouter({
     return Object.values(statsByTopic);
   }),
 });
-
-// Helper function to update daily streak
-async function updateDailyStreak(db: any, userId: string) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-
-  const streak = await db.dailyStreak.findUnique({
-    where: { userId },
-  });
-
-  if (!streak) {
-    // Create new streak
-    await db.dailyStreak.create({
-      data: {
-        userId,
-        currentStreak: 1,
-        longestStreak: 1,
-        lastActivityDate: today,
-        totalDaysActive: 1,
-        totalQuizzes: 1,
-      },
-    });
-    return;
-  }
-
-  const lastActivity = streak.lastActivityDate
-    ? new Date(streak.lastActivityDate)
-    : null;
-
-  if (lastActivity) {
-    lastActivity.setHours(0, 0, 0, 0);
-    const daysDiff = Math.floor(
-      (today.getTime() - lastActivity.getTime()) / (1000 * 60 * 60 * 24),
-    );
-
-    if (daysDiff === 0) {
-      // Same day, just increment quiz count
-      await db.dailyStreak.update({
-        where: { userId },
-        data: {
-          totalQuizzes: { increment: 1 },
-        },
-      });
-    } else if (daysDiff === 1) {
-      // Consecutive day
-      const newStreak = streak.currentStreak + 1;
-      await db.dailyStreak.update({
-        where: { userId },
-        data: {
-          currentStreak: newStreak,
-          longestStreak: Math.max(newStreak, streak.longestStreak),
-          lastActivityDate: today,
-          totalDaysActive: { increment: 1 },
-          totalQuizzes: { increment: 1 },
-        },
-      });
-    } else {
-      // Streak broken
-      await db.dailyStreak.update({
-        where: { userId },
-        data: {
-          currentStreak: 1,
-          lastActivityDate: today,
-          totalDaysActive: { increment: 1 },
-          totalQuizzes: { increment: 1 },
-        },
-      });
-    }
-  }
-}

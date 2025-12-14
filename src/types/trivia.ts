@@ -8,6 +8,7 @@ export interface TriviaQuestion {
   correctAnswer: string;
   wrongAnswers: string[];
   tags: string[];
+  description?: string; // Optional description shown with the answer (currently only for bohumil_makovsky)
 }
 
 export interface TriviaFile {

@@ -1,6 +1,7 @@
 import { Star } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
+import { PageHero } from "~/components/shared";
 import { api } from "~/trpc/server";
 import ReactMarkdown from "react-markdown";
 
@@ -11,20 +12,11 @@ export default async function MakovskyPage() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-16">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center">
-            <Star className="mx-auto mb-4 h-16 w-16 text-kkpsi-gold" />
-            <h1 className="mb-4 font-serif text-5xl font-bold text-white">
-              Bohumil Makovsky
-            </h1>
-            <p className="text-2xl text-kkpsi-gold">
-              Our Beloved Patron and Mentor
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        icon={Star}
+        title="Bohumil Makovsky"
+        description="Our Beloved Patron and Mentor"
+      />
 
       {/* Content */}
       <section className="py-16">

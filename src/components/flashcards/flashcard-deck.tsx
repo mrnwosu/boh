@@ -12,6 +12,7 @@ export interface FlashcardData {
   question: string;
   answer: string;
   tags: string[];
+  description?: string;
 }
 
 interface FlashcardDeckProps {
@@ -76,7 +77,11 @@ export function FlashcardDeck({
       </div>
 
       {/* Flashcard */}
-      <Flashcard question={currentQuestion.question} answer={currentQuestion.answer} />
+      <Flashcard
+        question={currentQuestion.question}
+        answer={currentQuestion.answer}
+        description={currentQuestion.description}
+      />
 
       {/* Navigation Controls */}
       <div className="flex items-center justify-between">

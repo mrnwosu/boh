@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Button } from "~/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 import { Input } from "~/components/ui/input";
-import { Badge } from "~/components/ui/badge";
 import {
   Select,
   SelectContent,
@@ -12,21 +11,25 @@ import {
   SelectTrigger,
   SelectValue,
 } from "~/components/ui/select";
-import type { QuizConfig } from "~/types/trivia";
+import { TagSelector } from "~/components/shared";
+import { useTagSelection } from "~/hooks";
+import type { TopicSlugWithMixed } from "~/lib/schemas/topic";
+import type { QuizConfigParams } from "~/lib/utils/quiz-params";
 
 interface QuizConfigProps {
   topics: Array<{ slug: string; title: string; totalQuestions: number }>;
-  onStartQuiz: (config: QuizConfig) => void;
+  onStartQuiz: (config: QuizConfigParams) => void;
 }
 
 export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
-  const [selectedTopic, setSelectedTopic] = useState<"chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib" | "mixed" | "">("");
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [selectedTopic, setSelectedTopic] = useState<TopicSlugWithMixed | "">("");
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [isTimed, setIsTimed] = useState<boolean>(true);
   const [timePerQuestion, setTimePerQuestion] = useState<number>(10);
 
-  // For now, using common tags - could be fetched from API
+  const { selectedTags, toggleTag, clearTags } = useTagSelection();
+
+  // Common tags - could be fetched from API
   const availableTags = [
     "Founding",
     "History",
@@ -52,12 +55,6 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
     });
   };
 
-  const toggleTag = (tag: string) => {
-    setSelectedTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
-    );
-  };
-
   const selectedTopicInfo = topics.find((t) => t.slug === selectedTopic);
 
   return (
@@ -73,7 +70,7 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
           {/* Topic Selection */}
           <div className="space-y-2">
             <label className="text-sm font-medium">Topic</label>
-            <Select value={selectedTopic} onValueChange={(val) => setSelectedTopic(val as typeof selectedTopic)}>
+            <Select value={selectedTopic} onValueChange={(val) => setSelectedTopic(val as TopicSlugWithMixed)}>
               <SelectTrigger>
                 <SelectValue placeholder="Select a topic..." />
               </SelectTrigger>
@@ -90,22 +87,13 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
           {/* Tag Filters */}
           <div className="space-y-2">
             <label className="text-sm font-medium">Filter by Tags (Optional)</label>
-            <div className="flex flex-wrap gap-2">
-              {availableTags.map((tag) => (
-                <Badge
-                  key={tag}
-                  variant={selectedTags.includes(tag) ? "default" : "outline"}
-                  className={`cursor-pointer transition-colors ${
-                    selectedTags.includes(tag)
-                      ? "bg-kkpsi-navy hover:bg-kkpsi-navy-light"
-                      : "hover:bg-gray-100"
-                  }`}
-                  onClick={() => toggleTag(tag)}
-                >
-                  {tag}
-                </Badge>
-              ))}
-            </div>
+            <TagSelector
+              availableTags={availableTags}
+              selectedTags={selectedTags}
+              onTagToggle={toggleTag}
+              onClearAll={clearTags}
+              variant="inline"
+            />
           </div>
 
           {/* Question Count */}

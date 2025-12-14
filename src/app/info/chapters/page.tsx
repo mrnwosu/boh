@@ -14,6 +14,7 @@ import {
 } from "~/components/ui/select";
 import { Badge } from "~/components/ui/badge";
 import { Navbar } from "~/components/layout/navbar";
+import { PageHero, EmptyState } from "~/components/shared";
 import { api } from "~/trpc/react";
 import { Skeleton } from "~/components/ui/skeleton";
 
@@ -44,20 +45,11 @@ export default function ChaptersPage() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-16">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center">
-            <MapPin className="mx-auto mb-4 h-16 w-16 text-kkpsi-gold" />
-            <h1 className="mb-4 font-serif text-5xl font-bold text-white">
-              Chapter Directory
-            </h1>
-            <p className="text-xl text-gray-200">
-              Explore all 343 chapters of Kappa Kappa Psi across the nation
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        icon={MapPin}
+        title="Chapter Directory"
+        description="Explore all 343 chapters of Kappa Kappa Psi across the nation"
+      />
 
       {/* Filters */}
       <section className="border-b bg-white py-6">
@@ -214,22 +206,19 @@ export default function ChaptersPage() {
               </div>
             </>
           ) : (
-            <div className="py-12 text-center">
-              <p className="text-lg text-gray-600">
-                No chapters found matching your filters.
-              </p>
-              <Button
-                variant="ghost"
-                className="mt-4"
-                onClick={() => {
+            <EmptyState
+              icon={MapPin}
+              title="No chapters found"
+              description="No chapters match your current filters."
+              action={{
+                label: "Clear Filters",
+                onClick: () => {
                   setSearch("");
                   setDistrict("");
                   setInstitutionType("");
-                }}
-              >
-                Clear Filters
-              </Button>
-            </div>
+                },
+              }}
+            />
           )}
         </div>
       </section>

@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { Brain, Trophy, Target } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
+import { PageHero } from "~/components/shared";
 import { StatsCard } from "~/components/dashboard/stats-card";
 import { StreakDisplay } from "~/components/dashboard/streak-display";
 import { RecentActivity } from "~/components/dashboard/recent-activity";
@@ -46,19 +47,13 @@ export default async function DashboardPage() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-12">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-6xl">
-            <h1 className="mb-2 font-serif text-5xl font-bold text-white">
-              Welcome back, {session.user.displayName ?? session.user.name}!
-            </h1>
-            <p className="text-xl text-gray-200">
-              Here&apos;s your learning progress at a glance
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title={`Welcome back, ${session.user.displayName ?? session.user.name}!`}
+        description="Here's your learning progress at a glance"
+        size="md"
+        align="left"
+        maxWidth="6xl"
+      />
 
       {/* Dashboard Content */}
       <section className="py-12">

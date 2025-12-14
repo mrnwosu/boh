@@ -1,6 +1,7 @@
 import { Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
+import { PageHero } from "~/components/shared";
 
 export default async function HistoryPage() {
   const timeline = [
@@ -20,20 +21,11 @@ export default async function HistoryPage() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-16">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center">
-            <Clock className="mx-auto mb-4 h-16 w-16 text-kkpsi-gold" />
-            <h1 className="mb-4 font-serif text-5xl font-bold text-white">
-              History & Timeline
-            </h1>
-            <p className="text-xl text-gray-200">
-              Over a century of service to college bands
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        icon={Clock}
+        title="History & Timeline"
+        description="Over a century of service to college bands"
+      />
 
       {/* Timeline */}
       <section className="py-16">

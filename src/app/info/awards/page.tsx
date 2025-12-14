@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Trophy } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
+import { Card, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
+import { PageHero } from "~/components/shared";
 import { api } from "~/trpc/server";
 
 export default async function AwardsPage() {
@@ -11,20 +12,11 @@ export default async function AwardsPage() {
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       <Navbar />
 
-      {/* Header */}
-      <section className="bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-16">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center">
-            <Trophy className="mx-auto mb-4 h-16 w-16 text-kkpsi-gold" />
-            <h1 className="mb-4 font-serif text-5xl font-bold text-white">
-              Awards & Jewelry
-            </h1>
-            <p className="text-xl text-gray-200">
-              Recognizing excellence and service in Kappa Kappa Psi
-            </p>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        icon={Trophy}
+        title="Awards & Jewelry"
+        description="Recognizing excellence and service in Kappa Kappa Psi"
+      />
 
       {/* Awards Grid */}
       <section className="py-16">
