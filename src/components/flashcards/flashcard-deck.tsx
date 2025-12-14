@@ -44,6 +44,7 @@ export function FlashcardDeck({
   const [shuffleKey, setShuffleKey] = useState(0);
   const [swipeOffset, setSwipeOffset] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
   const touchStartX = useRef<number | null>(null);
 
   // Shuffle questions on mount and when shuffleKey changes
@@ -55,6 +56,7 @@ export function FlashcardDeck({
 
   const handleShuffle = useCallback(() => {
     setShuffleKey((prev) => prev + 1);
+    setIsFlipped(false);
     setCurrentIndex(0);
   }, []);
 
@@ -71,17 +73,20 @@ export function FlashcardDeck({
 
   const handleNext = () => {
     if (currentIndex < shuffledQuestions.length - 1) {
+      setIsFlipped(false);
       setCurrentIndex(currentIndex + 1);
     }
   };
 
   const handlePrevious = () => {
     if (currentIndex > 0) {
+      setIsFlipped(false);
       setCurrentIndex(currentIndex - 1);
     }
   };
 
   const handleReset = () => {
+    setIsFlipped(false);
     setCurrentIndex(0);
   };
 
@@ -117,6 +122,7 @@ export function FlashcardDeck({
       setIsAnimating(true);
       setSwipeOffset(-300);
       setTimeout(() => {
+        setIsFlipped(false);
         setCurrentIndex(currentIndex + 1);
         setSwipeOffset(0);
         setIsAnimating(false);
@@ -126,6 +132,7 @@ export function FlashcardDeck({
       setIsAnimating(true);
       setSwipeOffset(300);
       setTimeout(() => {
+        setIsFlipped(false);
         setCurrentIndex(currentIndex - 1);
         setSwipeOffset(0);
         setIsAnimating(false);
@@ -169,6 +176,8 @@ export function FlashcardDeck({
             question={currentQuestion.question}
             answer={currentQuestion.answer}
             description={currentQuestion.description}
+            isFlipped={isFlipped}
+            onFlip={() => setIsFlipped(!isFlipped)}
           />
         </div>
       </div>

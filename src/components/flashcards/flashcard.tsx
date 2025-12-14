@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { RotateCcw } from "lucide-react";
 import { Card } from "~/components/ui/card";
 
@@ -8,15 +7,16 @@ interface FlashcardProps {
   question: string;
   answer: string;
   description?: string;
+  isFlipped: boolean;
+  onFlip: () => void;
 }
 
-export function Flashcard({ question, answer, description }: FlashcardProps) {
-  const [isFlipped, setIsFlipped] = useState(false);
+export function Flashcard({ question, answer, description, isFlipped, onFlip }: FlashcardProps) {
 
   return (
     <div
       className="perspective-1000 h-[280px] w-full cursor-pointer group sm:h-[340px] md:h-[400px]"
-      onClick={() => setIsFlipped(!isFlipped)}
+      onClick={onFlip}
     >
       <div
         className={`relative h-full w-full transition-transform duration-700 transform-3d ${
