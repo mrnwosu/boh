@@ -285,4 +285,45 @@
   .animate-on-scroll-scale.is-visible {
     animation: none;
   }
+
+  .animate-float,
+  .animate-float-delayed,
+  .animate-pulse-glow,
+  .animate-gradient,
+  .animate-shimmer {
+    animation: none;
+  }
+}
+
+/* Mobile performance optimizations - reduce heavy effects */
+@media (max-width: 640px) {
+  /* Reduce blur intensity on mobile for better performance */
+  .blur-3xl {
+    filter: blur(32px);
+  }
+
+  .blur-2xl {
+    filter: blur(24px);
+  }
+
+  /* Simplify floating animations on mobile */
+  .animate-float,
+  .animate-float-delayed {
+    animation-duration: 8s;
+  }
+
+  /* Reduce glow effect intensity on mobile */
+  .animate-pulse-glow {
+    animation: none;
+    box-shadow: 0 0 15px rgba(255, 198, 30, 0.25);
+  }
+}
+
+/* Touch-friendly tap targets - ensure minimum 44x44px on mobile */
+@media (max-width: 640px) {
+  button,
+  a,
+  [role="button"] {
+    min-height: 44px;
+  }
 }

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -26,7 +26,7 @@ export function MobileNav() {
           <span className="sr-only">Toggle menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="right" className="w-[300px]">
+      <SheetContent side="right" className="w-[280px] sm:w-[300px]">
         <SheetHeader>
           <SheetTitle className="font-serif text-2xl text-kkpsi-navy">
             ΚΚΨ Learning

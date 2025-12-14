@@ -48,16 +48,16 @@ export function SpacedRepetitionControls({
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-2 sm:gap-3 md:grid-cols-4">
           {buttons.map((button) => (
             <Button
               key={button.response}
               variant={button.variant}
               onClick={() => onResponse(button.response)}
               disabled={disabled}
-              className="flex h-auto flex-col items-start gap-1 p-4"
+              className="flex h-auto min-h-[52px] flex-col items-start gap-0.5 p-3 sm:min-h-[60px] sm:gap-1 sm:p-4"
             >
-              <span className="text-base font-semibold">{button.label}</span>
+              <span className="text-sm font-semibold sm:text-base">{button.label}</span>
               <span className="text-xs font-normal opacity-80">{button.description}</span>
             </Button>
           ))}

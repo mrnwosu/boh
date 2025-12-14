@@ -10,7 +10,7 @@ export default function HomePage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-20 md:py-32">
+      <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-12 sm:py-16 md:py-24 lg:py-32">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -left-20 -top-20 h-72 w-72 rounded-full bg-kkpsi-gold/10 blur-3xl animate-float"></div>
@@ -37,12 +37,12 @@ export default function HomePage() {
               <span>National Honorary Band Fraternity</span>
             </div>
 
-            <h1 className="mb-6 font-serif text-5xl font-bold tracking-tight text-white md:text-7xl">
+            <h1 className="mb-4 font-serif text-3xl font-bold tracking-tight text-white sm:mb-6 sm:text-4xl md:text-5xl lg:text-7xl">
               Master Your
               <span className="text-gradient block md:inline"> Kappa Kappa Psi </span>
               Knowledge
             </h1>
-            <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-300 md:text-2xl">
+            <p className="mx-auto mb-6 max-w-2xl text-base text-gray-300 sm:mb-8 sm:text-lg md:text-xl lg:text-2xl">
               Learn about KKPsi&apos;s rich history, chapters, and traditions through interactive flashcards and engaging quizzes
             </p>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -64,15 +64,15 @@ export default function HomePage() {
             </div>
 
             {/* Stats preview */}
-            <div className="mt-16 grid grid-cols-3 gap-4 md:gap-8">
+            <div className="mt-10 grid grid-cols-3 gap-2 sm:mt-12 sm:gap-4 md:mt-16 md:gap-8">
               {[
                 { label: "Topics", value: "7" },
                 { label: "Questions", value: "320+" },
                 { label: "Chapters", value: "343" },
               ].map((stat) => (
-                <div key={stat.label} className="glass rounded-xl p-4">
-                  <div className="text-2xl font-bold text-white md:text-3xl">{stat.value}</div>
-                  <div className="text-sm text-gray-400">{stat.label}</div>
+                <div key={stat.label} className="glass rounded-lg p-3 sm:rounded-xl sm:p-4">
+                  <div className="text-lg font-bold text-white sm:text-2xl md:text-3xl">{stat.value}</div>
+                  <div className="text-xs text-gray-400 sm:text-sm">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -81,7 +81,7 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="relative py-24">
+      <section className="relative py-12 sm:py-16 md:py-24">
         {/* Subtle background decoration */}
         <div className="absolute inset-0 -z-10">
           <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-kkpsi-navy/5 blur-3xl"></div>
@@ -94,7 +94,7 @@ export default function HomePage() {
               <Sparkles className="h-4 w-4" />
               Features
             </div>
-            <h2 className="mb-4 font-serif text-4xl font-bold text-kkpsi-navy md:text-5xl">
+            <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy sm:text-3xl md:text-4xl lg:text-5xl">
               Everything You Need to Learn
             </h2>
             <p className="text-lg text-gray-600">
@@ -165,14 +165,14 @@ export default function HomePage() {
       </section>
 
       {/* Topics Section */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white py-24">
+      <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white py-12 sm:py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mx-auto mb-16 max-w-2xl text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-kkpsi-gold/10 px-4 py-2 text-sm font-medium text-kkpsi-gold-dark">
               <BookOpen className="h-4 w-4" />
               Topics
             </div>
-            <h2 className="mb-4 font-serif text-4xl font-bold text-kkpsi-navy md:text-5xl">
+            <h2 className="mb-4 font-serif text-2xl font-bold text-kkpsi-navy sm:text-3xl md:text-4xl lg:text-5xl">
               Study Topics
             </h2>
             <p className="text-lg text-gray-600">
@@ -221,7 +221,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-24">
+      <section className="relative overflow-hidden bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy-light to-kkpsi-navy py-12 sm:py-16 md:py-24">
         {/* Decorative elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -right-20 -top-20 h-80 w-80 rounded-full bg-kkpsi-gold/10 blur-3xl"></div>
@@ -230,10 +230,10 @@ export default function HomePage() {
 
         <div className="container relative mx-auto px-4 text-center">
           <div className="mx-auto max-w-3xl">
-            <h2 className="mb-6 font-serif text-4xl font-bold text-white md:text-5xl">
+            <h2 className="mb-4 font-serif text-2xl font-bold text-white sm:mb-6 sm:text-3xl md:text-4xl lg:text-5xl">
               Ready to Begin Your Journey?
             </h2>
-            <p className="mx-auto mb-10 max-w-2xl text-xl text-gray-300">
+            <p className="mx-auto mb-8 max-w-2xl text-base text-gray-300 sm:mb-10 sm:text-lg md:text-xl">
               Join fellow brothers and sisters in mastering Kappa Kappa Psi knowledge
             </p>
             <Button

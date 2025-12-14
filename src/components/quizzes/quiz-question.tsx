@@ -54,13 +54,13 @@ export function QuizQuestionComponent({
   };
 
   return (
-    <div className="rounded-2xl bg-white p-6 shadow-xl ring-1 ring-gray-200/50 md:p-8">
+    <div className="rounded-2xl bg-white p-4 shadow-xl ring-1 ring-gray-200/50 sm:p-6 md:p-8">
       {/* Question Header */}
       <div className="mb-6">
         <div className="mb-3 inline-flex items-center rounded-full bg-kkpsi-navy/5 px-3 py-1 text-sm font-medium text-kkpsi-navy">
           Question {questionNumber} of {totalQuestions}
         </div>
-        <h2 className="font-serif text-xl font-bold text-gray-900 md:text-2xl">
+        <h2 className="font-serif text-lg font-bold text-gray-900 sm:text-xl md:text-2xl">
           {question.question}
         </h2>
       </div>
@@ -78,13 +78,13 @@ export function QuizQuestionComponent({
               type="button"
               onClick={() => handleSelect(option)}
               disabled={showResult}
-              className={`group flex w-full items-start gap-4 rounded-xl border-2 p-4 text-left transition-all ${optionStyles[state]} ${
+              className={`group flex w-full items-start gap-3 rounded-xl border-2 p-3 text-left transition-all sm:gap-4 sm:p-4 ${optionStyles[state]} ${
                 !showResult && !isSelected ? "cursor-pointer" : ""
               } ${showResult ? "cursor-default" : ""}`}
             >
               {/* Letter indicator */}
               <div
-                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg font-semibold transition-colors ${
+                className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-sm font-semibold transition-colors sm:h-9 sm:w-9 sm:text-base md:h-8 md:w-8 ${
                   state === "selected"
                     ? "bg-kkpsi-navy text-white"
                     : state === "correct"

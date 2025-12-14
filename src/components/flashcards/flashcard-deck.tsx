@@ -84,27 +84,28 @@ export function FlashcardDeck({
       />
 
       {/* Navigation Controls */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-2">
         <Button
           variant="outline"
           onClick={handlePrevious}
           disabled={currentIndex === 0}
-          className="gap-2"
+          className="gap-1 px-3 sm:gap-2 sm:px-4"
         >
           <ChevronLeft className="h-4 w-4" />
-          Previous
+          <span className="hidden sm:inline">Previous</span>
+          <span className="sm:hidden">Prev</span>
         </Button>
 
-        <Button variant="ghost" onClick={handleReset} className="gap-2">
+        <Button variant="ghost" onClick={handleReset} className="gap-1 px-3 sm:gap-2 sm:px-4">
           <RotateCcw className="h-4 w-4" />
-          Reset
+          <span className="hidden xs:inline">Reset</span>
         </Button>
 
         <Button
           variant="outline"
           onClick={handleNext}
           disabled={currentIndex === questions.length - 1}
-          className="gap-2"
+          className="gap-1 px-3 sm:gap-2 sm:px-4"
         >
           Next
           <ChevronRight className="h-4 w-4" />

@@ -15,7 +15,7 @@ export function Flashcard({ question, answer, description }: FlashcardProps) {
 
   return (
     <div
-      className="perspective-1000 h-[400px] w-full cursor-pointer group"
+      className="perspective-1000 h-[280px] w-full cursor-pointer group sm:h-[340px] md:h-[400px]"
       onClick={() => setIsFlipped(!isFlipped)}
     >
       <div
@@ -26,7 +26,7 @@ export function Flashcard({ question, answer, description }: FlashcardProps) {
       >
         {/* Front */}
         <Card
-          className={`absolute inset-0 flex items-center justify-center overflow-hidden rounded-2xl border-0 bg-white p-8 shadow-2xl shadow-kkpsi-navy/10 backface-hidden ${
+          className={`absolute inset-0 flex items-center justify-center overflow-hidden rounded-2xl border-0 bg-white p-4 shadow-2xl shadow-kkpsi-navy/10 backface-hidden sm:p-6 md:p-8 ${
             isFlipped ? "invisible" : "visible"
           }`}
         >
@@ -42,8 +42,8 @@ export function Flashcard({ question, answer, description }: FlashcardProps) {
               <span className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold animate-pulse"></span>
               Question
             </div>
-            <p className="text-2xl font-medium leading-relaxed text-gray-900 md:text-3xl">{question}</p>
-            <div className="mt-10 flex items-center justify-center gap-2 text-sm text-gray-400 transition-colors group-hover:text-kkpsi-navy">
+            <p className="text-lg font-medium leading-relaxed text-gray-900 sm:text-2xl md:text-3xl">{question}</p>
+            <div className="mt-6 flex items-center justify-center gap-2 text-sm text-gray-400 transition-colors group-hover:text-kkpsi-navy sm:mt-8 md:mt-10">
               <RotateCcw className="h-4 w-4" />
               <span>Click to reveal answer</span>
             </div>
@@ -52,7 +52,7 @@ export function Flashcard({ question, answer, description }: FlashcardProps) {
 
         {/* Back */}
         <Card
-          className={`absolute inset-0 flex items-center justify-center overflow-hidden rounded-2xl border-0 bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy to-kkpsi-navy-dark p-8 shadow-2xl shadow-kkpsi-navy/20 rotate-y-180 backface-hidden ${
+          className={`absolute inset-0 flex items-center justify-center overflow-hidden rounded-2xl border-0 bg-gradient-to-br from-kkpsi-navy via-kkpsi-navy to-kkpsi-navy-dark p-4 shadow-2xl shadow-kkpsi-navy/20 rotate-y-180 backface-hidden sm:p-6 md:p-8 ${
             isFlipped ? "visible" : "invisible"
           }`}
         >
@@ -68,13 +68,13 @@ export function Flashcard({ question, answer, description }: FlashcardProps) {
               <span className="h-1.5 w-1.5 rounded-full bg-kkpsi-gold animate-pulse"></span>
               Answer
             </div>
-            <p className="text-2xl font-medium leading-relaxed text-white md:text-3xl">{answer}</p>
+            <p className="text-lg font-medium leading-relaxed text-white sm:text-2xl md:text-3xl">{answer}</p>
             {description && (
               <p className="mx-auto mt-6 max-w-md text-sm italic text-gray-300/80">
                 {description}
               </p>
             )}
-            <div className="mt-10 flex items-center justify-center gap-2 text-sm text-gray-400 transition-colors group-hover:text-kkpsi-gold">
+            <div className="mt-6 flex items-center justify-center gap-2 text-sm text-gray-400 transition-colors group-hover:text-kkpsi-gold sm:mt-8 md:mt-10">
               <RotateCcw className="h-4 w-4" />
               <span>Click to see question</span>
             </div>

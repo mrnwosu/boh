@@ -77,18 +77,18 @@ export function PageHero({
 
           {Icon && (
             <Icon
-              className={`mb-4 h-16 w-16 text-kkpsi-gold ${
+              className={`mb-3 h-10 w-10 text-kkpsi-gold sm:mb-4 sm:h-12 sm:w-12 md:h-16 md:w-16 ${
                 align === "center" ? "mx-auto" : ""
               }`}
             />
           )}
 
-          <h1 className="mb-4 font-serif text-5xl font-bold text-white">
+          <h1 className="mb-3 font-serif text-3xl font-bold text-white sm:mb-4 sm:text-4xl md:text-5xl">
             {title}
           </h1>
 
           {description && (
-            <p className="text-xl text-gray-200">{description}</p>
+            <p className="text-base text-gray-200 sm:text-lg md:text-xl">{description}</p>
           )}
 
           {children}
