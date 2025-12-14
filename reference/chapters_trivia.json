@@ -20,7 +20,12 @@
         "Alpha Omicron at Texas Tech University",
         "Rho at Tulane University"
       ],
-      "tags": ["districts", "southwest", "first-chapter", "firsts"]
+      "tags": [
+        "districts",
+        "southwest",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 2,
@@ -39,7 +44,12 @@
         "Psi at UCLA",
         "Omega at University of Arizona"
       ],
-      "tags": ["districts", "western", "first-chapter", "firsts"]
+      "tags": [
+        "districts",
+        "western",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 3,
@@ -58,7 +68,12 @@
         "Alpha Theta at University of Northern Colorado",
         "Tau at University of Montana"
       ],
-      "tags": ["districts", "midwest", "first-chapter", "firsts"]
+      "tags": [
+        "districts",
+        "midwest",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 4,
@@ -77,7 +92,12 @@
         "Alpha Zeta at Indiana University",
         "Alpha Delta at Ohio University"
       ],
-      "tags": ["districts", "north-central", "first-chapter", "firsts"]
+      "tags": [
+        "districts",
+        "north-central",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 5,
@@ -96,7 +116,12 @@
         "Alpha Phi at Rutgers University",
         "Beta Delta at Cornell University"
       ],
-      "tags": ["districts", "northeast", "first-chapter", "firsts"]
+      "tags": [
+        "districts",
+        "northeast",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 6,
@@ -115,7 +140,12 @@
         "Alpha Gamma at Duke University",
         "Alpha Sigma at University of Tampa"
       ],
-      "tags": ["districts", "southeast", "first-chapter", "firsts"]
+      "tags": [
+        "districts",
+        "southeast",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 7,
@@ -134,7 +164,12 @@
         "Southern University",
         "Prairie View A&M University"
       ],
-      "tags": ["hbcu", "first", "history", "firsts"]
+      "tags": [
+        "hbcu",
+        "first",
+        "history",
+        "firsts"
+      ]
     },
     {
       "id": 8,
@@ -153,7 +188,12 @@
         "April 8, 1967",
         "May 5, 1962"
       ],
-      "tags": ["hbcu", "dates", "firsts", "1957"]
+      "tags": [
+        "hbcu",
+        "dates",
+        "firsts",
+        "1957"
+      ]
     },
     {
       "id": 9,
@@ -172,7 +212,12 @@
         "Tau Mu at Morehouse College",
         "Sigma Rho at Tuskegee University"
       ],
-      "tags": ["hbcu", "southeast", "first-chapter", "firsts"]
+      "tags": [
+        "hbcu",
+        "southeast",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 10,
@@ -191,7 +236,12 @@
         "Phi Sigma at Delaware State University",
         "Lambda Rho at Norfolk State University"
       ],
-      "tags": ["hbcu", "northeast", "first-chapter", "firsts"]
+      "tags": [
+        "hbcu",
+        "northeast",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 11,
@@ -210,7 +260,12 @@
         "Lambda Kappa at Harris-Stowe State University",
         "Mu Eta at Lincoln University (Pennsylvania)"
       ],
-      "tags": ["hbcu", "north-central", "first-chapter", "firsts"]
+      "tags": [
+        "hbcu",
+        "north-central",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 12,
@@ -229,7 +284,12 @@
         "New Mexico (4 chapters)",
         "Kansas (5 chapters)"
       ],
-      "tags": ["districts", "southwest", "states", "statistics"]
+      "tags": [
+        "districts",
+        "southwest",
+        "states",
+        "statistics"
+      ]
     },
     {
       "id": 13,
@@ -248,7 +308,12 @@
         "Maryland (6 chapters)",
         "Massachusetts (5 chapters)"
       ],
-      "tags": ["districts", "northeast", "states", "statistics"]
+      "tags": [
+        "districts",
+        "northeast",
+        "states",
+        "statistics"
+      ]
     },
     {
       "id": 14,
@@ -267,7 +332,12 @@
         "Wisconsin (4 chapters)",
         "Kentucky (3 chapters)"
       ],
-      "tags": ["districts", "north-central", "states", "statistics"]
+      "tags": [
+        "districts",
+        "north-central",
+        "states",
+        "statistics"
+      ]
     },
     {
       "id": 15,
@@ -286,7 +356,12 @@
         "Tennessee (10 chapters)",
         "South Carolina (8 chapters)"
       ],
-      "tags": ["districts", "southeast", "states", "statistics"]
+      "tags": [
+        "districts",
+        "southeast",
+        "states",
+        "statistics"
+      ]
     },
     {
       "id": 16,
@@ -305,7 +380,12 @@
         "Arizona (2 chapters)",
         "Nevada (2 chapters)"
       ],
-      "tags": ["districts", "western", "states", "statistics"]
+      "tags": [
+        "districts",
+        "western",
+        "states",
+        "statistics"
+      ]
     },
     {
       "id": 17,
@@ -324,7 +404,12 @@
         "Montana (3 chapters)",
         "Wyoming (2 chapters)"
       ],
-      "tags": ["districts", "midwest", "states", "statistics"]
+      "tags": [
+        "districts",
+        "midwest",
+        "states",
+        "statistics"
+      ]
     },
     {
       "id": 18,
@@ -343,7 +428,12 @@
         "Nu Chi at Western Kentucky University",
         "Omicron Sigma at University of Tennessee at Martin"
       ],
-      "tags": ["districts", "southeast", "recent", "newest"]
+      "tags": [
+        "districts",
+        "southeast",
+        "recent",
+        "newest"
+      ]
     },
     {
       "id": 19,
@@ -362,7 +452,12 @@
         "Omicron Upsilon at Edinboro University",
         "Pi Alpha at Slippery Rock University"
       ],
-      "tags": ["districts", "northeast", "recent", "newest"]
+      "tags": [
+        "districts",
+        "northeast",
+        "recent",
+        "newest"
+      ]
     },
     {
       "id": 20,
@@ -381,7 +476,12 @@
         "Pi Kappa at Tarleton State University",
         "Rho Eta at Stephen F. Austin State University"
       ],
-      "tags": ["districts", "southwest", "recent", "newest"]
+      "tags": [
+        "districts",
+        "southwest",
+        "recent",
+        "newest"
+      ]
     },
     {
       "id": 21,
@@ -400,7 +500,12 @@
         "Pi Beta at Wright State University",
         "Rho Kappa at Purdue University"
       ],
-      "tags": ["districts", "north-central", "recent", "newest"]
+      "tags": [
+        "districts",
+        "north-central",
+        "recent",
+        "newest"
+      ]
     },
     {
       "id": 22,
@@ -419,7 +524,12 @@
         "Mu Tau at Brigham Young University",
         "Lambda Zeta at Northern Arizona University"
       ],
-      "tags": ["districts", "western", "recent", "newest"]
+      "tags": [
+        "districts",
+        "western",
+        "recent",
+        "newest"
+      ]
     },
     {
       "id": 23,
@@ -438,7 +548,12 @@
         "Mu Delta at Missouri State University",
         "Nu Beta at University of Colorado Denver"
       ],
-      "tags": ["districts", "midwest", "recent", "newest"]
+      "tags": [
+        "districts",
+        "midwest",
+        "recent",
+        "newest"
+      ]
     },
     {
       "id": 24,
@@ -457,7 +572,12 @@
         "Texas and Oklahoma",
         "Duke and UNC"
       ],
-      "tags": ["trivia", "dates", "same-day", "unique"]
+      "tags": [
+        "trivia",
+        "dates",
+        "same-day",
+        "unique"
+      ]
     },
     {
       "id": 25,
@@ -476,7 +596,12 @@
         "Alabama State and Jackson State",
         "Tennessee State and Morgan State"
       ],
-      "tags": ["trivia", "dates", "same-day", "unique"]
+      "tags": [
+        "trivia",
+        "dates",
+        "same-day",
+        "unique"
+      ]
     },
     {
       "id": 26,
@@ -495,7 +620,12 @@
         "Beta Delta at Cornell University",
         "Beta Zeta at University of Pennsylvania"
       ],
-      "tags": ["districts", "northeast", "active", "oldest"]
+      "tags": [
+        "districts",
+        "northeast",
+        "active",
+        "oldest"
+      ]
     },
     {
       "id": 27,
@@ -514,7 +644,11 @@
         "Western (31 chapters)",
         "Southwest only (80 chapters)"
       ],
-      "tags": ["districts", "statistics", "size"]
+      "tags": [
+        "districts",
+        "statistics",
+        "size"
+      ]
     },
     {
       "id": 28,
@@ -533,7 +667,11 @@
         "Southeast (79 chapters)",
         "Southwest (79 chapters)"
       ],
-      "tags": ["districts", "statistics", "size"]
+      "tags": [
+        "districts",
+        "statistics",
+        "size"
+      ]
     },
     {
       "id": 29,
@@ -552,7 +690,11 @@
         "Midwest (0 HBCU chapters)",
         "Western (0 HBCU chapters)"
       ],
-      "tags": ["districts", "hbcu", "statistics"]
+      "tags": [
+        "districts",
+        "hbcu",
+        "statistics"
+      ]
     },
     {
       "id": 30,
@@ -571,7 +713,11 @@
         "North Central and Western",
         "Southeast and Midwest"
       ],
-      "tags": ["districts", "hbcu", "statistics"]
+      "tags": [
+        "districts",
+        "hbcu",
+        "statistics"
+      ]
     },
     {
       "id": 31,
@@ -590,7 +736,11 @@
         "Nu Omega at Clark Atlanta University",
         "Omicron Sigma at Miles College"
       ],
-      "tags": ["hbcu", "recent", "newest"]
+      "tags": [
+        "hbcu",
+        "recent",
+        "newest"
+      ]
     },
     {
       "id": 32,
@@ -609,7 +759,11 @@
         "31 chapters",
         "29 chapters"
       ],
-      "tags": ["history", "statistics", "decades"]
+      "tags": [
+        "history",
+        "statistics",
+        "decades"
+      ]
     },
     {
       "id": 33,
@@ -628,7 +782,11 @@
         "1960s (29 chapters)",
         "1950s (39 chapters)"
       ],
-      "tags": ["history", "statistics", "decades"]
+      "tags": [
+        "history",
+        "statistics",
+        "decades"
+      ]
     },
     {
       "id": 34,
@@ -647,7 +805,11 @@
         "Oklahoma (15 chapters)",
         "Georgia (15 chapters)"
       ],
-      "tags": ["geography", "statistics", "states"]
+      "tags": [
+        "geography",
+        "statistics",
+        "states"
+      ]
     },
     {
       "id": 35,
@@ -666,7 +828,11 @@
         "Oklahoma (15 chapters)",
         "Georgia (15 chapters)"
       ],
-      "tags": ["geography", "statistics", "states"]
+      "tags": [
+        "geography",
+        "statistics",
+        "states"
+      ]
     },
     {
       "id": 36,
@@ -685,7 +851,11 @@
         "325",
         "360"
       ],
-      "tags": ["general", "statistics", "total-chapters"]
+      "tags": [
+        "general",
+        "statistics",
+        "total-chapters"
+      ]
     },
     {
       "id": 37,
@@ -704,7 +874,11 @@
         "55",
         "60"
       ],
-      "tags": ["hbcu", "statistics", "general"]
+      "tags": [
+        "hbcu",
+        "statistics",
+        "general"
+      ]
     },
     {
       "id": 38,
@@ -723,7 +897,11 @@
         "104 years",
         "106 years"
       ],
-      "tags": ["history", "timeline", "span"]
+      "tags": [
+        "history",
+        "timeline",
+        "span"
+      ]
     },
     {
       "id": 39,
@@ -742,7 +920,11 @@
         "October 27, 1919",
         "November 15, 1919"
       ],
-      "tags": ["founding", "dates", "history"]
+      "tags": [
+        "founding",
+        "dates",
+        "history"
+      ]
     },
     {
       "id": 40,
@@ -761,7 +943,11 @@
         "Xi Gamma at Cleveland State University",
         "Xi Beta at University of North Texas"
       ],
-      "tags": ["recent", "newest-chapter", "history"]
+      "tags": [
+        "recent",
+        "newest-chapter",
+        "history"
+      ]
     },
     {
       "id": 41,
@@ -780,7 +966,11 @@
         "April 28, 2021",
         "November 18, 2017"
       ],
-      "tags": ["recent", "dates", "2024"]
+      "tags": [
+        "recent",
+        "dates",
+        "2024"
+      ]
     },
     {
       "id": 42,
@@ -799,7 +989,12 @@
         "#45 Alpha Phi at Rutgers",
         "#53 Beta Delta at Cornell"
       ],
-      "tags": ["districts", "northeast", "active", "chapter-numbers"]
+      "tags": [
+        "districts",
+        "northeast",
+        "active",
+        "chapter-numbers"
+      ]
     },
     {
       "id": 43,
@@ -818,7 +1013,11 @@
         "SEC",
         "Big Ten"
       ],
-      "tags": ["hbcu", "conferences", "statistics"]
+      "tags": [
+        "hbcu",
+        "conferences",
+        "statistics"
+      ]
     },
     {
       "id": 44,
@@ -837,7 +1036,11 @@
         "0",
         "5"
       ],
-      "tags": ["ivy-league", "elite-schools", "statistics"]
+      "tags": [
+        "ivy-league",
+        "elite-schools",
+        "statistics"
+      ]
     },
     {
       "id": 45,
@@ -856,7 +1059,11 @@
         "Cornell and Columbia",
         "Penn and Princeton"
       ],
-      "tags": ["ivy-league", "elite-schools", "northeastern"]
+      "tags": [
+        "ivy-league",
+        "elite-schools",
+        "northeastern"
+      ]
     },
     {
       "id": 46,
@@ -875,7 +1082,12 @@
         "45 active chapters",
         "60 active chapters"
       ],
-      "tags": ["districts", "southwest", "active", "statistics"]
+      "tags": [
+        "districts",
+        "southwest",
+        "active",
+        "statistics"
+      ]
     },
     {
       "id": 47,
@@ -894,7 +1106,12 @@
         "45 active chapters",
         "55 active chapters"
       ],
-      "tags": ["districts", "southeast", "active", "statistics"]
+      "tags": [
+        "districts",
+        "southeast",
+        "active",
+        "statistics"
+      ]
     },
     {
       "id": 48,
@@ -913,7 +1130,11 @@
         "Delta Pi at Mississippi Valley State",
         "Delta Psi at Prairie View A&M"
       ],
-      "tags": ["hbcu", "history", "order", "texas-southern"]
+      "tags": [
+        "hbcu",
+        "history",
+        "order"
+      ]
     },
     {
       "id": 49,
@@ -932,7 +1153,12 @@
         "Beta Alpha at Baylor University",
         "Gamma Omega at Texas Southern"
       ],
-      "tags": ["geography", "texas", "first-chapter", "firsts"]
+      "tags": [
+        "geography",
+        "texas",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 50,
@@ -951,7 +1177,12 @@
         "Beta Kappa at Bowling Green State",
         "Gamma Upsilon at Ohio Wesleyan"
       ],
-      "tags": ["geography", "ohio", "first-chapter", "firsts"]
+      "tags": [
+        "geography",
+        "ohio",
+        "first-chapter",
+        "firsts"
+      ]
     },
     {
       "id": 51,
@@ -970,7 +1201,11 @@
         "4",
         "9"
       ],
-      "tags": ["districts", "organization", "structure"]
+      "tags": [
+        "districts",
+        "organization",
+        "structure"
+      ]
     },
     {
       "id": 52,
@@ -989,7 +1224,11 @@
         "Manhattan School of Music",
         "Eastman School of Music"
       ],
-      "tags": ["special-institutions", "music-schools", "unique"]
+      "tags": [
+        "special-institutions",
+        "music-schools",
+        "unique"
+      ]
     },
     {
       "id": 53,
@@ -1008,7 +1247,11 @@
         "South Central",
         "Central"
       ],
-      "tags": ["districts", "geography", "southwest"]
+      "tags": [
+        "districts",
+        "geography",
+        "southwest"
+      ]
     },
     {
       "id": 54,
@@ -1027,7 +1270,11 @@
         "Eastern",
         "Great Lakes"
       ],
-      "tags": ["districts", "geography", "north-central"]
+      "tags": [
+        "districts",
+        "geography",
+        "north-central"
+      ]
     },
     {
       "id": 55,
@@ -1046,7 +1293,11 @@
         "Atlantic",
         "Mid-Atlantic"
       ],
-      "tags": ["districts", "geography", "northeast"]
+      "tags": [
+        "districts",
+        "geography",
+        "northeast"
+      ]
     },
     {
       "id": 56,
@@ -1065,7 +1316,11 @@
         "Mountain",
         "Central"
       ],
-      "tags": ["districts", "geography", "midwest"]
+      "tags": [
+        "districts",
+        "geography",
+        "midwest"
+      ]
     },
     {
       "id": 57,
@@ -1085,7 +1340,11 @@
         "Colorado"
       ],
       "description": "Oklahoma is the true birthplace of KKPsi - home to the Alpha chapter and all 10 founding fathers.",
-      "tags": ["cross-reference", "founding-fathers", "oklahoma", "history"]
+      "tags": [
+        "founding-fathers",
+        "oklahoma",
+        "history"
+      ]
     },
     {
       "id": 58,
@@ -1105,7 +1364,11 @@
         "12 years"
       ],
       "description": "Despite now leading with 38 chapters, Texas didn't get its first chapter until 1938.",
-      "tags": ["cross-reference", "texas", "timeline", "history"]
+      "tags": [
+        "texas",
+        "timeline",
+        "history"
+      ]
     },
     {
       "id": 59,
@@ -1125,7 +1388,11 @@
         "35 years"
       ],
       "description": "Delta Alpha at Langston University broke this barrier in 1957, paving the way for 50 HBCU chapters today.",
-      "tags": ["cross-reference", "hbcu", "timeline", "history"]
+      "tags": [
+        "hbcu",
+        "timeline",
+        "history"
+      ]
     },
     {
       "id": 60,
@@ -1145,7 +1412,11 @@
         "65 chapters"
       ],
       "description": "KKPsi had 93 chapters before expanding to HBCUs - HBCU chapters now make up over a third of chapters founded since.",
-      "tags": ["cross-reference", "hbcu", "statistics", "history"]
+      "tags": [
+        "hbcu",
+        "statistics",
+        "history"
+      ]
     },
     {
       "id": 61,
@@ -1165,7 +1436,11 @@
         "115 chapters"
       ],
       "description": "The fraternity averaged over 2.5 new chapters per year in its first 50 years.",
-      "tags": ["cross-reference", "anniversary", "statistics", "history"]
+      "tags": [
+        "anniversary",
+        "statistics",
+        "history"
+      ]
     },
     {
       "id": 62,
@@ -1185,7 +1460,11 @@
         "Southwest (30%)"
       ],
       "description": "Nearly 4 in 10 Southeast chapters are at HBCUs, reflecting the region's concentration of historically Black institutions.",
-      "tags": ["cross-reference", "hbcu", "southeast", "statistics"]
+      "tags": [
+        "hbcu",
+        "southeast",
+        "statistics"
+      ]
     },
     {
       "id": 63,
@@ -1205,7 +1484,11 @@
         "30%"
       ],
       "description": "Texas dominates the Southwest, accounting for nearly half of all district chapters.",
-      "tags": ["cross-reference", "texas", "southwest", "statistics"]
+      "tags": [
+        "texas",
+        "southwest",
+        "statistics"
+      ]
     },
     {
       "id": 64,
@@ -1225,7 +1508,11 @@
         "Southeast (79 chapters)"
       ],
       "description": "The Western District spans from Hawaii to Washington but has fewer chapters than any other district.",
-      "tags": ["cross-reference", "western", "geography", "statistics"]
+      "tags": [
+        "western",
+        "geography",
+        "statistics"
+      ]
     },
     {
       "id": 65,
@@ -1245,7 +1532,11 @@
         "1950s (39 total, 2 HBCU)"
       ],
       "description": "The 1970s saw unprecedented HBCU expansion, with 13 new HBCU chapters reflecting the civil rights era's impact.",
-      "tags": ["cross-reference", "hbcu", "decades", "statistics"]
+      "tags": [
+        "hbcu",
+        "decades",
+        "statistics"
+      ]
     },
     {
       "id": 66,
@@ -1265,7 +1556,11 @@
         "1950s (39 chapters)"
       ],
       "description": "The 2000s surpassed all decades with 51 new chapters, though only 5 were at HBCUs.",
-      "tags": ["cross-reference", "decades", "statistics", "growth"]
+      "tags": [
+        "decades",
+        "statistics",
+        "growth"
+      ]
     },
     {
       "id": 67,
@@ -1285,7 +1580,11 @@
         "Tennessee (Southeast and Southwest)"
       ],
       "description": "West Virginia straddles two KKPsi districts due to its position between Appalachia and the Midwest.",
-      "tags": ["cross-reference", "geography", "districts", "unique"]
+      "tags": [
+        "geography",
+        "districts",
+        "unique"
+      ]
     },
     {
       "id": 68,
@@ -1305,7 +1604,11 @@
         "Zeta Nu at Southern University"
       ],
       "description": "The Midwest and Western districts have zero HBCU chapters, making Oklahoma's Langston the westernmost.",
-      "tags": ["cross-reference", "hbcu", "geography", "westernmost"]
+      "tags": [
+        "hbcu",
+        "geography",
+        "westernmost"
+      ]
     }
   ]
 }

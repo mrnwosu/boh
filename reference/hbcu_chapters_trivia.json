@@ -13,8 +13,19 @@
         "What is the HBCU chapter count for KKPsi?"
       ],
       "correctAnswer": "34",
-      "wrongAnswers": ["30", "40", "28", "32", "36", "38"],
-      "tags": ["hbcu", "statistics", "general"]
+      "wrongAnswers": [
+        "30",
+        "40",
+        "28",
+        "32",
+        "36",
+        "38"
+      ],
+      "tags": [
+        "hbcu",
+        "statistics",
+        "general"
+      ]
     },
     {
       "id": 2,
@@ -26,8 +37,18 @@
         "The first HBCU chapter of Kappa Kappa Psi was which chapter?"
       ],
       "correctAnswer": "Gamma Omega",
-      "wrongAnswers": ["Alpha Phi", "Beta Eta", "Gamma Phi", "Delta Epsilon", "Epsilon Zeta"],
-      "tags": ["hbcu", "founding", "history", "gamma-omega"]
+      "wrongAnswers": [
+        "Alpha Phi",
+        "Beta Eta",
+        "Gamma Phi",
+        "Delta Epsilon",
+        "Epsilon Zeta"
+      ],
+      "tags": [
+        "hbcu",
+        "founding",
+        "history"
+      ]
     },
     {
       "id": 3,
@@ -39,8 +60,17 @@
         "The first HBCU chapter was chartered at which school?"
       ],
       "correctAnswer": "Texas Southern University",
-      "wrongAnswers": ["Howard University", "Florida A&M University", "Southern University", "North Carolina A&T", "Alabama State University"],
-      "tags": ["hbcu", "founding", "gamma-omega", "texas-southern"]
+      "wrongAnswers": [
+        "Howard University",
+        "Florida A&M University",
+        "Southern University",
+        "North Carolina A&T",
+        "Alabama State University"
+      ],
+      "tags": [
+        "hbcu",
+        "founding"
+      ]
     },
     {
       "id": 4,
@@ -52,8 +82,18 @@
         "What is the founding date of Gamma Omega chapter?"
       ],
       "correctAnswer": "1957",
-      "wrongAnswers": ["1955", "1960", "1950", "1962", "1958"],
-      "tags": ["hbcu", "founding", "gamma-omega", "dates"]
+      "wrongAnswers": [
+        "1955",
+        "1960",
+        "1950",
+        "1962",
+        "1958"
+      ],
+      "tags": [
+        "hbcu",
+        "founding",
+        "dates"
+      ]
     },
     {
       "id": 5,
@@ -65,8 +105,19 @@
         "What is the district with the most chapters at HBCUs?"
       ],
       "correctAnswer": "Southeast (28 chapters)",
-      "wrongAnswers": ["Southwest (5 chapters)", "Northeast (6 chapters)", "North Central (3 chapters)", "South Central (10 chapters)", "Western (2 chapters)"],
-      "tags": ["hbcu", "districts", "southeast", "statistics"]
+      "wrongAnswers": [
+        "Southwest (5 chapters)",
+        "Northeast (6 chapters)",
+        "North Central (3 chapters)",
+        "South Central (10 chapters)",
+        "Western (2 chapters)"
+      ],
+      "tags": [
+        "hbcu",
+        "districts",
+        "southeast",
+        "statistics"
+      ]
     },
     {
       "id": 6,
@@ -78,8 +129,17 @@
         "What chapter represents Howard University?"
       ],
       "correctAnswer": "Alpha Phi",
-      "wrongAnswers": ["Beta Eta", "Gamma Omega", "Delta Epsilon", "Epsilon Zeta", "Zeta Omega"],
-      "tags": ["hbcu", "howard", "alpha-phi", "chapters"]
+      "wrongAnswers": [
+        "Beta Eta",
+        "Gamma Omega",
+        "Delta Epsilon",
+        "Epsilon Zeta",
+        "Zeta Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 7,
@@ -91,8 +151,17 @@
         "What is the founding date of Alpha Phi?"
       ],
       "correctAnswer": "1968",
-      "wrongAnswers": ["1965", "1970", "1967", "1969", "1972"],
-      "tags": ["hbcu", "howard", "alpha-phi", "dates"]
+      "wrongAnswers": [
+        "1965",
+        "1970",
+        "1967",
+        "1969",
+        "1972"
+      ],
+      "tags": [
+        "hbcu",
+        "dates"
+      ]
     },
     {
       "id": 8,
@@ -104,8 +173,17 @@
         "What chapter was chartered at Florida A&M University?"
       ],
       "correctAnswer": "Beta Eta",
-      "wrongAnswers": ["Alpha Phi", "Gamma Omega", "Delta Sigma", "Epsilon Zeta", "Zeta Omega"],
-      "tags": ["hbcu", "famu", "beta-eta", "chapters"]
+      "wrongAnswers": [
+        "Alpha Phi",
+        "Gamma Omega",
+        "Delta Sigma",
+        "Epsilon Zeta",
+        "Zeta Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 9,
@@ -117,8 +195,19 @@
         "What conference has the highest number of HBCU chapters?"
       ],
       "correctAnswer": "SWAC (13 chapters)",
-      "wrongAnswers": ["MEAC (8 chapters)", "SIAC (7 chapters)", "CIAA (6 chapters)", "Big South (3 chapters)", "Independent (2 chapters)"],
-      "tags": ["hbcu", "conferences", "swac", "statistics"]
+      "wrongAnswers": [
+        "MEAC (8 chapters)",
+        "SIAC (7 chapters)",
+        "CIAA (6 chapters)",
+        "Big South (3 chapters)",
+        "Independent (2 chapters)"
+      ],
+      "tags": [
+        "hbcu",
+        "conferences",
+        "swac",
+        "statistics"
+      ]
     },
     {
       "id": 10,
@@ -130,8 +219,17 @@
         "What chapter was chartered at Southern University?"
       ],
       "correctAnswer": "Delta Epsilon",
-      "wrongAnswers": ["Gamma Omega", "Beta Eta", "Alpha Phi", "Epsilon Zeta", "Zeta Omega"],
-      "tags": ["hbcu", "southern", "delta-epsilon", "chapters"]
+      "wrongAnswers": [
+        "Gamma Omega",
+        "Beta Eta",
+        "Alpha Phi",
+        "Epsilon Zeta",
+        "Zeta Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 11,
@@ -143,8 +241,17 @@
         "What chapter was chartered at North Carolina A&T?"
       ],
       "correctAnswer": "Epsilon Zeta",
-      "wrongAnswers": ["Beta Eta", "Alpha Phi", "Delta Epsilon", "Gamma Omega", "Zeta Omega"],
-      "tags": ["hbcu", "nc-at", "epsilon-zeta", "chapters"]
+      "wrongAnswers": [
+        "Beta Eta",
+        "Alpha Phi",
+        "Delta Epsilon",
+        "Gamma Omega",
+        "Zeta Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 12,
@@ -156,8 +263,19 @@
         "What is the MEAC's KKPsi chapter count?"
       ],
       "correctAnswer": "8",
-      "wrongAnswers": ["6", "10", "7", "9", "5"],
-      "tags": ["hbcu", "conferences", "meac", "statistics"]
+      "wrongAnswers": [
+        "6",
+        "10",
+        "7",
+        "9",
+        "5"
+      ],
+      "tags": [
+        "hbcu",
+        "conferences",
+        "meac",
+        "statistics"
+      ]
     },
     {
       "id": 13,
@@ -169,8 +287,17 @@
         "What chapter was chartered at Alabama State University?"
       ],
       "correctAnswer": "Zeta Omega",
-      "wrongAnswers": ["Delta Epsilon", "Gamma Omega", "Beta Eta", "Epsilon Zeta", "Alpha Phi"],
-      "tags": ["hbcu", "alabama-state", "zeta-omega", "chapters"]
+      "wrongAnswers": [
+        "Delta Epsilon",
+        "Gamma Omega",
+        "Beta Eta",
+        "Epsilon Zeta",
+        "Alpha Phi"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 14,
@@ -182,8 +309,17 @@
         "What chapter was chartered at Jackson State University?"
       ],
       "correctAnswer": "Eta Pi",
-      "wrongAnswers": ["Delta Epsilon", "Gamma Omega", "Zeta Omega", "Beta Eta", "Epsilon Zeta"],
-      "tags": ["hbcu", "jackson-state", "eta-pi", "chapters"]
+      "wrongAnswers": [
+        "Delta Epsilon",
+        "Gamma Omega",
+        "Zeta Omega",
+        "Beta Eta",
+        "Epsilon Zeta"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 15,
@@ -195,8 +331,19 @@
         "What is the Southwest's HBCU chapter count?"
       ],
       "correctAnswer": "5",
-      "wrongAnswers": ["3", "7", "4", "6", "8"],
-      "tags": ["hbcu", "districts", "southwest", "statistics"]
+      "wrongAnswers": [
+        "3",
+        "7",
+        "4",
+        "6",
+        "8"
+      ],
+      "tags": [
+        "hbcu",
+        "districts",
+        "southwest",
+        "statistics"
+      ]
     },
     {
       "id": 16,
@@ -208,8 +355,17 @@
         "What chapter was chartered at Grambling State University?"
       ],
       "correctAnswer": "Theta Psi",
-      "wrongAnswers": ["Delta Epsilon", "Gamma Omega", "Eta Pi", "Zeta Omega", "Beta Eta"],
-      "tags": ["hbcu", "grambling", "theta-psi", "chapters"]
+      "wrongAnswers": [
+        "Delta Epsilon",
+        "Gamma Omega",
+        "Eta Pi",
+        "Zeta Omega",
+        "Beta Eta"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 17,
@@ -221,8 +377,17 @@
         "What chapter was chartered at Tennessee State University?"
       ],
       "correctAnswer": "Iota Tau",
-      "wrongAnswers": ["Theta Psi", "Eta Pi", "Zeta Omega", "Delta Epsilon", "Epsilon Zeta"],
-      "tags": ["hbcu", "tennessee-state", "iota-tau", "chapters"]
+      "wrongAnswers": [
+        "Theta Psi",
+        "Eta Pi",
+        "Zeta Omega",
+        "Delta Epsilon",
+        "Epsilon Zeta"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 18,
@@ -234,8 +399,19 @@
         "What is the SIAC's KKPsi chapter count?"
       ],
       "correctAnswer": "7",
-      "wrongAnswers": ["5", "9", "6", "8", "10"],
-      "tags": ["hbcu", "conferences", "siac", "statistics"]
+      "wrongAnswers": [
+        "5",
+        "9",
+        "6",
+        "8",
+        "10"
+      ],
+      "tags": [
+        "hbcu",
+        "conferences",
+        "siac",
+        "statistics"
+      ]
     },
     {
       "id": 19,
@@ -247,8 +423,17 @@
         "What chapter was chartered at Prairie View A&M University?"
       ],
       "correctAnswer": "Lambda Gamma",
-      "wrongAnswers": ["Gamma Omega", "Delta Epsilon", "Theta Psi", "Eta Pi", "Zeta Omega"],
-      "tags": ["hbcu", "prairie-view", "lambda-gamma", "chapters"]
+      "wrongAnswers": [
+        "Gamma Omega",
+        "Delta Epsilon",
+        "Theta Psi",
+        "Eta Pi",
+        "Zeta Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 20,
@@ -260,8 +445,17 @@
         "What chapter was chartered at Norfolk State University?"
       ],
       "correctAnswer": "Lambda Rho",
-      "wrongAnswers": ["Alpha Phi", "Epsilon Zeta", "Beta Eta", "Delta Epsilon", "Zeta Omega"],
-      "tags": ["hbcu", "norfolk-state", "lambda-rho", "chapters"]
+      "wrongAnswers": [
+        "Alpha Phi",
+        "Epsilon Zeta",
+        "Beta Eta",
+        "Delta Epsilon",
+        "Zeta Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 21,
@@ -273,8 +467,19 @@
         "What is the CIAA's KKPsi chapter count?"
       ],
       "correctAnswer": "6",
-      "wrongAnswers": ["4", "8", "5", "7", "9"],
-      "tags": ["hbcu", "conferences", "ciaa", "statistics"]
+      "wrongAnswers": [
+        "4",
+        "8",
+        "5",
+        "7",
+        "9"
+      ],
+      "tags": [
+        "hbcu",
+        "conferences",
+        "ciaa",
+        "statistics"
+      ]
     },
     {
       "id": 22,
@@ -286,8 +491,17 @@
         "What chapter was chartered at Morgan State University?"
       ],
       "correctAnswer": "Mu Kappa",
-      "wrongAnswers": ["Alpha Phi", "Lambda Rho", "Epsilon Zeta", "Beta Eta", "Delta Epsilon"],
-      "tags": ["hbcu", "morgan-state", "mu-kappa", "chapters"]
+      "wrongAnswers": [
+        "Alpha Phi",
+        "Lambda Rho",
+        "Epsilon Zeta",
+        "Beta Eta",
+        "Delta Epsilon"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 23,
@@ -299,8 +513,17 @@
         "What chapter was chartered at Bethune-Cookman University?"
       ],
       "correctAnswer": "Nu Upsilon",
-      "wrongAnswers": ["Beta Eta", "Epsilon Zeta", "Lambda Rho", "Mu Kappa", "Delta Epsilon"],
-      "tags": ["hbcu", "bethune-cookman", "nu-upsilon", "chapters"]
+      "wrongAnswers": [
+        "Beta Eta",
+        "Epsilon Zeta",
+        "Lambda Rho",
+        "Mu Kappa",
+        "Delta Epsilon"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 24,
@@ -312,8 +535,17 @@
         "What chapter was chartered at South Carolina State University?"
       ],
       "correctAnswer": "Xi Xi",
-      "wrongAnswers": ["Epsilon Zeta", "Lambda Rho", "Nu Upsilon", "Mu Kappa", "Beta Eta"],
-      "tags": ["hbcu", "sc-state", "xi-xi", "chapters"]
+      "wrongAnswers": [
+        "Epsilon Zeta",
+        "Lambda Rho",
+        "Nu Upsilon",
+        "Mu Kappa",
+        "Beta Eta"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 25,
@@ -325,8 +557,17 @@
         "What chapter was chartered at Alcorn State University?"
       ],
       "correctAnswer": "Omicron Rho",
-      "wrongAnswers": ["Eta Pi", "Theta Psi", "Delta Epsilon", "Zeta Omega", "Gamma Omega"],
-      "tags": ["hbcu", "alcorn-state", "omicron-rho", "chapters"]
+      "wrongAnswers": [
+        "Eta Pi",
+        "Theta Psi",
+        "Delta Epsilon",
+        "Zeta Omega",
+        "Gamma Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 26,
@@ -338,8 +579,19 @@
         "What is the Northeast's HBCU chapter count?"
       ],
       "correctAnswer": "6",
-      "wrongAnswers": ["4", "8", "5", "7", "3"],
-      "tags": ["hbcu", "districts", "northeast", "statistics"]
+      "wrongAnswers": [
+        "4",
+        "8",
+        "5",
+        "7",
+        "3"
+      ],
+      "tags": [
+        "hbcu",
+        "districts",
+        "northeast",
+        "statistics"
+      ]
     },
     {
       "id": 27,
@@ -351,8 +603,17 @@
         "What chapter was chartered at Alabama A&M University?"
       ],
       "correctAnswer": "Pi Omicron",
-      "wrongAnswers": ["Zeta Omega", "Delta Epsilon", "Eta Pi", "Iota Tau", "Theta Psi"],
-      "tags": ["hbcu", "alabama-am", "pi-omicron", "chapters"]
+      "wrongAnswers": [
+        "Zeta Omega",
+        "Delta Epsilon",
+        "Eta Pi",
+        "Iota Tau",
+        "Theta Psi"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 28,
@@ -364,8 +625,17 @@
         "What chapter was chartered at Winston-Salem State University?"
       ],
       "correctAnswer": "Rho Rho",
-      "wrongAnswers": ["Epsilon Zeta", "Xi Xi", "Lambda Rho", "Mu Kappa", "Nu Upsilon"],
-      "tags": ["hbcu", "winston-salem", "rho-rho", "chapters"]
+      "wrongAnswers": [
+        "Epsilon Zeta",
+        "Xi Xi",
+        "Lambda Rho",
+        "Mu Kappa",
+        "Nu Upsilon"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 29,
@@ -377,8 +647,17 @@
         "What chapter was chartered at Tuskegee University?"
       ],
       "correctAnswer": "Sigma Rho",
-      "wrongAnswers": ["Zeta Omega", "Pi Omicron", "Delta Epsilon", "Eta Pi", "Iota Tau"],
-      "tags": ["hbcu", "tuskegee", "sigma-rho", "chapters"]
+      "wrongAnswers": [
+        "Zeta Omega",
+        "Pi Omicron",
+        "Delta Epsilon",
+        "Eta Pi",
+        "Iota Tau"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 30,
@@ -390,8 +669,19 @@
         "What is the North Central's HBCU chapter count?"
       ],
       "correctAnswer": "3",
-      "wrongAnswers": ["2", "5", "4", "6", "1"],
-      "tags": ["hbcu", "districts", "north-central", "statistics"]
+      "wrongAnswers": [
+        "2",
+        "5",
+        "4",
+        "6",
+        "1"
+      ],
+      "tags": [
+        "hbcu",
+        "districts",
+        "north-central",
+        "statistics"
+      ]
     },
     {
       "id": 31,
@@ -403,8 +693,17 @@
         "What chapter was chartered at Bowie State University?"
       ],
       "correctAnswer": "Tau Iota",
-      "wrongAnswers": ["Alpha Phi", "Lambda Rho", "Mu Kappa", "Xi Xi", "Rho Rho"],
-      "tags": ["hbcu", "bowie-state", "tau-iota", "chapters"]
+      "wrongAnswers": [
+        "Alpha Phi",
+        "Lambda Rho",
+        "Mu Kappa",
+        "Xi Xi",
+        "Rho Rho"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 32,
@@ -416,8 +715,17 @@
         "What chapter was chartered at Morehouse College?"
       ],
       "correctAnswer": "Tau Mu",
-      "wrongAnswers": ["Beta Eta", "Epsilon Zeta", "Sigma Rho", "Zeta Omega", "Pi Omicron"],
-      "tags": ["hbcu", "morehouse", "tau-mu", "chapters"]
+      "wrongAnswers": [
+        "Beta Eta",
+        "Epsilon Zeta",
+        "Sigma Rho",
+        "Zeta Omega",
+        "Pi Omicron"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 33,
@@ -429,8 +737,17 @@
         "What chapter was chartered at Fort Valley State University?"
       ],
       "correctAnswer": "Upsilon Phi",
-      "wrongAnswers": ["Tau Mu", "Sigma Rho", "Pi Omicron", "Zeta Omega", "Beta Eta"],
-      "tags": ["hbcu", "fort-valley", "upsilon-phi", "chapters"]
+      "wrongAnswers": [
+        "Tau Mu",
+        "Sigma Rho",
+        "Pi Omicron",
+        "Zeta Omega",
+        "Beta Eta"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 34,
@@ -442,8 +759,17 @@
         "What chapter was chartered at Delaware State University?"
       ],
       "correctAnswer": "Phi Sigma",
-      "wrongAnswers": ["Alpha Phi", "Lambda Rho", "Mu Kappa", "Tau Iota", "Xi Xi"],
-      "tags": ["hbcu", "delaware-state", "phi-sigma", "chapters"]
+      "wrongAnswers": [
+        "Alpha Phi",
+        "Lambda Rho",
+        "Mu Kappa",
+        "Tau Iota",
+        "Xi Xi"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 35,
@@ -455,8 +781,17 @@
         "What chapter was chartered at Kentucky State University?"
       ],
       "correctAnswer": "Phi Upsilon",
-      "wrongAnswers": ["Iota Tau", "Tau Mu", "Sigma Rho", "Pi Omicron", "Delta Epsilon"],
-      "tags": ["hbcu", "kentucky-state", "phi-upsilon", "chapters"]
+      "wrongAnswers": [
+        "Iota Tau",
+        "Tau Mu",
+        "Sigma Rho",
+        "Pi Omicron",
+        "Delta Epsilon"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 36,
@@ -468,8 +803,17 @@
         "What chapter was chartered at Central State University?"
       ],
       "correctAnswer": "Chi Gamma",
-      "wrongAnswers": ["Phi Upsilon", "Iota Tau", "Tau Mu", "Sigma Rho", "Pi Omicron"],
-      "tags": ["hbcu", "central-state", "chi-gamma", "chapters"]
+      "wrongAnswers": [
+        "Phi Upsilon",
+        "Iota Tau",
+        "Tau Mu",
+        "Sigma Rho",
+        "Pi Omicron"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 37,
@@ -481,8 +825,17 @@
         "What chapter was chartered at Fayetteville State University?"
       ],
       "correctAnswer": "Chi Mu",
-      "wrongAnswers": ["Epsilon Zeta", "Xi Xi", "Rho Rho", "Lambda Rho", "Mu Kappa"],
-      "tags": ["hbcu", "fayetteville-state", "chi-mu", "chapters"]
+      "wrongAnswers": [
+        "Epsilon Zeta",
+        "Xi Xi",
+        "Rho Rho",
+        "Lambda Rho",
+        "Mu Kappa"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 38,
@@ -494,8 +847,17 @@
         "What chapter was chartered at Mississippi Valley State University?"
       ],
       "correctAnswer": "Psi Chi",
-      "wrongAnswers": ["Eta Pi", "Theta Psi", "Omicron Rho", "Delta Epsilon", "Zeta Omega"],
-      "tags": ["hbcu", "mvsu", "psi-chi", "chapters"]
+      "wrongAnswers": [
+        "Eta Pi",
+        "Theta Psi",
+        "Omicron Rho",
+        "Delta Epsilon",
+        "Zeta Omega"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 39,
@@ -507,8 +869,17 @@
         "What chapter was chartered at Savannah State University?"
       ],
       "correctAnswer": "Omega Upsilon",
-      "wrongAnswers": ["Beta Eta", "Tau Mu", "Upsilon Phi", "Sigma Rho", "Xi Xi"],
-      "tags": ["hbcu", "savannah-state", "omega-upsilon", "chapters"]
+      "wrongAnswers": [
+        "Beta Eta",
+        "Tau Mu",
+        "Upsilon Phi",
+        "Sigma Rho",
+        "Xi Xi"
+      ],
+      "tags": [
+        "hbcu",
+        "chapters"
+      ]
     },
     {
       "id": 40,
@@ -520,8 +891,18 @@
         "About what percent of KKPsi's 343 chapters are at HBCUs?"
       ],
       "correctAnswer": "10%",
-      "wrongAnswers": ["5%", "15%", "20%", "8%", "12%"],
-      "tags": ["hbcu", "statistics", "percentage"]
+      "wrongAnswers": [
+        "5%",
+        "15%",
+        "20%",
+        "8%",
+        "12%"
+      ],
+      "tags": [
+        "hbcu",
+        "statistics",
+        "percentage"
+      ]
     }
   ]
 }

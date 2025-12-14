@@ -13,8 +13,18 @@
         "What is the district count for Kappa Kappa Psi?"
       ],
       "correctAnswer": "7",
-      "wrongAnswers": ["6", "8", "5", "9", "10"],
-      "tags": ["districts", "general", "statistics"]
+      "wrongAnswers": [
+        "6",
+        "8",
+        "5",
+        "9",
+        "10"
+      ],
+      "tags": [
+        "districts",
+        "general",
+        "statistics"
+      ]
     },
     {
       "id": 2,
@@ -26,8 +36,18 @@
         "The Southwest District has approximately how many chapters?"
       ],
       "correctAnswer": "Southwest (approximately 95 chapters)",
-      "wrongAnswers": ["Southeast (approximately 70 chapters)", "North Central (approximately 65 chapters)", "Northeast (approximately 50 chapters)", "Western (approximately 40 chapters)", "South Central (approximately 35 chapters)"],
-      "tags": ["districts", "southwest", "statistics"]
+      "wrongAnswers": [
+        "Southeast (approximately 70 chapters)",
+        "North Central (approximately 65 chapters)",
+        "Northeast (approximately 50 chapters)",
+        "Western (approximately 40 chapters)",
+        "South Central (approximately 35 chapters)"
+      ],
+      "tags": [
+        "districts",
+        "southwest",
+        "statistics"
+      ]
     },
     {
       "id": 3,
@@ -39,8 +59,17 @@
         "Which chapter is located in the Northeast District?"
       ],
       "correctAnswer": "Alpha at Oklahoma State University",
-      "wrongAnswers": ["Beta at Kansas State University", "Gamma at Texas Tech University", "Delta at University of Arizona", "Epsilon at Texas A&M University"],
-      "tags": ["districts", "northeast", "chapters", "alpha"]
+      "wrongAnswers": [
+        "Beta at Kansas State University",
+        "Gamma at Texas Tech University",
+        "Delta at University of Arizona",
+        "Epsilon at Texas A&M University"
+      ],
+      "tags": [
+        "districts",
+        "northeast",
+        "chapters"
+      ]
     },
     {
       "id": 4,
@@ -52,8 +81,19 @@
         "What is the district with the most chapters at HBCUs?"
       ],
       "correctAnswer": "Southeast (28 HBCU chapters)",
-      "wrongAnswers": ["Southwest (5 HBCU chapters)", "Northeast (6 HBCU chapters)", "North Central (3 HBCU chapters)", "South Central (8 HBCU chapters)", "Western (1 HBCU chapter)"],
-      "tags": ["districts", "southeast", "hbcu", "statistics"]
+      "wrongAnswers": [
+        "Southwest (5 HBCU chapters)",
+        "Northeast (6 HBCU chapters)",
+        "North Central (3 HBCU chapters)",
+        "South Central (8 HBCU chapters)",
+        "Western (1 HBCU chapter)"
+      ],
+      "tags": [
+        "districts",
+        "southeast",
+        "hbcu",
+        "statistics"
+      ]
     },
     {
       "id": 5,
@@ -65,8 +105,17 @@
         "Which chapter is located in the North Central District?"
       ],
       "correctAnswer": "Epsilon at Iowa State University",
-      "wrongAnswers": ["Alpha at Oklahoma State University", "Beta at Kansas State University", "Gamma at Texas Tech University", "Delta at University of Arizona"],
-      "tags": ["districts", "north-central", "chapters", "epsilon"]
+      "wrongAnswers": [
+        "Alpha at Oklahoma State University",
+        "Beta at Kansas State University",
+        "Gamma at Texas Tech University",
+        "Delta at University of Arizona"
+      ],
+      "tags": [
+        "districts",
+        "north-central",
+        "chapters"
+      ]
     },
     {
       "id": 6,
@@ -78,8 +127,17 @@
         "Which district includes Howard University?"
       ],
       "correctAnswer": "Northeast",
-      "wrongAnswers": ["Southeast", "North Central", "South Central", "Southwest", "Western"],
-      "tags": ["districts", "northeast", "howard", "alpha-phi"]
+      "wrongAnswers": [
+        "Southeast",
+        "North Central",
+        "South Central",
+        "Southwest",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "northeast"
+      ]
     },
     {
       "id": 7,
@@ -91,8 +149,17 @@
         "Which chapter is located in the Southeast District?"
       ],
       "correctAnswer": "Beta Eta at Florida A&M University",
-      "wrongAnswers": ["Alpha at Oklahoma State University", "Epsilon at Iowa State University", "Gamma at Texas Tech University", "Delta at University of Arizona"],
-      "tags": ["districts", "southeast", "chapters", "beta-eta"]
+      "wrongAnswers": [
+        "Alpha at Oklahoma State University",
+        "Epsilon at Iowa State University",
+        "Gamma at Texas Tech University",
+        "Delta at University of Arizona"
+      ],
+      "tags": [
+        "districts",
+        "southeast",
+        "chapters"
+      ]
     },
     {
       "id": 8,
@@ -104,8 +171,17 @@
         "Which district includes FAMU?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["Northeast", "Southwest", "South Central", "North Central", "Western"],
-      "tags": ["districts", "southeast", "famu", "beta-eta"]
+      "wrongAnswers": [
+        "Northeast",
+        "Southwest",
+        "South Central",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 9,
@@ -117,8 +193,17 @@
         "Which chapter is located in the Southwest District?"
       ],
       "correctAnswer": "Gamma Omega at Texas Southern University",
-      "wrongAnswers": ["Beta Eta at Florida A&M University", "Alpha Phi at Howard University", "Epsilon Zeta at North Carolina A&T", "Iota Tau at Tennessee State University"],
-      "tags": ["districts", "southwest", "chapters", "gamma-omega"]
+      "wrongAnswers": [
+        "Beta Eta at Florida A&M University",
+        "Alpha Phi at Howard University",
+        "Epsilon Zeta at North Carolina A&T",
+        "Iota Tau at Tennessee State University"
+      ],
+      "tags": [
+        "districts",
+        "southwest",
+        "chapters"
+      ]
     },
     {
       "id": 10,
@@ -130,8 +215,17 @@
         "Which district includes Texas Southern University?"
       ],
       "correctAnswer": "Southwest",
-      "wrongAnswers": ["Southeast", "South Central", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "southwest", "texas-southern", "gamma-omega"]
+      "wrongAnswers": [
+        "Southeast",
+        "South Central",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southwest"
+      ]
     },
     {
       "id": 11,
@@ -143,8 +237,17 @@
         "Which chapter is located in the South Central District?"
       ],
       "correctAnswer": "Delta Epsilon at Southern University",
-      "wrongAnswers": ["Beta Eta at Florida A&M University", "Gamma Omega at Texas Southern University", "Alpha Phi at Howard University", "Epsilon at Iowa State University"],
-      "tags": ["districts", "south-central", "chapters", "delta-epsilon"]
+      "wrongAnswers": [
+        "Beta Eta at Florida A&M University",
+        "Gamma Omega at Texas Southern University",
+        "Alpha Phi at Howard University",
+        "Epsilon at Iowa State University"
+      ],
+      "tags": [
+        "districts",
+        "south-central",
+        "chapters"
+      ]
     },
     {
       "id": 12,
@@ -156,8 +259,17 @@
         "Which district includes Southern University?"
       ],
       "correctAnswer": "South Central",
-      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "south-central", "southern", "delta-epsilon"]
+      "wrongAnswers": [
+        "Southeast",
+        "Southwest",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "south-central"
+      ]
     },
     {
       "id": 13,
@@ -169,8 +281,17 @@
         "Which district includes North Carolina A&T?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "nc-at", "epsilon-zeta"]
+      "wrongAnswers": [
+        "Northeast",
+        "South Central",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 14,
@@ -182,8 +303,17 @@
         "Which district includes Alabama State?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["South Central", "Southwest", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "southeast", "alabama-state", "zeta-omega"]
+      "wrongAnswers": [
+        "South Central",
+        "Southwest",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 15,
@@ -195,8 +325,17 @@
         "Which district includes Jackson State?"
       ],
       "correctAnswer": "South Central",
-      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "south-central", "jackson-state", "eta-pi"]
+      "wrongAnswers": [
+        "Southeast",
+        "Southwest",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "south-central"
+      ]
     },
     {
       "id": 16,
@@ -208,8 +347,17 @@
         "Which district includes Grambling State?"
       ],
       "correctAnswer": "South Central",
-      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "south-central", "grambling", "theta-psi"]
+      "wrongAnswers": [
+        "Southeast",
+        "Southwest",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "south-central"
+      ]
     },
     {
       "id": 17,
@@ -221,8 +369,17 @@
         "Which district includes Tennessee State?"
       ],
       "correctAnswer": "South Central",
-      "wrongAnswers": ["Southeast", "North Central", "Southwest", "Northeast", "Western"],
-      "tags": ["districts", "south-central", "tennessee-state", "iota-tau"]
+      "wrongAnswers": [
+        "Southeast",
+        "North Central",
+        "Southwest",
+        "Northeast",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "south-central"
+      ]
     },
     {
       "id": 18,
@@ -234,8 +391,17 @@
         "Which district includes Prairie View A&M?"
       ],
       "correctAnswer": "Southwest",
-      "wrongAnswers": ["South Central", "Southeast", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "southwest", "prairie-view", "lambda-gamma"]
+      "wrongAnswers": [
+        "South Central",
+        "Southeast",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southwest"
+      ]
     },
     {
       "id": 19,
@@ -247,8 +413,17 @@
         "Which district includes Norfolk State?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "norfolk-state", "lambda-rho"]
+      "wrongAnswers": [
+        "Northeast",
+        "South Central",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 20,
@@ -260,8 +435,17 @@
         "Which district includes Morgan State?"
       ],
       "correctAnswer": "Northeast",
-      "wrongAnswers": ["Southeast", "South Central", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "northeast", "morgan-state", "mu-kappa"]
+      "wrongAnswers": [
+        "Southeast",
+        "South Central",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "northeast"
+      ]
     },
     {
       "id": 21,
@@ -273,8 +457,17 @@
         "Which district includes Bethune-Cookman?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "bethune-cookman", "nu-upsilon"]
+      "wrongAnswers": [
+        "Northeast",
+        "South Central",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 22,
@@ -286,8 +479,17 @@
         "Which district includes South Carolina State?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "sc-state", "xi-xi"]
+      "wrongAnswers": [
+        "South Central",
+        "Northeast",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 23,
@@ -299,8 +501,17 @@
         "Which district includes Alcorn State?"
       ],
       "correctAnswer": "South Central",
-      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "south-central", "alcorn-state", "omicron-rho"]
+      "wrongAnswers": [
+        "Southeast",
+        "Southwest",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "south-central"
+      ]
     },
     {
       "id": 24,
@@ -312,8 +523,17 @@
         "Which district includes Alabama A&M?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "alabama-am", "pi-omicron"]
+      "wrongAnswers": [
+        "South Central",
+        "Northeast",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 25,
@@ -325,8 +545,17 @@
         "Which district includes Winston-Salem State?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["Northeast", "South Central", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "winston-salem", "rho-rho"]
+      "wrongAnswers": [
+        "Northeast",
+        "South Central",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 26,
@@ -338,8 +567,17 @@
         "Which district includes Tuskegee?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["South Central", "Southwest", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "southeast", "tuskegee", "sigma-rho"]
+      "wrongAnswers": [
+        "South Central",
+        "Southwest",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 27,
@@ -351,8 +589,17 @@
         "Which district includes Bowie State?"
       ],
       "correctAnswer": "Northeast",
-      "wrongAnswers": ["Southeast", "South Central", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "northeast", "bowie-state", "tau-iota"]
+      "wrongAnswers": [
+        "Southeast",
+        "South Central",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "northeast"
+      ]
     },
     {
       "id": 28,
@@ -364,8 +611,17 @@
         "Which district includes Morehouse?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "morehouse", "tau-mu"]
+      "wrongAnswers": [
+        "South Central",
+        "Northeast",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 29,
@@ -377,8 +633,17 @@
         "Which district includes Delaware State?"
       ],
       "correctAnswer": "Northeast",
-      "wrongAnswers": ["Southeast", "South Central", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "northeast", "delaware-state", "phi-sigma"]
+      "wrongAnswers": [
+        "Southeast",
+        "South Central",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "northeast"
+      ]
     },
     {
       "id": 30,
@@ -390,8 +655,17 @@
         "Which district includes Kentucky State?"
       ],
       "correctAnswer": "South Central",
-      "wrongAnswers": ["North Central", "Southeast", "Northeast", "Southwest", "Western"],
-      "tags": ["districts", "south-central", "kentucky-state", "phi-upsilon"]
+      "wrongAnswers": [
+        "North Central",
+        "Southeast",
+        "Northeast",
+        "Southwest",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "south-central"
+      ]
     },
     {
       "id": 31,
@@ -403,8 +677,17 @@
         "Which district includes Central State?"
       ],
       "correctAnswer": "North Central",
-      "wrongAnswers": ["South Central", "Southeast", "Northeast", "Southwest", "Western"],
-      "tags": ["districts", "north-central", "central-state", "chi-gamma"]
+      "wrongAnswers": [
+        "South Central",
+        "Southeast",
+        "Northeast",
+        "Southwest",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "north-central"
+      ]
     },
     {
       "id": 32,
@@ -416,8 +699,17 @@
         "Which district includes Fayetteville State?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "fayetteville-state", "chi-mu"]
+      "wrongAnswers": [
+        "South Central",
+        "Northeast",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 33,
@@ -429,8 +721,17 @@
         "Which district includes Mississippi Valley State?"
       ],
       "correctAnswer": "South Central",
-      "wrongAnswers": ["Southeast", "Southwest", "Northeast", "North Central", "Western"],
-      "tags": ["districts", "south-central", "mvsu", "psi-chi"]
+      "wrongAnswers": [
+        "Southeast",
+        "Southwest",
+        "Northeast",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "south-central"
+      ]
     },
     {
       "id": 34,
@@ -442,8 +743,17 @@
         "Which district includes Savannah State?"
       ],
       "correctAnswer": "Southeast",
-      "wrongAnswers": ["South Central", "Northeast", "Southwest", "North Central", "Western"],
-      "tags": ["districts", "southeast", "savannah-state", "omega-upsilon"]
+      "wrongAnswers": [
+        "South Central",
+        "Northeast",
+        "Southwest",
+        "North Central",
+        "Western"
+      ],
+      "tags": [
+        "districts",
+        "southeast"
+      ]
     },
     {
       "id": 35,
@@ -455,8 +765,18 @@
         "The Southeast District has approximately how many chapters?"
       ],
       "correctAnswer": "Southeast (approximately 70 chapters)",
-      "wrongAnswers": ["North Central (approximately 65 chapters)", "Northeast (approximately 50 chapters)", "South Central (approximately 35 chapters)", "Western (approximately 40 chapters)", "Southwest (approximately 95 chapters)"],
-      "tags": ["districts", "southeast", "statistics"]
+      "wrongAnswers": [
+        "North Central (approximately 65 chapters)",
+        "Northeast (approximately 50 chapters)",
+        "South Central (approximately 35 chapters)",
+        "Western (approximately 40 chapters)",
+        "Southwest (approximately 95 chapters)"
+      ],
+      "tags": [
+        "districts",
+        "southeast",
+        "statistics"
+      ]
     }
   ]
 }
