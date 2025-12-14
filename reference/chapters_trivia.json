@@ -1,7 +1,7 @@
 {
   "gameTitle": "Kappa Kappa Psi Chapters Trivia Challenge",
   "description": "A comprehensive trivia game about Kappa Kappa Psi's 343 chapters across the United States - focusing on district firsts, HBCU history, and state statistics",
-  "totalQuestions": 60,
+  "totalQuestions": 56,
   "questions": [
     {
       "id": 1,
@@ -861,44 +861,6 @@
     {
       "id": 46,
       "questionVersions": [
-        "Which chapter is at the University of Michigan?",
-        "What is the Michigan chapter name?",
-        "U of M has which chapter?",
-        "What Greek letters represent the Michigan chapter?",
-        "Which chapter is Nu?"
-      ],
-      "correctAnswer": "Nu",
-      "wrongAnswers": [
-        "Mu",
-        "Eta",
-        "Zeta Epsilon",
-        "Alpha Zeta",
-        "Gamma"
-      ],
-      "tags": ["big-ten", "michigan", "chapters"]
-    },
-    {
-      "id": 47,
-      "questionVersions": [
-        "Which chapter is at The Ohio State University?",
-        "What is the Ohio State chapter?",
-        "OSU has which chapter?",
-        "What Greek letter represents Ohio State's chapter?",
-        "Which chapter is at Ohio State?"
-      ],
-      "correctAnswer": "Eta",
-      "wrongAnswers": [
-        "Theta",
-        "Omicron",
-        "Alpha Delta",
-        "Beta Kappa",
-        "Nu"
-      ],
-      "tags": ["big-ten", "ohio", "chapters"]
-    },
-    {
-      "id": 48,
-      "questionVersions": [
         "How many active chapters are in the Southwest District?",
         "What is the active chapter count in the Southwest?",
         "The Southwest has how many active chapters?",
@@ -916,7 +878,7 @@
       "tags": ["districts", "southwest", "active", "statistics"]
     },
     {
-      "id": 49,
+      "id": 47,
       "questionVersions": [
         "How many active chapters are in the Southeast District?",
         "What is the active chapter count in the Southeast?",
@@ -935,7 +897,7 @@
       "tags": ["districts", "southeast", "active", "statistics"]
     },
     {
-      "id": 50,
+      "id": 48,
       "questionVersions": [
         "What was the second HBCU chapter founded?",
         "Which HBCU got a chapter three days after the first?",
@@ -954,7 +916,7 @@
       "tags": ["hbcu", "history", "order", "texas-southern"]
     },
     {
-      "id": 51,
+      "id": 49,
       "questionVersions": [
         "What is the first chapter in Texas?",
         "Which Texas chapter was founded first?",
@@ -973,7 +935,7 @@
       "tags": ["geography", "texas", "first-chapter", "firsts"]
     },
     {
-      "id": 52,
+      "id": 50,
       "questionVersions": [
         "What is the first chapter in Ohio?",
         "Which Ohio chapter was founded first?",
@@ -992,45 +954,7 @@
       "tags": ["geography", "ohio", "first-chapter", "firsts"]
     },
     {
-      "id": 53,
-      "questionVersions": [
-        "Which chapter is at Howard University?",
-        "What is the Howard chapter?",
-        "Howard University has which chapter?",
-        "What Greek letters represent Howard?",
-        "Which HBCU chapter is Eta Omega?"
-      ],
-      "correctAnswer": "Eta Omega",
-      "wrongAnswers": [
-        "Gamma Omega",
-        "Delta Iota",
-        "Alpha Phi",
-        "Nu Omega",
-        "Zeta Psi"
-      ],
-      "tags": ["hbcu", "howard", "northeast", "chapters"]
-    },
-    {
-      "id": 54,
-      "questionVersions": [
-        "Which chapter is at Florida A&M University?",
-        "What is the FAMU chapter?",
-        "Florida A&M has which chapter?",
-        "What Greek letters represent FAMU?",
-        "Which HBCU chapter is Delta Iota?"
-      ],
-      "correctAnswer": "Delta Iota",
-      "wrongAnswers": [
-        "Beta Eta",
-        "Gamma Omega",
-        "Epsilon Gamma",
-        "Eta Omega",
-        "Delta Alpha"
-      ],
-      "tags": ["hbcu", "famu", "southeast", "chapters"]
-    },
-    {
-      "id": 55,
+      "id": 51,
       "questionVersions": [
         "How many districts does Kappa Kappa Psi have?",
         "What is the total number of KKPsi districts?",
@@ -1049,7 +973,7 @@
       "tags": ["districts", "organization", "structure"]
     },
     {
-      "id": 56,
+      "id": 52,
       "questionVersions": [
         "Which specialized music school has a KKPsi chapter?",
         "What music conservatory has a chapter?",
@@ -1068,7 +992,7 @@
       "tags": ["special-institutions", "music-schools", "unique"]
     },
     {
-      "id": 57,
+      "id": 53,
       "questionVersions": [
         "What district contains Texas and Oklahoma?",
         "Which district has the most Texas chapters?",
@@ -1087,7 +1011,7 @@
       "tags": ["districts", "geography", "southwest"]
     },
     {
-      "id": 58,
+      "id": 54,
       "questionVersions": [
         "What district contains Ohio and Michigan?",
         "Which district has Ohio State and Michigan?",
@@ -1106,7 +1030,7 @@
       "tags": ["districts", "geography", "north-central"]
     },
     {
-      "id": 59,
+      "id": 55,
       "questionVersions": [
         "What district contains Pennsylvania and Virginia?",
         "Which district has Penn State and West Virginia?",
@@ -1125,7 +1049,7 @@
       "tags": ["districts", "geography", "northeast"]
     },
     {
-      "id": 60,
+      "id": 56,
       "questionVersions": [
         "What district contains Colorado and Montana?",
         "Which district has Colorado State and Montana State?",
