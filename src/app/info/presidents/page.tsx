@@ -43,15 +43,15 @@ export default async function PresidentsPage() {
                       className="flex items-start gap-4 border-l-4 border-kkpsi-gold bg-gray-50 p-4 transition-all hover:bg-gray-100"
                     >
                       <div className="min-w-[120px] text-sm font-semibold text-kkpsi-navy">
-                        {president.years}
+                        {president.Years}
                       </div>
                       <div className="flex-1">
                         <h3 className="text-lg font-semibold text-gray-900">
-                          {president.name}
+                          {president.Name}
                         </h3>
-                        {president.chapter && (
+                        {president.Chapter && (
                           <p className="mt-1 text-sm text-gray-600">
-                            {president.chapter}
+                            {president.Chapter}
                           </p>
                         )}
                       </div>

@@ -41,10 +41,10 @@ export function QuizQuestionComponent({
     }
 
     // Show result
-    if (answerId === question.correctAnswerId) {
+    if (answerId === question.correctAnswer) {
       return "default"; // Correct answer
     }
-    if (selected === answerId && answerId !== question.correctAnswerId) {
+    if (selected === answerId && answerId !== question.correctAnswer) {
       return "destructive"; // Wrong answer that was selected
     }
     return "outline";
@@ -53,10 +53,10 @@ export function QuizQuestionComponent({
   const getButtonIcon = (answerId: string) => {
     if (!showResult) return null;
 
-    if (answerId === question.correctAnswerId) {
+    if (answerId === question.correctAnswer) {
       return <CheckCircle2 className="h-5 w-5 text-green-500" />;
     }
-    if (selected === answerId && answerId !== question.correctAnswerId) {
+    if (selected === answerId && answerId !== question.correctAnswer) {
       return <XCircle className="h-5 w-5 text-red-500" />;
     }
     return null;
@@ -73,21 +73,21 @@ export function QuizQuestionComponent({
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-3">
-        {question.answers.map((answer) => (
+        {question.options.map((option, idx) => (
           <Button
-            key={answer.id}
-            variant={getButtonVariant(answer.id)}
+            key={idx}
+            variant={getButtonVariant(option)}
             className={`w-full justify-start text-left h-auto py-4 px-6 ${
-              getButtonVariant(answer.id) === "default" && showResult
+              getButtonVariant(option) === "default" && showResult
                 ? "bg-green-500 hover:bg-green-600"
                 : ""
             }`}
-            onClick={() => handleSelect(answer.id)}
+            onClick={() => handleSelect(option)}
             disabled={showResult}
           >
             <div className="flex items-center gap-3 w-full">
-              <span className="flex-1">{answer.text}</span>
-              {getButtonIcon(answer.id)}
+              <span className="flex-1">{option}</span>
+              {getButtonIcon(option)}
             </div>
           </Button>
         ))}

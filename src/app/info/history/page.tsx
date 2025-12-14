@@ -1,10 +1,20 @@
 import { Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
-import { api } from "~/trpc/server";
 
 export default async function HistoryPage() {
-  const timeline = await api.content.getTimeline();
+  const timeline = [
+    {
+      year: "1919",
+      title: "Founding of Kappa Kappa Psi",
+      description: "Founded at Oklahoma A&M College (now Oklahoma State University) on November 27, 1919.",
+    },
+    {
+      year: "1978",
+      title: "Women Admitted",
+      description: "Kappa Kappa Psi began admitting women as full members.",
+    },
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">

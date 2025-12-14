@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useSession } from "next-auth/react";
 import { ChevronLeft } from "lucide-react";
@@ -14,12 +14,12 @@ import { api } from "~/trpc/react";
 import { Skeleton } from "~/components/ui/skeleton";
 import { toast } from "sonner";
 
-export default function TakeQuizPage() {
+function TakeQuizContent() {
   const searchParams = useSearchParams();
   const { data: session } = useSession();
 
   // Parse URL params
-  const topics = searchParams.get("topics")?.split(",") ?? [];
+  const topic = searchParams.get("topic") ?? "chapters";
   const questionCount = parseInt(searchParams.get("count") ?? "10");
   const isTimed = searchParams.get("timed") === "true";
   const timePerQuestion = parseInt(searchParams.get("time") ?? "10");
@@ -34,9 +34,11 @@ export default function TakeQuizPage() {
 
   // Generate quiz
   const { data: quizData, isLoading } = api.quiz.generateQuiz.useQuery({
-    topics,
+    topic: topic as "chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib" | "mixed",
     questionCount,
     tags,
+    isTimed,
+    timePerQuestion,
   });
 
   // Submit quiz mutation
@@ -89,19 +91,25 @@ export default function TakeQuizPage() {
   }, [currentQuestionIndex, questions.length, isTimed, timePerQuestion]);
 
   const handleSubmitQuiz = () => {
-    const timeElapsed = Math.floor((Date.now() - quizStartTime) / 1000);
+    const timeTaken = Math.floor((Date.now() - quizStartTime) / 1000);
 
     const answersArray = questions.map((q) => ({
       questionId: q.id,
+      topic: q.topic,
       selectedAnswer: answers[q.id] ?? "",
+      correctAnswer: q.correctAnswer,
+      isCorrect: answers[q.id] === q.correctAnswer,
     }));
 
     if (session) {
       // Submit to backend for authenticated users
       submitQuiz.mutate({
-        topic: topics[0] ?? "mixed",
+        topic: topic as "chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib" | "mixed",
+        tags,
+        totalQuestions: questions.length,
+        isTimed,
+        timeTaken: isTimed ? timeTaken : undefined,
         answers: answersArray,
-        timeElapsed,
       });
     } else {
       // Show results immediately for guests
@@ -111,7 +119,7 @@ export default function TakeQuizPage() {
 
   const calculateResults = () => {
     const correctAnswers = questions.filter(
-      (q) => answers[q.id] === q.correctAnswerId
+      (q) => answers[q.id] === q.correctAnswer
     ).length;
     const score = Math.round((correctAnswers / questions.length) * 100);
     const timeElapsed = Math.floor((Date.now() - quizStartTime) / 1000);
@@ -255,5 +263,13 @@ export default function TakeQuizPage() {
         </div>
       </section>
     </div>
+  );
+}
+
+export default function TakeQuizPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TakeQuizContent />
+    </Suspense>
   );
 }

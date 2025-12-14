@@ -15,9 +15,11 @@ import { Skeleton } from "~/components/ui/skeleton";
 import { toast } from "sonner";
 import { TOPICS } from "~/lib/content/topics";
 
+type Topic = "chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib";
+
 export default function FlashcardTopicPage() {
   const params = useParams();
-  const topic = params.topic as string;
+  const topic = params.topic as Topic;
   const { data: session } = useSession();
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
@@ -40,11 +42,11 @@ export default function FlashcardTopicPage() {
     },
   });
 
-  const handleRecordResponse = async (questionId: string, quality: 0 | 1 | 2 | 3 | 4 | 5) => {
+  const handleRecordResponse = async (questionId: string, response: "again" | "hard" | "good" | "easy") => {
     await recordResponse.mutateAsync({
       topic,
       questionId,
-      quality,
+      response,
     });
   };
 

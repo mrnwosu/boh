@@ -20,7 +20,7 @@ interface QuizConfigProps {
 }
 
 export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
-  const [selectedTopic, setSelectedTopic] = useState<string>("");
+  const [selectedTopic, setSelectedTopic] = useState<"chapters" | "founding_fathers" | "awards_and_jewelry" | "bohumil_makovsky" | "districts" | "hbcu_chapters" | "nib" | "mixed" | "">("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [isTimed, setIsTimed] = useState<boolean>(true);
@@ -44,7 +44,7 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
     }
 
     onStartQuiz({
-      topics: [selectedTopic],
+      topic: selectedTopic,
       tags: selectedTags.length > 0 ? selectedTags : undefined,
       questionCount,
       isTimed,
@@ -73,7 +73,7 @@ export function QuizConfigForm({ topics, onStartQuiz }: QuizConfigProps) {
           {/* Topic Selection */}
           <div className="space-y-2">
             <label className="text-sm font-medium">Topic</label>
-            <Select value={selectedTopic} onValueChange={setSelectedTopic}>
+            <Select value={selectedTopic} onValueChange={(val) => setSelectedTopic(val as typeof selectedTopic)}>
               <SelectTrigger>
                 <SelectValue placeholder="Select a topic..." />
               </SelectTrigger>

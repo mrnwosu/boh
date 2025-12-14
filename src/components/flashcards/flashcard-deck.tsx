@@ -6,11 +6,18 @@ import { Button } from "~/components/ui/button";
 import { Progress } from "~/components/ui/progress";
 import { Flashcard } from "./flashcard";
 import { SpacedRepetitionControls } from "./spaced-repetition-controls";
-import type { TriviaQuestion } from "~/types/trivia";
+
+export interface FlashcardData {
+  id: string;
+  question: string;
+  answer: string;
+  tags: string[];
+}
 
 interface FlashcardDeckProps {
-  questions: TriviaQuestion[];
-  onRecordResponse?: (questionId: string, quality: 0 | 1 | 2 | 3 | 4 | 5) => Promise<void>;
+  questions: FlashcardData[];
+  topic?: string;
+  onRecordResponse?: (questionId: string, response: "again" | "hard" | "good" | "easy") => Promise<void>;
   isAuthenticated?: boolean;
 }
 
@@ -48,18 +55,12 @@ export function FlashcardDeck({
     setCurrentIndex(0);
   };
 
-  const handleResponse = async (quality: 0 | 1 | 2 | 3 | 4 | 5) => {
+  const handleResponse = async (response: "again" | "hard" | "good" | "easy") => {
     if (onRecordResponse) {
-      await onRecordResponse(String(currentQuestion.id), quality);
+      await onRecordResponse(currentQuestion.id, response);
     }
     handleNext();
   };
-
-  // Get a random question version
-  const questionText =
-    currentQuestion.questionVersions[
-      Math.floor(Math.random() * currentQuestion.questionVersions.length)
-    ] ?? currentQuestion.questionVersions[0] ?? "";
 
   return (
     <div className="space-y-6">
@@ -75,7 +76,7 @@ export function FlashcardDeck({
       </div>
 
       {/* Flashcard */}
-      <Flashcard question={questionText} answer={currentQuestion.correctAnswer} />
+      <Flashcard question={currentQuestion.question} answer={currentQuestion.answer} />
 
       {/* Navigation Controls */}
       <div className="flex items-center justify-between">

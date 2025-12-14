@@ -1,0 +1,23 @@
+
+> boh@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.6
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 35.2s
+   Linting and checking validity of types ...
+Failed to compile.
+
+./src/components/quizzes/quiz-config.tsx:47:7
+Type error: Type 'string' is not assignable to type '"mixed" | TopicSlug'.
+
+[0m [90m 45 |[39m
+ [90m 46 |[39m     onStartQuiz({
+[31m[1m>[22m[39m[90m 47 |[39m       topic[33m:[39m selectedTopic[33m,[39m
+ [90m    |[39m       [31m[1m^[22m[39m
+ [90m 48 |[39m       tags[33m:[39m selectedTags[33m.[39mlength [33m>[39m [35m0[39m [33m?[39m selectedTags [33m:[39m undefined[33m,[39m
+ [90m 49 |[39m       questionCount[33m,[39m
+ [90m 50 |[39m       isTimed[33m,[39m[0m
+Next.js build worker exited with code: 1 and signal: null

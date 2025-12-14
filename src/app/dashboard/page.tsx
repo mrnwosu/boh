@@ -24,7 +24,7 @@ export default async function DashboardPage() {
   // Calculate stats
   const totalFlashcards = flashcardSummary.reduce((sum, topic) => sum + topic.total, 0);
   const masteredCards = flashcardSummary.reduce((sum, topic) => sum + topic.mastered, 0);
-  const dueCards = flashcardSummary.reduce((sum, topic) => sum + topic.due, 0);
+  const dueCards = flashcardSummary.reduce((sum, topic) => sum + topic.learning + topic.reviewing, 0);
 
   const averageQuizScore =
     quizHistory.length > 0
@@ -39,7 +39,7 @@ export default async function DashboardPage() {
     type: "quiz" as const,
     topic: quiz.topic,
     score: quiz.score,
-    timestamp: quiz.completedAt,
+    timestamp: quiz.createdAt,
   }));
 
   return (

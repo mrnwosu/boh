@@ -35,17 +35,7 @@ export default async function FoundingFathersPage() {
                     <CardTitle className="text-2xl text-kkpsi-navy">
                       {founder.name}
                     </CardTitle>
-                    {founder.title && (
-                      <CardDescription className="text-base font-medium text-kkpsi-gold">
-                        {founder.title}
-                      </CardDescription>
-                    )}
                   </CardHeader>
-                  <CardContent>
-                    <p className="line-clamp-3 text-gray-600">
-                      {founder.excerpt}
-                    </p>
-                  </CardContent>
                 </Card>
               </Link>
             ))}

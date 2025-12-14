@@ -70,7 +70,7 @@ export const quizRouter = createTRPCRouter({
         timePerQuestion: z.number().optional(),
       }),
     )
-    .mutation(({ input }) => {
+    .query(({ input }) => {
       const questions = generateQuiz(input);
       return {
         questions,

@@ -4,7 +4,7 @@ import { Button } from "~/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "~/components/ui/card";
 
 interface SpacedRepetitionControlsProps {
-  onResponse: (quality: 0 | 1 | 2 | 3 | 4 | 5) => Promise<void> | void;
+  onResponse: (response: "again" | "hard" | "good" | "easy") => Promise<void> | void;
   disabled?: boolean;
 }
 
@@ -16,25 +16,25 @@ export function SpacedRepetitionControls({
     {
       label: "Again",
       description: "Complete blackout",
-      quality: 0 as const,
+      response: "again" as const,
       variant: "destructive" as const,
     },
     {
       label: "Hard",
       description: "Incorrect, but familiar",
-      quality: 2 as const,
+      response: "hard" as const,
       variant: "outline" as const,
     },
     {
       label: "Good",
       description: "Correct with effort",
-      quality: 4 as const,
+      response: "good" as const,
       variant: "outline" as const,
     },
     {
       label: "Easy",
       description: "Perfect recall",
-      quality: 5 as const,
+      response: "easy" as const,
       variant: "default" as const,
     },
   ];
@@ -51,9 +51,9 @@ export function SpacedRepetitionControls({
         <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
           {buttons.map((button) => (
             <Button
-              key={button.quality}
+              key={button.response}
               variant={button.variant}
-              onClick={() => onResponse(button.quality)}
+              onClick={() => onResponse(button.response)}
               disabled={disabled}
               className="flex h-auto flex-col items-start gap-1 p-4"
             >

@@ -20,7 +20,7 @@ import { Skeleton } from "~/components/ui/skeleton";
 export default function ChaptersPage() {
   const [search, setSearch] = useState("");
   const [district, setDistrict] = useState<string>("");
-  const [institutionType, setInstitutionType] = useState<string>("");
+  const [institutionType, setInstitutionType] = useState<"PWI" | "HBCU" | "">("");
   const [showInactive, setShowInactive] = useState(false);
 
   const { data: chapters, isLoading } = api.content.getChapters.useQuery({
@@ -35,7 +35,10 @@ export default function ChaptersPage() {
     "South Central", "Southwest", "Western", "International"
   ];
 
-  const institutionTypes = ["Public", "Private", "HBCU"];
+  const institutionTypes: Array<{ value: "PWI" | "HBCU"; label: string }> = [
+    { value: "PWI", label: "PWI" },
+    { value: "HBCU", label: "HBCU" },
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
@@ -83,15 +86,15 @@ export default function ChaptersPage() {
                   ))}
                 </SelectContent>
               </Select>
-              <Select value={institutionType} onValueChange={setInstitutionType}>
+              <Select value={institutionType} onValueChange={(value) => setInstitutionType(value as "PWI" | "HBCU" | "")}>
                 <SelectTrigger className="w-full md:w-[200px]">
                   <SelectValue placeholder="All Types" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="all">All Types</SelectItem>
+                  <SelectItem value="">All Types</SelectItem>
                   {institutionTypes.map((type) => (
-                    <SelectItem key={type} value={type}>
-                      {type}
+                    <SelectItem key={type.value} value={type.value}>
+                      {type.label}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -152,7 +155,7 @@ export default function ChaptersPage() {
                   <Card
                     key={`${chapter.Number}-${chapter.Chapter}`}
                     className={`border-2 transition-all hover:shadow-lg ${
-                      chapter.Active === "Yes"
+                      chapter.Active === "Active"
                         ? "hover:border-kkpsi-navy"
                         : "opacity-60"
                     }`}
@@ -168,14 +171,14 @@ export default function ChaptersPage() {
                           </CardDescription>
                         </div>
                         <Badge
-                          variant={chapter.Active === "Yes" ? "default" : "secondary"}
+                          variant={chapter.Active === "Active" ? "default" : "secondary"}
                           className={
-                            chapter.Active === "Yes"
+                            chapter.Active === "Active"
                               ? "bg-green-500 hover:bg-green-600"
                               : ""
                           }
                         >
-                          {chapter.Active === "Yes" ? "Active" : "Inactive"}
+                          {chapter.Active === "Active" ? "Active" : "Inactive"}
                         </Badge>
                       </div>
                     </CardHeader>

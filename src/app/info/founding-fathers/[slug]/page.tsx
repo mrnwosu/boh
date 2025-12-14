@@ -40,9 +40,6 @@ export default async function FoundingFatherPage({
             <h1 className="mb-2 font-serif text-5xl font-bold text-white">
               {founder.name}
             </h1>
-            {founder.title && (
-              <p className="text-2xl text-kkpsi-gold">{founder.title}</p>
-            )}
           </div>
         </div>
       </section>

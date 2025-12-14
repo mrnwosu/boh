@@ -41,11 +41,6 @@ export default async function AwardsPage() {
                       {award.name}
                     </CardTitle>
                   </CardHeader>
-                  <CardContent>
-                    <p className="line-clamp-3 text-gray-600">
-                      {award.excerpt}
-                    </p>
-                  </CardContent>
                 </Card>
               </Link>
             ))}

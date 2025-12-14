@@ -13,7 +13,7 @@ export default function QuizzesPage() {
   const handleStartQuiz = (config: QuizConfig) => {
     // Encode config as URL params
     const params = new URLSearchParams({
-      topics: config.topics.join(","),
+      topic: config.topic,
       count: config.questionCount.toString(),
       timed: config.isTimed.toString(),
     });
