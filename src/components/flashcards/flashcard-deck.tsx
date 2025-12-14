@@ -1,11 +1,14 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useRef } from "react";
 import { ChevronLeft, ChevronRight, RotateCcw, Shuffle } from "lucide-react";
 import { Button } from "~/components/ui/button";
 import { Progress } from "~/components/ui/progress";
 import { Flashcard } from "./flashcard";
 import { SpacedRepetitionControls } from "./spaced-repetition-controls";
+
+// Minimum swipe distance to trigger navigation (in pixels)
+const SWIPE_THRESHOLD = 50;
 
 export interface FlashcardData {
   id: string;
@@ -39,6 +42,8 @@ export function FlashcardDeck({
 }: FlashcardDeckProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [shuffleKey, setShuffleKey] = useState(0);
+  const touchStartX = useRef<number | null>(null);
+  const touchEndX = useRef<number | null>(null);
 
   // Shuffle questions on mount and when shuffleKey changes
   const shuffledQuestions = useMemo(
@@ -86,6 +91,34 @@ export function FlashcardDeck({
     handleNext();
   };
 
+  // Touch event handlers for swipe navigation
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0]?.clientX ?? null;
+    touchEndX.current = null;
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    touchEndX.current = e.touches[0]?.clientX ?? null;
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStartX.current === null || touchEndX.current === null) return;
+
+    const swipeDistance = touchStartX.current - touchEndX.current;
+
+    if (swipeDistance > SWIPE_THRESHOLD) {
+      // Swiped left -> go to next card
+      handleNext();
+    } else if (swipeDistance < -SWIPE_THRESHOLD) {
+      // Swiped right -> go to previous card
+      handlePrevious();
+    }
+
+    // Reset touch positions
+    touchStartX.current = null;
+    touchEndX.current = null;
+  };
+
   return (
     <div className="space-y-6">
       {/* Progress Bar */}
@@ -99,12 +132,18 @@ export function FlashcardDeck({
         <Progress value={progress} className="h-2" />
       </div>
 
-      {/* Flashcard */}
-      <Flashcard
-        question={currentQuestion.question}
-        answer={currentQuestion.answer}
-        description={currentQuestion.description}
-      />
+      {/* Flashcard with swipe support */}
+      <div
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
+        <Flashcard
+          question={currentQuestion.question}
+          answer={currentQuestion.answer}
+          description={currentQuestion.description}
+        />
+      </div>
 
       {/* Navigation Controls */}
       <div className="flex items-center justify-between gap-2">
