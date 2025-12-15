@@ -11,10 +11,10 @@ export interface Chapter {
   "NCAA Conference": string;
   "Institution Type": "PWI" | "HBCU";
   Location: string;
-  Active: "Active" | "Inactive" | "Probation";
+  Active: ChapterStatus;
 }
 
-export type ChapterStatus = "Active" | "Inactive" | "Probation";
+export type ChapterStatus = "Active" | "Inactive" | "Probation" | "Colony" | "Suspended";
 
 export interface ChapterFilters {
   district?: string;

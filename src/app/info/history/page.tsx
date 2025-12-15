@@ -1,8 +1,29 @@
-import { Clock } from "lucide-react";
+import type { Metadata } from "next";
+import { Clock, Calendar, Users } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
 import { PageHero, AnimatedSection } from "~/components/shared";
 
-export default async function HistoryPage() {
+export const metadata: Metadata = {
+  title: "History & Timeline | Kappa Kappa Psi",
+  description:
+    "Discover the rich history and major milestones of Kappa Kappa Psi National Honorary Band Fraternity, from its founding in 1919 to today.",
+  keywords: [
+    "Kappa Kappa Psi",
+    "KKPsi history",
+    "band fraternity timeline",
+    "fraternity milestones",
+    "1919",
+    "Oklahoma A&M",
+  ],
+  openGraph: {
+    title: "History & Timeline | Kappa Kappa Psi",
+    description:
+      "Over a century of service to college bands",
+    type: "website",
+  },
+};
+
+export default function HistoryPage() {
   const timeline = [
     {
       year: "1919",
@@ -24,7 +45,29 @@ export default async function HistoryPage() {
         icon={Clock}
         title="History & Timeline"
         description="Over a century of service to college bands"
-      />
+      >
+        {/* Stats Cards */}
+        <div className="mx-auto mt-8 grid max-w-3xl grid-cols-3 gap-4">
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1 text-2xl font-bold text-kkpsi-gold">
+              <Calendar className="h-6 w-6" />
+              <span>1919</span>
+            </div>
+            <div className="text-sm text-gray-300">Founded</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="text-2xl font-bold text-white">105+</div>
+            <div className="text-sm text-gray-300">Years of Service</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1 text-2xl font-bold text-white">
+              <Users className="h-6 w-6" />
+              <span>343</span>
+            </div>
+            <div className="text-sm text-gray-300">Chapters</div>
+          </div>
+        </div>
+      </PageHero>
 
       {/* Timeline */}
       <section className="py-16">

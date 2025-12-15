@@ -1,8 +1,29 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { Users, ArrowRight } from "lucide-react";
+import { Users, ArrowRight, Calendar } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
 import { PageHero, AnimatedSection } from "~/components/shared";
 import { api } from "~/trpc/server";
+
+export const metadata: Metadata = {
+  title: "Founding Fathers | Kappa Kappa Psi",
+  description:
+    "Learn about the ten founding fathers of Kappa Kappa Psi National Honorary Band Fraternity, established on November 27, 1919 at Oklahoma A&M College.",
+  keywords: [
+    "Kappa Kappa Psi",
+    "KKPsi founders",
+    "founding fathers",
+    "band fraternity history",
+    "Oklahoma A&M",
+    "1919",
+  ],
+  openGraph: {
+    title: "Founding Fathers | Kappa Kappa Psi",
+    description:
+      "The ten men who founded Kappa Kappa Psi on November 27, 1919",
+    type: "website",
+  },
+};
 
 export default async function FoundingFathersPage() {
   const founders = await api.content.getFoundingFathers();
@@ -15,7 +36,26 @@ export default async function FoundingFathersPage() {
         icon={Users}
         title="The Founding Fathers"
         description="The ten men who founded Kappa Kappa Psi on November 27, 1919"
-      />
+      >
+        {/* Stats Cards */}
+        <div className="mx-auto mt-8 grid max-w-2xl grid-cols-3 gap-4">
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="text-2xl font-bold text-white">10</div>
+            <div className="text-sm text-gray-300">Founders</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="text-2xl font-bold text-kkpsi-gold">1919</div>
+            <div className="text-sm text-gray-300">Founded</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1 text-lg font-bold text-white">
+              <Calendar className="h-5 w-5" />
+              <span>Nov 27</span>
+            </div>
+            <div className="text-sm text-gray-300">Founders Day</div>
+          </div>
+        </div>
+      </PageHero>
 
       {/* Founders Grid */}
       <section className="py-16">

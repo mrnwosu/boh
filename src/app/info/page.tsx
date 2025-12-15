@@ -1,6 +1,27 @@
+import type { Metadata } from "next";
 import { BookOpen, Users, Trophy, MapPin, GraduationCap, Star, Clock } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
 import { PageHero, InfoCard, AnimatedSection } from "~/components/shared";
+
+export const metadata: Metadata = {
+  title: "Information Center | Kappa Kappa Psi",
+  description:
+    "Explore the history, traditions, chapters, awards, and notable people of Kappa Kappa Psi National Honorary Band Fraternity.",
+  keywords: [
+    "Kappa Kappa Psi",
+    "KKPsi",
+    "band fraternity",
+    "fraternity information",
+    "college bands",
+    "honorary band fraternity",
+  ],
+  openGraph: {
+    title: "Information Center | Kappa Kappa Psi",
+    description:
+      "Explore the history, traditions, and people that make Kappa Kappa Psi special",
+    type: "website",
+  },
+};
 
 export default function InfoPage() {
   const infoSections = [

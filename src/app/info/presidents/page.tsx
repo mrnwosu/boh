@@ -1,7 +1,27 @@
-import { GraduationCap } from "lucide-react";
+import type { Metadata } from "next";
+import { GraduationCap, Users, Calendar } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
 import { PageHero, AnimatedSection } from "~/components/shared";
 import { api } from "~/trpc/server";
+
+export const metadata: Metadata = {
+  title: "Past National Presidents | Kappa Kappa Psi",
+  description:
+    "Learn about the national presidents who have led Kappa Kappa Psi National Honorary Band Fraternity throughout its history since 1919.",
+  keywords: [
+    "Kappa Kappa Psi",
+    "KKPsi presidents",
+    "national presidents",
+    "fraternity leadership",
+    "band fraternity",
+  ],
+  openGraph: {
+    title: "Past National Presidents | Kappa Kappa Psi",
+    description:
+      "Leaders who have guided Kappa Kappa Psi throughout its history",
+    type: "website",
+  },
+};
 
 export default async function PresidentsPage() {
   const presidents = await api.content.getPresidents();
@@ -14,7 +34,28 @@ export default async function PresidentsPage() {
         icon={GraduationCap}
         title="Past National Presidents"
         description="Leaders who have guided Kappa Kappa Psi throughout its history"
-      />
+      >
+        {/* Stats Cards */}
+        <div className="mx-auto mt-8 grid max-w-2xl grid-cols-3 gap-4">
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="text-2xl font-bold text-kkpsi-gold">{presidents.length}</div>
+            <div className="text-sm text-gray-300">Presidents</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1 text-2xl font-bold text-white">
+              <Calendar className="h-6 w-6" />
+              <span>1919</span>
+            </div>
+            <div className="text-sm text-gray-300">Since</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1">
+              <Users className="h-6 w-6 text-white" />
+            </div>
+            <div className="text-sm text-gray-300">Leadership Legacy</div>
+          </div>
+        </div>
+      </PageHero>
 
       {/* Presidents Timeline */}
       <section className="py-16">

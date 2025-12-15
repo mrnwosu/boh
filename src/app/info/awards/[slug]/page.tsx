@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronLeft, Trophy } from "lucide-react";
@@ -6,6 +7,38 @@ import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { Navbar } from "~/components/layout/navbar";
 import { api } from "~/trpc/server";
 import ReactMarkdown from "react-markdown";
+
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const award = await api.content.getAward({ slug });
+
+  if (!award) {
+    return {
+      title: "Award Not Found | Kappa Kappa Psi",
+    };
+  }
+
+  return {
+    title: `${award.name} | Awards & Jewelry | Kappa Kappa Psi`,
+    description: `Learn about the ${award.name} award from Kappa Kappa Psi National Honorary Band Fraternity.`,
+    keywords: [
+      award.name,
+      "Kappa Kappa Psi",
+      "KKPsi award",
+      "band fraternity",
+      "fraternity honor",
+    ],
+    openGraph: {
+      title: `${award.name} | Kappa Kappa Psi Award`,
+      description: `Details about the ${award.name} award`,
+      type: "article",
+    },
+  };
+}
 
 export default async function AwardPage({
   params,

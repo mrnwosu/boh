@@ -1,8 +1,29 @@
-import { Star } from "lucide-react";
+import type { Metadata } from "next";
+import { Star, Heart, Calendar } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
 import { PageHero, AnimatedSection } from "~/components/shared";
 import { api } from "~/trpc/server";
 import ReactMarkdown from "react-markdown";
+
+export const metadata: Metadata = {
+  title: "Bohumil Makovsky | Kappa Kappa Psi",
+  description:
+    "Learn about Bohumil Makovsky, the beloved patron and mentor of Kappa Kappa Psi who served as National Executive Secretary for over 40 years.",
+  keywords: [
+    "Bohumil Makovsky",
+    "Kappa Kappa Psi",
+    "KKPsi patron",
+    "Mak",
+    "band fraternity",
+    "executive secretary",
+  ],
+  openGraph: {
+    title: "Bohumil Makovsky | Kappa Kappa Psi",
+    description:
+      "Our beloved patron and mentor who shaped the fraternity",
+    type: "website",
+  },
+};
 
 export default async function MakovskyPage() {
   const makovsky = await api.content.getMakovsky();
@@ -15,7 +36,27 @@ export default async function MakovskyPage() {
         icon={Star}
         title="Bohumil Makovsky"
         description="Our Beloved Patron and Mentor"
-      />
+      >
+        {/* Stats Cards */}
+        <div className="mx-auto mt-8 grid max-w-2xl grid-cols-3 gap-4">
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="text-2xl font-bold text-kkpsi-gold">40+</div>
+            <div className="text-sm text-gray-300">Years of Service</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1">
+              <Heart className="h-6 w-6 text-white" />
+            </div>
+            <div className="text-sm text-gray-300">Beloved "Mak"</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1">
+              <Calendar className="h-6 w-6 text-white" />
+            </div>
+            <div className="text-sm text-gray-300">Enduring Legacy</div>
+          </div>
+        </div>
+      </PageHero>
 
       {/* Content */}
       <section className="py-16">

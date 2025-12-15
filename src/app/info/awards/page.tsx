@@ -1,8 +1,29 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { Trophy, ArrowRight } from "lucide-react";
+import { Trophy, ArrowRight, Award } from "lucide-react";
 import { Navbar } from "~/components/layout/navbar";
 import { PageHero, AnimatedSection } from "~/components/shared";
 import { api } from "~/trpc/server";
+
+export const metadata: Metadata = {
+  title: "Awards & Jewelry | Kappa Kappa Psi",
+  description:
+    "Explore the prestigious awards, honors, and jewelry of Kappa Kappa Psi National Honorary Band Fraternity, recognizing excellence and service.",
+  keywords: [
+    "Kappa Kappa Psi",
+    "KKPsi awards",
+    "band fraternity awards",
+    "service awards",
+    "fraternity jewelry",
+    "honor awards",
+  ],
+  openGraph: {
+    title: "Awards & Jewelry | Kappa Kappa Psi",
+    description:
+      "Recognizing excellence and service in Kappa Kappa Psi",
+    type: "website",
+  },
+};
 
 export default async function AwardsPage() {
   const awards = await api.content.getAwards();
@@ -15,7 +36,21 @@ export default async function AwardsPage() {
         icon={Trophy}
         title="Awards & Jewelry"
         description="Recognizing excellence and service in Kappa Kappa Psi"
-      />
+      >
+        {/* Stats Cards */}
+        <div className="mx-auto mt-8 grid max-w-2xl grid-cols-2 gap-4">
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="text-2xl font-bold text-kkpsi-gold">{awards.length}</div>
+            <div className="text-sm text-gray-300">Awards & Honors</div>
+          </div>
+          <div className="glass rounded-xl p-4 text-center">
+            <div className="flex items-center justify-center gap-1">
+              <Award className="h-6 w-6 text-white" />
+            </div>
+            <div className="text-sm text-gray-300">Recognizing Excellence</div>
+          </div>
+        </div>
+      </PageHero>
 
       {/* Awards Grid */}
       <section className="py-16">

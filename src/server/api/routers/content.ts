@@ -29,7 +29,7 @@ export const contentRouter = createTRPCRouter({
           district: z.string().optional(),
           institutionType: z.enum(["PWI", "HBCU"]).optional(),
           ncaaConference: z.string().optional(),
-          statusFilter: z.enum(["Active", "Inactive", "Probation"]).optional(),
+          statusFilter: z.enum(["Active", "Inactive", "Probation", "Colony", "Suspended"]).optional(),
           search: z.string().optional(),
         })
         .optional(),
