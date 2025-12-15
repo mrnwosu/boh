@@ -3,7 +3,18 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import { Menu, Moon, Sun, Monitor } from "lucide-react";
+import {
+  Menu,
+  Moon,
+  Sun,
+  Monitor,
+  BookOpen,
+  HelpCircle,
+  Info,
+  LayoutDashboard,
+  ChevronRight,
+  LogIn,
+} from "lucide-react";
 import { useTheme } from "next-themes";
 import {
   Sheet,
@@ -13,7 +24,13 @@ import {
   SheetTrigger,
 } from "~/components/ui/sheet";
 import { Button } from "~/components/ui/button";
-import { Separator } from "~/components/ui/separator";
+import { cn } from "~/lib/utils";
+
+const navItems = [
+  { href: "/flashcards", label: "Flashcards", icon: BookOpen },
+  { href: "/quizzes", label: "Quizzes", icon: HelpCircle },
+  { href: "/info", label: "Info", icon: Info },
+];
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -25,100 +42,103 @@ export function MobileNav() {
     setMounted(true);
   }, []);
 
+  const themeOptions = [
+    { value: "light", icon: Sun, label: "Light" },
+    { value: "dark", icon: Moon, label: "Dark" },
+    { value: "system", icon: Monitor, label: "Auto" },
+  ];
+
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        <Button variant="ghost" size="icon" className="text-white">
+        <Button
+          variant="ghost"
+          size="icon"
+          className="h-10 w-10 text-white hover:bg-white/10"
+        >
           <Menu className="h-6 w-6" />
           <span className="sr-only">Toggle menu</span>
         </Button>
       </SheetTrigger>
-      <SheetContent side="right" className="w-[280px] sm:w-[300px]">
-        <SheetHeader>
-          <SheetTitle className="font-serif text-2xl text-kkpsi-navy">
+      <SheetContent
+        side="right"
+        className="flex w-[85vw] max-w-[320px] flex-col p-0"
+      >
+        {/* Header */}
+        <SheetHeader className="border-b border-border px-5 py-4">
+          <SheetTitle className="text-left font-serif text-xl text-kkpsi-navy dark:text-kkpsi-gold">
             ΚΚΨ Learning
           </SheetTitle>
         </SheetHeader>
 
-        <div className="mt-6 flex flex-col space-y-4">
-          <Link
-            href="/flashcards"
-            onClick={() => setOpen(false)}
-            className="text-lg font-medium transition-colors hover:text-kkpsi-navy"
-          >
-            Flashcards
-          </Link>
-          <Link
-            href="/quizzes"
-            onClick={() => setOpen(false)}
-            className="text-lg font-medium transition-colors hover:text-kkpsi-navy"
-          >
-            Quizzes
-          </Link>
-          <Link
-            href="/info"
-            onClick={() => setOpen(false)}
-            className="text-lg font-medium transition-colors hover:text-kkpsi-navy"
-          >
-            Info
-          </Link>
-          {session && (
-            <>
-              <Separator />
+        {/* Navigation Links */}
+        <nav className="flex-1 overflow-y-auto px-3 py-4">
+          <div className="space-y-1">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="flex items-center gap-3 rounded-lg px-3 py-3.5 text-base font-medium text-foreground transition-colors active:bg-muted hover:bg-muted"
+              >
+                <item.icon className="h-5 w-5 text-muted-foreground" />
+                <span className="flex-1">{item.label}</span>
+                <ChevronRight className="h-4 w-4 text-muted-foreground/50" />
+              </Link>
+            ))}
+
+            {session && (
               <Link
                 href="/dashboard"
                 onClick={() => setOpen(false)}
-                className="text-lg font-medium transition-colors hover:text-kkpsi-navy"
+                className="flex items-center gap-3 rounded-lg px-3 py-3.5 text-base font-medium text-foreground transition-colors active:bg-muted hover:bg-muted"
               >
-                Dashboard
+                <LayoutDashboard className="h-5 w-5 text-muted-foreground" />
+                <span className="flex-1">Dashboard</span>
+                <ChevronRight className="h-4 w-4 text-muted-foreground/50" />
               </Link>
-            </>
-          )}
-
-          <Separator />
-
-          {/* Theme Selection */}
-          <div className="space-y-2">
-            <p className="text-sm font-medium text-muted-foreground">Theme</p>
-            <div className="flex gap-2">
-              <Button
-                variant={mounted && theme === "light" ? "default" : "outline"}
-                size="sm"
-                className="flex-1"
-                onClick={() => setTheme("light")}
-              >
-                <Sun className="mr-2 h-4 w-4" />
-                Light
-              </Button>
-              <Button
-                variant={mounted && theme === "dark" ? "default" : "outline"}
-                size="sm"
-                className="flex-1"
-                onClick={() => setTheme("dark")}
-              >
-                <Moon className="mr-2 h-4 w-4" />
-                Dark
-              </Button>
-              <Button
-                variant={mounted && theme === "system" ? "default" : "outline"}
-                size="sm"
-                className="flex-1"
-                onClick={() => setTheme("system")}
-              >
-                <Monitor className="mr-2 h-4 w-4" />
-                Auto
-              </Button>
-            </div>
+            )}
           </div>
 
-          <Separator />
+          {/* Theme Selection */}
+          <div className="mt-6 px-3">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+              Theme
+            </p>
+            <div className="grid grid-cols-3 gap-2">
+              {themeOptions.map((option) => (
+                <button
+                  key={option.value}
+                  onClick={() => setTheme(option.value)}
+                  className={cn(
+                    "flex flex-col items-center gap-1.5 rounded-lg border py-3 text-sm transition-all active:scale-95",
+                    mounted && theme === option.value
+                      ? "border-kkpsi-navy bg-kkpsi-navy/5 text-kkpsi-navy dark:border-kkpsi-gold dark:bg-kkpsi-gold/10 dark:text-kkpsi-gold"
+                      : "border-border text-muted-foreground hover:border-border hover:bg-muted"
+                  )}
+                >
+                  <option.icon className="h-5 w-5" />
+                  <span className="font-medium">{option.label}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </nav>
 
-          {!session && (
-            <Button asChild className="w-full bg-kkpsi-navy hover:bg-kkpsi-navy-light">
-              <Link href="/auth/signin">Sign In</Link>
+        {/* Footer - Sign In Button */}
+        {!session && (
+          <div className="border-t border-border p-4">
+            <Button
+              asChild
+              className="h-12 w-full gap-2 bg-kkpsi-navy text-base font-semibold hover:bg-kkpsi-navy-light"
+            >
+              <Link href="/auth/signin">
+                <LogIn className="h-5 w-5" />
+                Sign In
+              </Link>
             </Button>
-          )}
-        </div>
+          </div>
+        )}
       </SheetContent>
     </Sheet>
   );
