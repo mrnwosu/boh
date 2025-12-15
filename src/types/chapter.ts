@@ -11,13 +11,15 @@ export interface Chapter {
   "NCAA Conference": string;
   "Institution Type": "PWI" | "HBCU";
   Location: string;
-  Active: "Active" | "Inactive";
+  Active: "Active" | "Inactive" | "Probation";
 }
+
+export type ChapterStatus = "Active" | "Inactive" | "Probation";
 
 export interface ChapterFilters {
   district?: string;
   institutionType?: "PWI" | "HBCU";
   ncaaConference?: string;
-  activeOnly?: boolean;
+  statusFilter?: ChapterStatus;
   search?: string;
 }

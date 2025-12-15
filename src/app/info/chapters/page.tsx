@@ -17,17 +17,19 @@ import { PageHero, EmptyState } from "~/components/shared";
 import { api } from "~/trpc/react";
 import { Skeleton } from "~/components/ui/skeleton";
 
+type ChapterStatus = "Active" | "Inactive" | "Probation";
+
 export default function ChaptersPage() {
   const [search, setSearch] = useState("");
   const [district, setDistrict] = useState<string>("");
   const [institutionType, setInstitutionType] = useState<"PWI" | "HBCU" | "">("");
-  const [showInactive, setShowInactive] = useState(false);
+  const [statusFilter, setStatusFilter] = useState<ChapterStatus | "">("");
 
   const { data: chapters, isLoading } = api.content.getChapters.useQuery({
     search: search || undefined,
     district: district || undefined,
     institutionType: institutionType || undefined,
-    activeOnly: !showInactive,
+    statusFilter: statusFilter || undefined,
   });
 
   const districts = [
@@ -92,16 +94,19 @@ export default function ChaptersPage() {
               </Select>
             </div>
             <div className="flex items-center gap-3">
-              <Button
-                variant={showInactive ? "default" : "outline"}
-                size="sm"
-                onClick={() => setShowInactive(!showInactive)}
-                className={showInactive ? "bg-kkpsi-navy hover:bg-kkpsi-navy-light" : ""}
-              >
-                <Filter className="mr-2 h-4 w-4" />
-                {showInactive ? "Showing Inactive" : "Active Only"}
-              </Button>
-              {(search || district || institutionType) && (
+              <Select value={statusFilter || "all"} onValueChange={(value) => setStatusFilter(value === "all" ? "" : value as ChapterStatus)}>
+                <SelectTrigger className="w-full md:w-[180px]">
+                  <Filter className="mr-2 h-4 w-4" />
+                  <SelectValue placeholder="All Statuses" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="all">All Statuses</SelectItem>
+                  <SelectItem value="Active">Active</SelectItem>
+                  <SelectItem value="Probation">Probation</SelectItem>
+                  <SelectItem value="Inactive">Inactive</SelectItem>
+                </SelectContent>
+              </Select>
+              {(search || district || institutionType || statusFilter) && (
                 <Button
                   variant="ghost"
                   size="sm"
@@ -109,6 +114,7 @@ export default function ChaptersPage() {
                     setSearch("");
                     setDistrict("");
                     setInstitutionType("");
+                    setStatusFilter("");
                   }}
                 >
                   Clear Filters
@@ -142,13 +148,15 @@ export default function ChaptersPage() {
                   <div
                     key={`${chapter.Number}-${chapter.Chapter}`}
                     className={`relative rounded-xl bg-card p-6 shadow-sm ring-1 ring-border transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-ring/50 ${
-                      chapter.Active !== "Active" ? "opacity-60" : ""
+                      chapter.Active === "Inactive" ? "opacity-60" : ""
                     }`}
                   >
                     {/* Gradient accent bar */}
                     <div className={`absolute left-0 top-6 h-10 w-1 rounded-r-full bg-gradient-to-b ${
                       chapter.Active === "Active"
                         ? "from-blue-500 to-blue-600"
+                        : chapter.Active === "Probation"
+                        ? "from-amber-500 to-orange-500"
                         : "from-gray-300 to-gray-400"
                     }`} />
 
@@ -166,10 +174,12 @@ export default function ChaptersPage() {
                         className={
                           chapter.Active === "Active"
                             ? "bg-green-500 hover:bg-green-600"
+                            : chapter.Active === "Probation"
+                            ? "bg-amber-500 hover:bg-amber-600 text-white"
                             : ""
                         }
                       >
-                        {chapter.Active === "Active" ? "Active" : "Inactive"}
+                        {chapter.Active}
                       </Badge>
                     </div>
                     <div className="space-y-2 text-sm">
@@ -214,6 +224,7 @@ export default function ChaptersPage() {
                   setSearch("");
                   setDistrict("");
                   setInstitutionType("");
+                  setStatusFilter("");
                 },
               }}
             />

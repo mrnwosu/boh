@@ -31,8 +31,8 @@ export function loadChapters(): Chapter[] {
 export function filterChapters(filters: ChapterFilters): Chapter[] {
   let chapters = loadChapters();
 
-  if (filters.activeOnly) {
-    chapters = chapters.filter((c) => c.Active === "Active");
+  if (filters.statusFilter) {
+    chapters = chapters.filter((c) => c.Active === filters.statusFilter);
   }
 
   if (filters.district) {

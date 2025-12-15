@@ -186,7 +186,7 @@ export const searchRouter = createTRPCRouter({
       }
 
       // 4. Search chapters
-      const chapters = filterChapters({ activeOnly: false });
+      const chapters = filterChapters({});
       for (const chapter of chapters) {
         if (
           chapter.Chapter.toLowerCase().includes(searchTerm) ||
