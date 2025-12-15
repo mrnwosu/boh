@@ -3,6 +3,7 @@ import { contentRouter } from "~/server/api/routers/content";
 import { quizRouter } from "~/server/api/routers/quiz";
 import { flashcardRouter } from "~/server/api/routers/flashcard";
 import { searchRouter } from "~/server/api/routers/search";
+import { dashboardRouter } from "~/server/api/routers/dashboard";
 import { createCallerFactory, createTRPCRouter } from "~/server/api/trpc";
 
 /**
@@ -16,6 +17,7 @@ export const appRouter = createTRPCRouter({
   quiz: quizRouter,
   flashcard: flashcardRouter,
   search: searchRouter,
+  dashboard: dashboardRouter,
 });
 
 // export type definition of API

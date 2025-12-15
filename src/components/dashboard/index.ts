@@ -1,0 +1,11 @@
+export { StatsCard } from "./stats-card";
+export { StreakDisplay } from "./streak-display";
+export { RecentActivity } from "./recent-activity";
+export { StudyTodayCta } from "./study-today-cta";
+export { WeeklyChart } from "./weekly-chart";
+export { TopicRecommendations } from "./topic-recommendations";
+export { Achievements } from "./achievements";
+export { ActivityHeatmap } from "./activity-heatmap";
+export { NextReview } from "./next-review";
+export { DailyGoals } from "./daily-goals";
+export { AnimatedCounter } from "./animated-counter";
