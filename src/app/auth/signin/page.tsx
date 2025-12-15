@@ -1,16 +1,28 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
-import { Music, Sparkles } from "lucide-react";
+import { AlertCircle, Music, Sparkles } from "lucide-react";
 import { auth, signIn } from "~/server/auth";
 import { Button } from "~/components/ui/button";
+
+const errorMessages: Record<string, string> = {
+  OAuthAccountNotLinked:
+    "This email is already associated with another sign-in method. Please use your original provider.",
+  OAuthSignin: "There was a problem starting the sign-in process. Please try again.",
+  OAuthCallback: "There was a problem during authentication. Please try again.",
+  OAuthCreateAccount: "There was a problem creating your account. Please try again.",
+  Callback: "There was a problem during authentication. Please try again.",
+  AccessDenied: "You do not have permission to sign in.",
+  Default: "An error occurred during sign-in. Please try again.",
+};
 
 export default async function SignInPage({
   searchParams,
 }: {
-  searchParams: Promise<{ callbackUrl?: string }>;
+  searchParams: Promise<{ callbackUrl?: string; error?: string }>;
 }) {
   const session = await auth();
-  const { callbackUrl } = await searchParams;
+  const { callbackUrl, error } = await searchParams;
+  const errorMessage = error ? (errorMessages[error] ?? errorMessages.Default) : null;
 
   // If already signed in, redirect to callback or dashboard
   if (session) {
@@ -47,6 +59,14 @@ export default async function SignInPage({
             <div className="absolute -right-3 -top-3 opacity-20">
               <Music className="h-8 w-8 text-kkpsi-gold" />
             </div>
+
+            {/* Error Alert */}
+            {errorMessage && (
+              <div className="mb-6 flex items-start gap-3 rounded-lg bg-red-50 p-4 text-red-800 dark:bg-red-950/50 dark:text-red-200">
+                <AlertCircle className="mt-0.5 h-5 w-5 flex-shrink-0" />
+                <p className="text-sm">{errorMessage}</p>
+              </div>
+            )}
 
             {/* Header */}
             <div className="mb-8 text-center">

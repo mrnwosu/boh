@@ -9,7 +9,6 @@ import {
   Shield,
   Target,
   Trash2,
-  ChevronRight,
   Check,
   Loader2,
   AlertTriangle,
@@ -132,6 +131,7 @@ export default function SettingsPage() {
 }
 
 function SettingsContent() {
+  const router = useRouter();
   const utils = api.useUtils();
 
   // Fetch settings
@@ -144,8 +144,8 @@ function SettingsContent() {
   const [showOnLeaderboard, setShowOnLeaderboard] = useState(true);
   const [dailyCardGoal, setDailyCardGoal] = useState(10);
   const [dailyQuizGoal, setDailyQuizGoal] = useState(1);
-  const [deleteConfirmText, setDeleteConfirmText] = useState("");
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false);
+  const [isDeleteAccountDialogOpen, setIsDeleteAccountDialogOpen] = useState(false);
 
   // Initialize form when settings load
   useState(() => {
@@ -203,11 +203,22 @@ function SettingsContent() {
     onSuccess: () => {
       toast.success("Progress has been reset");
       setIsDeleteDialogOpen(false);
-      setDeleteConfirmText("");
       void utils.settings.getStatsSummary.invalidate();
     },
     onError: (error) => {
       toast.error(error.message || "Failed to reset progress");
+    },
+  });
+
+  const deleteAccount = api.settings.deleteAccount.useMutation({
+    onSuccess: () => {
+      toast.success("Account deleted successfully");
+      // Redirect to home page - session will be invalidated
+      router.push("/");
+      router.refresh();
+    },
+    onError: (error) => {
+      toast.error(error.message || "Failed to delete account");
     },
   });
 
@@ -522,7 +533,8 @@ function SettingsContent() {
                 Irreversible actions that affect your data
               </CardDescription>
             </CardHeader>
-            <CardContent>
+            <CardContent className="space-y-6">
+              {/* Reset Progress */}
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                 <div>
                   <h4 className="font-medium">Reset All Progress</h4>
@@ -552,30 +564,17 @@ function SettingsContent() {
                           <li>Your current streak ({stats?.currentStreak ?? 0} days)</li>
                           <li>All achievements and badges</li>
                         </ul>
-                        <p className="mt-4 font-medium text-foreground">
-                          This action cannot be undone.
-                        </p>
                       </DialogDescription>
                     </DialogHeader>
-                    <div className="space-y-2 py-4">
-                      <Label htmlFor="confirmDelete">
-                        Type <span className="font-mono font-bold">DELETE MY PROGRESS</span> to
-                        confirm
-                      </Label>
-                      <Input
-                        id="confirmDelete"
-                        value={deleteConfirmText}
-                        onChange={(e) => setDeleteConfirmText(e.target.value)}
-                        placeholder="DELETE MY PROGRESS"
-                      />
+                    <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-900 dark:bg-red-950/50">
+                      <p className="text-sm font-medium text-red-800 dark:text-red-200">
+                        This action cannot be undone. Your learning progress will be permanently erased.
+                      </p>
                     </div>
                     <DialogFooter>
                       <Button
                         variant="outline"
-                        onClick={() => {
-                          setIsDeleteDialogOpen(false);
-                          setDeleteConfirmText("");
-                        }}
+                        onClick={() => setIsDeleteDialogOpen(false)}
                       >
                         Cancel
                       </Button>
@@ -584,17 +583,80 @@ function SettingsContent() {
                         onClick={() =>
                           resetProgress.mutate({ confirmText: "DELETE MY PROGRESS" })
                         }
-                        disabled={
-                          deleteConfirmText !== "DELETE MY PROGRESS" ||
-                          resetProgress.isPending
-                        }
+                        disabled={resetProgress.isPending}
                       >
                         {resetProgress.isPending ? (
                           <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                         ) : (
                           <Trash2 className="mr-2 h-4 w-4" />
                         )}
-                        Reset Everything
+                        Yes, Reset Everything
+                      </Button>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+              </div>
+
+              <div className="border-t border-red-200 dark:border-red-900" />
+
+              {/* Delete Account */}
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <h4 className="font-medium">Delete Account</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Permanently delete your account and all associated data.
+                    You will be signed out immediately.
+                  </p>
+                </div>
+                <Dialog open={isDeleteAccountDialogOpen} onOpenChange={setIsDeleteAccountDialogOpen}>
+                  <DialogTrigger asChild>
+                    <Button variant="destructive" className="shrink-0">
+                      <Trash2 className="mr-2 h-4 w-4" />
+                      Delete Account
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent>
+                    <DialogHeader>
+                      <DialogTitle className="flex items-center gap-2 text-red-600">
+                        <AlertTriangle className="h-5 w-5" />
+                        Delete Your Account?
+                      </DialogTitle>
+                      <DialogDescription className="pt-2">
+                        This will permanently delete:
+                        <ul className="mt-2 list-inside list-disc space-y-1">
+                          <li>Your user account and profile</li>
+                          <li>All flashcard progress ({stats?.totalCardsStudied ?? 0} cards)</li>
+                          <li>All quiz history ({stats?.totalQuizzesTaken ?? 0} quizzes)</li>
+                          <li>Your streaks and achievements</li>
+                          <li>All connected sign-in methods</li>
+                        </ul>
+                      </DialogDescription>
+                    </DialogHeader>
+                    <div className="rounded-lg border border-red-200 bg-red-50 p-4 dark:border-red-900 dark:bg-red-950/50">
+                      <p className="text-sm font-medium text-red-800 dark:text-red-200">
+                        This action cannot be undone. Your account and all data will be permanently deleted. You will need to create a new account to use the app again.
+                      </p>
+                    </div>
+                    <DialogFooter>
+                      <Button
+                        variant="outline"
+                        onClick={() => setIsDeleteAccountDialogOpen(false)}
+                      >
+                        Cancel
+                      </Button>
+                      <Button
+                        variant="destructive"
+                        onClick={() =>
+                          deleteAccount.mutate({ confirmText: "DELETE MY ACCOUNT" })
+                        }
+                        disabled={deleteAccount.isPending}
+                      >
+                        {deleteAccount.isPending ? (
+                          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                        ) : (
+                          <Trash2 className="mr-2 h-4 w-4" />
+                        )}
+                        Yes, Delete My Account
                       </Button>
                     </DialogFooter>
                   </DialogContent>

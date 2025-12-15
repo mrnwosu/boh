@@ -186,4 +186,20 @@ export const settingsRouter = createTRPCRouter({
 
       return { success: true };
     }),
+
+  // Delete user account entirely (very dangerous!)
+  deleteAccount: protectedProcedure
+    .input(
+      z.object({
+        confirmText: z.literal("DELETE MY ACCOUNT"),
+      })
+    )
+    .mutation(async ({ ctx }) => {
+      // Delete the user - cascades to all related records (Account, Session, FlashcardProgress, QuizAttempt, DailyStreak)
+      await ctx.db.user.delete({
+        where: { id: ctx.session.user.id },
+      });
+
+      return { success: true };
+    }),
 });
