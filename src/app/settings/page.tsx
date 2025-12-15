@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { useSession } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import {
   User,
@@ -131,7 +131,6 @@ export default function SettingsPage() {
 }
 
 function SettingsContent() {
-  const router = useRouter();
   const utils = api.useUtils();
 
   // Fetch settings
@@ -211,11 +210,10 @@ function SettingsContent() {
   });
 
   const deleteAccount = api.settings.deleteAccount.useMutation({
-    onSuccess: () => {
+    onSuccess: async () => {
       toast.success("Account deleted successfully");
-      // Redirect to home page - session will be invalidated
-      router.push("/");
-      router.refresh();
+      // Sign out and redirect to home page
+      await signOut({ callbackUrl: "/" });
     },
     onError: (error) => {
       toast.error(error.message || "Failed to delete account");
