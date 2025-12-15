@@ -19,7 +19,10 @@ model User {
 
   // Custom fields for KKPsi app
   displayName       String?
+  customAvatar      String?   // Custom avatar URL or emoji/icon identifier
   showOnLeaderboard Boolean @default(true)
+  dailyCardGoal     Int      @default(10)
+  dailyQuizGoal     Int      @default(1)
 
   accounts      Account[]
   sessions      Session[]

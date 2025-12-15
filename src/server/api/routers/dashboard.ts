@@ -471,13 +471,16 @@ export const dashboardRouter = createTRPCRouter({
 
   // Get user goals
   getGoals: protectedProcedure.query(async ({ ctx }) => {
-    // For now, use default goals - could be stored in DB later
     const today = new Date();
     const startOfToday = startOfDay(today);
     const endOfToday = endOfDay(today);
 
-    // Count today's activity
-    const [todayQuizzes, todayCards] = await Promise.all([
+    // Get user's custom goals and today's activity in parallel
+    const [user, todayQuizzes, todayCards] = await Promise.all([
+      ctx.db.user.findUnique({
+        where: { id: ctx.session.user.id },
+        select: { dailyCardGoal: true, dailyQuizGoal: true },
+      }),
       ctx.db.quizAttempt.count({
         where: {
           userId: ctx.session.user.id,
@@ -499,8 +502,8 @@ export const dashboardRouter = createTRPCRouter({
     ]);
 
     return {
-      dailyCardGoal: 10,
-      dailyQuizGoal: 1,
+      dailyCardGoal: user?.dailyCardGoal ?? 10,
+      dailyQuizGoal: user?.dailyQuizGoal ?? 1,
       cardsToday: todayCards,
       quizzesToday: todayQuizzes,
     };

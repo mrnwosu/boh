@@ -12,6 +12,7 @@ import {
   HelpCircle,
   Info,
   LayoutDashboard,
+  Settings,
   ChevronRight,
   LogIn,
 } from "lucide-react";
@@ -88,15 +89,26 @@ export function MobileNav() {
             ))}
 
             {session && (
-              <Link
-                href="/dashboard"
-                onClick={() => setOpen(false)}
-                className="flex items-center gap-3 rounded-lg px-3 py-3.5 text-base font-medium text-foreground transition-colors active:bg-muted hover:bg-muted"
-              >
-                <LayoutDashboard className="h-5 w-5 text-muted-foreground" />
-                <span className="flex-1">Dashboard</span>
-                <ChevronRight className="h-4 w-4 text-muted-foreground/50" />
-              </Link>
+              <>
+                <Link
+                  href="/dashboard"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-3 rounded-lg px-3 py-3.5 text-base font-medium text-foreground transition-colors active:bg-muted hover:bg-muted"
+                >
+                  <LayoutDashboard className="h-5 w-5 text-muted-foreground" />
+                  <span className="flex-1">Dashboard</span>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground/50" />
+                </Link>
+                <Link
+                  href="/settings"
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-3 rounded-lg px-3 py-3.5 text-base font-medium text-foreground transition-colors active:bg-muted hover:bg-muted"
+                >
+                  <Settings className="h-5 w-5 text-muted-foreground" />
+                  <span className="flex-1">Settings</span>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground/50" />
+                </Link>
+              </>
             )}
           </div>
 

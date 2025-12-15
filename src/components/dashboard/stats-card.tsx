@@ -2,12 +2,21 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "~/components/ui/card";
 import { AnimatedCounter } from "./animated-counter";
-import type { LucideIcon } from "lucide-react";
+import { Star, Brain, Trophy, Calendar } from "lucide-react";
+
+const iconMap = {
+  star: Star,
+  brain: Brain,
+  trophy: Trophy,
+  calendar: Calendar,
+} as const;
+
+type IconName = keyof typeof iconMap;
 
 interface StatsCardProps {
   title: string;
   value: string | number;
-  icon: LucideIcon;
+  icon: IconName;
   description?: string;
   trend?: {
     value: number;
@@ -42,12 +51,13 @@ const colorStyles = {
 export function StatsCard({
   title,
   value,
-  icon: Icon,
+  icon,
   description,
   trend,
   color = "default",
 }: StatsCardProps) {
   const styles = colorStyles[color];
+  const Icon = iconMap[icon];
 
   return (
     <Card className="relative overflow-hidden transition-all hover:shadow-md">

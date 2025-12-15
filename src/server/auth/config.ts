@@ -33,6 +33,7 @@ declare module "next-auth" {
  */
 export const authConfig = {
   adapter: PrismaAdapter(db) as any,
+  trustHost: true,
   providers: [
     DiscordProvider,
     GoogleProvider,
@@ -52,6 +53,18 @@ export const authConfig = {
     error: "/auth/error",
   },
   callbacks: {
+    redirect: ({ url, baseUrl }) => {
+      // If the url is relative, prefix it with the base url
+      if (url.startsWith("/")) {
+        return `${baseUrl}${url}`;
+      }
+      // If the url is on the same origin, allow it
+      if (url.startsWith(baseUrl)) {
+        return url;
+      }
+      // Default to dashboard after sign in
+      return `${baseUrl}/dashboard`;
+    },
     session: ({ session, user }) => ({
       ...session,
       user: {
