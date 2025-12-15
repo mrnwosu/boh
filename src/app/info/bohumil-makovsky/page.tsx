@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Star, Heart, Calendar, MapPin, Music, Award, Flag, Quote } from "lucide-react";
+import ReactMarkdown from "react-markdown";
 import { Navbar } from "~/components/layout/navbar";
 import { PageHero, AnimatedSection, InteractiveTimeline } from "~/components/shared";
 import { api } from "~/trpc/server";
@@ -216,12 +217,8 @@ export default async function MakovskyPage() {
                     </h2>
                   </div>
 
-                  <div className="space-y-3 sm:space-y-4 text-sm sm:text-base text-muted-foreground">
-                    {legacyContent.split("\n\n").map((paragraph, index) => (
-                      <p key={index} className="leading-relaxed">
-                        {paragraph}
-                      </p>
-                    ))}
+                  <div className="text-sm sm:text-base leading-relaxed text-muted-foreground prose prose-sm dark:prose-invert max-w-none">
+                    <ReactMarkdown>{legacyContent}</ReactMarkdown>
                   </div>
 
                   {/* Values highlight */}

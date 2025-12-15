@@ -59,7 +59,9 @@ function detectCategory(title: string, description: string): EventCategory {
 
 // Regex patterns
 const eraHeaderRegex = /^## (.+?)(?:\s*\((.+?)\))?$/;
-const boldTitleRegex = /^\*\*(.+?)\*\*(?:\s*[-–—]\s*(.+))?$/;
+// Matches: **Title** - Description OR **Title** Description OR just **Title**
+// Uses character class with regular dash, en-dash, and em-dash
+const boldTitleRegex = /^\*\*(.+?)\*\*(?:\s*[\-\u2013\u2014]?\s*(.+))?$/;
 const quickFactRegex = /^- \*\*(.+?):\*\*\s*(.+)$/;
 const funFactHeaderRegex = /^### \d+\.\s*\*\*(.+?)\*\*$/;
 
@@ -112,12 +114,14 @@ export function parseTimelineMarkdown(markdown: string): TimelineEra[] {
       const eraMatch = eraHeaderRegex.exec(line);
       if (eraMatch) {
         const [, title, dateRange] = eraMatch;
-        // Skip non-timeline sections
-        if (title?.toLowerCase().includes("quick facts") ||
-            title?.toLowerCase().includes("fun facts") ||
-            title?.toLowerCase().includes("legacy") ||
-            title?.toLowerCase().includes("key titles") ||
-            title?.toLowerCase().includes("summary")) {
+        // Skip non-timeline sections (exact matches or specific patterns)
+        const lowerTitle = title?.toLowerCase().trim() ?? "";
+        if (lowerTitle === "quick facts" ||
+            lowerTitle === "fun facts" ||
+            lowerTitle === "legacy" ||
+            lowerTitle.includes("key titles") ||
+            lowerTitle.includes("achievements summary") ||
+            lowerTitle === "summary") {
           currentEra = null;
           continue;
         }
@@ -189,6 +193,11 @@ export function parseTimelineMarkdown(markdown: string): TimelineEra[] {
 
 /**
  * Parse founding father markdown which has a simpler timeline format
+ * Format expected:
+ * ## Timeline
+ * ### Date
+ * **Title** - Description OR **Title** Description
+ * Additional description lines...
  */
 export function parseFounderTimeline(markdown: string): TimelineEra[] {
   const eras: TimelineEra[] = [];
@@ -252,22 +261,29 @@ export function parseFounderTimeline(markdown: string): TimelineEra[] {
       continue;
     }
 
-    // Event title and description (bold text)
-    const boldMatch = boldTitleRegex.exec(trimmed);
-    if (boldMatch && currentEventDate) {
-      const [, title, desc] = boldMatch;
-      currentEventTitle = title?.trim() ?? "";
-      if (desc) {
-        currentEventDescription = desc.trim();
+    // Event title and description (bold text starting with **)
+    if (trimmed.startsWith("**") && currentEventDate) {
+      // If we already have a title, finalize that event first
+      if (currentEventTitle) {
+        finalizeEvent();
+      }
+
+      const boldMatch = boldTitleRegex.exec(trimmed);
+      if (boldMatch) {
+        const [, title, desc] = boldMatch;
+        currentEventTitle = title?.trim() ?? "";
+        if (desc) {
+          currentEventDescription = desc.trim();
+        }
       }
       continue;
     }
 
-    // Continuation of description
-    if (currentEventDate && currentEventTitle) {
+    // Continuation of description (only if we have both date and title)
+    if (currentEventDate && currentEventTitle && trimmed.length > 0) {
       if (trimmed.startsWith("- ")) {
         currentEventDescription += (currentEventDescription ? "\n" : "") + trimmed;
-      } else if (trimmed.length > 0 && !trimmed.startsWith("#")) {
+      } else if (!trimmed.startsWith("#")) {
         currentEventDescription += (currentEventDescription ? " " : "") + trimmed;
       }
     }

@@ -13,6 +13,7 @@ import {
   Sparkles,
   Award,
 } from "lucide-react";
+import ReactMarkdown from "react-markdown";
 import { Button } from "~/components/ui/button";
 import { Navbar } from "~/components/layout/navbar";
 import { AnimatedSection, InteractiveTimeline } from "~/components/shared";
@@ -279,9 +280,9 @@ export default async function FoundingFatherPage({
                     </h2>
                   </div>
 
-                  <p className="text-sm sm:text-base leading-relaxed text-muted-foreground">
-                    {legacyContent}
-                  </p>
+                  <div className="text-sm sm:text-base leading-relaxed text-muted-foreground prose prose-sm dark:prose-invert max-w-none">
+                    <ReactMarkdown>{legacyContent}</ReactMarkdown>
+                  </div>
                 </div>
               </div>
             </AnimatedSection>
