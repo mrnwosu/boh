@@ -7,3 +7,4 @@ export { EmptyState, type EmptyStateProps } from "./empty-state";
 export { TagSelector, type TagSelectorProps } from "./tag-selector";
 export { FeatureCard, InfoCard, type FeatureCardProps, type InfoCardProps } from "./feature-card";
 export { AnimatedSection } from "./animated-section";
+export { InteractiveTimeline, type TimelineEvent, type TimelineEra } from "./interactive-timeline";

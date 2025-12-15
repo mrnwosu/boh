@@ -62,16 +62,23 @@ export const contentRouter = createTRPCRouter({
     return getNcaaConferences();
   }),
 
-  // Get all founding fathers (list with slugs)
+  // Get all founding fathers (list with slugs), sorted by last name
   getFoundingFathers: publicProcedure.query(() => {
     const founders = loadFoundingFathers();
-    return Array.from(founders.entries()).map(([slug, content]) => ({
-      slug,
-      name: content.fileName
-        .split("_")
-        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(" "),
-    }));
+    return Array.from(founders.entries())
+      .map(([slug, content]) => ({
+        slug,
+        name: content.fileName
+          .split("_")
+          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" "),
+      }))
+      .sort((a, b) => {
+        // Extract last name (last word in the name)
+        const lastNameA = a.name.split(" ").pop() ?? "";
+        const lastNameB = b.name.split(" ").pop() ?? "";
+        return lastNameA.localeCompare(lastNameB);
+      });
   }),
 
   // Get a single founding father by slug
