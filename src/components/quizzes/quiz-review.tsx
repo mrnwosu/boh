@@ -41,45 +41,45 @@ export function QuizReview({
         </div>
 
         {/* Summary Stats */}
-        <div className="mb-6 grid grid-cols-2 gap-4">
-          <div className="flex items-center gap-3 rounded-xl bg-green-50 dark:bg-green-950/30 p-4 ring-1 ring-green-100 dark:ring-green-900/50">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-green-500">
-              <CheckCircle2 className="h-5 w-5 text-white" />
+        <div className="mb-6 grid grid-cols-2 gap-3 sm:gap-4">
+          <div className="flex items-center gap-2 rounded-xl bg-green-50 dark:bg-green-950/30 p-3 ring-1 ring-green-100 dark:ring-green-900/50 sm:gap-3 sm:p-4">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-green-500 sm:h-10 sm:w-10">
+              <CheckCircle2 className="h-4 w-4 text-white sm:h-5 sm:w-5" />
             </div>
             <div>
-              <p className="text-xl font-bold text-green-600">{answeredCount}</p>
-              <p className="text-sm text-muted-foreground">Answered</p>
+              <p className="text-lg font-bold text-green-600 sm:text-xl">{answeredCount}</p>
+              <p className="text-xs text-muted-foreground sm:text-sm">Answered</p>
             </div>
           </div>
-          <div className={`flex items-center gap-3 rounded-xl p-4 ring-1 ${
+          <div className={`flex items-center gap-2 rounded-xl p-3 ring-1 sm:gap-3 sm:p-4 ${
             unansweredCount > 0
               ? "bg-orange-50 dark:bg-orange-950/30 ring-orange-100 dark:ring-orange-900/50"
               : "bg-muted ring-border"
           }`}>
-            <div className={`flex h-10 w-10 items-center justify-center rounded-lg ${
+            <div className={`flex h-8 w-8 items-center justify-center rounded-lg sm:h-10 sm:w-10 ${
               unansweredCount > 0 ? "bg-orange-500" : "bg-muted-foreground/30"
             }`}>
               {unansweredCount > 0 ? (
-                <AlertCircle className="h-5 w-5 text-white" />
+                <AlertCircle className="h-4 w-4 text-white sm:h-5 sm:w-5" />
               ) : (
-                <Circle className="h-5 w-5 text-muted-foreground" />
+                <Circle className="h-4 w-4 text-muted-foreground sm:h-5 sm:w-5" />
               )}
             </div>
             <div>
-              <p className={`text-xl font-bold ${unansweredCount > 0 ? "text-orange-600" : "text-muted-foreground"}`}>
+              <p className={`text-lg font-bold sm:text-xl ${unansweredCount > 0 ? "text-orange-600" : "text-muted-foreground"}`}>
                 {unansweredCount}
               </p>
-              <p className="text-sm text-muted-foreground">Unanswered</p>
+              <p className="text-xs text-muted-foreground sm:text-sm">Unanswered</p>
             </div>
           </div>
         </div>
 
         {/* Question Grid */}
         <div className="mb-6">
-          <h3 className="mb-3 text-sm font-medium text-muted-foreground">
-            Click a question to review or change your answer
+          <h3 className="mb-3 text-xs font-medium text-muted-foreground sm:text-sm">
+            Tap a question to review or change your answer
           </h3>
-          <div className="grid grid-cols-5 gap-2 sm:grid-cols-10">
+          <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-10 sm:gap-2">
             {questions.map((question, index) => {
               const isAnswered = !!answers[question.id];
               return (
@@ -144,26 +144,26 @@ export function QuizReview({
       </div>
 
       {/* Action Buttons */}
-      <div className="flex flex-col gap-3 rounded-xl bg-card p-4 shadow-sm ring-1 ring-border sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col-reverse gap-3 rounded-xl bg-card p-4 shadow-sm ring-1 ring-border sm:flex-row sm:items-center sm:justify-between">
         <Button
           variant="outline"
           onClick={onBack}
-          className="gap-2"
+          className="w-full gap-2 sm:w-auto"
           disabled={isSubmitting}
         >
           Back to Questions
         </Button>
 
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3">
           {!allAnswered && (
-            <p className="text-sm text-orange-600 dark:text-orange-400">
+            <p className="text-center text-sm text-orange-600 dark:text-orange-400 sm:text-left">
               {unansweredCount} unanswered
             </p>
           )}
           <Button
             onClick={onSubmit}
             disabled={isSubmitting}
-            className="gap-2 bg-kkpsi-navy shadow-lg shadow-kkpsi-navy/25 hover:bg-kkpsi-navy-light"
+            className="w-full gap-2 bg-kkpsi-navy shadow-lg shadow-kkpsi-navy/25 hover:bg-kkpsi-navy-light sm:w-auto"
           >
             {isSubmitting ? "Submitting..." : "Submit Quiz"}
             {!isSubmitting && <ChevronRight className="h-4 w-4" />}

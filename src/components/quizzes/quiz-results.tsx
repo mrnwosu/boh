@@ -47,90 +47,90 @@ export function QuizResults({
   };
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6">
+    <div className="mx-auto max-w-2xl space-y-4 sm:space-y-6">
       {/* Main Results Card */}
-      <div className="relative overflow-hidden rounded-2xl bg-card p-8 shadow-xl ring-1 ring-border">
+      <div className="relative overflow-hidden rounded-2xl bg-card p-5 shadow-xl ring-1 ring-border sm:p-8">
         {/* Background decoration */}
         <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-kkpsi-gold/10 blur-3xl"></div>
         <div className="absolute -bottom-10 -left-10 h-32 w-32 rounded-full bg-kkpsi-navy/5 blur-3xl"></div>
 
         {/* Trophy and Score */}
-        <div className="relative mb-8 text-center">
-          <div className="mb-4 inline-flex rounded-full bg-gradient-to-br from-kkpsi-gold/20 to-amber-100 dark:to-amber-900/30 p-6">
-            <Trophy className="h-16 w-16 text-kkpsi-gold" />
+        <div className="relative mb-6 text-center sm:mb-8">
+          <div className="mb-3 inline-flex rounded-full bg-gradient-to-br from-kkpsi-gold/20 to-amber-100 dark:to-amber-900/30 p-4 sm:mb-4 sm:p-6">
+            <Trophy className="h-12 w-12 text-kkpsi-gold sm:h-16 sm:w-16" />
           </div>
-          <h2 className={`mb-2 font-serif text-3xl font-bold ${grade.color}`}>
+          <h2 className={`mb-2 font-serif text-2xl font-bold sm:text-3xl ${grade.color}`}>
             {grade.text}
           </h2>
-          <div className="flex items-center justify-center gap-2">
-            <span className="text-6xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light">{percentage}</span>
-            <span className="text-2xl font-medium text-muted-foreground">%</span>
+          <div className="flex items-center justify-center gap-1 sm:gap-2">
+            <span className="text-5xl font-bold text-kkpsi-navy dark:text-kkpsi-navy-light sm:text-6xl">{percentage}</span>
+            <span className="text-xl font-medium text-muted-foreground sm:text-2xl">%</span>
           </div>
         </div>
 
         {/* Score Breakdown */}
-        <div className="mb-6 grid gap-4 sm:grid-cols-2">
-          <div className="flex items-center gap-4 rounded-xl bg-green-50 dark:bg-green-950/30 p-4 ring-1 ring-green-100 dark:ring-green-900/50">
-            <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-green-500">
-              <CheckCircle2 className="h-6 w-6 text-white" />
+        <div className="mb-5 grid grid-cols-2 gap-3 sm:mb-6 sm:gap-4">
+          <div className="flex items-center gap-2 rounded-xl bg-green-50 dark:bg-green-950/30 p-3 ring-1 ring-green-100 dark:ring-green-900/50 sm:gap-4 sm:p-4">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-green-500 sm:h-12 sm:w-12">
+              <CheckCircle2 className="h-5 w-5 text-white sm:h-6 sm:w-6" />
             </div>
             <div>
-              <p className="text-2xl font-bold text-green-600">{correctAnswers}</p>
-              <p className="text-sm text-muted-foreground">Correct</p>
+              <p className="text-xl font-bold text-green-600 sm:text-2xl">{correctAnswers}</p>
+              <p className="text-xs text-muted-foreground sm:text-sm">Correct</p>
             </div>
           </div>
-          <div className="flex items-center gap-4 rounded-xl bg-red-50 dark:bg-red-950/30 p-4 ring-1 ring-red-100 dark:ring-red-900/50">
-            <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-red-500">
-              <XCircle className="h-6 w-6 text-white" />
+          <div className="flex items-center gap-2 rounded-xl bg-red-50 dark:bg-red-950/30 p-3 ring-1 ring-red-100 dark:ring-red-900/50 sm:gap-4 sm:p-4">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-red-500 sm:h-12 sm:w-12">
+              <XCircle className="h-5 w-5 text-white sm:h-6 sm:w-6" />
             </div>
             <div>
-              <p className="text-2xl font-bold text-red-600">{incorrectAnswers}</p>
-              <p className="text-sm text-muted-foreground">Incorrect</p>
+              <p className="text-xl font-bold text-red-600 sm:text-2xl">{incorrectAnswers}</p>
+              <p className="text-xs text-muted-foreground sm:text-sm">Incorrect</p>
             </div>
           </div>
         </div>
 
-        {/* Time Elapsed */}
-        {timeElapsed !== undefined && (
-          <div className="mb-6 flex items-center justify-center gap-3 rounded-xl bg-muted p-4 ring-1 ring-border">
-            <Clock className="h-5 w-5 text-muted-foreground" />
-            <span className="text-lg font-semibold text-foreground">{formatTime(timeElapsed)}</span>
-            <span className="text-sm text-muted-foreground">total time</span>
+        {/* Time Elapsed - hide on mobile if stats row shows */}
+        {timeElapsed !== undefined && !avgTimePerQuestion && (
+          <div className="mb-5 flex items-center justify-center gap-2 rounded-xl bg-muted p-3 ring-1 ring-border sm:mb-6 sm:gap-3 sm:p-4">
+            <Clock className="h-4 w-4 text-muted-foreground sm:h-5 sm:w-5" />
+            <span className="text-base font-semibold text-foreground sm:text-lg">{formatTime(timeElapsed)}</span>
+            <span className="text-xs text-muted-foreground sm:text-sm">total time</span>
           </div>
         )}
 
         {/* Progress Bar */}
-        <div className="mb-8 space-y-2">
-          <div className="flex items-center justify-between text-sm">
+        <div className="mb-5 space-y-2 sm:mb-8">
+          <div className="flex items-center justify-between text-xs sm:text-sm">
             <span className="font-medium text-foreground">Accuracy</span>
             <span className="text-muted-foreground">{correctAnswers} / {totalQuestions}</span>
           </div>
-          <Progress value={percentage} className="h-3" />
+          <Progress value={percentage} className="h-2 sm:h-3" />
         </div>
 
         {/* Stats Row */}
         {timeElapsed !== undefined && avgTimePerQuestion !== undefined && (
-          <div className="mb-6 grid grid-cols-3 gap-3">
-            <div className="flex flex-col items-center rounded-xl bg-muted/50 p-3 ring-1 ring-border">
-              <Clock className="mb-1 h-4 w-4 text-muted-foreground" />
-              <span className="text-lg font-bold text-foreground">{formatTime(timeElapsed)}</span>
-              <span className="text-xs text-muted-foreground">Total Time</span>
+          <div className="mb-5 grid grid-cols-3 gap-2 sm:mb-6 sm:gap-3">
+            <div className="flex flex-col items-center rounded-xl bg-muted/50 p-2 ring-1 ring-border sm:p-3">
+              <Clock className="mb-1 h-3.5 w-3.5 text-muted-foreground sm:h-4 sm:w-4" />
+              <span className="text-sm font-bold text-foreground sm:text-lg">{formatTime(timeElapsed)}</span>
+              <span className="text-[10px] text-muted-foreground sm:text-xs">Total</span>
             </div>
-            <div className="flex flex-col items-center rounded-xl bg-muted/50 p-3 ring-1 ring-border">
-              <Timer className="mb-1 h-4 w-4 text-muted-foreground" />
-              <span className="text-lg font-bold text-foreground">{avgTimePerQuestion}s</span>
-              <span className="text-xs text-muted-foreground">Avg/Question</span>
+            <div className="flex flex-col items-center rounded-xl bg-muted/50 p-2 ring-1 ring-border sm:p-3">
+              <Timer className="mb-1 h-3.5 w-3.5 text-muted-foreground sm:h-4 sm:w-4" />
+              <span className="text-sm font-bold text-foreground sm:text-lg">{avgTimePerQuestion}s</span>
+              <span className="text-[10px] text-muted-foreground sm:text-xs">Avg</span>
             </div>
-            <div className="flex flex-col items-center rounded-xl bg-muted/50 p-3 ring-1 ring-border">
-              <Target className="mb-1 h-4 w-4 text-muted-foreground" />
-              <span className="text-lg font-bold text-foreground">{percentage}%</span>
-              <span className="text-xs text-muted-foreground">Accuracy</span>
+            <div className="flex flex-col items-center rounded-xl bg-muted/50 p-2 ring-1 ring-border sm:p-3">
+              <Target className="mb-1 h-3.5 w-3.5 text-muted-foreground sm:h-4 sm:w-4" />
+              <span className="text-sm font-bold text-foreground sm:text-lg">{percentage}%</span>
+              <span className="text-[10px] text-muted-foreground sm:text-xs">Score</span>
             </div>
           </div>
         )}
 
         {/* Action Buttons */}
-        <div className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-2 sm:grid-cols-3 sm:gap-3">
           <Button
             onClick={onRetry}
             className="gap-2 bg-kkpsi-navy shadow-lg shadow-kkpsi-navy/25 hover:bg-kkpsi-navy-light"
@@ -160,29 +160,29 @@ export function QuizResults({
           <button
             type="button"
             onClick={() => setShowBreakdown(!showBreakdown)}
-            className="flex w-full items-center justify-between p-4 text-left transition-colors hover:bg-muted/50"
+            className="flex w-full items-center justify-between p-3 text-left transition-colors hover:bg-muted/50 sm:p-4"
           >
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-kkpsi-navy/10">
-                <TrendingUp className="h-5 w-5 text-kkpsi-navy dark:text-kkpsi-navy-light" />
+            <div className="flex items-center gap-2 sm:gap-3">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-kkpsi-navy/10 sm:h-10 sm:w-10">
+                <TrendingUp className="h-4 w-4 text-kkpsi-navy dark:text-kkpsi-navy-light sm:h-5 sm:w-5" />
               </div>
               <div>
-                <h3 className="font-medium text-foreground">Question Breakdown</h3>
-                <p className="text-sm text-muted-foreground">
+                <h3 className="text-sm font-medium text-foreground sm:text-base">Question Breakdown</h3>
+                <p className="hidden text-sm text-muted-foreground sm:block">
                   Review your answers and see what you got right
                 </p>
               </div>
             </div>
             {showBreakdown ? (
-              <ChevronUp className="h-5 w-5 text-muted-foreground" />
+              <ChevronUp className="h-5 w-5 shrink-0 text-muted-foreground" />
             ) : (
-              <ChevronDown className="h-5 w-5 text-muted-foreground" />
+              <ChevronDown className="h-5 w-5 shrink-0 text-muted-foreground" />
             )}
           </button>
 
           {showBreakdown && (
-            <div className="border-t border-border p-4">
-              <div className="space-y-3">
+            <div className="border-t border-border p-3 sm:p-4">
+              <div className="space-y-2 sm:space-y-3">
                 {questions.map((question, index) => {
                   const userAnswer = answers[question.id];
                   const isCorrect = userAnswer === question.correctAnswer;
@@ -191,16 +191,16 @@ export function QuizResults({
                   return (
                     <div
                       key={question.id}
-                      className={`rounded-xl p-4 ring-1 ${
+                      className={`rounded-xl p-3 ring-1 sm:p-4 ${
                         isCorrect
                           ? "bg-green-50 ring-green-200 dark:bg-green-950/30 dark:ring-green-900/50"
                           : "bg-red-50 ring-red-200 dark:bg-red-950/30 dark:ring-red-900/50"
                       }`}
                     >
-                      <div className="mb-3 flex items-start justify-between gap-3">
-                        <div className="flex items-start gap-3">
+                      <div className="mb-2 flex items-start justify-between gap-2 sm:mb-3 sm:gap-3">
+                        <div className="flex items-start gap-2 sm:gap-3">
                           <div
-                            className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm font-medium ${
+                            className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-medium sm:h-7 sm:w-7 sm:text-sm ${
                               isCorrect
                                 ? "bg-green-500 text-white"
                                 : "bg-red-500 text-white"
@@ -208,38 +208,38 @@ export function QuizResults({
                           >
                             {index + 1}
                           </div>
-                          <p className="text-sm font-medium text-foreground">
+                          <p className="text-xs font-medium text-foreground sm:text-sm">
                             {question.question}
                           </p>
                         </div>
                         {isCorrect ? (
-                          <CheckCircle2 className="h-5 w-5 shrink-0 text-green-500" />
+                          <CheckCircle2 className="h-4 w-4 shrink-0 text-green-500 sm:h-5 sm:w-5" />
                         ) : (
-                          <XCircle className="h-5 w-5 shrink-0 text-red-500" />
+                          <XCircle className="h-4 w-4 shrink-0 text-red-500 sm:h-5 sm:w-5" />
                         )}
                       </div>
 
-                      <div className="ml-10 space-y-2">
+                      <div className="ml-8 space-y-1 sm:ml-10 sm:space-y-2">
                         {!isCorrect && wasAnswered && (
-                          <div className="flex items-start gap-2">
-                            <span className="shrink-0 text-xs font-medium text-red-600 dark:text-red-400">
+                          <div className="flex flex-wrap items-start gap-1 sm:gap-2">
+                            <span className="shrink-0 text-[10px] font-medium text-red-600 dark:text-red-400 sm:text-xs">
                               Your answer:
                             </span>
-                            <span className="text-sm text-red-700 dark:text-red-300 line-through">
+                            <span className="text-xs text-red-700 line-through dark:text-red-300 sm:text-sm">
                               {userAnswer}
                             </span>
                           </div>
                         )}
                         {!isCorrect && !wasAnswered && (
-                          <div className="text-xs font-medium text-red-600 dark:text-red-400">
+                          <div className="text-[10px] font-medium text-red-600 dark:text-red-400 sm:text-xs">
                             Not answered
                           </div>
                         )}
-                        <div className="flex items-start gap-2">
-                          <span className="shrink-0 text-xs font-medium text-green-600 dark:text-green-400">
-                            Correct answer:
+                        <div className="flex flex-wrap items-start gap-1 sm:gap-2">
+                          <span className="shrink-0 text-[10px] font-medium text-green-600 dark:text-green-400 sm:text-xs">
+                            Correct:
                           </span>
-                          <span className="text-sm text-green-700 dark:text-green-300">
+                          <span className="text-xs text-green-700 dark:text-green-300 sm:text-sm">
                             {question.correctAnswer}
                           </span>
                         </div>
