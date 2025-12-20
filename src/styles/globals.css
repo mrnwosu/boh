@@ -368,3 +368,130 @@
     min-height: 44px;
   }
 }
+
+/* Quiz answer animations */
+@keyframes answer-select {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes answer-correct {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.03);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes answer-incorrect {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes confetti-pop {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes progress-celebrate {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-answer-select {
+  animation: answer-select 0.3s var(--ease-spring);
+}
+
+.animate-answer-correct {
+  animation: answer-correct 0.4s var(--ease-spring);
+}
+
+.animate-answer-incorrect {
+  animation: answer-incorrect 0.4s ease-out;
+}
+
+.animate-confetti-pop {
+  animation: confetti-pop 0.5s var(--ease-spring);
+}
+
+.animate-progress-celebrate {
+  animation: progress-celebrate 0.5s var(--ease-spring);
+}
+
+/* Quiz keyboard focus indicator */
+.quiz-option-keyboard-focus {
+  outline: 3px solid var(--color-kkpsi-gold);
+  outline-offset: 2px;
+}
+
+/* Countdown animation */
+@keyframes countdown-pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-countdown {
+  animation: countdown-pulse 0.5s var(--ease-spring);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-answer-select,
+  .animate-answer-correct,
+  .animate-answer-incorrect,
+  .animate-confetti-pop,
+  .animate-progress-celebrate,
+  .animate-countdown {
+    animation: none;
+  }
+}
